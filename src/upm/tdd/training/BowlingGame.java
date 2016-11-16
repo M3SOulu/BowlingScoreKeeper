@@ -32,7 +32,7 @@ public class BowlingGame {
 			if (!isLastFrame(f)) {
 				// prendo l'elemento di posizione count e successivamente
 				// aggiorno count
-				next = frames.get(count++);
+				next = frames.get(++count);
 				if (f.isStrike()) {
 					res += next.score();
 					if (next.getFirstThrow() == 10) {
