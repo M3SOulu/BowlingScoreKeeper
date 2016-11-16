@@ -10,20 +10,30 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+		frames.add(frame);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		Frame previous = frames.get(frames.size()-2);
+		Frame actual = frames.get(frames.size()-1);
+		if(previous.isSpare()) {
+			actual.
+		}
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		int totalScore = 0;
+		for(Frame f: frames) {
+			totalScore += f.score();
+		}
+		return totalScore;
 	}
 	
 	public boolean isNextFrameBonus(){
-		//to be implemented
+		Frame actual = frames.get(frames.size()-1);
+		if(actual.isSpare() || actual.isStrike() ) {
+			return true;
+		}
 		return false;
 	}
 }
