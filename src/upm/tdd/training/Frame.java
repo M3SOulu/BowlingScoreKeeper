@@ -4,6 +4,7 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int count;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -27,8 +28,12 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		boolean res = false;
+		int tot = this.firstThrow + this.secondThrow;
+		if(tot == 10){
+			res = true;
+		}
+		return res;
 	}
 
 	//return whether this is the last frame of the match
@@ -39,7 +44,7 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		//to be implemented
+		if()
 		return 0;
 	}
 
