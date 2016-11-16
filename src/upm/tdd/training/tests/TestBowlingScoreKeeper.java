@@ -53,7 +53,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void testIsNextFrameBonus() throws BowlingException {
+	public void testIsNextFrameBonusStrike() throws BowlingException {
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
@@ -64,6 +64,21 @@ public class TestBowlingScoreKeeper {
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 10, 0 )  );
+		assertEquals(true, b.isNextFrameBonus());
+	}
+	
+	@Test
+	public void testIsNextFrameBonusSpire() throws BowlingException {
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 5, 5 )  );
 		assertEquals(true, b.isNextFrameBonus());
 	}
 
