@@ -48,7 +48,7 @@ public class BowlingGame {
 			}else{
 				this.score += frames.get(index-2).score();
 			}
-		if(frames.get(frames.size()).isStrike()){
+		if(frames.get(frames.size()-1).isStrike()){
 			this.score += bonus.score();
 		}
 		
