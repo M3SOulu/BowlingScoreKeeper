@@ -182,3 +182,14 @@ EditAction 1479313093334 TestFrame.java 1975 10 17 0
 UnitTestCaseAction 1479313094954 TestFrame.java FAIL
 UnitTestSessionAction 1479313094955 TestFrame FAIL
 EditAction 1479313115120 TestFrame.java 1963 10 23 0
+UnitTestCaseAction 1479313117643 TestFrame.java FAIL
+UnitTestSessionAction 1479313117644 TestFrame FAIL
+RefactoringAction 1479313158607 TestFrame.java REMOVE testGameGetScore() METHOD
+RefactoringAction 1479313217683 TestFrame.java ADD void test FIELD
+RefactoringAction 1479313220197 TestFrame.java RENAME test=>void testIsStri FIELD
+RefactoringAction 1479313221204 TestFrame.java RENAME testIsStri=>void testIsStrike FIELD
+RefactoringAction 1479313222214 TestFrame.java RENAME testIsStrike=>void testIsStrike() METHOD
+RefactoringAction 1479313228729 TestFrame.java ADD void testIsStrike()/2 METHOD
+RefactoringAction 1479313232735 TestFrame.java RENAME testIsStrike()/2=>void testIsStrikeFalse() METHOD
+RefactoringAction 1479313237245 TestFrame.java RENAME testIsStrike()=>void testIsStrikeTrue() METHOD
+EditAction 1479313341413 TestFrame.java 1782 11 13 0

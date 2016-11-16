@@ -58,23 +58,17 @@ public class TestFrame {
 	}
 	
 	@Test
-	public void testGameGetScore() throws BowlingException {
-		BowlingGame bg = new BowlingGame();
-		Frame f1 = new Frame(1,4);
-		bg.addFrame(f1);
-		Frame f2 = new Frame(4,5);
-		bg.addFrame(f2);
-		Frame f3 = new Frame(6,4);
-		bg.addFrame(f3);
-		Frame f4 = new Frame(5,5);
-		bg.addFrame(f4);
-		Frame f5 = new Frame(10,0);
-		bg.addFrame(f5);
-		Frame f6 = new Frame(0,1);
-		bg.addFrame(f6);
-		assert(bg.score()==61);
-		
+	public void testIsStrikeTrue() throws BowlingException{
+		p = new Frame(10, 0);
+		assert(p.isStrike()==true);
 	}
+	
+	@Test
+	public void testIsStrikeFalse() throws BowlingException{
+		p = new Frame(2, 6);
+		assert(p.isStrike()==false);		
+	}
+	
 	
 	
 }
