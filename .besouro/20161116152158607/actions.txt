@@ -83,3 +83,4 @@ UnitTestSessionAction 1479310910511 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479310942684 TestBowlingScoreKeeper.java ADD void tutti_10_score_equals_100()/2 METHOD
 RefactoringAction 1479311118156 TestBowlingScoreKeeper.java REMOVE tutti_10_score_equals_100()/2 METHOD
 EditAction 1479311128592 TestBowlingScoreKeeper.java 891 3 14 1
+EditAction 1479311302382 TestBowlingScoreKeeper.java 926 3 14 1

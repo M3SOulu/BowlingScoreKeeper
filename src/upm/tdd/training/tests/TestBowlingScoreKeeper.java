@@ -37,7 +37,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	
-	@Test
+	@Test(expected = BowlingException.class)
 	public void test() {
 		fail("Not yet implemented");
 	}
