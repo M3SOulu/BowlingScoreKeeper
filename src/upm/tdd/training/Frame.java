@@ -4,6 +4,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	private final int MAX_PINS = 10;
+	private boolean lastFrame;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -12,6 +13,15 @@ public class Frame {
 	
 	public int getFirstThrow(){
 		return firstThrow;
+	}
+	
+	public int getSecondThrow(){
+		return secondThrow;
+	}
+	
+	public void setLastFrame(int frameNumber){
+		if (frameNumber == 10)
+			lastFrame = true;
 	}
 	
 	//the score of a single frame
@@ -34,7 +44,7 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		return false;
+		return lastFrame;
 	}
 
 	//bonus throws
