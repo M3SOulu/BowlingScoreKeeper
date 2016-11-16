@@ -25,7 +25,7 @@ public class BowlingGame {
 		if(frames.get(frames.size()-1).isSpare()){
 			score=score+frames.get(frames.size()).getFirstThrow();
 		}
-		else{
+		else if(frames.get(frames.size()-1).isSpare()){
 			score=score+frames.get(frames.size()).getFirstThrow()+frames.get(frames.size()).getSecondThrow();
 		}
 		return score;
