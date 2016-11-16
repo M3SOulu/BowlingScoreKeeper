@@ -13,3 +13,13 @@ CompilationAction 1479307656020 BowlingGame.java
 CompilationAction 1479307656020 BowlingGame.java
 CompilationAction 1479307656022 BowlingGame.java
 EditAction 1479307988161 Frame.java 919 6 11 0
+RefactoringAction 1479308119468 BowlingGame.java ADD int totpo FIELD
+RefactoringAction 1479308120992 BowlingGame.java RENAME totpo=>int totpoints FIELD
+RefactoringAction 1479308124025 BowlingGame.java RENAME totpoints=>int totPoints FIELD
+RefactoringAction 1479308127532 BowlingGame.java RENAME totPoints=>int totScore FIELD
+CompilationAction 1479308179304 BowlingGame.java
+CompilationAction 1479308179304 BowlingGame.java
+CompilationAction 1479308179466 BowlingGame.java
+CompilationAction 1479308179467 BowlingGame.java
+CompilationAction 1479308179467 BowlingGame.java
+EditAction 1479308201838 Frame.java 911 6 11 0
