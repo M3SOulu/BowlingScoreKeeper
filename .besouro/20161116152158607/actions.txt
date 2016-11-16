@@ -244,3 +244,34 @@ RefactoringAction 1479316021058 Frame.java REMOVE getBonusForSpare() METHOD
 RefactoringAction 1479316021058 Frame.java REMOVE getBonusForStrike() METHOD
 RefactoringAction 1479316143238 Frame.java ADD void bonusForStrike() METHOD
 EditAction 1479316157646 Frame.java 1005 9 12 0
+RefactoringAction 1479316251331 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1479316251332 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1479316253967 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+RefactoringAction 1479316255699 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1479316318943 BowlingGame.java ADD int i FIELD
+RefactoringAction 1479316484600 BowlingGame.java REMOVE i FIELD
+CompilationAction 1479316590812 BowlingGame.java
+RefactoringAction 1479316613193 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1479316613193 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1479316615032 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1479316615032 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+RefactoringAction 1479316684220 BowlingGame.java ADD int i FIELD
+RefactoringAction 1479316690255 BowlingGame.java REMOVE i FIELD
+RefactoringAction 1479316690256 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1479316690256 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1479316693955 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1479316693955 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+UnitTestCaseAction 1479316715822 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316715823 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316742360 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316742361 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316785993 BowlingGame.java ADD int i FIELD
+RefactoringAction 1479316796008 BowlingGame.java REMOVE i FIELD
+RefactoringAction 1479316796009 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1479316796009 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1479316799014 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1479316799014 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+UnitTestCaseAction 1479316821038 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316821039 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316842929 Frame.java REMOVE bonusForStrike() METHOD
+EditAction 1479316892231 Frame.java 947 8 11 0

@@ -51,9 +51,5 @@ public class Frame {
 		}
 		return bonus;
 	}
-	
-	public int bonusForStrike(){
-		return this.score();
-	}
 
 }
