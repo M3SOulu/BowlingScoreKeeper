@@ -2,13 +2,14 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
-import java.awt.Frame;
+
 
 import org.junit.Before;
 import org.junit.Test;
 
 import upm.tdd.training.BowlingException;
 import upm.tdd.training.BowlingGame;
+import upm.tdd.training.Frame;
 
 public class TestBowlingScoreKeeper {
 
@@ -34,7 +35,7 @@ public class TestBowlingScoreKeeper {
 		//Act
 		bowlingGame.addFrame(frame);
 		//Assert
-		assertEquals(300,bowlingGame.score());
+		assertEquals(300, bowlingGame.score());
 	}
 	
 	

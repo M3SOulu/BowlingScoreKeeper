@@ -50,3 +50,12 @@ CompilationAction 1479313870419 TestBowlingScoreKeeper.java
 CompilationAction 1479313870419 TestBowlingScoreKeeper.java
 RefactoringAction 1479313907994 Frame.java ADD Frame() METHOD
 EditAction 1479313917937 Frame.java 1011 8 11 0
+CompilationAction 1479313918209 TestBowlingScoreKeeper.java
+CompilationAction 1479313918210 TestBowlingScoreKeeper.java
+RefactoringAction 1479313945363 TestBowlingScoreKeeper.java REMOVE import java.awt.Frame IMPORT
+RefactoringAction 1479313950490 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+CompilationAction 1479313959826 TestBowlingScoreKeeper.java
+CompilationAction 1479313959827 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479313968760 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313968773 TestBowlingScoreKeeper FAIL
+EditAction 1479314003919 TestBowlingScoreKeeper.java 822 4 5 1
