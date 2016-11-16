@@ -21,14 +21,18 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		if(frames.get(frames.size()-1).isSpare()){
-			score=score+bonus.getFirstThrow();
+		for(int i=0;i<frames.size();i++){
+			if(frames.get(frames.size()-1).isSpare()){
+				score=score+frames.get(frames.size()-1).score()+frames.get(frames.size()).getFirstThrow();
+			}
+			else if(frames.get(frames.size()-1).isStrike()){
+				score=score+frames.get(frames.size()-1).score()+frames.get(frames.size()).score();
+			}else
+				score=score+frames.get(frames.size()-1).score();
 		}
-		else if(frames.get(frames.size()-1).isStrike()){
-			score=score+bonus.getFirstThrow()+bonus.getSecondThrow();
-		}else
-			score=score+frames.get(frames.size()-1).score();
+		
 		return score;
+		
 	}
 	
 	public boolean isNextFrameBonus(){

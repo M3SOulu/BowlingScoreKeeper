@@ -41,3 +41,4 @@ EditAction 1479309737583 BowlingGame.java 967 5 5 0
 EditAction 1479309895573 BowlingGame.java 965 5 5 0
 RefactoringAction 1479309927170 BowlingGame.java REMOVE Throws FIELD
 EditAction 1479309929116 BowlingGame.java 940 5 5 0
+EditAction 1479310445204 BowlingGame.java 1074 5 5 0
