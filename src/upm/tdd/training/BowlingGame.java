@@ -55,7 +55,7 @@ public class BowlingGame {
 		case 12:
 			break;
 		default:
-			resultFrame = frames.get(indexFrames+1);
+			resultFrame = frames.get(indexFrames);
 			break;
 		}
 		return resultFrame;

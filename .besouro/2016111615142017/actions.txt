@@ -35,3 +35,6 @@ RefactoringAction 1479310171948 TestBowlingScoreKeeper.java ADD import upm.tdd.t
 RefactoringAction 1479310178507 TestBowlingScoreKeeper.java ADD BowlingGame BowlingGame FIELD
 RefactoringAction 1479310250993 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
 EditAction 1479310322399 TestBowlingScoreKeeper.java 1239 2 24 1
+UnitTestCaseAction 1479310323970 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479310323979 TestBowlingScoreKeeper FAIL
+EditAction 1479310456092 BowlingGame.java 1314 6 10 0
