@@ -10,6 +10,10 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
+	public void setFrames(ArrayList<Frame> frames){
+		this.frames = frames;
+	}
+	
 	public void addFrame(Frame frame) throws BowlingException{
 		if (frames.size() >= MAX_FRAMES)
 			throw new BowlingException("Partita terminata.");
