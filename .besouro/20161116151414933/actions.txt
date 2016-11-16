@@ -27,3 +27,9 @@ RefactoringAction 1479307836362 Frame.java RENAME nFrameCounter=>int frameCounte
 RefactoringAction 1479307842866 Frame.java RENAME nFrame=>int frameNumber FIELD
 RefactoringAction 1479307892177 Frame.java REMOVE totalFrame FIELD
 EditAction 1479307911178 BowlingGame.java 650 5 6 0
+RefactoringAction 1479308012277 BowlingScore.java ADD BowlingScore.java CLASS
+FileOpenedAction 1479308012536 BowlingScore.java 63 0 0 0
+RefactoringAction 1479308032534 BowlingScore.java ADD int score FIELD
+RefactoringAction 1479308036049 BowlingScore.java RENAME score=>int scoreBownling FIELD
+RefactoringAction 1479308041063 BowlingScore.java REMOVE scoreBownling FIELD
+EditAction 1479308054602 BowlingScore.java 80 0 0 0
