@@ -60,3 +60,9 @@ RefactoringAction 1479308354354 TestsFrame.java RENAME testSpare=>void testSpare
 RefactoringAction 1479308368898 TestsFrame.java RENAME testSpare1()=>void testSpare()/2 METHOD
 RefactoringAction 1479308372425 TestsFrame.java RENAME testSpare()/2=>void testIsNotSpare() METHOD
 EditAction 1479308428082 TestsFrame.java 840 3 9 3
+UnitTestCaseAction 1479308429947 TestsFrame.java OK
+UnitTestSessionAction 1479308429948 TestsFrame OK
+RefactoringAction 1479308464708 TestsFrame.java ADD void testStrike()/2 METHOD
+RefactoringAction 1479308469727 TestsFrame.java RENAME testStrike()/2=>void testIsStrike() METHOD
+RefactoringAction 1479308471748 TestsFrame.java RENAME testIsStrike()=>void testIsNotStrike() METHOD
+EditAction 1479308486259 TestsFrame.java 1045 4 12 4
