@@ -2,43 +2,116 @@ package upm.tdd.training;
 
 
 public class Frame {
+	private static int count = 0;
+	private int id;
+
+	private static final int MAX_NUMBER_OF_PINS = 10;
+	private static final int MAX_NUMBER_OF_FRAMES = 10;
+
 	private int firstThrow;
 	private int secondThrow;
+
+	/**
+	 * reset the counting of id
+	 * (the purpose of this method is only for tests)
+	 */
+	public static void resetIdCounting()
+	{
+		count = 0;
+	}
 	
-	public Frame(int firstThrow, int secondThrow){
+	/**
+	 * create a new Bowling Frame
+	 * @param firstThrow
+	 * @param secondThrow
+	 * @throws BowlingException
+	 */
+	public Frame( int firstThrow, int secondThrow ) throws BowlingException{
+		if( firstThrow > MAX_NUMBER_OF_PINS || 
+				secondThrow > MAX_NUMBER_OF_PINS || 
+				(firstThrow + secondThrow) > MAX_NUMBER_OF_PINS ){
+			throw new BowlingException( "Invalid Bowling throws" );
+		}
+
+		count++;
+		id = count;
+
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
-	
-	//the score of a single frame
-	public int score(){
-		//to be implemented
-		return 0;
+
+	public int getFirstThrow() {
+		return firstThrow;
 	}
 
-	//returns whether the frame is a strike or not
+	public int getSecondThrow() {
+		return secondThrow;
+	}
+
+	/**
+	 * the score of a single frame 
+	 * @return
+	 */
+	public int score()
+	{
+		return firstThrow + secondThrow;
+	}
+
+	/**
+	 * returns whether the frame is a strike or not
+	 * @return true if is a Strike
+	 */
 	public boolean isStrike(){
-		//to be implemented
-		return false;
+		if( firstThrow == MAX_NUMBER_OF_PINS ){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+
+	/**
+	 * return whether a frame is a spare or not
+	 * @return true if is a Spare
+	 */
+	public boolean isSpare(){
+		if( (firstThrow + secondThrow) == MAX_NUMBER_OF_PINS ){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+
+	/**
+	 * return whether this is the last frame of the match
+	 * @return if is the last frame
+	 */
+	public boolean isLastFrame(){
+		if( id == MAX_NUMBER_OF_FRAMES ){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+
+	/**
+	 * bonus throws
+	 * @return
+	 */
+	public int bonus(){
+		if( isStrike() ){
+			return 2;
+		}
+		else if( isSpare() ){
+			return 1;
+		}
+		else{
+			return 0;
+		}
 	}
 	
-	//return whether a frame is a spare or not
-	public boolean isSpare(){
-		//to be implemented
-		return false;
-	}
-
-	//return whether this is the last frame of the match
-	public boolean isLastFrame(){
-		//to be implemented
-		return false;
-	}
-
-	//bonus throws
-	public int bonus(){
-		//to be implemented
-		return 0;
-	}
-
+	
 
 }
