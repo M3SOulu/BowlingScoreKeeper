@@ -1,29 +1,63 @@
 package upm.tdd.training;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class BowlingGame {
-	//a bowling game is made of (at least) 10 frames
+	
+	public static final int MAX_SIZE_FRAMES = 10;
+	
+	// a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
-	private Frame bonus;
-	
-	public BowlingGame(){}
-	
-	public void addFrame(Frame frame){
-		//to be implemented
+	private Frame bonus = null;
+
+	public BowlingGame() {}
+
+	public void addFrame(Frame frame) throws BowlingException {
+		if (isNextFrameBonus() && frame.isStrike()) {
+			bonus = new Frame(frame, this);
+		} else
+			frames.add(new Frame(frame, this));
 	}
-	
+
+	// set bonus for lastest frame ( frame bonus)
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		// to be implemented
 	}
-	
-	public int score(){
-		//to be implemented
-		return 0;
+
+	// score game
+	public int score() {
+		int result = 0;
+		for (Frame frameTemp : frames)
+			result += frameTemp.score();
+		return result + bonus.score();
 	}
-	
-	public boolean isNextFrameBonus(){
-		//to be implemented
+
+	public boolean isNextFrameBonus() throws BowlingException {
+		if (frames.size() == MAX_SIZE_FRAMES) {
+			if (bonus != null)
+				throw new BowlingException();
+			else
+				return true;
+		}
+		
 		return false;
+	}
+
+
+	public Frame getNextFrame(Frame frame) {
+		int indexFrames = frames.indexOf(frame)+1;
+		Frame resultFrame = null;
+		switch (indexFrames) {
+		case 11:
+			resultFrame = bonus;
+			break;
+		case 12:
+			break;
+		default:
+			resultFrame = frames.get(indexFrames+1);
+			break;
+		}
+		return resultFrame;
 	}
 }

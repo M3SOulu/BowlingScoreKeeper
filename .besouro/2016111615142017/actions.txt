@@ -1,0 +1,37 @@
+FileOpenedAction 1479305660531 TestBowlingScoreKeeper.java 197 1 1 0
+RefactoringAction 1479307932942 Frame.java RENAME Frame(int, int)=>int firstThrow/2 FIELD
+RefactoringAction 1479307939466 Frame.java ADD Frame() METHOD
+RefactoringAction 1479307946498 Frame.java RENAME Frame()=>Frame(Frame) METHOD
+RefactoringAction 1479308071296 BowlingGame.java ADD int MAX FIELD
+RefactoringAction 1479308072307 BowlingGame.java REMOVE MAX FIELD
+RefactoringAction 1479308077828 BowlingGame.java ADD int MAX_Fr FIELD
+RefactoringAction 1479308079854 BowlingGame.java RENAME MAX_Fr=>int MAX_FRAME FIELD
+RefactoringAction 1479308089937 BowlingGame.java RENAME MAX_FRAME=>int MAX_SIZE_FRAME FIELD
+RefactoringAction 1479308091457 BowlingGame.java RENAME MAX_SIZE_FRAME=>int MAX_SIZE_FRAMEa FIELD
+RefactoringAction 1479308092977 BowlingGame.java RENAME MAX_SIZE_FRAMEa=>int MAX_SIZE_FRAMES FIELD
+RefactoringAction 1479308268154 Frame.java ADD void priv() METHOD
+RefactoringAction 1479308277178 Frame.java REMOVE priv() METHOD
+RefactoringAction 1479308427815 Frame.java ADD BowlingGame bo FIELD
+RefactoringAction 1479308432344 Frame.java RENAME bo=>BowlingGame BowlingGame FIELD
+RefactoringAction 1479308433859 Frame.java RENAME BowlingGame=>BowlingGame bowlingGame FIELD
+RefactoringAction 1479308436381 Frame.java RENAME bowlingGame=>BowlingGame bowlingGameAppar FIELD
+RefactoringAction 1479308441390 Frame.java RENAME bowlingGameAppar=>BowlingGame bowlingGame FIELD
+RefactoringAction 1479308475910 Frame.java RENAME bowlingGame=>BowlingGame bowlingGameMe FIELD
+RefactoringAction 1479308478919 Frame.java RENAME bowlingGameMe=>BowlingGame bowlingGameMembership FIELD
+RefactoringAction 1479308517509 Frame.java RENAME Frame(Frame)=>Frame(Frame, BowlingGame) METHOD
+RefactoringAction 1479308519026 Frame.java RENAME Frame(Frame, BowlingGame)=>Frame(Frame) METHOD
+RefactoringAction 1479308523056 Frame.java RENAME Frame(Frame)=>Frame(Frame, BowlingGame) METHOD
+RefactoringAction 1479308694884 BowlingGame.java ADD boolean isValidFrame() METHOD
+RefactoringAction 1479308743636 BowlingGame.java REMOVE isValidFrame() METHOD
+RefactoringAction 1479308745147 BowlingGame.java RENAME addFrame(Frame)=>boolean isNextFrameBonus()/2 METHOD
+RefactoringAction 1479308746163 BowlingGame.java RENAME isNextFrameBonus()/2=>void addFrame(Frame) METHOD
+RefactoringAction 1479308995290 BowlingGame.java ADD void getNextFrame(Frame) METHOD
+RefactoringAction 1479309878066 TestBowlingScoreKeeper.java ADD import java.awt.Frame IMPORT
+RefactoringAction 1479309882071 TestBowlingScoreKeeper.java REMOVE import java.awt.Frame IMPORT
+RefactoringAction 1479309886694 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479310153882 TestBowlingScoreKeeper.java ADD void setUp() METHOD
+RefactoringAction 1479310163246 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479310171948 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479310178507 TestBowlingScoreKeeper.java ADD BowlingGame BowlingGame FIELD
+RefactoringAction 1479310250993 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+EditAction 1479310322399 TestBowlingScoreKeeper.java 1239 2 24 1
