@@ -20,7 +20,7 @@ public class BowlingGame {
 			// add new frame to the game
 			frames.add(new Frame(frame.getFirstThrow(), frame.getSecondThrow()));
 
-			if (frames.size() > 2) {
+			if (frames.size() > 1) {
 				/*
 				 * if frame before the actual was a spare, add to the previous
 				 * frame the point of the actual frame's first throw
