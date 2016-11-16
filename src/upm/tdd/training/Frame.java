@@ -13,7 +13,7 @@ public class Frame {
 
 	/**
 	 * reset the counting of id
-	 * (the purpose of this method is only for test)
+	 * (the purpose of this method is only for tests)
 	 */
 	public static void resetIdCounting()
 	{
