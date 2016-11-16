@@ -19,7 +19,6 @@ public class Frame {
 		return secondThrow;
 	}
 
-
 	/**
 	 * create a new Bowling Frame
 	 * @param firstThrow
