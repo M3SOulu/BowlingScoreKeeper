@@ -421,3 +421,6 @@ UnitTestSessionAction 1479315857699 TestBowlingGame OK
 RefactoringAction 1479315865212 TestBowlingScoreKeeper.java ADD void TesBonusStripeScore()/2 METHOD
 RefactoringAction 1479315869722 TestBowlingScoreKeeper.java RENAME TesBonusStripeScore()/2=>void TesBonusStrikeScore() METHOD
 EditAction 1479315890837 TestBowlingScoreKeeper.java 1807 4 35 3
+UnitTestCaseAction 1479315893189 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315893190 TestBowlingScoreKeeper OK
+EditAction 1479315898029 TestBowlingScoreKeeper.java 1807 4 35 3
