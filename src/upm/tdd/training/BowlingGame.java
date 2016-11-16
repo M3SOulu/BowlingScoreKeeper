@@ -13,7 +13,7 @@ public class BowlingGame {
 		frames.add(frame);
 	}
 	
-	public void setBonus(int firstThrow, int secondThrow) {
+	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
 		//to be implemented
 		bonus = new Frame(firstThrow, secondThrow);
 		frames.add(bonus);
