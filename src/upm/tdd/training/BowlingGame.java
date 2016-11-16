@@ -47,7 +47,6 @@ public class BowlingGame {
 			result += frameTemp.score();
 			System.out.println(result);
 		}
-			
 		return result;
 	}
 
