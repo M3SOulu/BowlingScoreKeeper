@@ -185,3 +185,35 @@ RefactoringAction 1479310457867 Frame.java ADD int frameCounter FIELD
 RefactoringAction 1479310464377 Frame.java RENAME frameCounter=>int frameCounterGlobal FIELD
 RefactoringAction 1479310469932 Frame.java ADD int frameNumber FIELD
 EditAction 1479310491404 Frame.java 913 6 10 0
+CompilationAction 1479310491537 BowlingGame.java
+RefactoringAction 1479310529730 TestBowlingScoreKeeper.java REMOVE frame6 FIELD
+RefactoringAction 1479310529730 TestBowlingScoreKeeper.java REMOVE frame4 FIELD
+RefactoringAction 1479310529735 TestBowlingScoreKeeper.java REMOVE frame8 FIELD
+RefactoringAction 1479310529736 TestBowlingScoreKeeper.java REMOVE frame2 FIELD
+RefactoringAction 1479310529736 TestBowlingScoreKeeper.java REMOVE frame5 FIELD
+RefactoringAction 1479310529737 TestBowlingScoreKeeper.java REMOVE frame10 FIELD
+RefactoringAction 1479310529737 TestBowlingScoreKeeper.java REMOVE frame3 FIELD
+RefactoringAction 1479310529737 TestBowlingScoreKeeper.java REMOVE frame9 FIELD
+RefactoringAction 1479310529738 TestBowlingScoreKeeper.java REMOVE frame7 FIELD
+RefactoringAction 1479310529738 TestBowlingScoreKeeper.java REMOVE frame1 FIELD
+RefactoringAction 1479310544778 TestBowlingScoreKeeper.java ADD Frame frame1 FIELD
+RefactoringAction 1479310544778 TestBowlingScoreKeeper.java ADD Frame frame2 FIELD
+RefactoringAction 1479310544779 TestBowlingScoreKeeper.java ADD Frame frame3 FIELD
+RefactoringAction 1479310544779 TestBowlingScoreKeeper.java ADD Frame frame4 FIELD
+RefactoringAction 1479310544780 TestBowlingScoreKeeper.java ADD Frame frame5 FIELD
+RefactoringAction 1479310544780 TestBowlingScoreKeeper.java ADD Frame frame6 FIELD
+RefactoringAction 1479310544780 TestBowlingScoreKeeper.java ADD Frame frame7 FIELD
+RefactoringAction 1479310544781 TestBowlingScoreKeeper.java ADD Frame frame8 FIELD
+RefactoringAction 1479310544781 TestBowlingScoreKeeper.java ADD Frame frame9 FIELD
+RefactoringAction 1479310544781 TestBowlingScoreKeeper.java ADD Frame frame10 FIELD
+RefactoringAction 1479310549288 TestBowlingScoreKeeper.java REMOVE frame6 FIELD
+RefactoringAction 1479310549289 TestBowlingScoreKeeper.java REMOVE frame4 FIELD
+RefactoringAction 1479310549289 TestBowlingScoreKeeper.java REMOVE frame8 FIELD
+RefactoringAction 1479310549290 TestBowlingScoreKeeper.java REMOVE frame2 FIELD
+RefactoringAction 1479310549290 TestBowlingScoreKeeper.java REMOVE frame5 FIELD
+RefactoringAction 1479310549291 TestBowlingScoreKeeper.java REMOVE frame10 FIELD
+RefactoringAction 1479310549291 TestBowlingScoreKeeper.java REMOVE frame3 FIELD
+RefactoringAction 1479310549291 TestBowlingScoreKeeper.java REMOVE frame9 FIELD
+RefactoringAction 1479310549292 TestBowlingScoreKeeper.java REMOVE frame7 FIELD
+RefactoringAction 1479310549292 TestBowlingScoreKeeper.java REMOVE frame1 FIELD
+EditAction 1479310579230 TestBowlingScoreKeeper.java 660 2 4 0
