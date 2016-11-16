@@ -10,7 +10,15 @@ import upm.tdd.training.BowlingGame;
 import upm.tdd.training.Frame;
 
 public class TestBowlingScoreKeeper {
-	
+	private BowlingGame b;
+
+	@Before
+	public void setUp() throws BowlingException
+	{
+		Frame.resetIdCounting();
+
+		b = new BowlingGame();
+	}
 	
 
 }

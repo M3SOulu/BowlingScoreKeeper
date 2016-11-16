@@ -372,3 +372,12 @@ RefactoringAction 1479315581221 TestBowlingGame.java ADD import upm.tdd.training
 RefactoringAction 1479315581222 TestBowlingGame.java ADD import upm.tdd.training.Frame IMPORT
 EditAction 1479315581975 TestBowlingGame.java 1956 8 26 4
 EditAction 1479315584423 TestBowlingScoreKeeper.java 273 0 0 0
+UnitTestCaseAction 1479315584978 TestBowlingGame.java OK
+UnitTestSessionAction 1479315584979 TestBowlingGame OK
+RefactoringAction 1479315596743 TestBowlingGame.java REMOVE b FIELD
+RefactoringAction 1479315596744 TestBowlingGame.java REMOVE setUp() METHOD
+RefactoringAction 1479315598249 TestBowlingGame.java ADD BowlingGame b FIELD
+RefactoringAction 1479315598250 TestBowlingGame.java ADD void setUp() METHOD
+RefactoringAction 1479315602678 TestBowlingScoreKeeper.java ADD BowlingGame b FIELD
+RefactoringAction 1479315602678 TestBowlingScoreKeeper.java ADD void setUp() METHOD
+EditAction 1479315607247 TestBowlingScoreKeeper.java 409 1 2 0
