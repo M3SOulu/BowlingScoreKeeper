@@ -50,8 +50,9 @@ public class Frame {
 
 	//bonus throws
 	public int bonus() {
-		
-		return 0;
+		if(isSpare()) return 1;
+		else if(isStrike()) return 2;
+		else return 0;
 	}
 
 
