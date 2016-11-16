@@ -43,3 +43,4 @@ RefactoringAction 1479309401242 TestFrame.java RENAME testInit()=>void testInitF
 RefactoringAction 1479309432870 TestFrame.java ADD import upm.tdd.training.BowlingException IMPORT
 RefactoringAction 1479309487193 TestFrame.java ADD import upm.tdd.training.Frame IMPORT
 EditAction 1479309510389 TestFrame.java 344 1 1 0
+EditAction 1479309510506 Frame.java 816 6 8 0
