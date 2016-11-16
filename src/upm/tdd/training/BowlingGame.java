@@ -24,7 +24,7 @@ public class BowlingGame {
 		frameNumber ++;
 	}
 	
-	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
+	public void setBonus(int firstThrow, int secondThrow) {
 		bonus = new Frame(firstThrow,secondThrow);
 	}
 	
