@@ -12,3 +12,4 @@ RefactoringAction 1479306919003 Frame.java ADD int totFrames FIELD
 RefactoringAction 1479306919004 Frame.java ADD int frame FIELD
 RefactoringAction 1479306919005 Frame.java ADD int getFrame() METHOD
 EditAction 1479306997087 Frame.java 984 7 13 0
+EditAction 1479307174434 Frame.java 981 7 13 0
