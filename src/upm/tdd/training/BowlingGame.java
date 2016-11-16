@@ -16,6 +16,7 @@ public class BowlingGame {
 		
 		if(frames.size()==9){
 			frame.setLastFrame(true);
+			frames.add(frames.size(), frame);
 		}
 	}
 	
