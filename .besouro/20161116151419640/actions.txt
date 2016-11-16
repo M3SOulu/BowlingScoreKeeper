@@ -120,3 +120,8 @@ UnitTestSessionAction 1479311525330 TestBowlingScoreKeeper OK
 EditAction 1479311603602 BowlingGame.java 1186 5 10 0
 CompilationAction 1479311603851 BowlingGame.java
 EditAction 1479311606163 BowlingGame.java 1187 5 8 0
+CompilationAction 1479311606405 BowlingGame.java
+CompilationAction 1479311610916 BowlingGame.java
+CompilationAction 1479311611075 BowlingGame.java
+CompilationAction 1479311633090 BowlingGame.java
+EditAction 1479311667761 TestBowlingScoreKeeper.java 757 3 7 2
