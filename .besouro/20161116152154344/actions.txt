@@ -165,3 +165,4 @@ EditAction 1479314795212 BowlingGame.java 1320 5 10 0
 RefactoringAction 1479314863622 BowlingGame.java ADD int MAX_FRAMES/2 FIELD
 RefactoringAction 1479314866644 BowlingGame.java RENAME MAX_FRAMES/2=>int BONUS_FRAME FIELD
 EditAction 1479314884479 BowlingGame.java 1353 5 10 0
+EditAction 1479314935449 BowlingGame.java 1355 5 10 0

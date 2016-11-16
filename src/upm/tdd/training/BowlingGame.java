@@ -26,7 +26,7 @@ public class BowlingGame {
 			throw new BowlingException("Partita non terminata.");
 		int i = 0;
 		int result = frames.get(i).score();
-		for (i = 1; i < frames.size(); ++i){
+		for (i = 1; i < frames.size()-1; ++i){
 			result += frames.get(i).score();
 			if (frames.get(i-1).isStrike())
 				result += frames.get(i).score();
