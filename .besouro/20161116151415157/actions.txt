@@ -32,3 +32,4 @@ RefactoringAction 1479308708413 Frame.java ADD void setScore FIELD
 RefactoringAction 1479308711436 Frame.java RENAME setScore=>void setScore(int) METHOD
 RefactoringAction 1479308736496 Frame.java ADD int frameScore FIELD
 EditAction 1479308751743 Frame.java 1300 10 10 0
+EditAction 1479308827374 Frame.java 1261 10 10 0

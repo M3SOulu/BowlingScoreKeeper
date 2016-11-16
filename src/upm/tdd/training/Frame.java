@@ -18,7 +18,7 @@ public class Frame {
 
 	// the score of a single frame
 	public int score() {
-		return this.firstThrow + this.secondThrow + this.bonus();
+		return frameScore;
 	}
 	
 	public void setScore(int score){
