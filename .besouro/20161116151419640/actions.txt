@@ -91,3 +91,8 @@ EditAction 1479310948470 TestBowlingScoreKeeper.java 300 2 1 0
 EditAction 1479311069351 BowlingGame.java 1127 5 9 0
 EditAction 1479311091894 Frame.java 1414 10 12 0
 EditAction 1479311152327 TestBowlingScoreKeeper.java 336 2 2 0
+CompilationAction 1479311152566 TestBowlingScoreKeeper.java
+RefactoringAction 1479311160319 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479311164977 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+CompilationAction 1479311166709 TestBowlingScoreKeeper.java
+EditAction 1479311175110 Frame.java 1381 10 12 0

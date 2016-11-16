@@ -41,8 +41,7 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		if(isStrike()) return 10;
-		else return firstThrow + secondThrow;
+		return firstThrow + secondThrow;
 	}
 
 	//returns whether the frame is a strike or not
