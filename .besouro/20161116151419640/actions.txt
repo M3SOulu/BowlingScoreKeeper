@@ -201,3 +201,4 @@ EditAction 1479312773141 Frame.java 998 9 10 0
 RefactoringAction 1479312780112 Frame.java REMOVE isBonusFrame FIELD
 RefactoringAction 1479312780112 Frame.java REMOVE isBonusFrame() METHOD
 EditAction 1479312780553 Frame.java 898 8 9 0
+EditAction 1479312922380 TestBowlingScoreKeeper.java 954 4 9 2
