@@ -50,8 +50,6 @@ public class TestBowlingScoreKeeper {
 		assertEquals(10,frame11.score());
 	}
 	
-	@Test
-	public void 
 	
 	
 	

@@ -322,3 +322,28 @@ CompilationAction 1479314538592 TestBowlingScoreKeeper.java
 CompilationAction 1479314538592 TestBowlingScoreKeeper.java
 CompilationAction 1479314538592 TestBowlingScoreKeeper.java
 EditAction 1479314558490 TestBowlingScoreKeeper.java 1087 4 9 2
+CompilationAction 1479314558639 TestBowlingScoreKeeper.java
+CompilationAction 1479314558640 TestBowlingScoreKeeper.java
+CompilationAction 1479314558640 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479314567534 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314567535 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314592974 TestBowlingGameException.java ADD TestBowlingGameException.java CLASS
+FileOpenedAction 1479314593152 TestBowlingGameException.java 81 0 0 0
+RefactoringAction 1479314642400 TestBowlingGameException1.java ADD void test() METHOD
+RefactoringAction 1479314642405 TestBowlingGameException1.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479314642418 TestBowlingGameException1.java ADD TestBowlingGameException1.java CLASS
+FileOpenedAction 1479314642551 TestBowlingGameException1.java 214 1 1 0
+RefactoringAction 1479314649912 TestBowlingGameException1.java REMOVE TestBowlingGameException1.java CLASS
+RefactoringAction 1479314664890 AllBowlingTest.java ADD AllBowlingTest.java CLASS
+FileOpenedAction 1479314665018 AllBowlingTest.java 71 0 0 0
+RefactoringAction 1479314680005 TestBowlingGameException.java REMOVE TestBowlingGameException.java CLASS
+RefactoringAction 1479314683562 AllBowlingTest.java REMOVE AllBowlingTest.java CLASS
+RefactoringAction 1479314707122 TestBowlingGameException.java ADD void test() METHOD
+RefactoringAction 1479314707126 TestBowlingGameException.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479314707136 TestBowlingGameException.java ADD TestBowlingGameException.java CLASS
+FileOpenedAction 1479314707252 TestBowlingGameException.java 213 1 1 0
+RefactoringAction 1479314724324 AllBowlingTest.java ADD void test() METHOD
+RefactoringAction 1479314724328 AllBowlingTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479314724341 AllBowlingTest.java ADD AllBowlingTest.java CLASS
+FileOpenedAction 1479314724472 AllBowlingTest.java 203 1 1 0
+EditAction 1479315088732 BowlingGame.java 1141 5 7 0
