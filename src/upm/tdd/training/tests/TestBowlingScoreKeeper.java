@@ -25,7 +25,7 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void test_of_full_strike() {
 		Assert.assertEquals(10, new Frame(10,0).getFirstThrow());
-		
+		Assert.assertEquals(300, match1.score());
 	}
 
 }
