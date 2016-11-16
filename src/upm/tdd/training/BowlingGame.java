@@ -41,12 +41,13 @@ public class BowlingGame {
 		//da controllare
 		Frame f = getLastFrame();
 		int bonus = f.getFirstThrow();
-		frame.setScore(score);
+		frame.setScoreWithBonus(bonus);
 	}
 	
 	private void addFrameWithPreviousFrameStrike(Frame frame){
 		Frame f = getLastFrame();
 		int bonus = f.getFirstThrow()+f.getSecondThrow();
+		frame.setScoreWithBonus(bonus);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {

@@ -54,3 +54,17 @@ RefactoringAction 1479309784267 Frame.java RENAME setScore()=>void noBonusScore(
 RefactoringAction 1479309913338 Frame.java RENAME noBonusScore()=>void setScore() METHOD
 CompilationAction 1479310029978 BowlingGame.java
 EditAction 1479310029985 Frame.java 1720 12 22 0
+CompilationAction 1479310030257 BowlingGame.java
+CompilationAction 1479310100425 BowlingGame.java
+RefactoringAction 1479312102737 TestBowlingScoreKeeper.java ADD void setUp() METHOD
+RefactoringAction 1479312106263 TestBowlingScoreKeeper.java RENAME import org.junit.Assert.*=>import org.junit.Before IMPORT
+RefactoringAction 1479312145296 TestBowlingScoreKeeper.java ADD BowlingGame game FIELD
+RefactoringAction 1479312154806 TestBowlingScoreKeeper.java ADD Frame frame FIELD
+RefactoringAction 1479312176326 TestBowlingScoreKeeper.java REMOVE frame FIELD
+RefactoringAction 1479312177338 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479312179861 TestBowlingScoreKeeper.java ADD Frame frame FIELD
+RefactoringAction 1479312193877 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame/2 IMPORT
+RefactoringAction 1479312196881 TestBowlingScoreKeeper.java RENAME import upm.tdd.training.BowlingGame/2=>import upm.tdd.training.B IMPORT
+RefactoringAction 1479312198894 TestBowlingScoreKeeper.java REMOVE import upm.tdd.training.B IMPORT
+RefactoringAction 1479312206900 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+EditAction 1479312215703 TestBowlingScoreKeeper.java 315 2 0 0
