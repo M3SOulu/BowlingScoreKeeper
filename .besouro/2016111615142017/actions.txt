@@ -230,3 +230,9 @@ UnitTestSessionAction 1479316185278 TestBowlingScoreKeeper OK
 RefactoringAction 1479316274926 TestFrame.java REMOVE import upm.tdd.training.BowlingGame IMPORT
 RefactoringAction 1479316276430 TestFrame.java REMOVE import org.junit.Before IMPORT
 EditAction 1479316323713 Frame.java 1612 7 15 0
+CompilationAction 1479316324066 Frame.java
+FileOpenedAction 1479316392267 BowlingException.java 148 0 0 0
+RefactoringAction 1479316392359 BowlingException.java ADD BowlingException(String) METHOD
+RefactoringAction 1479316397268 BowlingException.java REMOVE BowlingException(String) METHOD
+RefactoringAction 1479316398775 BowlingException.java ADD BowlingException(String) METHOD
+EditAction 1479316414497 BowlingException.java 209 1 1 0
