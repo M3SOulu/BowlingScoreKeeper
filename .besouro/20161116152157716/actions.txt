@@ -8,3 +8,14 @@ EditAction 1479311313201 BowlingGame.java 628 5 2 0
 CompilationAction 1479311313329 Frame.java
 RefactoringAction 1479311713804 TestBowlingScoreKeeper.java ADD void testScore FIELD
 EditAction 1479311715896 TestBowlingScoreKeeper.java 222 1 1 0
+CompilationAction 1479311716028 TestBowlingScoreKeeper.java
+CompilationAction 1479311716029 TestBowlingScoreKeeper.java
+RefactoringAction 1479311745822 TestBowlingScoreKeeper.java RENAME testScore=>void testScore() METHOD
+RefactoringAction 1479311789923 TestBowlingScoreKeeper.java ADD import java.awt.Frame IMPORT
+CompilationAction 1479312269060 TestBowlingScoreKeeper.java
+CompilationAction 1479312269061 TestBowlingScoreKeeper.java
+RefactoringAction 1479312321062 TestBowlingScoreKeeper.java ADD TestBowlingScoreKeeper(int, int) METHOD
+RefactoringAction 1479312376224 TestBowlingScoreKeeper.java REMOVE TestBowlingScoreKeeper(int, int) METHOD
+RefactoringAction 1479312468292 TestBowlingScoreKeeper.java ADD void asserEquals(int, int) METHOD
+RefactoringAction 1479312473795 TestBowlingScoreKeeper.java REMOVE asserEquals(int, int) METHOD
+EditAction 1479312720980 TestBowlingScoreKeeper.java 409 2 4 1
