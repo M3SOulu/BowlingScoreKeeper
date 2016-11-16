@@ -27,11 +27,15 @@ public class BowlingGame {
 		for (Frame frame : frames){
 			result += frame.score();
 		}
+		if (isNextFrameBonus())
+			result += bonus.score();
+		
 		return result;
 	}
 	
 	public boolean isNextFrameBonus(){
-		
-		return false;
+		Frame lastPlayedFrame = frames.get(frames.size()-1);
+		return (frames.size() == 10 && lastPlayedFrame.isStrike())
+			|| (frames.size() == 10 && lastPlayedFrame.isSpare()) ? true : false;
 	}
 }
