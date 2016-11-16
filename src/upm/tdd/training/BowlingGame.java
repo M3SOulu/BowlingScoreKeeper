@@ -10,13 +10,17 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
+		Frame previous = frames.get(frames.size()-2);
+		
+		if(previous.isStrike()) {
+			frame.setBonusPoints(frame.getFirstThrow() + frame.getSecondThrow());
+		}
+		if (previous.isSpare()) {
+			frame.setBonusPoints(frame.getFirstThrow());
+		}
+		
 		frames.add(frame);
-		if(frame.isStrike()) {
-			frame.setBonusPoints(frame.tiroSuccessivo + frame.tiroSuccessivoAlSuccesivo);
-		}
-		if (frame.isSpare()) {
-			frame.setBonusPoints(frame.tiroSuccessivo);
-		}
+		
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {

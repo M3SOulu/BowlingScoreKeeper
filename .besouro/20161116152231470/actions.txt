@@ -71,3 +71,6 @@ RefactoringAction 1479312810814 BowlingGame.java REMOVE ultimoTiro FIELD
 RefactoringAction 1479312810815 BowlingGame.java REMOVE penultimoTiro FIELD
 EditAction 1479312920427 BowlingGame.java 1134 6 11 0
 EditAction 1479312920508 Frame.java 1247 10 15 0
+RefactoringAction 1479313031758 Frame.java REMOVE tiroSuccessivo FIELD
+RefactoringAction 1479313031759 Frame.java REMOVE tiroSuccessivoAlSuccesivo FIELD
+EditAction 1479313033105 BowlingGame.java 1190 6 12 0
