@@ -46,3 +46,7 @@ CompilationAction 1479313798382 TestBowlingScoreKeeper.java
 CompilationAction 1479313870146 TestBowlingScoreKeeper.java
 CompilationAction 1479313870146 TestBowlingScoreKeeper.java
 EditAction 1479313870164 Frame.java 900 7 10 0
+CompilationAction 1479313870419 TestBowlingScoreKeeper.java
+CompilationAction 1479313870419 TestBowlingScoreKeeper.java
+RefactoringAction 1479313907994 Frame.java ADD Frame() METHOD
+EditAction 1479313917937 Frame.java 1011 8 11 0
