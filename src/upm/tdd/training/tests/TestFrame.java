@@ -79,8 +79,5 @@ public class TestFrame {
 	public void testIsSpareFalse() throws BowlingException{
 		p = new Frame(2, 6);
 		assert(p.isSpare()==false);		
-	}
-	
-	
-	
+	}	
 }
