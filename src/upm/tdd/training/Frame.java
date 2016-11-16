@@ -13,6 +13,16 @@ public class Frame {
 	}
 		
 
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+
+	public int getSecondThrow() {
+		return secondThrow;
+	}
+
+
 	//constructor
 	public Frame(int firstThrow, int secondThrow) throws BowlingException{
 		this.firstThrow = firstThrow;

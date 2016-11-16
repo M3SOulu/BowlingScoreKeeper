@@ -39,3 +39,5 @@ EditAction 1479308822782 BowlingGame.java 734 5 5 0
 CompilationAction 1479308823020 BowlingGame.java
 EditAction 1479308833690 BowlingGame.java 750 5 6 0
 EditAction 1479308956518 BowlingGame.java 592 5 6 0
+RefactoringAction 1479308982316 BowlingGame.java REMOVE frameIndex FIELD
+EditAction 1479308993143 Frame.java 1225 9 11 0
