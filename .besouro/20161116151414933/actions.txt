@@ -280,3 +280,6 @@ EditAction 1479313482454 BowlingGame.java 993 5 7 0
 CompilationAction 1479313482561 BowlingGame.java
 CompilationAction 1479313511032 BowlingGame.java
 EditAction 1479313518367 Frame.java 1183 9 15 0
+UnitTestCaseAction 1479313522627 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313522628 TestBowlingScoreKeeper FAIL
+EditAction 1479313669663 BowlingGame.java 1058 5 8 0
