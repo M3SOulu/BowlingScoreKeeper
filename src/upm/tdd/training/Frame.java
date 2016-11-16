@@ -4,7 +4,7 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	boolean isBonusFrame = false;
+	private boolean isBonusFrame = false;
 	
 	//the number of this Frame in the Game
 	private int frameNumber = 0;
