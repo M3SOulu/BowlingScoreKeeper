@@ -32,3 +32,30 @@ EditAction 1479310378039 BowlingGame.java 759 5 3 0
 EditAction 1479310415364 BowlingGame.java 681 5 3 0
 EditAction 1479310488743 BowlingGame.java 749 5 4 0
 EditAction 1479310508294 Frame.java 962 8 11 0
+RefactoringAction 1479310532184 TestBowlingScoreKeeper.java ADD void test()/2 METHOD
+RefactoringAction 1479310541994 TestBowlingScoreKeeper.java RENAME test()/2=>void TU() METHOD
+RefactoringAction 1479310543775 TestBowlingScoreKeeper.java RENAME TU()=><initializer /1> null
+RefactoringAction 1479310545378 TestBowlingScoreKeeper.java RENAME <initializer /1>=>void tutt() METHOD
+RefactoringAction 1479310546456 TestBowlingScoreKeeper.java RENAME tutt()=>void tutti_() METHOD
+RefactoringAction 1479310547250 TestBowlingScoreKeeper.java RENAME tutti_()=>void tutti_10() METHOD
+RefactoringAction 1479310548578 TestBowlingScoreKeeper.java RENAME tutti_10()=>void tutti_10_() METHOD
+RefactoringAction 1479310551712 TestBowlingScoreKeeper.java RENAME tutti_10_()=>void tutti_10_100() METHOD
+RefactoringAction 1479310552741 TestBowlingScoreKeeper.java RENAME tutti_10_100()=>void tutti_10_() METHOD
+RefactoringAction 1479310554535 TestBowlingScoreKeeper.java RENAME tutti_10_()=>void tutti_10_score() METHOD
+RefactoringAction 1479310558296 TestBowlingScoreKeeper.java RENAME tutti_10_score()=>void tutti_10_score_equals() METHOD
+RefactoringAction 1479310559263 TestBowlingScoreKeeper.java RENAME tutti_10_score_equals()=>void tutti_10_score_equals100() METHOD
+RefactoringAction 1479310561696 TestBowlingScoreKeeper.java RENAME tutti_10_score_equals100()=>void tutti_10_score_equals_100() METHOD
+RefactoringAction 1479310604987 cc.java ADD static void setUpBeforeClass() METHOD
+RefactoringAction 1479310604994 cc.java ADD void test() METHOD
+RefactoringAction 1479310605002 cc.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479310605025 cc.java ADD cc.java CLASS
+FileOpenedAction 1479310605255 cc.java 302 2 1 0
+RefactoringAction 1479310612552 cc.java REMOVE setUpBeforeClass() METHOD
+RefactoringAction 1479310616498 cc.java REMOVE cc.java CLASS
+RefactoringAction 1479310620843 TestBowlingScoreKeeper.java ADD import org.junit.BeforeClass IMPORT
+RefactoringAction 1479310631856 TestBowlingScoreKeeper.java ADD import org.junit.Assert.fail IMPORT
+RefactoringAction 1479310631857 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479310662220 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479310698712 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479310731417 TestBowlingScoreKeeper.java ADD BowlingGame partita FIELD
+EditAction 1479310741709 TestBowlingScoreKeeper.java 544 3 4 0
