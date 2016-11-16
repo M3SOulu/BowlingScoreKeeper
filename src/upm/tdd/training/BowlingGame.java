@@ -55,6 +55,7 @@ public class BowlingGame {
 		Frame f = getLastFrame();
 		int bonus = frame.getFirstThrow();
 		f.setScoreWithBonus(bonus);
+		frames.get(frames.size()-1).setScoreWithBonus(bonus);
 		gameScore += f.score();
 	}
 	
@@ -70,6 +71,7 @@ public class BowlingGame {
 //		}
 		int bonus = frame.getFirstThrow()+frame.getSecondThrow();
 		f.setScoreWithBonus(bonus);
+		frames.get(frames.size()-1).setScoreWithBonus(bonus);
 		gameScore += f.score();
 	}
 	
