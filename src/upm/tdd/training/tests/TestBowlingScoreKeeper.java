@@ -23,5 +23,13 @@ public class TestBowlingScoreKeeper {
 		game.setBonus(10, 0);
 		Assert.assertEquals(300, game.score());
 	}
+	
+	@Test
+	public void testAllZerosScore() throws BowlingException {
+		Frame strikeFrame = new Frame(0,0);
+		for(int i=0; i<10; i++) game.addFrame(strikeFrame);
+		game.setBonus(10, 0);
+		Assert.assertEquals(300, game.score());
+	}
 
 }
