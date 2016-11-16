@@ -15,11 +15,11 @@ public class TestsFrame {
 	@Test
 	public void testStrike() throws BowlingException {
 		//Assign
-		Frame newFrame = new Frame(9, 1);
+		Frame newFrame = new Frame(10, 1);
 		//Act
 		boolean ris = newFrame.isStrike();
 		//Assert
-		assertEquals(false, ris);
+		assertTrue(ris);
 		
 	}
 
