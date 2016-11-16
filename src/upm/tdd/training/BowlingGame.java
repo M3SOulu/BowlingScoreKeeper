@@ -15,7 +15,10 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		if(frames.get())
+		for(int i=0;i<frames.size();i++){
+			if(frames.get(i).bonus() == 1)
+				frames.get(i).points += frames.get(i+1).getFirstThrow();
+		}
 	}
 	
 	public int score(){
