@@ -62,3 +62,6 @@ RefactoringAction 1479311278822 TestBowlingScoreKeeper.java ADD import junit.fra
 RefactoringAction 1479311284833 TestBowlingScoreKeeper.java REMOVE import junit.framework.Assert IMPORT
 RefactoringAction 1479311287821 TestBowlingScoreKeeper.java ADD import org.junit.Assert IMPORT
 EditAction 1479311306424 TestBowlingScoreKeeper.java 506 2 3 1
+UnitTestCaseAction 1479311315667 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479311315678 TestBowlingScoreKeeper FAIL
+EditAction 1479311347692 BowlingGame.java 1480 5 5 0
