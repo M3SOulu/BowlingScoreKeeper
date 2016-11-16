@@ -30,11 +30,13 @@ public class Frame {
 	// returns whether the frame is a strike or not
 	public boolean isStrike() {
 		return this.firstThrow == MAX_FRAME_SCORE;
+		
 	}
 
 	// return whether a frame is a spare or not
 	public boolean isSpare() {
 		return (this.firstThrow + this.secondThrow) == MAX_FRAME_SCORE;
+		
 	}
 
 	// return whether this is the last frame of the match

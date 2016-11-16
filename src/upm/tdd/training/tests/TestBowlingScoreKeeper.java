@@ -68,6 +68,7 @@ public class TestBowlingScoreKeeper {
 
 		for (int i = 0; i < frameWithSomeStrike.length; i++) {
 			gameWithSomeStrike.addFrame(frameWithSomeStrike[i]);
+			
 		}
 	}
 

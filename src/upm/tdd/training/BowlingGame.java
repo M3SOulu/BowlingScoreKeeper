@@ -29,6 +29,7 @@ public class BowlingGame {
 				 */
 				if (previousFrame.isSpare()) {
 					previousFrame.addToScore(frame.getFirstThrow());
+					
 				}
 
 				/*
