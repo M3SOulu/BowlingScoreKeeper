@@ -57,3 +57,22 @@ EditAction 1479310815343 TestBowlingScoreKeeper.java 316 1 2 0
 CompilationAction 1479310815453 TestBowlingScoreKeeper.java
 EditAction 1479310815470 Frame.java 1312 10 16 0
 EditAction 1479310844274 Frame.java 1316 10 16 0
+CompilationAction 1479310844527 TestBowlingScoreKeeper.java
+RefactoringAction 1479311004628 BowlingGame.java RENAME addFrame(Frame)=>void addFrame(java.awt.Frame) METHOD
+RefactoringAction 1479311016248 BowlingGame.java RENAME addFrame(java.awt.Frame)=>void addFrame(Frame) METHOD
+RefactoringAction 1479311163215 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1479311163216 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+RefactoringAction 1479311559957 TestBowlingScoreKeeper.java RENAME test()=>void test1() METHOD
+RefactoringAction 1479311565467 TestBowlingScoreKeeper.java RENAME test1()=>void testScore() METHOD
+RefactoringAction 1479311566971 TestBowlingScoreKeeper.java RENAME testScore()=>void testScore1() METHOD
+RefactoringAction 1479311570486 TestBowlingScoreKeeper.java RENAME testScore1()=>void testScoreNormal() METHOD
+RefactoringAction 1479311589538 TestBowlingScoreKeeper.java ADD void testScoreNormal()/2 METHOD
+RefactoringAction 1479311593569 TestBowlingScoreKeeper.java RENAME testScoreNormal()/2=>void testScoreNorma2() METHOD
+RefactoringAction 1479311596590 TestBowlingScoreKeeper.java RENAME testScoreNorma2()=>void testScore2() METHOD
+RefactoringAction 1479311819004 TestBowlingScoreKeeper.java RENAME testScore2()=>void testScoreNormal()/2 METHOD
+CompilationAction 1479311856685 TestBowlingScoreKeeper.java
+RefactoringAction 1479311862605 TestBowlingScoreKeeper.java RENAME testScoreNormal()/2=>void testScore() METHOD
+RefactoringAction 1479311885611 TestBowlingScoreKeeper.java RENAME testScore()=>void testScoreS() METHOD
+RefactoringAction 1479311887115 TestBowlingScoreKeeper.java RENAME testScoreS()=>void testScoreSpare() METHOD
+CompilationAction 1479311888225 TestBowlingScoreKeeper.java
+EditAction 1479311926700 TestBowlingScoreKeeper.java 2172 2 42 2
