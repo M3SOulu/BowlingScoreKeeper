@@ -19,7 +19,7 @@ public class TestBowlingScoreKeeper {
 	public void setUp() throws BowlingException {
 		// Act
 		for(int i=0;i<10;i++){
-			partita.addFrame(new Frame());
+			partita.addFrame(new Frame(10,10));
 		}
 
 	}
@@ -31,6 +31,13 @@ public class TestBowlingScoreKeeper {
 		// Act
 		frame11 = new Frame(1, 4);
 		partita.addFrame(frame11);
+	}
+	
+	@Test
+	public void allStrikeInBowlingGame() throws BowlingException{
+		for(int i=0;i<10;i++){
+			partita.addFrame(new Frame(10,10));
+		}
 	}
 	
 	
