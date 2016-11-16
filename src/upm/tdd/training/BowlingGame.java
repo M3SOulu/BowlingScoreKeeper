@@ -30,7 +30,7 @@ public class BowlingGame {
 	 * @throws BowlingException
 	 */
 	public void setBonus( int firstThrow, int secondThrow ) throws BowlingException {
-		if( !isNextFrameBonus() ){
+		if( ! isNextFrameBonus() ){
 			throw new BowlingException();
 		}
 		
