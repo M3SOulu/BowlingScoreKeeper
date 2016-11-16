@@ -184,3 +184,6 @@ RefactoringAction 1479313959902 BowlingException.java RENAME BowlingException()=
 RefactoringAction 1479313973454 BowlingException.java ADD BowlingException() METHOD
 EditAction 1479313976953 BowlingException.java 239 2 1 0
 EditAction 1479314062449 TestFrame.java 1342 5 18 13
+UnitTestCaseAction 1479314063859 TestFrame.java OK
+UnitTestSessionAction 1479314063859 TestFrame OK
+EditAction 1479314084071 TestFrame.java 1386 5 19 14

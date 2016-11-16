@@ -42,6 +42,7 @@ public class TestFrame {
 	
 	@Test
 	public void test_of_strike() {
+		Assert.assertTrue(fr_strike.isStrike());
 		Assert.assertEquals(10, fr_strike.getFirstThrow());
 		Assert.assertEquals(0, fr_strike.getSecondThrow());
 		Assert.assertEquals(19, fr_strike.score()+fr_bonus.score());
