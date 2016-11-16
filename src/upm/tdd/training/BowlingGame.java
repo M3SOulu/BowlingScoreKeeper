@@ -32,7 +32,7 @@ public class BowlingGame {
 		for(int i = 2; i < frames.size(); i++){
 			index = i;
 			if(isNextFrameBonus()){
-			this.score += (frames.get(i - 2).score()+frames.get(i-1).bonus());
+			
 				if(frames.get(i-1).isStrike()){
 					this.score +=  frames.get(i).bonus();
 				}

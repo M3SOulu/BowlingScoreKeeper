@@ -279,3 +279,6 @@ RefactoringAction 1479316996424 TestBowlingScoreKeeper.java REMOVE test() METHOD
 RefactoringAction 1479316998688 TestBowlingScoreKeeper.java ADD void tutti_10_score_equals_300() METHOD
 RefactoringAction 1479316998689 TestBowlingScoreKeeper.java ADD void test() METHOD
 EditAction 1479317000199 TestBowlingScoreKeeper.java 1472 4 27 2
+UnitTestCaseAction 1479317005025 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479317005026 TestBowlingScoreKeeper FAIL
+EditAction 1479317026054 BowlingGame.java 1488 5 7 0
