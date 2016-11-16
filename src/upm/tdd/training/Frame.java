@@ -50,6 +50,6 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		return this.score() + this.bonusThrow;
+		return this.bonusThrow;
 	}
 }
