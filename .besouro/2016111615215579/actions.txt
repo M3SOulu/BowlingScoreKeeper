@@ -92,3 +92,12 @@ RefactoringAction 1479312615553 TestBowlingScoreKeeper.java ADD void firstFrameS
 RefactoringAction 1479312624063 TestBowlingScoreKeeper.java RENAME firstFrameSimpleScore()/2=>void firstFrame() METHOD
 RefactoringAction 1479312626567 TestBowlingScoreKeeper.java RENAME firstFrame()=>void firstFrameIsStrike() METHOD
 EditAction 1479312666825 TestBowlingScoreKeeper.java 746 3 10 2
+UnitTestCaseAction 1479312667317 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312667318 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479312722391 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312722392 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479312749653 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312749654 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479312788204 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312788205 TestBowlingScoreKeeper FAIL
+EditAction 1479312967372 BowlingGame.java 1935 9 19 0

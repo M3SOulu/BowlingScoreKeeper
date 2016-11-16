@@ -34,6 +34,7 @@ public class TestBowlingScoreKeeper {
 		frame = new Frame(10,0);
 		game.addFrame(frame);
 		frame = new Frame(4,3);
+		game.addFrame(frame);
 		int score = game.score();
 		
 		//Assert
