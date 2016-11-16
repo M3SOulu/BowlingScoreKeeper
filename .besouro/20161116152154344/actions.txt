@@ -95,3 +95,11 @@ RefactoringAction 1479312028590 BowlingGame.java RENAME setFrames=>void setFrame
 RefactoringAction 1479312046158 BowlingGame.java RENAME setFrames()=>void setFrames(ArrayList<Frame>) METHOD
 EditAction 1479312063606 BowlingGame.java 1523 6 13 0
 EditAction 1479312063795 TestBowlingScoreKeeper.java 294 1 1 0
+CompilationAction 1479312064827 TestBowlingScoreKeeper.java
+CompilationAction 1479312064827 TestBowlingScoreKeeper.java
+CompilationAction 1479312074717 TestBowlingScoreKeeper.java
+CompilationAction 1479312074895 TestBowlingScoreKeeper.java
+CompilationAction 1479312074896 TestBowlingScoreKeeper.java
+CompilationAction 1479312079349 TestBowlingScoreKeeper.java
+CompilationAction 1479312079350 TestBowlingScoreKeeper.java
+EditAction 1479312169925 TestBowlingScoreKeeper.java 293 1 1 0

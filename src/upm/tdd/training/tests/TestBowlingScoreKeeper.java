@@ -8,8 +8,8 @@ import upm.tdd.training.BowlingGame;
 
 public class TestBowlingScoreKeeper {
 
-	BowlingGame testGame = new BowlingGame();
-	testGame 
+	private BowlingGame testGame = new BowlingGame();
+	
 	
 	@Test
 	public void test() {
