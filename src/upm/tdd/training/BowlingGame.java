@@ -21,7 +21,9 @@ public class BowlingGame {
 	
 	public int score() throws BowlingException{
 		int totScore = 0;
+		
 		int bonusThrowsNum = 0;
+		
 		for(Frame f : frames){
 			switch(bonusThrowsNum){
 			case 1: totScore += f.getFirstThrow();
