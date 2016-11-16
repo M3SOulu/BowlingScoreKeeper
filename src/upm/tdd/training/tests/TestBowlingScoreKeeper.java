@@ -24,7 +24,7 @@ public class TestBowlingScoreKeeper {
 	}
 
 	@Test
-	public void BowlingException() throws BowlingException {
+	public void maxScoreBowlingGame() throws BowlingException {
 		// Arrange
 		Frame frame = new Frame(10, 0);
 		// Act

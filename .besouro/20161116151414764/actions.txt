@@ -68,3 +68,8 @@ UnitTestCaseAction 1479314141059 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314141060 TestBowlingScoreKeeper FAIL
 EditAction 1479314269749 BowlingGame.java 1635 6 15 0
 EditAction 1479314269893 TestBowlingScoreKeeper.java 858 4 5 1
+UnitTestCaseAction 1479314270600 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314270600 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314307226 TestBowlingScoreKeeper.java RENAME BowlingException()=>void maxScore() METHOD
+RefactoringAction 1479314316734 TestBowlingScoreKeeper.java RENAME maxScore()=>void maxScoreBowlingGame() METHOD
+EditAction 1479314330518 TestBowlingScoreKeeper.java 861 4 5 1
