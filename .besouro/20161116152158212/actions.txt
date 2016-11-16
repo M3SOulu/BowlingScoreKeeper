@@ -410,3 +410,5 @@ RefactoringAction 1479315756863 BowlingGame.java ADD int get FIELD
 RefactoringAction 1479315759375 BowlingGame.java RENAME get=>int getBonusScore FIELD
 RefactoringAction 1479315761381 BowlingGame.java RENAME getBonusScore=>int METHOD
 EditAction 1479315784524 BowlingGame.java 1748 6 12 0
+CompilationAction 1479315784775 BowlingGame.java
+EditAction 1479315826268 BowlingGame.java 1893 6 13 0

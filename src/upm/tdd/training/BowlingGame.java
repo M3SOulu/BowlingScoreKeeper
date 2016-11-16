@@ -68,7 +68,12 @@ public class BowlingGame {
 	{
 		Frame lastFrame = frames.get( frames.size() - 1 );
 		
-		
+		if( lastFrame.isSpare() ){
+			return lastFrame.getFirstThrow();
+		}
+		else{
+			return lastFrame.getFirstThrow() + lastFrame.getSecondThrow();
+		}
 	}
 	
 	/**
