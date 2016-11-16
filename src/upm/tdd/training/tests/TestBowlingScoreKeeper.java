@@ -44,6 +44,11 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
+	public void testScoreNormal2() {
+		assertEquals(game.score(), 33);
+	}
+	
+	@Test
 	public void testScoreSpare() {
 		game.getFrames().get(0).setFirstThrow(0);
 		game.getFrames().get(0).setSecondThrow(0);
