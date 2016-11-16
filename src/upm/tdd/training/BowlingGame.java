@@ -12,10 +12,10 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		Frame previous = null;
 		Frame previousOfPrevious = null; 
-		
+		frame.setBonusPoints(49);
 		if (frames.size() > 0) {
 			previous = frames.get(frames.size()-1);
-			frame.setBonusPoints(49);
+		
 		} 
 		
 		if (frames.size() > 1) {
