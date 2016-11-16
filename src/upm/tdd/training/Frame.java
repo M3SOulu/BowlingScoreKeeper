@@ -22,6 +22,7 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	
 	//the score of a single frame
 	public int score(){
 		return (isStrike())? 20 : firstThrow+secondThrow;
