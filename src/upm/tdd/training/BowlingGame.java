@@ -7,7 +7,9 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
-	public BowlingGame(){}
+	public BowlingGame(){
+		
+	}
 	
 	public void addFrame(Frame frame){
 		frames.add(frame);	
@@ -19,8 +21,10 @@ public class BowlingGame {
 	
 	public int score(){
 		int totScore = 0;
-		for(Frame f : frames){
-			
+		int bonusThrowsNum = 0;
+		for(Frame f : frames){			
+			totScore += f.score();
+			if(f.isSpare()) totScore += 
 		}
 		return totScore;
 	}
