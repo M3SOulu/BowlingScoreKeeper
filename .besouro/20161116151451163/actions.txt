@@ -120,3 +120,12 @@ EditAction 1479310242987 BowlingGame.java 585 5 2 0
 CompilationAction 1479310243219 BowlingGame.java
 CompilationAction 1479310431404 BowlingGame.java
 EditAction 1479310463041 BowlingGame.java 666 5 5 0
+RefactoringAction 1479310501351 TestBowlingScoreKeeper.java RENAME test()=>void testAddFrame() METHOD
+RefactoringAction 1479310530407 TestBowlingScoreKeeper.java ADD void setUp() METHOD
+RefactoringAction 1479310535181 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479310546446 TestBowlingScoreKeeper.java ADD Frame newFrame FIELD
+RefactoringAction 1479310550438 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479310585970 TestBowlingScoreKeeper.java ADD BowlingGame newGame FIELD
+RefactoringAction 1479310587725 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479310611682 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+EditAction 1479310629815 TestBowlingScoreKeeper.java 475 2 2 0
