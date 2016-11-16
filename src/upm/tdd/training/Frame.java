@@ -33,10 +33,13 @@ public class Frame {
 	}
 
 	//bonus throws
-	public int bonus(){
-		if(isStrike()) return 2;
-		else if(isSpare()) return 1;
-		else return 0;
+	public int bonus() throws BowlingException{
+		if(!isLastFrame()) throw new BowlingException();
+		else{
+			if(isStrike()) return 2;
+			else if(isSpare()) return 1;
+			else return 0;
+		}
 	}
 
 
