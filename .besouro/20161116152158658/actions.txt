@@ -166,3 +166,9 @@ UnitTestCaseAction 1479313743328 TestFrame.java OK
 UnitTestSessionAction 1479313743329 TestFrame OK
 RefactoringAction 1479313747259 TestFrame.java RENAME test_of_frames()=>void test_of_frame1() METHOD
 EditAction 1479313749038 TestFrame.java 656 2 8 3
+RefactoringAction 1479313755791 TestFrame.java ADD void test_of_frame1()/2 METHOD
+RefactoringAction 1479313757317 TestFrame.java ADD void test_of_frame1()/3 METHOD
+RefactoringAction 1479313761342 TestFrame.java RENAME test_of_frame1()/3=>void test_of_frame3() METHOD
+RefactoringAction 1479313763350 TestFrame.java RENAME test_of_frame1()/2=>void test_of_frame2() METHOD
+RefactoringAction 1479313792925 TestFrame.java RENAME test_of_frame3()=>void test_of_strike() METHOD
+EditAction 1479313843464 TestFrame.java 1071 4 14 9

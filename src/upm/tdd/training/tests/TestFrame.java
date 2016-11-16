@@ -31,5 +31,21 @@ public class TestFrame {
 		Assert.assertEquals(9, fr1.score());
 		
 	}
+	
+	@Test
+	public void test_of_frame2() {
+		Assert.assertEquals(7, fr2.getFirstThrow());
+		Assert.assertEquals(2, fr2.getSecondThrow());
+		Assert.assertEquals(9, fr2.score());
+		
+	}
+	
+	@Test
+	public void test_of_strike() {
+		Assert.assertEquals(10, fr_strike.getFirstThrow());
+		Assert.assertEquals(0, fr_strike.getSecondThrow());
+		Assert.assertEquals(19, fr_strike.score()+fr_bonus.score());
+		
+	}
 
 }
