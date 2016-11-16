@@ -34,5 +34,6 @@ public class BowlingGame {
 			Frame tenthFrame = frames.get(9); 
 			return tenthFrame.isSpare() || tenthFrame.isStrike();
 		}*/
+		return false;
 	}
 }
