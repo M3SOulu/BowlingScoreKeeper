@@ -45,6 +45,7 @@ public class TestBowlingScoreKeeper {
 		Assert.assertEquals(110, game.score());
 	}
 	
+	
 	@Test
 	public void testAllNineAndOneScore() throws BowlingException {
 		Frame f = new Frame(9,1);

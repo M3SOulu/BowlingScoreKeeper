@@ -8,3 +8,5 @@
 1479314938871 test-addition 1 41 true
 1479314989364 test-addition 1 40 true
 1479316346088 test-first 1 1342 true
+1479316504863 test-addition 2 134 true
+1479316524790 regression 1 0 false

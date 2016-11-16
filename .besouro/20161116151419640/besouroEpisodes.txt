@@ -740,3 +740,8 @@
 1479316346309 test-first 1 1342 true
 1479316346310 test-first 1 1342 true
 1479316346311 test-first 1 1342 true
+1479316504863 test-addition 2 134 true
+1479316504864 test-addition 1 134 true
+1479316504865 test-addition 2 134 true
+1479316504866 test-addition 1 134 true
+1479316524790 regression 1 0 true
