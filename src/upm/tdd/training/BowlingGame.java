@@ -9,7 +9,7 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
-	public void addFrame(Frame frame){
+	public void addFrame( Frame frame ){
 		frames.add( frame );
 	}
 	
