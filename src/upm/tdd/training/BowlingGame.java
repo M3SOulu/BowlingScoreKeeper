@@ -40,6 +40,6 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus(){
-		return (frames.get(index - 2).bonus() != 0);
+		return (frames.get(index - 2).isSpare() || frames.get(index - 2).isStrike());
 	}
 }

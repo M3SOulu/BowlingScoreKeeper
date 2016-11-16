@@ -97,3 +97,4 @@ RefactoringAction 1479311987652 BowlingGame.java RENAME inde=>int index FIELD
 RefactoringAction 1479312016481 BowlingGame.java REMOVE index FIELD
 RefactoringAction 1479312024047 BowlingGame.java ADD int index FIELD
 EditAction 1479312089289 BowlingGame.java 990 5 4 0
+EditAction 1479312133193 BowlingGame.java 1023 5 4 0
