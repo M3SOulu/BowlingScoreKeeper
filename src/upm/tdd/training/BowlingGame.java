@@ -16,7 +16,7 @@ public class BowlingGame {
 	}
 
 	public void addFrame(Frame frame) throws BowlingException {
-		if (frames.size() == 10)
+		if (isFull())
 			throw new BowlingException();
 		frames.add(frame);
 	}
@@ -58,6 +58,11 @@ public class BowlingGame {
 	}
 
 	public boolean isFull(){
-		return frames.size();
+		if(frames.size()==10){
+			return true;
+		}else{
+			return false;
+		}
+		
 	}
 }
