@@ -4,40 +4,51 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	
-	public Frame(int firstThrow, int secondThrow){
+		
+
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+
+	public int getSecondThrow() {
+		return secondThrow;
+	}
+
+
+	//constructor
+	public Frame(int firstThrow, int secondThrow) {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
 	
+	
 	//the score of a single frame
 	public int score(){
-		//to be implemented
-		return 0;
+		return (isStrike())? 20 : firstThrow+secondThrow;
 	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		//to be implemented
-		return false;
+		return firstThrow == 10;
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		return (firstThrow + secondThrow) == 10;
 	}
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
+		
 		return false;
 	}
 
 	//bonus throws
-	public int bonus(){
-		//to be implemented
-		return 0;
+	public int bonus() {
+		if(isSpare()) return 1;
+		else if(isStrike()) return 2;
+		else return 0;
 	}
 
 
