@@ -17,7 +17,9 @@ public class Frame {
 	 * @throws BowlingException
 	 */
 	public Frame( int firstThrow, int secondThrow ) throws BowlingException{
-		if( firstThrow > 10 || secondThrow > 10 || (firstThrow + secondThrow) > 10 ){
+		if( firstThrow > MAX_NUMBER_OF_PINS || 
+				secondThrow > MAX_NUMBER_OF_PINS || 
+				(firstThrow + secondThrow) > MAX_NUMBER_OF_PINS ){
 			throw new BowlingException();
 		}
 		
