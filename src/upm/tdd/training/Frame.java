@@ -60,7 +60,7 @@ public class Frame {
 	}
 
 	//bonus throws
-	public int bonus() throws BowlingException{
+	public int bonus(){
 		if(!isLastFrame()) return 0;
 		else{
 			if(isStrike()) return 2;
