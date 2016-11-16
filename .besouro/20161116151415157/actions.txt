@@ -235,3 +235,10 @@ RefactoringAction 1479314122371 TestBowlingScoreKeeper.java RENAME initializeTes
 RefactoringAction 1479314123890 TestBowlingScoreKeeper.java RENAME initializeTestWithSome()=>void initializeTestWithSomeS() METHOD
 RefactoringAction 1479314126906 TestBowlingScoreKeeper.java RENAME initializeTestWithSomeS()=>void initializeTestWithSomeSpare() METHOD
 EditAction 1479314441211 TestBowlingScoreKeeper.java 1106 3 4 1
+RefactoringAction 1479314566516 TestBowlingScoreKeeper.java REMOVE import org.junit.runners.Parameterized IMPORT
+RefactoringAction 1479314566516 TestBowlingScoreKeeper.java REMOVE import org.junit.runners.Parameterized.Parameters IMPORT
+RefactoringAction 1479314566517 TestBowlingScoreKeeper.java REMOVE import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479314569522 TestBowlingScoreKeeper.java REMOVE import java.util.Arrays IMPORT
+RefactoringAction 1479314569522 TestBowlingScoreKeeper.java REMOVE import java.util.Collection IMPORT
+RefactoringAction 1479314633515 Frame.java ADD void addBonusThrow() METHOD
+EditAction 1479314661831 Frame.java 1412 11 11 0

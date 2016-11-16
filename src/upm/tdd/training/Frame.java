@@ -61,4 +61,8 @@ public class Frame {
 		return firstThrow < 0 || firstThrow > 10 || secondThrow < 0 || secondThrow > 10;
 	}
 
+	public void addBonusThrow() {
+		frameScore += this.bonusThrow;
+	}
+
 }

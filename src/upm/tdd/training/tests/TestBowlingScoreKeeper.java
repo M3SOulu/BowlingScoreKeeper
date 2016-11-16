@@ -2,19 +2,12 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
-import java.util.Arrays;
-import java.util.Collection;
-
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
 
 import upm.tdd.training.BowlingException;
 import upm.tdd.training.BowlingGame;
 import upm.tdd.training.Frame;
-
 
 public class TestBowlingScoreKeeper {
 
@@ -31,17 +24,15 @@ public class TestBowlingScoreKeeper {
 			gameWithoutSpareOrStrike.addFrame(frameWithoutSpareOrStrike[i]);
 		}
 	}
-	
+
 	@Test
 	public void testTotalScoreWithoutSpareOrStrike() throws BowlingException {
 		assertEquals(90, gameWithoutSpareOrStrike.score());
 	}
-	
+
 	@Before
-	public void initializeTestWithSomeSpare(){
-		
+	public void initializeTestWithSomeSpare() {
+
 	}
-
-
 
 }

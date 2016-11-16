@@ -36,7 +36,7 @@ public class BowlingGame {
 				 * frame the point of the actual frame's score
 				 */
 				if (previousFrame.isStrike()) {
-					previousFrame.addToScore(frame.score());
+					previousFrame.addToScore(frame.getFirstThrow() + frame.getSecondThrow());
 				}
 
 				/*
