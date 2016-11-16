@@ -376,3 +376,9 @@ CompilationAction 1479315457682 BowlingGame.java
 CompilationAction 1479315462292 BowlingGame.java
 RefactoringAction 1479315470759 TestBowlingGameException.java ADD void eleventhFrameSholudNotAccepted()/2 METHOD
 EditAction 1479315478791 TestBowlingGameException.java 840 3 5 0
+CompilationAction 1479315478932 TestBowlingGameException.java
+RefactoringAction 1479315490322 TestBowlingGameException.java RENAME eleventhFrameSholudNotAccepted()/2=><initializer /1> null
+RefactoringAction 1479315499839 TestBowlingGameException.java RENAME <initializer /1>=>void BowlingGameNot() METHOD
+RefactoringAction 1479315503360 TestBowlingGameException.java RENAME BowlingGameNot()=>void BowlingGameNotInitialized() METHOD
+CompilationAction 1479315504961 TestBowlingGameException.java
+EditAction 1479315507438 TestBowlingScoreKeeper.java 879 3 6 2

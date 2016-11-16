@@ -30,7 +30,7 @@ public class TestBowlingGameException {
 	}
 	
 	@Test(expected = BowlingException.class)
-	public void eleventhFrameSholudNotAccepted() throws BowlingException {
+	public void BowlingGameNotInitialized() throws BowlingException {
 		partita.score();
 	}
 

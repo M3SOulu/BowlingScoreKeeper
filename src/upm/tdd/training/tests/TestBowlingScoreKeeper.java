@@ -21,7 +21,6 @@ public class TestBowlingScoreKeeper {
 		}
 
 	}
-
 	
 	@Test
 	public void allStrikeInBowlingGamePoint() throws BowlingException{
@@ -42,6 +41,8 @@ public class TestBowlingScoreKeeper {
 		//Assert
 		assertEquals(10,frame11.score());
 	}
+	
+	
 	
 	
 	
