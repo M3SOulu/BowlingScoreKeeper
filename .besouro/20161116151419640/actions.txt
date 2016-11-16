@@ -228,3 +228,4 @@ UnitTestSessionAction 1479313477319 TestBowlingScoreKeeper OK
 RefactoringAction 1479313499023 TestBowlingScoreKeeper.java REMOVE testAllZerosScore() METHOD
 RefactoringAction 1479313499024 TestBowlingScoreKeeper.java REMOVE testMoreThanElevenThrowsBowlingException() METHOD
 EditAction 1479313500718 TestBowlingScoreKeeper.java 954 4 9 2
+EditAction 1479313587895 BowlingGame.java 1329 6 12 0
