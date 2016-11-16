@@ -75,3 +75,16 @@ EditAction 1479310605781 BowlingGame.java 688 5 7 0
 UnitTestCaseAction 1479310609458 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479310609458 TestBowlingScoreKeeper FAIL
 EditAction 1479310625051 TestFrame.java 591 3 2 0
+UnitTestCaseAction 1479310626493 TestFrame.java OK
+UnitTestSessionAction 1479310626499 TestFrame OK
+RefactoringAction 1479310639976 TestFrame.java ADD void testInitFrameExceptionLessThanZero1()/2 METHOD
+RefactoringAction 1479310639976 TestFrame.java ADD void testInitFrameExceptionLessThanZero2()/2 METHOD
+RefactoringAction 1479310645986 TestFrame.java RENAME testInitFrameExceptionLessThanZero1()/2=>void testInitFrameExceptionLessThanZero() METHOD
+RefactoringAction 1479310647018 TestFrame.java RENAME testInitFrameExceptionLessThanZero()=>void testInitFrameExceptionLessThanZero3() METHOD
+RefactoringAction 1479310650525 TestFrame.java RENAME testInitFrameExceptionLessThanZero2()/2=>void testInitFrameExceptionLessThanZero() METHOD
+RefactoringAction 1479310654033 TestFrame.java RENAME testInitFrameExceptionLessThanZero()=>void testInitFrameExceptionLessThan() METHOD
+RefactoringAction 1479310656042 TestFrame.java RENAME testInitFrameExceptionLessThan()=>void testInitFrameExceptionLessThan10() METHOD
+RefactoringAction 1479310677080 TestFrame.java RENAME testInitFrameExceptionLessThan10()=>void testInitFrameExceptionLessThanTen1() METHOD
+RefactoringAction 1479310686599 TestFrame.java RENAME testInitFrameExceptionLessThanTen1()=>void testInitFrameExceptionMorThanTen1() METHOD
+RefactoringAction 1479310687615 TestFrame.java RENAME testInitFrameExceptionMorThanTen1()=>void testInitFrameExceptionMoreThanTen1() METHOD
+EditAction 1479310693656 TestFrame.java 896 5 4 0

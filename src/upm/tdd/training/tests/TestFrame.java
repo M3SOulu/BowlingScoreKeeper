@@ -25,4 +25,13 @@ public class TestFrame {
 	public void testInitFrameExceptionLessThanZero2() throws BowlingException{
 		p = new Frame(-3,  1);
 	}
+	@Test (expected = BowlingException.class)
+	public void testInitFrameExceptionLessThanZero3() throws BowlingException {
+		p = new Frame(-3,-10);
+	}
+	
+	@Test (expected = BowlingException.class)
+	public void testInitFrameExceptionMoreThanTen1() throws BowlingException{
+		p = new Frame(11,  1);
+	}
 }
