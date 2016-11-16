@@ -252,3 +252,19 @@ UnitTestCaseAction 1479316033590 TestBowlingScoreKeeper.java OK
 UnitTestSessionAction 1479316033591 TestBowlingScoreKeeper OK
 RefactoringAction 1479316048828 TestBowlingScoreKeeper.java ADD void testScoreStrikeAndSpareAn()/2 METHOD
 EditAction 1479316091855 TestBowlingScoreKeeper.java 3325 6 108 6
+CompilationAction 1479316092027 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479316100369 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316100372 TestBowlingScoreKeeper OK
+RefactoringAction 1479316109025 TestBowlingScoreKeeper.java RENAME testScoreStrikeAndSpareAn()/2=>void testScoreStrikeAndSpareAn2() METHOD
+RefactoringAction 1479316117055 TestBowlingScoreKeeper.java RENAME testScoreStrikeAndSpareAn2()=>void testScoreStrikeSpareAn2() METHOD
+RefactoringAction 1479316119601 TestBowlingScoreKeeper.java RENAME testScoreStrikeSpareAn2()=>void testScoreStrikeSpareAnd2() METHOD
+RefactoringAction 1479316121611 TestBowlingScoreKeeper.java RENAME testScoreStrikeSpareAnd2()=>void testScoreStrikeSpareAndB2() METHOD
+RefactoringAction 1479316126627 TestBowlingScoreKeeper.java RENAME testScoreStrikeSpareAndB2()=>void testScoreStrikeSpareAndFinalBonus2() METHOD
+RefactoringAction 1479316133639 TestBowlingScoreKeeper.java RENAME testScoreStrikeAndSpareAn()=>void testScoreStrikeAndSpareAndFinalBonus2() METHOD
+RefactoringAction 1479316136645 TestBowlingScoreKeeper.java RENAME testScoreStrikeAndSpareAndFinalBonus2()=>void testScoreStrikeAndSpareAndFinalBonus1() METHOD
+CompilationAction 1479316137224 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479316139768 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316139768 TestBowlingScoreKeeper.testScoreStrikeAndSpareAndFinalBonus1 OK
+UnitTestCaseAction 1479316158486 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316158491 TestBowlingScoreKeeper FAIL
+EditAction 1479316235793 BowlingGame.java 1180 8 11 0

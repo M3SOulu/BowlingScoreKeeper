@@ -94,7 +94,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void testScoreStrikeAndSpareAn() {
+	public void testScoreStrikeAndSpareAndFinalBonus1() {
 		Frame f1 = new Frame(10,0);
 		Frame f2 = new Frame(1,9);
 		Frame f3 = new Frame(1,0);
@@ -119,7 +119,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void testScoreStrikeAndSpareAn() {
+	public void testScoreStrikeSpareAndFinalBonus2() {
 		Frame f1 = new Frame(10,0);
 		Frame f2 = new Frame(1,9);
 		Frame f3 = new Frame(1,0);
