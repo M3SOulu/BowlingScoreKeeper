@@ -171,3 +171,6 @@ UnitTestSessionAction 1479314506238 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479314522425 TestBowlingScoreKeeper.java ADD void testScoreNormal()/2 METHOD
 RefactoringAction 1479314529934 TestBowlingScoreKeeper.java RENAME testScoreNormal()/2=>void testScoreNormal2() METHOD
 EditAction 1479314530355 TestBowlingScoreKeeper.java 1985 4 44 4
+UnitTestCaseAction 1479314532113 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314532114 TestBowlingScoreKeeper.testScoreNormal2 FAIL
+EditAction 1479314556343 TestBowlingScoreKeeper.java 2003 4 44 4
