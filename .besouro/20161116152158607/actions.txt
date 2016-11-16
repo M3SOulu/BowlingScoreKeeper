@@ -193,3 +193,6 @@ RefactoringAction 1479314343834 TestBowlingScoreKeeper.java REMOVE tutti_10_scor
 RefactoringAction 1479314343834 TestBowlingScoreKeeper.java REMOVE test() METHOD
 RefactoringAction 1479314347751 TestBowlingScoreKeeper.java ADD void test() METHOD
 EditAction 1479314353094 TestBowlingScoreKeeper.java 1476 3 15 1
+FileOpenedAction 1479314410638 BowlingGame.java 1554 5 7 0
+FileOpenedAction 1479314411670 BowlingGame.java 1554 5 7 0
+EditAction 1479314519610 BowlingGame.java 1554 5 7 0
