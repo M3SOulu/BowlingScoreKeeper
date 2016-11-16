@@ -170,3 +170,6 @@ RefactoringAction 1479312587663 TestBowlingScoreKeeper.java REMOVE test() METHOD
 RefactoringAction 1479312590167 TestBowlingScoreKeeper.java ADD void test() METHOD
 EditAction 1479312592582 TestBowlingScoreKeeper.java 798 2 2 0
 EditAction 1479312610924 TestBowlingScoreKeeper.java 794 2 3 0
+UnitTestCaseAction 1479312611415 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312611416 TestBowlingScoreKeeper FAIL
+EditAction 1479312666195 BowlingGame.java 1654 5 3 0

@@ -36,12 +36,13 @@ public class BowlingGame {
 				if (frames.get(frames.size() - 1).isStrike()) {
 					frames.get(frames.size() - 1).addToScore(frame.score());
 				}
+
+				/*
+				 * add to the actual frame the current score
+				 */
+				frames.get(frames.size()).addToScore(frames.get(frames.size() - 1).score());
 			}
 
-			/*
-			 * add to the actual frame the current score
-			 */
-			frames.get(frames.size()).addToScore(frames.get(frames.size() - 1).score());
 		}
 	}
 
