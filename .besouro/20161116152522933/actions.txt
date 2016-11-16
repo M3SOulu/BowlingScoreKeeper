@@ -28,3 +28,18 @@ RefactoringAction 1479308459936 Frame.java REMOVE id FIELD
 RefactoringAction 1479308459936 Frame.java REMOVE numFrame FIELD
 FileOpenedAction 1479309004570 TestBowlingScoreKeeper.java 197 1 1 0
 EditAction 1479309042309 BowlingGame.java 686 5 7 0
+RefactoringAction 1479309096679 TestBowlingScoreKeeper.java ADD import org.junit.runners.Suite.SuiteClasses IMPORT
+RefactoringAction 1479309236399 TestBowlingScoreKeeper.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479309241923 TestBowlingScoreKeeper.java ADD import org.junit.runners.Suite IMPORT
+RefactoringAction 1479309346734 TestFrame.java ADD void test() METHOD
+RefactoringAction 1479309346742 TestFrame.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479309346757 TestFrame.java ADD TestFrame.java CLASS
+FileOpenedAction 1479309347096 TestFrame.java 198 1 1 0
+RefactoringAction 1479309368279 TestBowlingScoreKeeper.java REMOVE test() METHOD
+RefactoringAction 1479309379811 TestBowlingScoreKeeper.java REMOVE import org.junit.Assert.* IMPORT
+RefactoringAction 1479309383840 TestBowlingScoreKeeper.java REMOVE import org.junit.Test IMPORT
+RefactoringAction 1479309398219 TestFrame.java RENAME test()=>void testInit() METHOD
+RefactoringAction 1479309401242 TestFrame.java RENAME testInit()=>void testInitFrame() METHOD
+RefactoringAction 1479309432870 TestFrame.java ADD import upm.tdd.training.BowlingException IMPORT
+RefactoringAction 1479309487193 TestFrame.java ADD import upm.tdd.training.Frame IMPORT
+EditAction 1479309510389 TestFrame.java 344 1 1 0
