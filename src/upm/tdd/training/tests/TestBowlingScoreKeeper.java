@@ -10,22 +10,24 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
+import upm.tdd.training.BowlingGame;
 
-@RunWith(Parameterized.class)
+
+//@RunWith(Parameterized.class)
 public class TestBowlingScoreKeeper {
 	
-	@Parameters
+	/*@Parameters
 	public static Collection<Object[]> data() {
 		return Arrays.asList(new Object[][] { { "IIII" }, { "XXXX" }, { "CCCC" }, { "XXXX" }, { "MMMM" }, { "VV" },
 				{ "LL" }, { "DD" }, { "IIV" }, { "IIX" }, { "XXL" }, { "XXC" }, { "CCD" }, { "CCM" }
 
 		});
-	}
+	}*/
 	
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		BowlingGame game = new BowlingGame();
 	}
 
 }

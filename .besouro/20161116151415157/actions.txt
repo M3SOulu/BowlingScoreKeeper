@@ -80,3 +80,8 @@ RefactoringAction 1479311499209 TestBowlingScoreKeeper.java ADD import org.junit
 RefactoringAction 1479311501959 TestBowlingScoreKeeper.java ADD import java.util.Collection IMPORT
 RefactoringAction 1479311505020 TestBowlingScoreKeeper.java ADD import java.util.Arrays IMPORT
 EditAction 1479311530682 TestBowlingScoreKeeper.java 678 2 2 0
+RefactoringAction 1479311552309 TestBowlingScoreKeeper.java REMOVE data() METHOD
+RefactoringAction 1479311552310 TestBowlingScoreKeeper.java REMOVE test() METHOD
+RefactoringAction 1479311554319 TestBowlingScoreKeeper.java ADD void test() METHOD
+RefactoringAction 1479311570355 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+EditAction 1479311578030 TestBowlingScoreKeeper.java 731 1 1 0
