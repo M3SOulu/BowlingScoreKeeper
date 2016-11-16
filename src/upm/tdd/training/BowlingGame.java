@@ -21,15 +21,18 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		int totScore = 0;
+		for(Frame f : frames){
+			
+		}
+		return totScore;
 	}
 	
-	public boolean isNextFrameBonus() throws BowlingException{
-		if(frameIndex<10) throw new BowlingException();
+	public boolean isNextFrameBonus(){
+		/*if(frameIndex<10) throw new BowlingException();
 		else{
 			Frame tenthFrame = frames.get(9); 
 			return tenthFrame.isSpare() || tenthFrame.isStrike();
-		}
+		}*/
 	}
 }
