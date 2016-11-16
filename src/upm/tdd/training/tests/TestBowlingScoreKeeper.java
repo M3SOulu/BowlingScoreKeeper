@@ -131,7 +131,7 @@ public class TestBowlingScoreKeeper {
 		BowlingGame.addFrame(frameBonus);
 		
 		//Assert
-		assertEquals(133, BowlingGame.score());
+		assertEquals(300, BowlingGame.score());
 		
 	}
 
