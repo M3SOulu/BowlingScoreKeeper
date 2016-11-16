@@ -12,7 +12,7 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame) throws BowlingException{
 		if (frames.size() >= MAX_FRAMES)
-			throw new BowlingException();
+			throw new BowlingException("Partita terminata.");
 		frames.add(frame);
 	}
 	
@@ -20,13 +20,18 @@ public class BowlingGame {
 		bonus = new Frame (firstThrow, secondThrow);
 	}
 	
-	public int score(){
-		//to be implemented
-		return 0;
+	public int score() throws BowlingException{
+		if (frames.size() < 10)
+			throw new BowlingException("Partita non terminata.");
+		int result = 0;
+		for (Frame frame : frames){
+			result += frame.score();
+		}
+		return result;
 	}
 	
 	public boolean isNextFrameBonus(){
-		//to be implemented
+		
 		return false;
 	}
 }

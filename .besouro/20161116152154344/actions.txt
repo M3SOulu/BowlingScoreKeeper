@@ -63,3 +63,7 @@ RefactoringAction 1479309389790 BowlingGame.java ADD BowlingGame() METHOD
 CompilationAction 1479309395442 BowlingGame.java
 CompilationAction 1479309395442 BowlingGame.java
 EditAction 1479309574549 BowlingGame.java 697 5 5 0
+RefactoringAction 1479309926256 BowlingGame.java ADD Frame lastPlayedFrame FIELD
+RefactoringAction 1479309940814 BowlingGame.java REMOVE lastPlayedFrame FIELD
+RefactoringAction 1479310473376 BowlingException.java ADD BowlingException(String) METHOD
+EditAction 1479310569375 BowlingGame.java 868 5 8 0
