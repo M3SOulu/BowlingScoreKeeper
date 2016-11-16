@@ -32,6 +32,11 @@ public class BowlingGame {
 			else if(f.isStrike()) bonusThrowsNum = 2;
 			else bonusThrowsNum = 0;
 		}
+		switch(bonusThrowsNum){
+		case 1: totScore += bonus.getFirstThrow();
+		case 2: totScore += bonus.score();
+		}
+		
 		return totScore;
 	}
 	
