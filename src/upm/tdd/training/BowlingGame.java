@@ -33,7 +33,7 @@ public class BowlingGame {
 	}
 	
 	public int score() throws BowlingException{
-		if(frames.size()<10) throw new BowlingException();
+		if(frames.size() < 10) throw new BowlingException();
 		
 		int totScore = 0;
 		
