@@ -1,0 +1,30 @@
+FileOpenedAction 1479306323389 TestBowlingScoreKeeper.java 197 1 1 0
+FileOpenedAction 1479307109629 Frame.java 748 6 7 0
+FileOpenedAction 1479307111792 BowlingGame.java 545 5 2 0
+FileOpenedAction 1479307113242 BowlingException.java 148 0 0 0
+RefactoringAction 1479307452695 Frame.java ADD int gener FIELD
+RefactoringAction 1479307454757 Frame.java REMOVE gener FIELD
+RefactoringAction 1479307457774 Frame.java ADD int num FIELD
+RefactoringAction 1479307459796 Frame.java RENAME num=>int numFrm FIELD
+RefactoringAction 1479307462322 Frame.java RENAME numFrm=>int numFrame FIELD
+RefactoringAction 1479307509508 Frame.java REMOVE numFrame FIELD
+RefactoringAction 1479307511026 Frame.java ADD int numFrame FIELD
+RefactoringAction 1479307515588 Frame.java ADD int id FIELD
+RefactoringAction 1479307713525 Frame.java ADD int scoreWithout FIELD
+RefactoringAction 1479307715533 Frame.java RENAME scoreWithout=>int scoreWithoutB FIELD
+RefactoringAction 1479307718081 Frame.java RENAME scoreWithoutB=>int scoreWithoutBonus() METHOD
+RefactoringAction 1479307753220 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1479307753221 Frame.java REMOVE isLastFrame() METHOD
+RefactoringAction 1479307753221 Frame.java REMOVE scoreWithoutBonus() METHOD
+RefactoringAction 1479307753221 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1479307753222 Frame.java REMOVE bonus() METHOD
+RefactoringAction 1479307755228 Frame.java ADD int scoreWithoutBonus() METHOD
+RefactoringAction 1479307755228 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1479307755228 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1479307755229 Frame.java ADD boolean isLastFrame() METHOD
+RefactoringAction 1479307755229 Frame.java ADD int bonus() METHOD
+RefactoringAction 1479308000848 Frame.java REMOVE scoreWithoutBonus() METHOD
+RefactoringAction 1479308459936 Frame.java REMOVE id FIELD
+RefactoringAction 1479308459936 Frame.java REMOVE numFrame FIELD
+FileOpenedAction 1479309004570 TestBowlingScoreKeeper.java 197 1 1 0
+EditAction 1479309042309 BowlingGame.java 686 5 7 0

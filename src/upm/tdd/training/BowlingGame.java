@@ -10,16 +10,21 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+		frames.add(frame);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
+		bonus = new Frame(firstThrow, secondThrow);
+		frames.add(bonus);
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		int total=0;
+		for(int i=0;i<frames.size();i++){
+			total=total+frames.get(i).score();
+		}
+		return total;
 	}
 	
 	public boolean isNextFrameBonus(){
