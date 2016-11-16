@@ -8,8 +8,8 @@ public class Frame {
 	private boolean lastFrame = false;
 	
 	public Frame(int firstThrow, int secondThrow){
-		this.firstThrow = firstThrow;
-		this.secondThrow = secondThrow;
+		this.setFirstThrow(firstThrow);
+		this.setSecondThrow(secondThrow);
 	}
 	
 	//the score of a single frame

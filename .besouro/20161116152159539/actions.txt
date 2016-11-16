@@ -56,3 +56,4 @@ RefactoringAction 1479310494492 TestBowlingScoreKeeper.java ADD import java.awt.
 EditAction 1479310815343 TestBowlingScoreKeeper.java 316 1 2 0
 CompilationAction 1479310815453 TestBowlingScoreKeeper.java
 EditAction 1479310815470 Frame.java 1312 10 16 0
+EditAction 1479310844274 Frame.java 1316 10 16 0
