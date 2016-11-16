@@ -55,10 +55,6 @@ public class Frame {
 	public boolean isLastFrame(){
 		return lastFrame;
 	}
-	
-	public void setlastFrame(boolean bl){
-		lastFrame=bl;
-	}
 
 	//bonus throws
 	public int bonus(){
