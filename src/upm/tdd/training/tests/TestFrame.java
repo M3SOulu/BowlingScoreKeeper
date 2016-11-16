@@ -9,6 +9,11 @@ import upm.tdd.training.Frame;
 
 public class TestFrame {
 
+	@Test(expected = BowlingException.class)
+	public void createInvalidFrame(){
+		new Frame( 11, 0 );
+	}
+	
 	@Test
 	public void testIsStrike() throws BowlingException {
 		assertEquals( true, new Frame( 10, 0 ).isStrike() );

@@ -56,3 +56,5 @@ RefactoringAction 1479307871694 BowlingException.java ADD BowlingException()/2 M
 RefactoringAction 1479307875210 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
 EditAction 1479307880304 BowlingException.java 283 2 2 0
 EditAction 1479307892973 Frame.java 1184 6 8 0
+RefactoringAction 1479307922313 TestFrame.java ADD void createInvalidFrame() METHOD
+EditAction 1479307955216 TestFrame.java 819 5 5 4
