@@ -7,9 +7,10 @@ public class BowlingGame {
 	// a bowling game is made of (at least) 10 frames
 	private static final int MAX_PINS = 10;
 	private static final int MAX_FRAMES = 10;
+	private Frame ScoreFornextFrameForStrike;
 
 	private List<Frame> frames = new ArrayList<Frame>(MAX_FRAMES);
-	private Frame bonus;
+	private Frame bonus=null;
 
 	public BowlingGame() {
 
@@ -22,7 +23,7 @@ public class BowlingGame {
 	}
 
 	public void setBonus(int firstThrow, int secondThrow) {
-		// to be implemented
+		bonus=new Frame(firstThrow,secondThrow);
 	}
 
 	public int score(){
@@ -34,6 +35,7 @@ public class BowlingGame {
 				score+=frames.get(i-1).score()+frames.get(i).score();
 			}else if(frames.get(i).isStrike()){
 				score+=frames.get(i).score();
+				bonus=frames.get(i);
 			}else{
 				score+=frames.get(i).score();
 			}

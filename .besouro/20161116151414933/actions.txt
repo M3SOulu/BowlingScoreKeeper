@@ -251,3 +251,15 @@ CompilationAction 1479311888078 BowlingGame.java
 CompilationAction 1479311888079 BowlingGame.java
 CompilationAction 1479311888242 BowlingGame.java
 EditAction 1479312006093 BowlingGame.java 1012 5 6 0
+RefactoringAction 1479312035401 BowlingGame.java ADD Frame nextFrame FIELD
+RefactoringAction 1479312038411 BowlingGame.java RENAME nextFrame=>Frame nextFrameForStrike FIELD
+RefactoringAction 1479312041426 BowlingGame.java RENAME nextFrameForStrike=>Frame ScorenextFrameForStrike FIELD
+RefactoringAction 1479312042439 BowlingGame.java RENAME ScorenextFrameForStrike=>Frame ScoreOfnextFrameForStrike FIELD
+RefactoringAction 1479312062523 BowlingGame.java RENAME ScoreOfnextFrameForStrike=>Frame ScoreFornextFrameForStrike FIELD
+RefactoringAction 1479312635751 Frame.java ADD void getFirstThrow() METHOD
+RefactoringAction 1479312641276 Frame.java RENAME firstThrow=>int frames FIELD
+RefactoringAction 1479312650825 Frame.java RENAME frames=>int firstThrow FIELD
+RefactoringAction 1479312663376 Frame.java ADD int getFirstThrow()/2 METHOD
+RefactoringAction 1479312666380 Frame.java RENAME getFirstThrow()/2=>int getSecThrow() METHOD
+RefactoringAction 1479312667397 Frame.java RENAME getSecThrow()=>int getSecondThrow() METHOD
+EditAction 1479312669802 Frame.java 1180 9 15 0
