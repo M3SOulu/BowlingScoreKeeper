@@ -29,3 +29,28 @@ EditAction 1479308388665 BowlingGame.java 602 5 4 0
 CompilationAction 1479308388930 BowlingGame.java
 RefactoringAction 1479308529583 Frame.java RENAME setScore(Frame, int)=>void setScore(int) METHOD
 EditAction 1479308549320 Frame.java 1436 10 16 0
+CompilationAction 1479308549605 BowlingGame.java
+RefactoringAction 1479308626816 BowlingGame.java ADD void addFirstFrame() METHOD
+RefactoringAction 1479308630358 BowlingGame.java RENAME addFirstFrame()=>void addFirstFrame(Frame) METHOD
+RefactoringAction 1479308728078 BowlingGame.java ADD void addFrame FIELD
+RefactoringAction 1479308730096 BowlingGame.java RENAME addFrame=>void addFrameWhose FIELD
+RefactoringAction 1479308733109 BowlingGame.java RENAME addFrameWhose=>void addFrame FIELD
+RefactoringAction 1479308735695 BowlingGame.java RENAME addFrame=>void addFrameBut FIELD
+RefactoringAction 1479308741709 BowlingGame.java RENAME addFrameBut=>void addFrame FIELD
+RefactoringAction 1479308750239 BowlingGame.java RENAME addFrame=>void addFrameWithPreviousFrameSpare FIELD
+RefactoringAction 1479308754270 BowlingGame.java RENAME addFrameWithPreviousFrameSpare=>void addFrameWithPreviousFrameSpare() METHOD
+RefactoringAction 1479308755293 BowlingGame.java RENAME addFrameWithPreviousFrameSpare()=>void addFrameWithPreviousFrameSpare(Frame) METHOD
+RefactoringAction 1479308765357 BowlingGame.java ADD void addFrameWithPreviousFrameSpare(Frame)/2 METHOD
+RefactoringAction 1479308770947 BowlingGame.java RENAME addFrameWithPreviousFrameSpare(Frame)/2=>void addFrameWithPreviousFrameStrike(Frame) METHOD
+RefactoringAction 1479308995780 BowlingGame.java ADD Frame getLastFrame FIELD
+RefactoringAction 1479308996801 BowlingGame.java RENAME getLastFrame=>Frame getLastFrame() METHOD
+RefactoringAction 1479309148787 Frame.java ADD static void supportFrame() METHOD
+RefactoringAction 1479309154297 Frame.java RENAME supportFrame()=>static void supportFrame(int, int) METHOD
+RefactoringAction 1479309293080 Frame.java RENAME supportFrame(int, int)=>static Frame createSupportFrame(int, int) METHOD
+RefactoringAction 1479309678675 Frame.java ADD void setScore FIELD
+RefactoringAction 1479309709204 Frame.java RENAME setScore(int)=>void setScoreWithBonus(int) METHOD
+RefactoringAction 1479309723218 Frame.java RENAME setScore=>void setScore() METHOD
+RefactoringAction 1479309784267 Frame.java RENAME setScore()=>void noBonusScore() METHOD
+RefactoringAction 1479309913338 Frame.java RENAME noBonusScore()=>void setScore() METHOD
+CompilationAction 1479310029978 BowlingGame.java
+EditAction 1479310029985 Frame.java 1720 12 22 0

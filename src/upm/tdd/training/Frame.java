@@ -14,11 +14,19 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public static Frame createSupportFrame(int firstThrow, int secondThrow){
+		Frame f = new Frame(firstThrow,secondThrow);
+		totFrames--;
+		f.frame = 0;
+		
+		return f;
+	}
+	
 	public int getFrame(){
 		return frame;
 	}
 	
-	public void setScore(int score){
+	public void setScoreWithBonus(int bonus){
 //		if (precFrame.isStrike()){
 //			score = firstThrow+secondThrow+precFrame.getFirstThrow()+precFrame.getSecondThrow();
 //		}else if(precFrame.isSpare()){
@@ -27,7 +35,12 @@ public class Frame {
 //		else{
 //			score = (firstThrow+secondThrow);
 //		}
-		this.score = score;
+		setScore();
+		this.score = this.score+bonus;
+	}
+	
+	public void setScore(){
+		this.score = getFirstThrow()+getSecondThrow();
 	}
 	
 	public int getFirstThrow() {
