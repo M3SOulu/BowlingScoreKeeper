@@ -34,4 +34,14 @@ public class TestFrame {
 	public void testInitFrameExceptionMoreThanTen1() throws BowlingException{
 		p = new Frame(11,  1);
 	}
+	
+	@Test (expected = BowlingException.class)
+	public void testInitFrameExceptionMoreThanTen2() throws BowlingException{
+		p = new Frame(5,  19);
+	}
+	
+	@Test (expected = BowlingException.class)
+	public void testInitFrameExceptionMoreThanTen3() throws BowlingException{
+		p = new Frame(11,  30);
+	}
 }

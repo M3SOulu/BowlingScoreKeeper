@@ -88,3 +88,10 @@ RefactoringAction 1479310677080 TestFrame.java RENAME testInitFrameExceptionLess
 RefactoringAction 1479310686599 TestFrame.java RENAME testInitFrameExceptionLessThanTen1()=>void testInitFrameExceptionMorThanTen1() METHOD
 RefactoringAction 1479310687615 TestFrame.java RENAME testInitFrameExceptionMorThanTen1()=>void testInitFrameExceptionMoreThanTen1() METHOD
 EditAction 1479310693656 TestFrame.java 896 5 4 0
+UnitTestCaseAction 1479310696292 TestFrame.java OK
+UnitTestSessionAction 1479310696293 TestFrame OK
+RefactoringAction 1479310705183 TestFrame.java ADD void testInitFrameExceptionMoreThanTen1()/2 METHOD
+RefactoringAction 1479310705184 TestFrame.java ADD void testInitFrameExceptionMoreThanTen1()/3 METHOD
+RefactoringAction 1479310713218 TestFrame.java RENAME testInitFrameExceptionMoreThanTen1()/3=>void testInitFrameExceptionMoreThanTen2() METHOD
+RefactoringAction 1479310715728 TestFrame.java RENAME testInitFrameExceptionMoreThanTen1()/2=>void testInitFrameExceptionMoreThanTen3() METHOD
+EditAction 1479310730410 TestFrame.java 1203 7 6 0
