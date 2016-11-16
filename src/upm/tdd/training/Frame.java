@@ -35,7 +35,6 @@ public class Frame {
 			result = true;
 		}
 		
-		
 		return result;
 	}
 
