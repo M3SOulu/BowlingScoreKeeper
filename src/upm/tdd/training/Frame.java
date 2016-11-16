@@ -58,7 +58,7 @@ public class Frame {
 	}
 
 	private boolean areNotValidThrows() {
-		return firstThrow < 0 && firstThrow > 10 && secondThrow < 0 && secondThrow > 10;
+		return (firstThrow < 0 || firstThrow > 10 || secondThrow < 0 || secondThrow > 10);
 	}
 
 	public void addBonusThrow() {
