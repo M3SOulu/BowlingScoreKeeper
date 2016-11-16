@@ -52,8 +52,8 @@ public class BowlingGame {
 			else
 				res += bonus.bonus();
 		}
-		if (res > 300)
-			throw new BowlingException();
+//		if (res > 300)
+//			throw new BowlingException();
 		return res;
 	}
 
