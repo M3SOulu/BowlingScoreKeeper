@@ -430,3 +430,10 @@ EditAction 1479315902856 TestBowlingScoreKeeper.java 1807 4 35 3
 UnitTestCaseAction 1479315904715 TestBowlingScoreKeeper.java OK
 UnitTestSessionAction 1479315904716 TestBowlingScoreKeeper OK
 EditAction 1479315926604 TestBowlingScoreKeeper.java 1811 4 35 3
+RefactoringAction 1479315993481 AllTests.java ADD void test() METHOD
+RefactoringAction 1479315993487 AllTests.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479315993500 AllTests.java ADD AllTests.java CLASS
+FileOpenedAction 1479315993645 AllTests.java 197 1 1 0
+RefactoringAction 1479316000165 AllTests.java REMOVE test() METHOD
+RefactoringAction 1479316006176 AllTests.java ADD import org.junit.runner.RunWith IMPORT
+EditAction 1479316012284 AllTests.java 187 0 0 0
