@@ -59,3 +59,15 @@ RefactoringAction 1479310662220 TestBowlingScoreKeeper.java ADD import upm.tdd.t
 RefactoringAction 1479310698712 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
 RefactoringAction 1479310731417 TestBowlingScoreKeeper.java ADD BowlingGame partita FIELD
 EditAction 1479310741709 TestBowlingScoreKeeper.java 544 3 4 0
+CompilationAction 1479310741843 TestBowlingScoreKeeper.java
+CompilationAction 1479310741844 TestBowlingScoreKeeper.java
+CompilationAction 1479310741845 TestBowlingScoreKeeper.java
+CompilationAction 1479310753620 TestBowlingScoreKeeper.java
+CompilationAction 1479310753620 TestBowlingScoreKeeper.java
+CompilationAction 1479310753621 TestBowlingScoreKeeper.java
+CompilationAction 1479310753791 TestBowlingScoreKeeper.java
+RefactoringAction 1479310779091 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+RefactoringAction 1479310811035 TestBowlingScoreKeeper.java RENAME import org.junit.Assert.fail=>import org.junit.Assert.* IMPORT
+CompilationAction 1479310813636 TestBowlingScoreKeeper.java
+RefactoringAction 1479310831409 TestBowlingScoreKeeper.java RENAME setUpBeforeClass()=>static void setUp() METHOD
+EditAction 1479310837225 TestBowlingScoreKeeper.java 896 3 14 1
