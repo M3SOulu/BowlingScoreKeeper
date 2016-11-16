@@ -16,3 +16,4 @@ RefactoringAction 1479307145309 Frame.java REMOVE spare FIELD
 RefactoringAction 1479307145310 Frame.java REMOVE a FIELD
 RefactoringAction 1479307145310 Frame.java REMOVE not FIELD
 EditAction 1479307196229 Frame.java 853 6 7 0
+EditAction 1479307262778 Frame.java 925 6 7 0

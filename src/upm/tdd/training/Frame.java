@@ -34,8 +34,12 @@ public class Frame {
 	 * @return true if is a Spare
 	 */
 	public boolean isSpare(){
-		
-		return false;
+		if( (firstThrow + secondThrow) == 10 ){
+			return true;
+		}
+		else{
+			return false;
+		}
 	}
 
 	//return whether this is the last frame of the match
