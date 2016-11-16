@@ -9,13 +9,6 @@ public class Frame {
 	public boolean isBonusFrame() {
 		return isBonusFrame;
 	}
-	
-	//the number of this Frame in the Game
-	private static int frameNumber = 0;
-	
-	public int getFrameNumber() {
-		return frameNumber;
-	}
 		
 
 	public int getFirstThrow() {
