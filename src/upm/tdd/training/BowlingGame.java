@@ -48,6 +48,7 @@ public class BowlingGame {
 			bonusThrowsNum = f.bonus();
 		}
 		
+		
 		if(bonusThrowsNum > 0) {
 			if(bonus == null) throw new BowlingException();
 			switch(bonusThrowsNum){
