@@ -412,3 +412,12 @@ RefactoringAction 1479315761381 BowlingGame.java RENAME getBonusScore=>int METHO
 EditAction 1479315784524 BowlingGame.java 1748 6 12 0
 CompilationAction 1479315784775 BowlingGame.java
 EditAction 1479315826268 BowlingGame.java 1893 6 13 0
+UnitTestCaseAction 1479315845375 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315845376 TestBowlingScoreKeeper OK
+UnitTestCaseAction 1479315853840 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315853841 TestBowlingScoreKeeper OK
+UnitTestCaseAction 1479315857699 TestBowlingGame.java OK
+UnitTestSessionAction 1479315857699 TestBowlingGame OK
+RefactoringAction 1479315865212 TestBowlingScoreKeeper.java ADD void TesBonusStripeScore()/2 METHOD
+RefactoringAction 1479315869722 TestBowlingScoreKeeper.java RENAME TesBonusStripeScore()/2=>void TesBonusStrikeScore() METHOD
+EditAction 1479315890837 TestBowlingScoreKeeper.java 1807 4 35 3
