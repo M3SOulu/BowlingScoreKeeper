@@ -10,3 +10,15 @@ CompilationAction 1479307103327 Frame.java
 EditAction 1479307103343 BowlingException.java 152 0 0 0
 EditAction 1479307203739 Frame.java 1074 6 16 0
 EditAction 1479307284182 Frame.java 1124 6 16 0
+RefactoringAction 1479307646908 TestsFrame.java ADD void setUp() METHOD
+RefactoringAction 1479307646930 TestsFrame.java ADD void test() METHOD
+RefactoringAction 1479307646948 TestsFrame.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479307646967 TestsFrame.java ADD TestsFrame.java CLASS
+FileOpenedAction 1479307647212 TestsFrame.java 282 2 1 0
+RefactoringAction 1479307717341 TestsFrame.java REMOVE setUp() METHOD
+RefactoringAction 1479307744373 TestsFrame.java RENAME test()=>void testStric() METHOD
+RefactoringAction 1479307745878 TestsFrame.java RENAME testStric()=>void testStri() METHOD
+RefactoringAction 1479307751914 TestsFrame.java RENAME testStri()=>void testStrike() METHOD
+RefactoringAction 1479307804681 TestsFrame.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479307810488 TestsFrame.java ADD import upm.tdd.training.BowlingException IMPORT
+EditAction 1479307834696 TestsFrame.java 395 1 1 0
