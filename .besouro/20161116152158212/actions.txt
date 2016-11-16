@@ -332,3 +332,10 @@ RefactoringAction 1479315333319 TestBowlingScoreKeeper.java ADD void testIsNotNe
 EditAction 1479315355014 BowlingGame.java 1651 5 11 0
 EditAction 1479315358283 BowlingGame.java 1652 5 11 0
 EditAction 1479315363192 TestBowlingScoreKeeper.java 1721 7 24 5
+CompilationAction 1479315363435 TestBowlingScoreKeeper.java
+RefactoringAction 1479315374402 TestBowlingScoreKeeper.java RENAME testIsNotNextFrameBonus()/2=>void testSetCo() METHOD
+RefactoringAction 1479315375423 TestBowlingScoreKeeper.java RENAME testSetCo()=>void testSetC() METHOD
+RefactoringAction 1479315376432 TestBowlingScoreKeeper.java RENAME testSetC()=>void testSet() METHOD
+RefactoringAction 1479315377941 TestBowlingScoreKeeper.java RENAME testSet()=>void testSetBonus() METHOD
+CompilationAction 1479315396616 TestBowlingScoreKeeper.java
+EditAction 1479315422588 TestBowlingScoreKeeper.java 1692 7 24 4
