@@ -22,11 +22,22 @@ public class BowlingGame {
 		frames.add( frame );
 	}
 	
-	
+	/**
+	 * 
+	 * @param firstThrow
+	 * @param secondThrow
+	 * @throws BowlingException
+	 */
 	public void setBonus( int firstThrow, int secondThrow ) throws BowlingException {
-		bonus = new Frame( firstThrow, secondThrow );
+		if( isNextFrameBonus() ){
+			bonus = new Frame( firstThrow, secondThrow );
+		}
 	}
 	
+	/**
+	 * 
+	 * @return match score
+	 */
 	public int score(){
 		int score = 0;
 		int bonusNumber = 0;

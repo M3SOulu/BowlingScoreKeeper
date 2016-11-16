@@ -270,3 +270,6 @@ CompilationAction 1479314220129 BowlingGame.java
 CompilationAction 1479314251824 BowlingGame.java
 CompilationAction 1479314251824 BowlingGame.java
 EditAction 1479314282280 BowlingGame.java 1396 5 10 0
+RefactoringAction 1479314322903 BowlingGame.java REMOVE setBonus(int, int) METHOD
+RefactoringAction 1479314322932 BowlingGame.java ADD void setBonus(int, int) METHOD
+EditAction 1479314350667 BowlingGame.java 1555 5 10 0
