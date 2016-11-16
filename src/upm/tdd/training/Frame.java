@@ -4,7 +4,6 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	private int count;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -44,8 +43,11 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		if()
-		return 0;
+		int bonus = 0;
+		if(isStrike()){
+			bonus = this.secondThrow;
+		}
+		return bonus;
 	}
 
 
