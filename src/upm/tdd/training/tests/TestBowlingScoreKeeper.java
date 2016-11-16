@@ -25,7 +25,7 @@ public class TestBowlingScoreKeeper {
 	}
 
 	@Test(expected = BowlingException.class)
-	public void testAddEleventhFrame() throws BowlingException {
+	public void eleventhFrameSholudNotAccepted() throws BowlingException {
 		// Arrange
 		Frame frame11;
 		// Act
@@ -34,10 +34,12 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void allStrikeInBowlingGame() throws BowlingException{
+	public void allStrikeInBowlingGamePoint() throws BowlingException{
 		for(int i=0;i<10;i++){
 			partita.addFrame(new Frame(10,10));
 		}
+		assertEquals(300,partita.score());
+		
 	}
 	
 	

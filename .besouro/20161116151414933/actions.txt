@@ -264,3 +264,10 @@ RefactoringAction 1479312666380 Frame.java RENAME getFirstThrow()/2=>int getSecT
 RefactoringAction 1479312667397 Frame.java RENAME getSecThrow()=>int getSecondThrow() METHOD
 EditAction 1479312669802 Frame.java 1180 9 15 0
 EditAction 1479312687367 BowlingGame.java 1157 5 7 0
+RefactoringAction 1479312767871 TestBowlingScoreKeeper.java RENAME testAddEleventhFrame()=>void eleventh() METHOD
+RefactoringAction 1479312770880 TestBowlingScoreKeeper.java RENAME eleventh()=>void eleventhFrame() METHOD
+RefactoringAction 1479312771896 TestBowlingScoreKeeper.java RENAME eleventhFrame()=>void eleventhFrameM() METHOD
+RefactoringAction 1479312774901 TestBowlingScoreKeeper.java RENAME eleventhFrameM()=>void eleventhFrameSholud() METHOD
+RefactoringAction 1479312778412 TestBowlingScoreKeeper.java RENAME eleventhFrameSholud()=>void eleventhFrameSholudNotAccepted() METHOD
+RefactoringAction 1479312795927 TestBowlingScoreKeeper.java RENAME allStrikeInBowlingGame()=>void allStrikeInBowlingGamePoint() METHOD
+EditAction 1479312814364 TestBowlingScoreKeeper.java 863 3 6 1
