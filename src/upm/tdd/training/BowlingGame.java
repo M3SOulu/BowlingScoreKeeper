@@ -23,6 +23,9 @@ public class BowlingGame {
 	
 	public int score(){
 		for(int i = 0; i < frames.size(); i++){
+			if(isNextFrameBonus()){
+			this.score += frames.get(i).score();
+			}
 			this.score += frames.get(i).score();
 		}
 		return score;
