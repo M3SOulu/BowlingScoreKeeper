@@ -51,3 +51,4 @@ RefactoringAction 1479308116885 TestsFrame.java RENAME test=>void testSpare FIEL
 RefactoringAction 1479308117918 TestsFrame.java RENAME testSpare=>void testSpare() METHOD
 EditAction 1479308252349 Frame.java 1159 6 17 0
 EditAction 1479308252463 TestsFrame.java 634 2 6 2
+EditAction 1479308300006 TestsFrame.java 632 2 6 2

@@ -26,9 +26,9 @@ public class TestsFrame {
 	@Test
 	public void testSpare() throws BowlingException{
 		//Assign
-		Frame newFrame = new Frame(10, 1);
+		Frame newFrame = new Frame(9, 1);
 		//Act
-		boolean ris = newFrame.isStrike();
+		boolean ris = newFrame.isSpare();
 		//Assert
 		assertTrue(ris);
 	}
