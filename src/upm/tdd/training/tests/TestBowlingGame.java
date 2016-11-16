@@ -48,7 +48,7 @@ public class TestBowlingGame {
 		bg.addFrame(f8);
 		bg.addFrame(f9);
 		bg.addFrame(f10);
-		assert(bg.score()==120);		
+		assert(bg.score()==113);		
 
 
 	}
