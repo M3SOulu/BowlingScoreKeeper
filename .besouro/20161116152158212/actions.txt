@@ -227,3 +227,12 @@ UnitTestSessionAction 1479312406168 TestFrame OK
 RefactoringAction 1479312412082 TestFrame.java ADD void testIsLastFrameWithSpare()/2 METHOD
 RefactoringAction 1479312417090 TestFrame.java RENAME testIsLastFrameWithSpare()/2=>void testIsLastFrameWithStrike() METHOD
 EditAction 1479312422489 TestFrame.java 3753 14 47 40
+UnitTestCaseAction 1479312425079 TestFrame.java OK
+UnitTestSessionAction 1479312425079 TestFrame OK
+RefactoringAction 1479312435156 TestFrame.java REMOVE testIsLastFrame() METHOD
+RefactoringAction 1479312435156 TestFrame.java REMOVE testIsLastFrameWithStrike() METHOD
+RefactoringAction 1479312435157 TestFrame.java REMOVE testIsLastFrameWithSpare() METHOD
+RefactoringAction 1479312459190 TestFrame.java ADD void testIsLastFrame() METHOD
+RefactoringAction 1479312459191 TestFrame.java ADD void testIsLastFrameWithSpare() METHOD
+RefactoringAction 1479312459191 TestFrame.java ADD void testIsLastFrameWithStrike() METHOD
+EditAction 1479312470492 TestFrame.java 3739 14 47 40
