@@ -29,3 +29,12 @@ RefactoringAction 1479313327453 TestBowlingScoreKeeper.java ADD BowlingGame matc
 EditAction 1479313340190 TestBowlingScoreKeeper.java 821 3 12 1
 EditAction 1479313340340 BowlingGame.java 893 5 3 0
 EditAction 1479313340464 Frame.java 1086 10 11 0
+CompilationAction 1479313341399 BowlingGame.java
+RefactoringAction 1479313393364 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1479313393365 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+RefactoringAction 1479313507888 TestBowlingScoreKeeper.java RENAME setToNull()=>void clear() METHOD
+RefactoringAction 1479313514405 TestBowlingScoreKeeper.java RENAME clear()=>void clearMatch() METHOD
+RefactoringAction 1479313517917 TestBowlingScoreKeeper.java RENAME clearMatch()=>void clearM() METHOD
+RefactoringAction 1479313518932 TestBowlingScoreKeeper.java RENAME clearM()=>void clear() METHOD
+RefactoringAction 1479313540243 TestBowlingScoreKeeper.java RENAME match=>BowlingGame game FIELD
+EditAction 1479313543637 TestBowlingScoreKeeper.java 830 3 13 1
