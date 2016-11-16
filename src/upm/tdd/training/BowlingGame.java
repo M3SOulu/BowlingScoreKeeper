@@ -41,8 +41,8 @@ public class BowlingGame {
 		
 		for(Frame f : frames){
 			switch(bonusThrowsNum){
-			case 1: totScore += f.getFirstThrow();
-			case 2: totScore += f.score();
+			case 1: totScore += f.getFirstThrow(); break;
+			case 2: totScore += f.score(); break;
 			}
 			totScore += f.score();
 			bonusThrowsNum = f.bonus();
