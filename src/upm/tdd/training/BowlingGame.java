@@ -12,11 +12,12 @@ public class BowlingGame {
 	}
 	
 	public void addFrame(Frame frame){
-		
 		if(frames.size()==9){
 			frame.setLastFrame(true);
 			frames.add(frames.size(), frame);
 		}
+		else
+			frames.add(frames.size(), frame);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow){
