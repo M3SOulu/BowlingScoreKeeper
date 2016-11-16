@@ -15,7 +15,7 @@ public class BowlingGame {
 	}
 	
 	public void setBonus() {
-		for(int i=0;i<getFrames().size();i++){
+		for(int i=0;i<getFrames().size()-1;i++){
 			if(getFrames().get(i).bonus() == 1)
 				getFrames().get(i).points += getFrames().get(i+1).getFirstThrow();
 			else if(getFrames().get(i).bonus() == 2)
@@ -25,7 +25,7 @@ public class BowlingGame {
 	
 	public int score(){
 		setBonus();
-		for(int i=0;i<getFrames().size();i++){
+		for(int i=0;i<getFrames().size()-1;i++){
 			totScore += getFrames().get(i).points;
 		}
 		return 0;
