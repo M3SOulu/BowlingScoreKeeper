@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import upm.tdd.training.BowlingException;
 import upm.tdd.training.Frame;
 
 public class TestFrame {
@@ -25,7 +26,7 @@ public class TestFrame {
 	}
 	
 	@Test
-	public void test_of_frame1() {
+	public void test_of_frame1() throws BowlingException {
 		Assert.assertEquals(5, fr1.getFirstThrow());
 		Assert.assertEquals(4, fr1.getSecondThrow());
 		Assert.assertEquals(9, fr1.score());
@@ -33,7 +34,7 @@ public class TestFrame {
 	}
 	
 	@Test
-	public void test_of_frame2() {
+	public void test_of_frame2() throws BowlingException {
 		Assert.assertEquals(7, fr2.getFirstThrow());
 		Assert.assertEquals(2, fr2.getSecondThrow());
 		Assert.assertEquals(9, fr2.score());
@@ -41,7 +42,7 @@ public class TestFrame {
 	}
 	
 	@Test
-	public void test_of_strike() {
+	public void test_of_strike() throws BowlingException {
 		Assert.assertTrue(fr_strike.isStrike());
 		Assert.assertEquals(10, fr_strike.getFirstThrow());
 		Assert.assertEquals(0, fr_strike.getSecondThrow());
@@ -50,7 +51,7 @@ public class TestFrame {
 	}
 	
 	@Test
-	public void test_of_spare() {
+	public void test_of_spare() throws BowlingException {
 		Assert.assertTrue(fr_spare.isSpare());
 		Assert.assertEquals(7, fr_spare.getFirstThrow());
 		Assert.assertEquals(3, fr_spare.getSecondThrow());

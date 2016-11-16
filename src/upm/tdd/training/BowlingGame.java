@@ -24,7 +24,7 @@ public class BowlingGame {
 		bonus=new Frame(firstThrow,secondThrow);
 	}
 	
-	public int score(){
+	public int score() throws BowlingException{
 		int score=0;
 		for(int i=0;i<frames.size();i++){
 			if(frames.get(i).isLastFrame()){

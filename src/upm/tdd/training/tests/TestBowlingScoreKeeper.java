@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-
+import upm.tdd.training.BowlingException;
 import upm.tdd.training.BowlingGame;
 import upm.tdd.training.Frame;
 
@@ -30,6 +30,7 @@ public class TestBowlingScoreKeeper {
 		}
 		match2.setBonus(10,10);
 		
+		
 		match3=new BowlingGame();
 		match3.addFrame(new Frame(1,4));
 		match3.addFrame(new Frame(4,5));
@@ -46,17 +47,17 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void test_of_no_strike_spare_test() {
+	public void test_of_no_strike_spare_test() throws BowlingException {
 		Assert.assertEquals(90, match1.score());
 	}
 	
 	@Test
-	public void test_of_full_strike() {
+	public void test_of_full_strike() throws BowlingException {
 		Assert.assertEquals(300, match2.score());
 	}
 	
 	@Test
-	public void test_of_example_match(){
+	public void test_of_example_match() throws BowlingException{
 		Assert.assertEquals(133, match3.score());
 	}
 	

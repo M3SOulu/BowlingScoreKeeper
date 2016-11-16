@@ -20,7 +20,7 @@ public class Frame {
 	}
 	
 	//the score of a single frame
-	public int score(){
+	public int score() throws BowlingException{
 		if((firstThrow+secondThrow)>10){
 			throw new BowlingException();
 		}
