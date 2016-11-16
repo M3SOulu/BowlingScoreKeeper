@@ -64,21 +64,6 @@ public class BowlingGame {
 		return score;
 	}
 	
-	/**
-	 * calculate bonus score
-	 * @return
-	 */
-	private int getBonusScore()
-	{
-		Frame lastFrame = frames.get( frames.size() - 1 );
-		
-		if( lastFrame.isSpare() ){
-			return lastFrame.getFirstThrow();
-		}
-		else{
-			return lastFrame.getFirstThrow() + lastFrame.getSecondThrow();
-		}
-	}
 	
 	/**
 	 * 

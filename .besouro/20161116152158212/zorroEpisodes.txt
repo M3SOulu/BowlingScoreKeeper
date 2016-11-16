@@ -38,5 +38,7 @@
 1479315893190 test-addition 1 35 false
 1479315904716 regression 2 11 false
 1479316055439 null null 150 false
-1479316078535 regression 1 23 false
-1479316367139 test-addition 2 288 false
+1479316078535 regression 1 23 true
+1479316367139 test-addition 2 288 true
+1479316481590 test-first 3 114 true
+1479316511233 refactoring 2B 29 true

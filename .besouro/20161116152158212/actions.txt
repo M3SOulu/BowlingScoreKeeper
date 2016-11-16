@@ -477,3 +477,11 @@ UnitTestSessionAction 1479316434231 TestBowlingScoreKeeper FAIL
 UnitTestCaseAction 1479316449168 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479316449168 TestBowlingScoreKeeper FAIL
 EditAction 1479316477848 BowlingGame.java 1941 6 13 0
+UnitTestCaseAction 1479316481589 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316481590 TestBowlingScoreKeeper OK
+RefactoringAction 1479316503972 BowlingGame.java REMOVE getBonusScore() METHOD
+UnitTestCaseAction 1479316511232 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316511233 TestBowlingScoreKeeper OK
+RefactoringAction 1479316520469 TestBowlingScoreKeeper.java ADD void TesBonusScoreWithBonusFrameSpire()/2 METHOD
+RefactoringAction 1479316523975 TestBowlingScoreKeeper.java RENAME TesBonusScoreWithBonusFrameSpire()/2=>void TesBonusScoreWithBonusFrameStrike() METHOD
+EditAction 1479316524472 TestBowlingScoreKeeper.java 3288 7 70 6
