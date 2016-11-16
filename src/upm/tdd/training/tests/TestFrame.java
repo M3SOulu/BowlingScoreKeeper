@@ -66,7 +66,7 @@ public class TestFrame {
 		Frame f4 = new Frame(5,5);
 		Frame f5 = new Frame(10,0);
 		Frame f6 = new Frame(0,1);
-		assert(bg.score()==61)
+		assert(bg.score()==61);
 		
 	}
 	
