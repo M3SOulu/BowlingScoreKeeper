@@ -68,7 +68,7 @@ public class TestBowlingScoreKeeper {
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
 		
-		assertEquals(41, b.score());
+		assertEquals(40, b.score());
 	}
 
 }
