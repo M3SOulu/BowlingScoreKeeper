@@ -6,6 +6,7 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private static final int MAX_PINS=10;
 	private static final int MAX_FRAMES=10;
+	
 	private List<Frame> frames = new ArrayList<Frame>(MAX_FRAMES);
 	private Frame bonus;
 	
@@ -30,6 +31,7 @@ public class BowlingGame {
 			if(frames.get(i).isSpare()){
 				score
 			}else if(frames.get(i).isStrike()){
+				frames.get(i).score()
 				score+=
 			}else{
 				

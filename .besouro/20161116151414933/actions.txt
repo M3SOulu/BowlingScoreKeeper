@@ -231,3 +231,11 @@ RefactoringAction 1479311190883 Frame.java RENAME frame=>int frameForBonus FIELD
 RefactoringAction 1479311210405 Frame.java REMOVE frameForBonus FIELD
 EditAction 1479311213935 Frame.java 915 6 10 0
 EditAction 1479311364289 Frame.java 955 6 11 0
+CompilationAction 1479311527677 BowlingGame.java
+CompilationAction 1479311527678 BowlingGame.java
+CompilationAction 1479311527678 BowlingGame.java
+CompilationAction 1479311527845 BowlingGame.java
+CompilationAction 1479311527845 BowlingGame.java
+CompilationAction 1479311527846 BowlingGame.java
+RefactoringAction 1479311569071 Frame.java ADD bolean isFirstFrame() METHOD
+EditAction 1479311595834 Frame.java 1059 7 13 0

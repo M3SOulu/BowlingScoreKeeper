@@ -39,7 +39,14 @@ public class Frame {
 
 	// return whether this is the last frame of the match
 	public boolean isLastFrame() {
-		if(frameNumber==10){
+		if(this.frameNumber==10){
+			return true;
+		}
+		return false;
+	}
+	
+	public bolean isFirstFrame(){
+		if(this.frameNumber==0){
 			return true;
 		}
 		return false;
