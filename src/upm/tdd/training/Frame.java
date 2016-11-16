@@ -40,10 +40,10 @@ public class Frame {
 	{
 		if( count == 10 ){
 			count = 0;
-			return true;
+			return true;	//reset has been executed
 		}
 		else{
-			return false;
+			return false;	//reset hasnt been executed
 		}
 	}
 
