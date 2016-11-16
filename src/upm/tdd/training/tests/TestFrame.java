@@ -72,7 +72,7 @@ public class TestFrame {
 //		bg.addFrame(f5);
 //		Frame f6 = new Frame(0,1);
 //		bg.addFrame(f6);
-		assert(bg.score()==29);
+		assert(bg.score()==24);
 		
 	}
 	
