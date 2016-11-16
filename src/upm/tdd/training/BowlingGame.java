@@ -16,7 +16,7 @@ public class BowlingGame {
 		if(frameNumber > 10){
 			if(frameNumber == 10){
 				if(frame.bonus() == 0) throw new BowlingException();
-				else setBonus(frame.getFirstThrow(), frame.getSecondThrow());
+				else setBonus(frame);
 			}
 			else throw new BowlingException();
 		}
