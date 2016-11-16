@@ -22,7 +22,9 @@ public class BowlingGame {
 					setBonus(frame);
 				}
 			}
-			else throw new BowlingException();
+			else{
+				throw new BowlingException();
+			}
 		}
 		else{
 			frames.add(frame);				
