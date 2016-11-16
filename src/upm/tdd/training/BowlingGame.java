@@ -11,10 +11,12 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus = null;
 
+	//TODO elimina
 	public List<Frame> getFrames() {
 		return frames;
 	}
-
+	
+	//TODO elimina
 	public Frame getBonus() {
 		return bonus;
 	}
@@ -73,5 +75,14 @@ public class BowlingGame {
 				resultFrame = bonus;
 		}
 		return resultFrame;
+	}
+
+	public int getBonus(Frame frame) {
+		Frame nextFrame = getNextFrame(frame);
+		if(frame.isSpare() && nextFrame != null)
+			return nextFrame.getFirstThrow();
+		if(frame.isStrike() && nextFrame != null)
+			return (nextFrame.getFirstThrow() + nextFrame.getSecondThrow());
+		return 0;
 	}
 }

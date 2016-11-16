@@ -157,3 +157,11 @@ EditAction 1479314378756 TestBowlingScoreKeeper.java 3550 6 81 6
 UnitTestCaseAction 1479314379326 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314379327 TestBowlingScoreKeeper FAIL
 EditAction 1479314386925 TestBowlingScoreKeeper.java 3550 6 81 6
+UnitTestCaseAction 1479314387474 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314387475 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314643300 Frame.java ADD void getBonus(Frame) METHOD
+RefactoringAction 1479314646688 Frame.java REMOVE getBonus(Frame) METHOD
+RefactoringAction 1479314670631 BowlingGame.java ADD void getBonus(Frame) METHOD
+RefactoringAction 1479314802365 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479314802372 Frame.java ADD int getSecondThrow() METHOD
+EditAction 1479314833272 BowlingGame.java 2026 9 17 0
