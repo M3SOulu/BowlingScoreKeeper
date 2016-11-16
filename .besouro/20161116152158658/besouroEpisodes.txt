@@ -39,3 +39,5 @@
 1479313845630 test-addition 1 98 true
 1479313845631 test-addition 1 98 true
 1479313845632 test-addition 1 98 true
+1479313904791 test-addition 1 48 true
+1479313904792 test-addition 1 48 true

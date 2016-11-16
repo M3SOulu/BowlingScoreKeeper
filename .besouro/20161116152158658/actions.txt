@@ -177,3 +177,9 @@ UnitTestSessionAction 1479313845630 TestFrame OK
 RefactoringAction 1479313856681 TestFrame.java ADD void test_of_strike()/2 METHOD
 RefactoringAction 1479313861185 TestFrame.java RENAME test_of_strike()/2=>void test_of_spare() METHOD
 EditAction 1479313903056 TestFrame.java 1300 5 17 12
+UnitTestCaseAction 1479313904790 TestFrame.java OK
+UnitTestSessionAction 1479313904791 TestFrame OK
+RefactoringAction 1479313956874 BowlingException.java ADD BowlingException() METHOD
+RefactoringAction 1479313959902 BowlingException.java RENAME BowlingException()=>BowlingException(String) METHOD
+RefactoringAction 1479313973454 BowlingException.java ADD BowlingException() METHOD
+EditAction 1479313976953 BowlingException.java 239 2 1 0
