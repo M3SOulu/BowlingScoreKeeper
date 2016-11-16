@@ -31,24 +31,6 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
-	/**
-	 * reset the match counting
-	 * @return false if the match is nto already finished
-	 * 			true if it is finished
-	 */
-	public static boolean reset()
-	{
-		if( count == 0 ){
-			return true;
-		}
-		if( count == 10 ){
-			count = 0;
-			return true;	//reset has been executed
-		}
-		else{
-			return false;	//reset hasnt been executed
-		}
-	}
 
 	//the score of a single frame
 	public int score(){
