@@ -26,27 +26,30 @@ public class BowlingGame {
 	}
 
 	public int score() throws BowlingException {
-		if(frames.isEmpty())throw new BowlingException();
-		boolean first=true;
+		if (frames.isEmpty())
+			throw new BowlingException();
+		boolean first = true;
 		int score = 0;
-		
+
 		for (int i = 0; i < 10; i++) {
-			if (frames.get(i).isSpare()&&first) {
-				score +=frames.get(i).score();
-				else{
-					score += frames.get(i - 1).score() + frames.get(i).score();
-				}
-			} else if (frames.get(i).isStrike()) {
-				score += frames.get(i).score()+ frames.get(i+1).score();
+			if (frames.get(i).isSpare() && first) {
+				score += frames.get(i).score();
+				first=false;
+			} else {
+				score += frames.get(i - 1).score() + frames.get(i).score();
+			}
+			if (frames.get(i).isStrike()) {
+				score += frames.get(i).score() + frames.get(i + 1).score();
 			} else {
 				score += frames.get(i).score();
 			}
-			if(frames.get(i).isLastFrame()&&(frames.get(i).isSpare())){
-				score+=bonus.score();
+			if (frames.get(i).isLastFrame() && (frames.get(i).isSpare())) {
+				score += bonus.score();
 			}
 		}
 
 		return score;
+
 	}
 
 	public boolean isNextFrameBonus() {
