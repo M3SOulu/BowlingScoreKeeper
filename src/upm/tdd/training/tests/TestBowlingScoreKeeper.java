@@ -26,7 +26,7 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void testAllZerosScore() throws BowlingException {
 		Frame zeroFrame = new Frame(0,0);
-		for(int i=0; i<11; i++) game.addFrame(zeroFrame);
+		for(int i=0; i<10; i++) game.addFrame(zeroFrame);
 		Assert.assertEquals(0, game.score());
 	}
 	
