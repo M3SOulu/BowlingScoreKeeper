@@ -6,24 +6,84 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
+	private int gameScore;
 	
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
 		//to be implemented
+				
+		if(frames.isEmpty()){
+			addFirstFrame(frame);
+		}else if(frames.get(frames.size()-1).isStrike()){
+			addFrameWithPreviousFrameStrike(frame);
+		}else if(frames.get(frames.size()-1).isSpare()){
+			addFrameWithPreviousFrameSpare(frame);
+		}else{
+			frame.setScore();
+			frames.add(frame);
+			gameScore += frame.score();
+		}
+		
+		if(frame.isLastFrame()){
+			if(frame.getFirstThrow() == 10 || frame.getFirstThrow()+frame.getSecondThrow() == 10){
+				
+			}
+			else {
+				//Frame tempFrame = new
+				//addFrame(tempFrame);
+				//setBonus(frame.getFirstThrow(),frame.getSecondThrow());
+			}
+		}
+
+	}
+	
+	private Frame getLastFrame(){
+		Frame f = Frame.createSupportFrame(frames.get(frames.size()-1).getFirstThrow(),frames.get(frames.size()-1).getSecondThrow());
+	
+		return f;
+	}
+	
+	private void addFirstFrame(Frame frame){
+		frame.setScore();
+		frames.add(frame);
+		gameScore += frame.score();
+	}
+	
+	private void addFrameWithPreviousFrameSpare(Frame frame){
+		//da controllare
+		Frame f = getLastFrame();
+		int bonus = frame.getFirstThrow();
+		f.setScoreWithBonus(bonus);
+		frames.get(frames.size()-1).setScoreWithBonus(bonus);
+		gameScore += f.score();
+	}
+	
+	private void addFrameWithPreviousFrameStrike(Frame frame){
+		Frame f = getLastFrame();
+//		if (f.getFrame() == 1){
+//			int bonus = f.getFirstThrow()+f.getSecondThrow();
+//			frame.setScoreWithBonus(bonus);
+//			gameScore += frame.score();
+//			return;
+//		}else/*(frames.get(frames.indexOf(f)-1).isStrike())*/{
+//			addFrameWithPreviousFrameStrike(f);
+//		}
+		int bonus = frame.getFirstThrow()+frame.getSecondThrow();
+		f.setScoreWithBonus(bonus);
+		frames.get(frames.size()-1).setScoreWithBonus(bonus);
+		gameScore += f.score();
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		bonus = new Frame(firstThrow,secondThrow);
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		return gameScore;
 	}
 	
 	public boolean isNextFrameBonus(){
-		//to be implemented
 		return false;
 	}
 }
