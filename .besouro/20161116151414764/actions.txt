@@ -115,3 +115,6 @@ RefactoringAction 1479315236230 TestBowlingScoreKeeper.java RENAME BowlingExcept
 RefactoringAction 1479315241273 TestBowlingScoreKeeper.java ADD void validStrikeSpareConsegutiveBowlingException()/2 METHOD
 RefactoringAction 1479315245284 TestBowlingScoreKeeper.java RENAME validStrikeSpareConsegutiveBowlingException()/2=>void validSpareConsegutiveBowlingException() METHOD
 EditAction 1479315294006 TestBowlingScoreKeeper.java 2515 8 32 5
+UnitTestCaseAction 1479315294506 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315294507 TestBowlingScoreKeeper FAIL
+EditAction 1479315331896 TestBowlingScoreKeeper.java 2514 8 32 5

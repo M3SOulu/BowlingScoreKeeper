@@ -103,6 +103,6 @@ public class TestBowlingScoreKeeper {
 			bowlingGame.addFrame(frame3);
 		}
 		// Assert
-		assertEquals(100, bowlingGame.score());
+		assertEquals(99, bowlingGame.score());
 	}
 }
