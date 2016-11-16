@@ -26,7 +26,14 @@ public class BowlingGame {
 	}
 
 	// score game
-	public int score() {
+	public int score() throws BowlingException {
+		if(frames.size() < MAX_SIZE_FRAMES)
+			throw new BowlingException();
+		else {
+			if(bonus == null)
+				throw new BowlingException();
+		}
+		
 		int result = 0;
 		for (Frame frameTemp : frames)
 			result += frameTemp.score();
