@@ -11,7 +11,7 @@ public class BowlingGame {
 		
 	}
 	
-	public void addFrame(Frame frame){
+	public void addFrame(Frame frame) throws CannotCreateAnotherFrame{
 		if(frames.size()==10)throw new CannotCreateAnotherFrame();
 		frames.add(frame);
 	}

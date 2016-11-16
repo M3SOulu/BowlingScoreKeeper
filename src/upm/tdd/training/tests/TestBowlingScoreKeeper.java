@@ -12,11 +12,11 @@ import upm.tdd.training.BowlingGame;
 public class TestBowlingScoreKeeper {
 
 	BowlingGame partita=new BowlingGame();
-	Frame frame1=new Frame();
+	
 	
 	@Before
 	public void setUp(){
-		partita.addFrame(frame);
+		Frame frame1=new Frame(1,1);
 	}
 	
 	@Test

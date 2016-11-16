@@ -85,3 +85,7 @@ RefactoringAction 1479308654848 BowlingGame.java RENAME addFrame(Frame)=>void ad
 RefactoringAction 1479308657717 BowlingGame.java RENAME addFrame(java.awt.Frame)=>void addFrame(Frame) METHOD
 CompilationAction 1479308699160 BowlingGame.java
 EditAction 1479308719445 TestBowlingScoreKeeper.java 388 2 1 0
+CompilationAction 1479308719679 TestBowlingScoreKeeper.java
+CompilationAction 1479308736616 BowlingGame.java
+RefactoringAction 1479308790246 TestBowlingScoreKeeper.java REMOVE frame1 FIELD
+EditAction 1479308816481 TestBowlingScoreKeeper.java 367 2 1 0
