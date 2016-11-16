@@ -8,7 +8,9 @@ public class BowlingGame {
 	private Frame bonus;
 	
 	public BowlingGame(){
-		
+		for(int i=0;i<10;i++){
+			frames.add(new Frame());
+		}
 	}
 	
 	public void addFrame(Frame frame) throws BowlingException{
