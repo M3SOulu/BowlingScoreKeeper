@@ -2,6 +2,7 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -24,7 +25,8 @@ public class TestFrame {
 	}
 	
 	@Test
-	public void test() {
+	public void test_of_frames() {
+		Assert.assertEquals(5, fr1.getFirstThrow());
 		
 	}
 

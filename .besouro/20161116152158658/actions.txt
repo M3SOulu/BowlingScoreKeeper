@@ -153,3 +153,6 @@ RefactoringAction 1479313525619 TestFrame.java RENAME fr_=>Frame fr_spare FIELD
 RefactoringAction 1479313530645 TestFrame.java RENAME fr4=>Frame fr_strike FIELD
 RefactoringAction 1479313535157 TestFrame.java RENAME fr1/2=>Frame fr_bonus FIELD
 EditAction 1479313644778 TestFrame.java 483 2 5 0
+RefactoringAction 1479313674011 TestFrame.java RENAME test()=>void test_of_frames() METHOD
+RefactoringAction 1479313686582 TestFrame.java ADD import org.junit.Assert IMPORT
+EditAction 1479313706258 TestFrame.java 567 2 6 1
