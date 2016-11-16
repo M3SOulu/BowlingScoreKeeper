@@ -155,3 +155,12 @@ UnitTestSessionAction 1479312440854 TestBowlingScoreKeeper FAIL
 UnitTestCaseAction 1479312448837 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479312448838 TestBowlingScoreKeeper FAIL
 EditAction 1479312492509 TestBowlingScoreKeeper.java 811 2 2 0
+UnitTestCaseAction 1479312495955 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479312495956 TestBowlingScoreKeeper OK
+RefactoringAction 1479312511055 TestBowlingScoreKeeper.java REMOVE frame FIELD
+RefactoringAction 1479312520086 TestBowlingScoreKeeper.java ADD Frame FIELD
+RefactoringAction 1479312525600 TestBowlingScoreKeeper.java REMOVE frame FIELD
+RefactoringAction 1479312530610 TestBowlingScoreKeeper.java ADD Frame frame FIELD
+RefactoringAction 1479312536119 TestBowlingScoreKeeper.java REMOVE frame FIELD
+RefactoringAction 1479312540624 TestBowlingScoreKeeper.java ADD Frame FIELD
+EditAction 1479312575181 TestBowlingScoreKeeper.java 832 2 2 0
