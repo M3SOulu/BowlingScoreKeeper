@@ -84,3 +84,17 @@ RefactoringAction 1479308260712 Frame.java ADD int count FIELD
 RefactoringAction 1479308268750 Frame.java ADD int id FIELD
 RefactoringAction 1479308287282 Frame.java ADD Frame() METHOD
 EditAction 1479308318716 Frame.java 1295 7 11 0
+CompilationAction 1479308318982 Frame.java
+CompilationAction 1479308325022 Frame.java
+CompilationAction 1479308325180 Frame.java
+RefactoringAction 1479308351437 Frame.java REMOVE Frame() METHOD
+CompilationAction 1479308363339 Frame.java
+UnitTestCaseAction 1479308373771 TestFrame.java OK
+UnitTestSessionAction 1479308373772 TestFrame OK
+RefactoringAction 1479308387034 Frame.java ADD is the FIELD
+RefactoringAction 1479308387035 Frame.java ADD last frame FIELD
+RefactoringAction 1479308387035 Frame.java ADD of the/2 FIELD
+RefactoringAction 1479308388330 Frame.java REMOVE frame FIELD
+RefactoringAction 1479308388333 Frame.java REMOVE the FIELD
+RefactoringAction 1479308388333 Frame.java REMOVE the/2 FIELD
+EditAction 1479308408114 Frame.java 1293 6 9 0

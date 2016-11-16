@@ -8,12 +8,6 @@ public class Frame {
 	private static int count = 0;
 	private int id;
 	
-	private Frame()
-	{
-		count++;
-		id = count;
-	}
-	
 	/**
 	 * create a new Bowling Frame
 	 * @param firstThrow
@@ -25,7 +19,9 @@ public class Frame {
 			throw new BowlingException();
 		}
 		
-		Frame();
+		count++;
+		id = count;
+		
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
@@ -62,9 +58,12 @@ public class Frame {
 		}
 	}
 
-	//return whether this is the last frame of the match
+	/**
+	 * return whether this is the last frame of the match
+	 * @return if is the last frame
+	 */
 	public boolean isLastFrame(){
-		//to be implemented
+		if(  )
 		return false;
 	}
 
