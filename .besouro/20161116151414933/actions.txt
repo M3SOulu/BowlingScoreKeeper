@@ -356,3 +356,7 @@ RefactoringAction 1479315213059 TestBowlingGameException.java MOVE test()=>impor
 EditAction 1479315213066 TestBowlingGameException.java 445 1 3 0
 CompilationAction 1479315213949 TestBowlingGameException.java
 EditAction 1479315214613 TestBowlingScoreKeeper.java 882 3 6 2
+RefactoringAction 1479315231000 TestBowlingGameException.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479315231001 TestBowlingGameException.java ADD import upm.tdd.training.BowlingGame IMPORT
+CompilationAction 1479315231141 TestBowlingGameException.java
+EditAction 1479315248674 TestBowlingScoreKeeper.java 876 3 6 2

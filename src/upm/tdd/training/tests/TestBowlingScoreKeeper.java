@@ -23,7 +23,6 @@ public class TestBowlingScoreKeeper {
 	}
 
 	
-	
 	@Test
 	public void allStrikeInBowlingGamePoint() throws BowlingException{
 		for(int i=0;i<10;i++){
@@ -43,8 +42,6 @@ public class TestBowlingScoreKeeper {
 		//Assert
 		assertEquals(10,frame11.score());
 	}
-	
-	
 	
 	
 	
