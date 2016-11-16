@@ -34,10 +34,20 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void allStrikeInBowlingGamePoint() throws BowlingException{
 		for(int i=0;i<10;i++){
-			partita.addFrame(new Frame(10));
+			partita.addFrame(new Frame(10,10));
 		}
 		assertEquals(300,partita.score());
 		
+	}
+	
+	@Test
+	public void ifStrikeFrameContainsOnly10Point() throws BowlingException{
+		//Arrange
+		Frame frame11;
+		//Act
+		frame11 = new Frame(10, 10);
+		//Assert
+		assertEquals(10,frame11.score());
 	}
 	
 	

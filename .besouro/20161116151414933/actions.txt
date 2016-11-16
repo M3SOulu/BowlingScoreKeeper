@@ -306,3 +306,11 @@ EditAction 1479314283212 BowlingGame.java 1066 5 8 0
 UnitTestCaseAction 1479314309545 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314309546 TestBowlingScoreKeeper FAIL
 EditAction 1479314354024 TestBowlingScoreKeeper.java 858 3 6 1
+UnitTestCaseAction 1479314354540 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314354541 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314379562 TestBowlingScoreKeeper.java ADD void ifStr FIELD
+RefactoringAction 1479314381066 TestBowlingScoreKeeper.java RENAME ifStr=>void i FIELD
+RefactoringAction 1479314384106 TestBowlingScoreKeeper.java RENAME i=>void ifStrike FIELD
+RefactoringAction 1479314392621 TestBowlingScoreKeeper.java RENAME ifStrike=>void ifStrikeFrameContainsOnly FIELD
+RefactoringAction 1479314396141 TestBowlingScoreKeeper.java RENAME ifStrikeFrameContainsOnly=>void ifStrikeFrameContainsOnly10Point() METHOD
+EditAction 1479314478515 TestBowlingScoreKeeper.java 1061 4 9 2
