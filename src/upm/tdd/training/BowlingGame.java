@@ -32,33 +32,24 @@ public class BowlingGame {
 		for(int i = 2; i < frames.size(); i++){
 			index = i;
 			if(isNextFrameBonus()){
-			this.score += (frames.get(i - 2).score() + ((frames.get(i - 2)).isSpare()? frames.get(i-1).getBonusForSpare() : frames.get(i-1).getBonusForStrike()));
+			this.score += (frames.get(i - 2).score()+frames.get(i-1).bonus());
 				if(frames.get(i-1).isStrike()){
-					this.score +=  frames.get(i).getBonusForStrike();
-				}
-				if(frames.get(i-1).isSpare()){
-					this.score +=  frames.get(i).getBonusForSpare();
+					this.score +=  frames.get(i).bonus();
 				}
 			}else{
 				this.score += frames.get(i-2).score();
 			}
 		}	
 		if(isNextFrameBonus()){
-			this.score += (frames.get(index - 2).score() + ((frames.get(index - 2)).isSpare()? frames.get(index-1).getBonusForSpare() : frames.get(index-1).getBonusForStrike()));
-				if(frames.get(index-1).isStrike()){
-					this.score +=  frames.get(index).getBonusForStrike();
-				}
-				if(frames.get(index-1).isSpare()){
-					this.score +=  frames.get(index).getBonusForSpare();
+			this.score += (frames.get(index - 2).score() + frames.get(index-1).bonus());
+			if(frames.get(index-1).isStrike()){
+				this.score +=  frames.get(index).bonus();
 				}
 			}else{
 				this.score += frames.get(index-2).score();
 			}
-		if(frames.get((frames.size()-1)).isStrike()){
-			this.score +=  frames.get(index).getBonusForStrike();
-		}
-		if(frames.get((frames.size()-1)).isSpare()){
-			this.score +=  frames.get(index).getBonusForSpare();
+		if(frames.get(frames.size()-1).isStrike()|| frames.get(9).isSpare()){
+			this.score += bonus.bonus();
 		}
 		
 		return score;
@@ -68,6 +59,8 @@ public class BowlingGame {
 		return (frames.get(index - 2).isSpare() || frames.get(index - 2).isStrike());
 	}
 	
+	public int calcolaBonusTiroSuccessivo(){
+	}
 
 }
 

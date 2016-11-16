@@ -231,3 +231,7 @@ RefactoringAction 1479315547503 BowlingGame.java RENAME calcola=>int calcolaBonu
 RefactoringAction 1479315550567 BowlingGame.java RENAME calcolaBonusTiroSuccessivo=>int METHOD
 RefactoringAction 1479315788055 BowlingGame.java REMOVE calcolaBonusTiroSuccessivo() METHOD
 EditAction 1479315831055 BowlingGame.java 2067 5 8 0
+UnitTestCaseAction 1479315845106 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315845107 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479315933916 BowlingGame.java ADD int calcolaBonusTiroSuccessivo() METHOD
+EditAction 1479315949970 BowlingGame.java 1606 6 7 0
