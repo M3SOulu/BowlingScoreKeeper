@@ -259,3 +259,20 @@ UnitTestSessionAction 1479316811425 TestBowlingScoreKeeper FAIL
 UnitTestCaseAction 1479316813494 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479316813494 TestBowlingScoreKeeper FAIL
 EditAction 1479316873598 Frame.java 1205 9 11 0
+UnitTestCaseAction 1479316875592 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316875593 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316923303 TestBowlingScoreKeeper.java RENAME initFramesNoBonus()=><initializer /1> null
+RefactoringAction 1479316934332 TestBowlingScoreKeeper.java RENAME initFramesWithBonus()=>static void initFramesPer() METHOD
+RefactoringAction 1479316936849 TestBowlingScoreKeeper.java RENAME initFramesPer()=>static void initFramesPerfect() METHOD
+RefactoringAction 1479316939354 TestBowlingScoreKeeper.java RENAME initFramesPerfect()=>static void initFramesPerfectGame() METHOD
+UnitTestCaseAction 1479316955959 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316955959 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316962438 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316962438 TestBowlingScoreKeeper OK
+UnitTestCaseAction 1479316967597 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316967597 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316968970 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316968970 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479317081690 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479317081691 TestBowlingScoreKeeper FAIL
+EditAction 1479317130370 Frame.java 1207 9 11 0

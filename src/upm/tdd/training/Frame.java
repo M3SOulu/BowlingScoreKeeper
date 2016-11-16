@@ -34,7 +34,7 @@ public class Frame {
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		return firstThrow == MAX_PINS ? true : false;
+		return (firstThrow == MAX_PINS) ? true : false;
 	}
 	
 	//return whether a frame is a spare or not
