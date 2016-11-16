@@ -6,6 +6,7 @@ public class Frame {
 	private int secondThrow;
 	int points = 0;
 	private boolean lastFrame = false;
+	private int thirdThrow = 0;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.setFirstThrow(firstThrow);

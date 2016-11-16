@@ -92,3 +92,7 @@ EditAction 1479312220205 BowlingGame.java 1024 7 8 0
 UnitTestCaseAction 1479312227987 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479312227987 TestBowlingScoreKeeper FAIL
 EditAction 1479312595487 TestBowlingScoreKeeper.java 2207 2 44 2
+CompilationAction 1479312595649 TestBowlingScoreKeeper.java
+RefactoringAction 1479312715699 Frame.java ADD int secondThrow/2 FIELD
+RefactoringAction 1479312719213 Frame.java RENAME secondThrow/2=>int thirdThrow FIELD
+EditAction 1479312731086 Frame.java 1345 10 16 0
