@@ -40,7 +40,7 @@ public class Frame {
 	}
 	
 	public void setScore(){
-		this.score = getFirstThrow()+getSecondThrow();
+		this.score = this.getFirstThrow()+this.getSecondThrow();
 	}
 	
 	public int getFirstThrow() {
