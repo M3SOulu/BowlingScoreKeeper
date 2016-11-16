@@ -12,3 +12,4 @@ EditAction 1479307097399 Frame.java 993 6 8 0
 RefactoringAction 1479307131747 Frame.java ADD int getFrameNumber() METHOD
 RefactoringAction 1479307131748 Frame.java ADD void setFrameNumber(int) METHOD
 EditAction 1479307182743 Frame.java 1192 8 10 0
+EditAction 1479307495409 Frame.java 1193 8 10 0
