@@ -38,7 +38,7 @@ public class BowlingGame {
 		if(totScore>0 && bonus == null) throw new BowlingException();
 		switch(bonusThrowsNum){
 		case 1: totScore += bonus.getFirstThrow();
-		case 2: totScore += bonus.score();
+		case 2: totScore += bonus.getFirstThrow() + bonus.getSecondThrow();
 		}
 		
 		return totScore;
