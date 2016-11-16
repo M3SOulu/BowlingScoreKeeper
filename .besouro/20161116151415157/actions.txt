@@ -303,3 +303,8 @@ UnitTestCaseAction 1479316060739 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479316060739 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479316090227 BowlingException.java ADD BowlingException() METHOD
 EditAction 1479316095091 BowlingException.java 213 1 1 0
+UnitTestCaseAction 1479316098983 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316098983 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316137845 Frame.java RENAME areNotValidThrows()=>boolean areNotValidThrows(int) METHOD
+RefactoringAction 1479316146391 Frame.java RENAME areNotValidThrows(int)=>boolean areNotValidThrows(int, int) METHOD
+EditAction 1479316153782 Frame.java 1469 11 11 0

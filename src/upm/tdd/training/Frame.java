@@ -9,7 +9,7 @@ public class Frame {
 	private int frameScore;
 
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
-		if (areNotValidThrows()) {
+		if (areNotValidThrows(firstThrow, secondThrow)) {
 			throw new BowlingException();
 		} else {
 			this.firstThrow = firstThrow;
@@ -57,9 +57,8 @@ public class Frame {
 		return secondThrow;
 	}
 
-	private boolean areNotValidThrows() {
-		//return (firstThrow < 0 || firstThrow > 10 || secondThrow < 0 || secondThrow > 10);
-		return firstThrow > 10;
+	private boolean areNotValidThrows( int firstThrow, int secondThrow) {
+		return (firstThrow < 0 || firstThrow > 10 || secondThrow < 0 || secondThrow > 10);
 	}
 
 	public void addBonusThrow() {
