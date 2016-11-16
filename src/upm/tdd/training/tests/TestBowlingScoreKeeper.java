@@ -28,7 +28,7 @@ public class TestBowlingScoreKeeper {
 			partita.addFrame(new Frame(10));
 			partita.setBonus(10,10);
 		}
-		fail("Error: Score method is failed");
+		fail("Error: Score BowlingGame score method is failed");
 		
 	}
 	
