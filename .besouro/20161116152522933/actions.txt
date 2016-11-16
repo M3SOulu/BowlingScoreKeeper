@@ -218,3 +218,43 @@ FileOpenedAction 1479313594222 TestBowlingScoreKeeper.java 237 0 0 0
 UnitTestCaseAction 1479313596051 TestBowlingScoreKeeper.java OK
 UnitTestSessionAction 1479313596052 TestBowlingScoreKeeper OK
 EditAction 1479314061751 TestBowlingScoreKeeper.java 263 0 0 0
+UnitTestCaseAction 1479314062229 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314062230 TestBowlingScoreKeeper FAIL
+FileOpenedAction 1479314073572 BowlingGame.java 1140 5 7 0
+RefactoringAction 1479314175495 TestBowlingGame.java RENAME test()=>void testInit() METHOD
+RefactoringAction 1479314178006 TestBowlingGame.java RENAME testInit()=>void testInitGame() METHOD
+RefactoringAction 1479314183513 TestBowlingGame.java RENAME testInitGame()=>void testInitGameWhith() METHOD
+RefactoringAction 1479314187037 TestBowlingGame.java RENAME testInitGameWhith()=>void testI() METHOD
+RefactoringAction 1479314188041 TestBowlingGame.java RENAME testI()=>void test() METHOD
+RefactoringAction 1479314190057 TestBowlingGame.java RENAME test()=>void testAdd() METHOD
+RefactoringAction 1479314191061 TestBowlingGame.java RENAME testAdd()=>void testAddF() METHOD
+RefactoringAction 1479314192564 TestBowlingGame.java RENAME testAddF()=>void testAddFrame() METHOD
+RefactoringAction 1479314203083 TestBowlingGame.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479314207090 TestBowlingGame.java ADD BowlingGame bg FIELD
+RefactoringAction 1479314235141 TestBowlingGame.java ADD Frame f1 FIELD
+RefactoringAction 1479314238166 TestBowlingGame.java RENAME f1=>Frame f FIELD
+RefactoringAction 1479314257236 TestBowlingGame.java ADD import java.awt.Frame IMPORT
+RefactoringAction 1479314270759 TestBowlingGame.java ADD Frame f/2 FIELD
+RefactoringAction 1479314276267 TestBowlingGame.java ADD Frame f/3 FIELD
+RefactoringAction 1479314276276 TestBowlingGame.java ADD Frame f/4 FIELD
+RefactoringAction 1479314276280 TestBowlingGame.java ADD Frame f/5 FIELD
+RefactoringAction 1479314276280 TestBowlingGame.java ADD Frame f/6 FIELD
+RefactoringAction 1479314276281 TestBowlingGame.java ADD Frame f/7 FIELD
+RefactoringAction 1479314276281 TestBowlingGame.java ADD Frame f/8 FIELD
+RefactoringAction 1479314276281 TestBowlingGame.java ADD Frame f/9 FIELD
+RefactoringAction 1479314276281 TestBowlingGame.java ADD Frame f/10 FIELD
+RefactoringAction 1479314281802 TestBowlingGame.java RENAME f/10=>Frame f1 FIELD
+RefactoringAction 1479314283317 TestBowlingGame.java RENAME f/9=>Frame f2 FIELD
+RefactoringAction 1479314284324 TestBowlingGame.java RENAME f/8=>Frame f3 FIELD
+RefactoringAction 1479314285840 TestBowlingGame.java ADD Frame f4 FIELD
+RefactoringAction 1479314285840 TestBowlingGame.java ADD Frame f5 FIELD
+RefactoringAction 1479314287345 TestBowlingGame.java ADD Frame f6 FIELD
+RefactoringAction 1479314287346 TestBowlingGame.java ADD Frame f7 FIELD
+RefactoringAction 1479314288366 TestBowlingGame.java RENAME f/3=>Frame f8 FIELD
+RefactoringAction 1479314289385 TestBowlingGame.java RENAME f/2=>Frame f9 FIELD
+RefactoringAction 1479314290891 TestBowlingGame.java RENAME f=>Frame f10 FIELD
+FileOpenedAction 1479314346433 Frame.java 1064 8 13 0
+RefactoringAction 1479314513138 TestBowlingGame.java REMOVE import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479314515656 TestBowlingGame.java ADD import upm.tdd.training.* IMPORT
+RefactoringAction 1479314543181 TestBowlingGame.java REMOVE import java.awt.Frame IMPORT
+EditAction 1479314545323 TestBowlingGame.java 561 1 0 0
