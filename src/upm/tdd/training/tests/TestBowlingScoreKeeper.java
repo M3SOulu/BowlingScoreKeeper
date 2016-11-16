@@ -18,7 +18,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void test() {
+	public void firstFrameSimpleScore() {
 		//Act
 		frame = new Frame(4,3);
 		game.addFrame(frame);
@@ -26,6 +26,18 @@ public class TestBowlingScoreKeeper {
 		
 		//Assert
 		assertTrue("score is 7", score == 7);
+	}
+	
+	@Test
+	public void firstFrameIsStrike() {
+		//Act
+		frame = new Frame(10,0);
+		game.addFrame(frame);
+		frame = new Frame(4,3);
+		int score = game.score();
+		
+		//Assert
+		assertTrue("score is 17", score == 17);
 	}
 
 }
