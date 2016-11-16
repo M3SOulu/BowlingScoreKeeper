@@ -345,3 +345,4 @@ RefactoringAction 1479315428509 TestBowlingScoreKeeper.java ADD void testSetBonu
 RefactoringAction 1479315432538 TestBowlingScoreKeeper.java RENAME testSetBonus()/2=>void testCSetBonus() METHOD
 RefactoringAction 1479315433550 TestBowlingScoreKeeper.java RENAME testCSetBonus()=>void testCntSetBonus() METHOD
 EditAction 1479315435552 TestBowlingScoreKeeper.java 1823 8 26 4
+EditAction 1479315446064 TestBowlingScoreKeeper.java 1852 8 26 4
