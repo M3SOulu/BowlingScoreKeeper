@@ -13,7 +13,7 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame) throws BowlingException{
 		if(frame.getFrameNumber() == 11) setBonus(frame.getFirstThrow(), frame.getSecondThrow());
-		frames.add(frame);	
+		else frames.add(frame);	
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
