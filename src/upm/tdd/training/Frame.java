@@ -20,7 +20,7 @@ public class Frame {
 	}
 	
 	//the score of a single frame
-	public int score(){
+	public int score() {
 		/*
 		if(this.isSpare()) {
 			score = (this.firstThrow + this.secondThrow + this.bonus());
@@ -34,7 +34,7 @@ public class Frame {
 	}
 
 	//returns whether the frame is a strike or not
-	public boolean isStrike(){
+	public boolean isStrike() {
 		boolean result = false;
 		
 		if(firstThrow == 10) {
@@ -45,7 +45,7 @@ public class Frame {
 	}
 	
 	//return whether a frame is a spare or not
-	public boolean isSpare(){
+	public boolean isSpare() {
 		boolean result = false;
 		
 		if((firstThrow + secondThrow) == 10) {
@@ -56,21 +56,14 @@ public class Frame {
 	}
 
 	//return whether this is the last frame of the match
-	public boolean isLastFrame(){
+	public boolean isLastFrame() {
 		boolean result = false;
-
-		
 		
 		return result;
 	}
 
 	//bonus throws
-	public int bonus(){
-		int result = 0;
-		
-		if(this.isLastFrame()) {
-			result = firstThrow;
-		}
+	public int bonus() {
 		
 		return 0;
 	}

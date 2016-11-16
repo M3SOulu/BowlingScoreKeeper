@@ -85,3 +85,10 @@ CompilationAction 1479312943872 BowlingGame.java
 CompilationAction 1479312943872 BowlingGame.java
 CompilationAction 1479312943872 BowlingGame.java
 EditAction 1479313562017 BowlingGame.java 653 5 5 0
+RefactoringAction 1479314175062 Frame.java ADD int thr FIELD
+RefactoringAction 1479314176575 Frame.java RENAME thr=>int third FIELD
+RefactoringAction 1479314178596 Frame.java RENAME third=>int thirdThrow FIELD
+RefactoringAction 1479314193147 Frame.java ADD void setThirdThrow() METHOD
+RefactoringAction 1479314230723 Frame.java REMOVE setThirdThrow() METHOD
+RefactoringAction 1479314236739 Frame.java REMOVE thirdThrow FIELD
+EditAction 1479314236895 Frame.java 1240 8 14 0
