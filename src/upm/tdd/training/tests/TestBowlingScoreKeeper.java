@@ -32,9 +32,9 @@ public class TestBowlingScoreKeeper {
 		partita.addFrame(frame);
 		partita.addFrame(frame);
 		partita.addFrame(frame);
-		//partita.addFrame(frame);
+		partita.addFrame(frame);
 		
-		assertEquals(300,partita.score());
+		assertEquals(10,partita.score());
 	}
 	
 	
