@@ -33,7 +33,7 @@ public class BowlingGame {
 			index = i;
 			if(isNextFrameBonus()){
 			this.score += (frames.get(i - 2).score()+frames.get(i-1).bonus());
-				if(frames.get(i-1).isStrike()){
+				if(frames.get(i-1).isStrike() || frames.get(i-1).isSpare()){
 					this.score +=  frames.get(i).score();
 				}
 			}else{
