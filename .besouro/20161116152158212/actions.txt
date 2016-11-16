@@ -55,3 +55,4 @@ RefactoringAction 1479307818597 BowlingException.java ADD BowlingException() MET
 RefactoringAction 1479307871694 BowlingException.java ADD BowlingException()/2 METHOD
 RefactoringAction 1479307875210 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
 EditAction 1479307880304 BowlingException.java 283 2 2 0
+EditAction 1479307892973 Frame.java 1184 6 8 0
