@@ -51,3 +51,6 @@ EditAction 1479309157909 Frame.java 1256 9 11 0
 EditAction 1479309176996 Frame.java 1255 9 11 0
 EditAction 1479309271749 Frame.java 1312 9 11 0
 EditAction 1479309287670 Frame.java 1320 9 11 0
+RefactoringAction 1479309298455 Frame.java ADD int getFrameNumber()/2 METHOD
+RefactoringAction 1479309309987 Frame.java RENAME getFrameNumber()/2=>boolean isBonusFrame() METHOD
+EditAction 1479309312914 Frame.java 1381 10 12 0

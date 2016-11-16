@@ -6,6 +6,10 @@ public class Frame {
 	private int secondThrow;
 	private boolean isBonusFrame = false;
 	
+	public boolean isBonusFrame() {
+		return isBonusFrame;
+	}
+	
 	//the number of this Frame in the Game
 	private int frameNumber = 0;
 	
