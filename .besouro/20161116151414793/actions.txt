@@ -1,0 +1,19 @@
+FileOpenedAction 1479305655217 TestBowlingScoreKeeper.java 197 1 1 0
+RefactoringAction 1479307202284 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479307202285 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1479307202285 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1479307202286 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1479307518212 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1479307518213 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1479307518213 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1479307518213 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1479307521227 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479307521228 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1479307521229 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1479307521237 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1479310368617 Frame.java ADD int thirdThr FIELD
+RefactoringAction 1479310370144 Frame.java RENAME thirdThr=>int thirdThrow FIELD
+RefactoringAction 1479310565185 Frame.java REMOVE thirdThrow FIELD
+RefactoringAction 1479311674472 Frame.java ADD int bonus FIELD
+RefactoringAction 1479311677009 Frame.java RENAME bonus=>int bonusThrow FIELD
+EditAction 1479311798344 Frame.java 1101 10 11 0
