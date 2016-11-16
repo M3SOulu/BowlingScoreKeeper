@@ -83,8 +83,8 @@ public class TestBowlingScoreKeeper {
 	@Test (expected = BowlingException.class)
 	public void testExceptionBowling() throws BowlingException{
 		BowlingGame gameException = new BowlingGame();
+		Frame frame = new Frame(1000, 0);
 		gameException.addFrame(new Frame(100, 0));
-		
 	}
 
 }
