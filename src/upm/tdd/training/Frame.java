@@ -2,6 +2,8 @@ package upm.tdd.training;
 
 
 public class Frame {
+	private static final int MAX_FRAME_SCORE = 10;
+	
 	private int firstThrow;
 	private int secondThrow;
 	
@@ -18,14 +20,12 @@ public class Frame {
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		//to be implemented
-		return false;
+		return this.firstThrow == MAX_FRAME_SCORE;
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		return (this.firstThrow + this.secondThrow) == MAX_FRAME_SCORE;
 	}
 
 	//return whether this is the last frame of the match
