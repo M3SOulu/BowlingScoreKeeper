@@ -27,13 +27,13 @@ public class BowlingGame {
 			if (frames.get(frames.size() - 1).isSpare()) {
 				frames.get(frames.size() - 1).addToScore(frame.getFirstThrow());
 			}
-			
+
 			/*
-			 * if frame before the actual was a strike, add to the previous frame
-			 * the point of the actual frame's score
+			 * if frame before the actual was a strike, add to the previous
+			 * frame the point of the actual frame's score
 			 */
-			if (condition) {
-				
+			if (frames.get(frames.size() - 1).isStrike()) {
+				frames.get(frames.size() - 1).addToScore(frame.score());
 			}
 
 		}
