@@ -43,8 +43,14 @@ public class BowlingGame {
 				}
 				else if(frames.get(i).isStrike()){
 						if(frames.get(i+1).isStrike()){
-							score=score+frames.get(i).score()+frames.get(i+1).score()+frames.get(i+2).getFirstThrow();
+							if(i==8){
+								score=score+frames.get(i).score()+frames.get(i+1).score()+bonus.getFirstThrow();
+							}
+							else
+								score=score+frames.get(i).score()+frames.get(i+1).score()+frames.get(i+2).getFirstThrow();
 						}
+						else
+							score=score+frames.get(i).score()+frames.get(i+1).score();
 				}else{
 					score=score+frames.get(i).score();
 				}

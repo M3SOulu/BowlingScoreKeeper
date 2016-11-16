@@ -28,6 +28,20 @@ public class TestBowlingScoreKeeper {
 			match2.addFrame(new Frame(10,0));
 		}
 		match2.setBonus(10,10);
+		
+		match3=new BowlingGame();
+		match3.addFrame(new Frame(1,4));
+		match3.addFrame(new Frame(4,5));
+		match3.addFrame(new Frame(6,4));
+		match3.addFrame(new Frame(5,5));
+		match3.addFrame(new Frame(10,0));
+		match3.addFrame(new Frame(0,1));
+		match3.addFrame(new Frame(7,3));
+		match3.addFrame(new Frame(6,4));
+		match3.addFrame(new Frame(10,0));
+		match3.addFrame(new Frame(2,8));
+		
+		match3.setBonus(6,0);
 	}
 	
 	@Test
@@ -38,6 +52,11 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void test_of_full_strike() {
 		Assert.assertEquals(300, match2.score());
+	}
+	
+	@Test
+	public void test_of_example_match(){
+		Assert.assertEquals(133, match3.score());
 	}
 
 }
