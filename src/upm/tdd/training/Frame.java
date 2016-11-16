@@ -15,6 +15,10 @@ public class Frame {
 		frameNumber=frameCounterGlobal++;
 		
 	}
+	
+	public Frame(int firstThrow){
+		super(10,0);
+	}
 
 	public int getFirstThrow(){
 		return this.firstThrow;
