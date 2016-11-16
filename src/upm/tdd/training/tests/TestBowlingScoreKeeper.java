@@ -12,7 +12,7 @@ import upm.tdd.training.BowlingGame;
 
 public class TestBowlingScoreKeeper {
 
-	BowlingGame partita=new BowlingGame();
+	BowlingGame partita = new BowlingGame();
 	Frame frame1;
 	Frame frame2;
 	Frame frame3;
@@ -23,11 +23,10 @@ public class TestBowlingScoreKeeper {
 	Frame frame8;
 	Frame frame9;
 	Frame frame10;
-	
-	
+
 	@Before
-	public void setUp() throws BowlingException{
-		//Arrange
+	public void setUp() throws BowlingException {
+		// Act
 		partita.addFrame(frame1);
 		partita.addFrame(frame2);
 		partita.addFrame(frame3);
@@ -38,21 +37,16 @@ public class TestBowlingScoreKeeper {
 		partita.addFrame(frame8);
 		partita.addFrame(frame9);
 		partita.addFrame(frame10);
-		
+
 	}
-	
-	@Test(expected=BowlingException.class)
+
+	@Test(expected = BowlingException.class)
 	public void testAddEleventhFrame() throws BowlingException {
-		//Arrange
+		// Arrange
 		Frame frame11;
-		//Act
-		frame11 = new Frame(1,4);
+		// Act
+		frame11 = new Frame(1, 4);
 		partita.addFrame(frame11);
 	}
-	
-	
-	
-	
-	
 
 }
