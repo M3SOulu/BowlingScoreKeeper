@@ -8,11 +8,12 @@ public class BowlingGame {
 	private Frame bonus;
 	
 	public BowlingGame(){
-		Frame frame1 = new Frame();
+		
 	}
 	
 	public void addFrame(Frame frame){
-		frames.add(e);
+		if(frames.size()==10)
+		frames.add(frame);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {

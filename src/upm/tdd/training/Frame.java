@@ -3,7 +3,6 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	private int totalFrame;
 	
 
 	public Frame(int firstThrow, int secondThrow) {
