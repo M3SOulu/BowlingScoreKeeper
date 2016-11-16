@@ -18,7 +18,7 @@ public class TestBowlingScoreKeeper {
 	public void setUp(){
 		match1=new BowlingGame();
 		for(int i=0;i<10;i++){
-			match1.addFrame(new Frame(10,0));
+			match1.addFrame(new Frame(5,5));
 		}
 	}
 	
