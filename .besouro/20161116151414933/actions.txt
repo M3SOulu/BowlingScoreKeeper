@@ -42,3 +42,5 @@ FileOpenedAction 1479308091272 Score.java 60 0 0 0
 RefactoringAction 1479308145941 BowlingScore.java REMOVE BowlingScore.java CLASS
 RefactoringAction 1479308145941 Score.java REMOVE Score.java CLASS
 EditAction 1479308161458 TestBowlingScoreKeeper.java 169 1 0 0
+RefactoringAction 1479308180198 TestBowlingScoreKeeper.java ADD BowlingGame partita FIELD
+EditAction 1479308232021 TestBowlingScoreKeeper.java 210 1 0 0

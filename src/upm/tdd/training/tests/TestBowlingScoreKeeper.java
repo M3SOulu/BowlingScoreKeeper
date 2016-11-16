@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class TestBowlingScoreKeeper {
 
+	BowlingGame partita=new BownlingGame();
 	@Test
 	public void test() {
 		
