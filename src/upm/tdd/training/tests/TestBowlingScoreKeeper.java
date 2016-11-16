@@ -34,7 +34,7 @@ public class TestBowlingScoreKeeper {
 	public void testAllOneAndOneScore() throws BowlingException {
 		Frame f = new Frame(1,1);
 		for(int i=0; i<10; i++) game.addFrame(f);
-		Assert.assertEquals(0, game.score());
+		Assert.assertEquals(20, game.score());
 	}
 	
 	@Test (expected = BowlingException.class)

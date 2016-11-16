@@ -327,3 +327,4 @@ RefactoringAction 1479314905925 TestBowlingScoreKeeper.java RENAME testAllZerosS
 RefactoringAction 1479314906930 TestBowlingScoreKeeper.java RENAME testAllOneAScore()=>void testAllOneAndScore() METHOD
 RefactoringAction 1479314907934 TestBowlingScoreKeeper.java RENAME testAllOneAndScore()=>void testAllOneAndOneScore() METHOD
 EditAction 1479314921611 TestBowlingScoreKeeper.java 1307 6 14 3
+EditAction 1479314936906 TestBowlingScoreKeeper.java 1308 6 14 3
