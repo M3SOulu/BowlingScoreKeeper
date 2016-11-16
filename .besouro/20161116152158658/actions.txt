@@ -30,3 +30,7 @@ RefactoringAction 1479308190439 Frame.java ADD void setFirstThrow(int)/2 METHOD
 RefactoringAction 1479308195952 Frame.java RENAME setFirstThrow(int)/2=>void setSecondThrow(int) METHOD
 EditAction 1479308215713 Frame.java 1324 12 13 0
 EditAction 1479308215848 BowlingGame.java 571 5 3 0
+RefactoringAction 1479308641426 BowlingGame.java ADD int score FIELD
+RefactoringAction 1479308647511 BowlingGame.java ADD pr uivate FIELD
+RefactoringAction 1479308650532 BowlingGame.java REMOVE uivate FIELD
+EditAction 1479308847218 BowlingGame.java 802 5 4 0
