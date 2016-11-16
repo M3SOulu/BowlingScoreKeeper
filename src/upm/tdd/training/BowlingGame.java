@@ -41,7 +41,6 @@ public class BowlingGame {
 					}
 					else {
 						frameScore+=bonus(thisFrame, nextFrame);
-						i=i+1;
 					}
 				}
 				else if (thisFrame.isSpare()) {
