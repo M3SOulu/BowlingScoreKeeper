@@ -169,3 +169,18 @@ EditAction 1479313988492 BowlingGame.java 1583 5 7 0
 UnitTestCaseAction 1479313992502 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479313992502 TestBowlingScoreKeeper FAIL
 EditAction 1479314145243 BowlingGame.java 1554 5 7 0
+UnitTestCaseAction 1479314153999 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314153999 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314168778 TestBowlingScoreKeeper.java ADD void tutti_10_score_equals_100()/2 METHOD
+RefactoringAction 1479314175789 TestBowlingScoreKeeper.java RENAME tutti_10_score_equals_100()/2=>void S_score_equals_100() METHOD
+RefactoringAction 1479314175815 TestBowlingScoreKeeper.java RENAME S_score_equals_100()=>void SE_score_equals_100() METHOD
+RefactoringAction 1479314177025 TestBowlingScoreKeeper.java RENAME SE_score_equals_100()=>void SET_score_equals_100() METHOD
+RefactoringAction 1479314184434 TestBowlingScoreKeeper.java RENAME SET_score_equals_100()=>void s_score_equals_100() METHOD
+RefactoringAction 1479314186301 TestBowlingScoreKeeper.java RENAME s_score_equals_100()=>void set_score_equals_100() METHOD
+RefactoringAction 1479314186314 TestBowlingScoreKeeper.java RENAME s_score_equals_100()=>void set_score_equals_100() METHOD
+RefactoringAction 1479314188724 TestBowlingScoreKeeper.java RENAME set_score_equals_100()=>void set_traccia_score_equals_100() METHOD
+RefactoringAction 1479314191820 TestBowlingScoreKeeper.java RENAME set_traccia_score_equals_100()=>void set_traccia_equals_100() METHOD
+RefactoringAction 1479314195043 TestBowlingScoreKeeper.java RENAME set_traccia_equals_100()=>void set_traccia_equals_1() METHOD
+RefactoringAction 1479314195981 TestBowlingScoreKeeper.java RENAME set_traccia_equals_1()=>void set_traccia_equals_133() METHOD
+RefactoringAction 1479314202545 TestBowlingScoreKeeper.java RENAME tutti_10_score_equals_100()=>void tutti_10_score_equals_300() METHOD
+EditAction 1479314234137 TestBowlingScoreKeeper.java 1472 4 27 2

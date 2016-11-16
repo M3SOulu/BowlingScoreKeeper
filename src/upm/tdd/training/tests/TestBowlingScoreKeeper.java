@@ -20,7 +20,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void tutti_10_score_equals_100() throws BowlingException {
+	public void set_traccia_equals_133() throws BowlingException {
 		
 		partita.addFrame(new Frame(1,4));
 		partita.addFrame(new Frame(4,5));
@@ -33,6 +33,24 @@ public class TestBowlingScoreKeeper {
 		partita.addFrame(new Frame(10,0));
 		partita.addFrame(new Frame(2,8));
 		partita.addFrame(new Frame(6,0));
+		
+		assertEquals(133,partita.score());
+	}
+	@Test
+	public void tutti_10_score_equals_300() throws BowlingException {
+		
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+		partita.addFrame(frame);
+
 		
 		assertEquals(133,partita.score());
 	}
