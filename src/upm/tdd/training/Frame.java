@@ -49,12 +49,12 @@ public class Frame {
 		return 0;
 	}
 
-	public int setNFrame() {
-		return this.nFrame;
+	public void setNFrame(int n) {
+		n = this.nFrame;
 	}
 	
-	public int setBonusPoints() {
-		return this.bonusPoints;
+	public void setBonusPoints(int bonus) {
+		bonus = this.bonusPoints;
 	}
 
 }

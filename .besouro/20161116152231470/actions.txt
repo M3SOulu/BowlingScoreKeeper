@@ -17,3 +17,9 @@ RefactoringAction 1479307840587 Frame.java ADD int setNFrame()/2 METHOD
 RefactoringAction 1479307847599 Frame.java RENAME setNFrame()/2=>int setBonusPoints() METHOD
 EditAction 1479308171890 Frame.java 1028 8 12 0
 EditAction 1479308172155 BowlingGame.java 815 5 7 0
+CompilationAction 1479308173234 BowlingGame.java
+CompilationAction 1479308173235 BowlingGame.java
+CompilationAction 1479308173235 BowlingGame.java
+RefactoringAction 1479308298288 Frame.java RENAME setBonusPoints()=>int setBonusPoints(int) METHOD
+RefactoringAction 1479308317907 Frame.java RENAME setNFrame()=>void setNFrame(int) METHOD
+EditAction 1479308323326 Frame.java 1042 8 12 0
