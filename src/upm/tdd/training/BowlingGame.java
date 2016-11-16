@@ -13,7 +13,7 @@ public class BowlingGame {
 	}
 	
 	public void addFrame(Frame frame) throws BowlingException{
-		if(frameNumber > 10){
+		if(frameNumber > 11){
 			if(frameNumber == 10){
 				if(frame.bonus() == 0){
 					throw new BowlingException();
