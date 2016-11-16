@@ -29,18 +29,18 @@ public class BowlingGame {
 	
 	public int score(){
 		int score = 0;
-		int bonus = 0;
+		int bonusNumber = 0;
 		
 		for( Frame frame : frames ){
-			if( bonus == 1 ){
+			if( bonusNumber == 1 ){
 				score += frame.getFirstThrow();
 			}
-			else if( bonus == 2 ){
+			else if( bonusNumber == 2 ){
 				score += ( frame.getFirstThrow() + frame.getSecondThrow() );
 			}
 			
-			score += (frame.score() + bonus);
-			bonus = frame.bonus();
+			score += frame.score();
+			bonusNumber = frame.bonus();
 		}
 		
 		if( bonus != null ){
