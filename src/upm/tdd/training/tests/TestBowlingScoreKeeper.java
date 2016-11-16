@@ -35,12 +35,34 @@ public class TestBowlingScoreKeeper {
 		// Assert
 		assertEquals(300, bowlingGame.score());
 	}
+	
+	@Test
+	public void minScoreBowlingGame() throws BowlingException {
+		// Arrange
+		Frame frame = new Frame(0, 0);
+		// Act
+		for (int i = 0; i < 10; i++) {
+			bowlingGame.addFrame(frame);
+		}
+		// Assert
+		assertEquals(0, bowlingGame.score());
+	}
 
 	@Test
-	public void dBowlingException() {
+	public void dBowlingException() throws BowlingException {		
 		// Arrange
+		Frame frame1 = new Frame(10, 0);
+		Frame frame2 = new Frame(6, 3);
+		Frame frame3 = new Frame(8, 0);
 		// Act
+		bowlingGame.addFrame(frame1);
+		bowlingGame.addFrame(frame2);
+		for (int i = 2; i < 10; i++) {
+			bowlingGame.addFrame(frame3);
+		}
+		bowlingGame.setBonus(10, 0);
 		// Assert
+		assertEquals(300, bowlingGame.score());
 	}
 
 }
