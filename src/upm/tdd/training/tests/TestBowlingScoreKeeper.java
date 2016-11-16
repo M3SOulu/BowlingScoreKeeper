@@ -21,8 +21,10 @@ public class TestBowlingScoreKeeper {
 	}
 
 	@Test
-	public void testAddFrame() {
-		
+	public void testAddFrame() throws BowlingException {
+		//Act
+		newGame.addFrame(newFrame);
+		int size = 
 	}
 
 }

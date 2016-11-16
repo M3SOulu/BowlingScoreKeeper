@@ -136,3 +136,4 @@ RefactoringAction 1479310748958 BowlingGame.java RENAME se=>void size FIELD
 RefactoringAction 1479310752476 BowlingGame.java RENAME size=>void sizeFrames FIELD
 RefactoringAction 1479310761023 BowlingGame.java RENAME sizeFrames=>int sizeFrames() METHOD
 EditAction 1479310828433 BowlingGame.java 726 6 6 0
+EditAction 1479310828576 TestBowlingScoreKeeper.java 548 2 2 0
