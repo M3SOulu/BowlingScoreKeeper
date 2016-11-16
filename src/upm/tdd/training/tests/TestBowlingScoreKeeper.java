@@ -34,7 +34,7 @@ public class TestBowlingScoreKeeper {
 	@Test (expected = BowlingException.class)
 	public void testMoreThanElevenThrowsBowlingException() throws BowlingException{
 		Frame f;
-		for(int i=0; i<12; i++){
+		for(int i=0; i<120; i++){
 			f = new Frame(2,3);
 			game.addFrame(f);
 		}
