@@ -22,6 +22,16 @@ public class BowlingGame {
 		frames.add( frame );
 	}
 	
+	public static void main( String[] args ){
+		BowlingGame b = new BowlingGame();
+		try {
+			b.addFrame( new Frame ( 1, 0 ) );
+		} catch (BowlingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	/**
 	 * set the bonus frame if it is allowed
 	 * @param firstThrow
