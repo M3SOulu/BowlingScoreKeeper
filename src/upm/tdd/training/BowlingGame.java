@@ -22,6 +22,12 @@ public class BowlingGame {
 		}
 	}
 	
+	public void setFinalBonus(){
+			if(getFrames().get(9).bonus() != 0){
+				getFrames().get(9).points += getFrames().get(i).getThirdThrow();
+			}
+	}
+	
 	public int score(){
 		int totScore = 0;
 		setBonus();
