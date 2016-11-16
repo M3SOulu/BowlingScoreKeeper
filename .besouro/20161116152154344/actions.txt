@@ -162,3 +162,6 @@ EditAction 1479314734234 TestBowlingScoreKeeper.java 741 3 6 1
 UnitTestCaseAction 1479314750742 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314750742 TestBowlingScoreKeeper FAIL
 EditAction 1479314795212 BowlingGame.java 1320 5 10 0
+RefactoringAction 1479314863622 BowlingGame.java ADD int MAX_FRAMES/2 FIELD
+RefactoringAction 1479314866644 BowlingGame.java RENAME MAX_FRAMES/2=>int BONUS_FRAME FIELD
+EditAction 1479314884479 BowlingGame.java 1353 5 10 0

@@ -6,7 +6,8 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
-	private final int MAX_FRAMES = 11;
+	private final int MAX_FRAMES = 10;
+	private final int BONUS_FRAME = 11;
 	
 	public BowlingGame(){}
 
@@ -21,7 +22,7 @@ public class BowlingGame {
 	}
 	
 	public int score() throws BowlingException{
-		if (frames.size() < MAX_FRAMES-1)
+		if (frames.size() < MAX_FRAMES)
 			throw new BowlingException("Partita non terminata.");
 		int i = 0;
 		int result = frames.get(i).score();
@@ -34,7 +35,7 @@ public class BowlingGame {
 		}
 		
 		if (isNextFrameBonus()){
-			setBonus(frames.get(MAX_FRAMES).getFirstThrow(), frames.get(MAX_FRAMES).getSecondThrow());
+			setBonus(frames.get(BONUS_FRAME).getFirstThrow(), frames.get(BONUS_FRAME).getSecondThrow());
 			result += bonus.score();
 		}
 		
@@ -42,6 +43,6 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus(){
-		return (frames.get(MAX_FRAMES-1).isStrike() || frames.get(MAX_FRAMES-1).isSpare()) ? true : false;
+		return (frames.get(MAX_FRAMES).isStrike() || frames.get(MAX_FRAMES).isSpare()) ? true : false;
 	}
 }
