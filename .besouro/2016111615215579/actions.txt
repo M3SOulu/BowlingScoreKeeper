@@ -13,3 +13,14 @@ RefactoringAction 1479306919004 Frame.java ADD int frame FIELD
 RefactoringAction 1479306919005 Frame.java ADD int getFrame() METHOD
 EditAction 1479306997087 Frame.java 984 7 13 0
 EditAction 1479307174434 Frame.java 981 7 13 0
+RefactoringAction 1479307413428 BowlingGame.java ADD int gameScore FIELD
+RefactoringAction 1479307868365 Frame.java ADD int score FIELD
+RefactoringAction 1479307879466 Frame.java ADD int setScore FIELD
+RefactoringAction 1479307880471 Frame.java RENAME setScore=>int setScore() METHOD
+RefactoringAction 1479307882990 Frame.java RENAME setScore()=>int setScore(int) METHOD
+RefactoringAction 1479308102236 Frame.java RENAME setScore(int)=>int setScore(Frame) METHOD
+RefactoringAction 1479308103248 Frame.java RENAME setScore(Frame)=>int setScore(Frame, int) METHOD
+RefactoringAction 1479308162310 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479308180707 Frame.java ADD int getFirstThrow()/2 METHOD
+RefactoringAction 1479308184723 Frame.java RENAME getFirstThrow()/2=>int getSecondThrow() METHOD
+EditAction 1479308274603 Frame.java 1417 10 16 0
