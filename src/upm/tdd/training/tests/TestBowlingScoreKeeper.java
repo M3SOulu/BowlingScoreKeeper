@@ -28,11 +28,11 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void BowlingException() throws upm.tdd.training.BowlingException{
+	public void BowlingException() throws BowlingException{
 		//Arrange
 		Frame frame= new Frame(10, 0);
 		//Act
-		bowlingGame.addFrame(frame);;
+		bowlingGame.addFrame(frame);
 		//Assert
 		assertEquals(300,bowlingGame.score());
 	}

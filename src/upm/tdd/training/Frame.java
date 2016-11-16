@@ -7,8 +7,7 @@ public class Frame {
 	private int secondThrow;
 	
 
-	Frame(int firstThrow, int secondThrow) throws BowlingException {
-		if((firstThrow+secondThrow)>10) throw new BowlingException();
+	public Frame(int firstThrow, int secondThrow) {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
