@@ -41,7 +41,8 @@ public class TestBowlingScoreKeeper {
 		assertEquals(15+7, partita2.score());
 	}
 	
- public void testAScoreAfter3Strikes() {
+	@Test	
+	public void testAScoreAfter3Strikes() {
 	 BowlingGame partita3 = new BowlingGame();
 	Frame strike = new Frame(10,0);
 	

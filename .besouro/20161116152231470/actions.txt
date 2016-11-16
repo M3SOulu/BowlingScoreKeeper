@@ -176,3 +176,6 @@ RefactoringAction 1479316088835 TestBowlingScoreKeeper.java RENAME testAScoreAft
 RefactoringAction 1479316089848 TestBowlingScoreKeeper.java RENAME testAScoreAfter3Strike=>void testAScoreAfter3Strike() METHOD
 RefactoringAction 1479316093373 TestBowlingScoreKeeper.java RENAME testAScoreAfter3Strike()=>void testAScoreAfter3Strikes() METHOD
 EditAction 1479316154344 TestBowlingScoreKeeper.java 1185 4 22 4
+UnitTestCaseAction 1479316158780 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316158781 TestBowlingScoreKeeper OK
+EditAction 1479316178214 TestBowlingScoreKeeper.java 1193 4 22 4
