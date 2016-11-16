@@ -8,12 +8,12 @@ public class Frame {
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.setFirstThrow(firstThrow);
-		this.secondThrow = secondThrow;
+		this.setSecondThrow(secondThrow);
 	}
 	
 	//the score of a single frame
 	public int score(){
-		points += (getFirstThrow() + secondThrow);
+		points += (getFirstThrow() + getSecondThrow());
 		return points;
 	}
 
@@ -26,7 +26,7 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		if(getFirstThrow() >=0 && getFirstThrow() <9 && secondThrow == (10 - getFirstThrow()))
+		if(getFirstThrow() >=0 && getFirstThrow() <9 && getSecondThrow() == (10 - getFirstThrow()))
 			return true;
 		return false;
 	}
@@ -52,6 +52,14 @@ public class Frame {
 
 	public void setFirstThrow(int firstThrow) {
 		this.firstThrow = firstThrow;
+	}
+
+	public int getSecondThrow() {
+		return secondThrow;
+	}
+
+	public void setSecondThrow(int secondThrow) {
+		this.secondThrow = secondThrow;
 	}
 
 
