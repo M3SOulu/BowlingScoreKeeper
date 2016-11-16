@@ -44,10 +44,11 @@ public class BowlingGame {
 						i=i+1;
 					}
 				}
-				
-				if (thisFrame.isSpare()) {
+				else if (thisFrame.isSpare()) {
 					frameScore+=bonus(thisFrame, nextFrame);
 				}
+				else
+					frameScore=thisFrame.score();
 			}
 			else if (i<frames.size()-1) {
 				Frame nextFrame=frames.get(i++);
@@ -64,17 +65,21 @@ public class BowlingGame {
 						i=i+1;
 					}
 				}
-				if (thisFrame.isSpare()) {
+				else if (thisFrame.isSpare()) {
 					frameScore+=bonus(thisFrame, nextFrame);
 				}
+				else
+					frameScore=thisFrame.score();
 			}
 			else if (i==frames.size()) {
 				if(thisFrame.isStrike()) {
 					frameScore+=bonus(thisFrame, bonus);
 				}
-				if (thisFrame.isSpare()) {
+				else if (thisFrame.isSpare()) {
 					frameScore+=bonus(thisFrame, bonus);
 				}
+				else
+					frameScore=thisFrame.score();
 			}
 			
 			score+=frameScore;
