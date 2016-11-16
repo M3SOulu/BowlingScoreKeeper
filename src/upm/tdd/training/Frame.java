@@ -6,6 +6,15 @@ public class Frame {
 	private int secondThrow;
 	private BowlingGame bowlingGameMembership = null;
 	
+	
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+	public int getSecondThrow() {
+		return secondThrow;
+	}
+
 	public Frame(Frame newFrame, BowlingGame bowlingGameMembership) throws BowlingException {
 		this(newFrame.firstThrow, newFrame.secondThrow);
 		this.bowlingGameMembership = bowlingGameMembership;
@@ -45,12 +54,6 @@ public class Frame {
 
 	// bonus throws
 	private int bonus() {
-		Frame nextFrame = bowlingGameMembership.getNextFrame(this);
-		if(isSpare() && nextFrame != null)
-			return nextFrame.firstThrow;
-		if(isStrike() && nextFrame != null)
-			return (nextFrame.firstThrow + nextFrame.secondThrow);
-		return 0;
+		return bowlingGameMembership.getBonus(this);
 	}
-
 }
