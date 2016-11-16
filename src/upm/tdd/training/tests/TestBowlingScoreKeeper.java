@@ -16,8 +16,8 @@ public class TestBowlingScoreKeeper {
 	public void setUp() throws BowlingException
 	{
 		Frame.resetIdCounting();
-		b = new BowlingGame();
 		
+		b = new BowlingGame();
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
@@ -32,8 +32,6 @@ public class TestBowlingScoreKeeper {
 
 	@Test
 	public void testCorrectAddFrame() throws BowlingException {
-		
-		
 		Frame f = new Frame( 1, 2 );
 		b.addFrame( f  );
 		assertEquals( true, f.isLastFrame() );
@@ -43,58 +41,22 @@ public class TestBowlingScoreKeeper {
 	public void testNotCorrectAddFrame() throws BowlingException {
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
 	}
 	
 	@Test
 	public void testIsNextFrameBonusStrike() throws BowlingException {
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 10, 0 )  );
 		assertEquals(true, b.isNextFrameBonus());
 	}
 	
 	@Test
 	public void testIsNextFrameBonusSpire() throws BowlingException {
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 5, 5 )  );
 		assertEquals(true, b.isNextFrameBonus());
 	}
 	
 	@Test
 	public void testIsNotNextFrameBonus() throws BowlingException {
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
 		assertEquals(false, b.isNextFrameBonus());
 	}
