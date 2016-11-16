@@ -161,3 +161,6 @@ UnitTestCaseAction 1479312861078 TestFrame.java OK
 UnitTestSessionAction 1479312861078 TestFrame OK
 RefactoringAction 1479312910349 TestFrame.java ADD void testGameGetScore() METHOD
 EditAction 1479312925277 TestFrame.java 1872 10 13 0
+UnitTestCaseAction 1479312925785 TestFrame.java OK
+UnitTestSessionAction 1479312925786 TestFrame OK
+EditAction 1479312976411 TestFrame.java 1963 10 23 0
