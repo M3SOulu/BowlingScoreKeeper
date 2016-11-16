@@ -32,3 +32,4 @@ RefactoringAction 1479309171937 BowlingGame.java REMOVE score() METHOD
 RefactoringAction 1479309176958 BowlingGame.java ADD int score() METHOD
 RefactoringAction 1479309176958 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
 EditAction 1479309181559 BowlingGame.java 882 5 5 0
+EditAction 1479309181898 Frame.java 909 6 9 0
