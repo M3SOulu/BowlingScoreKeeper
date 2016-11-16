@@ -382,3 +382,6 @@ RefactoringAction 1479315499839 TestBowlingGameException.java RENAME <initialize
 RefactoringAction 1479315503360 TestBowlingGameException.java RENAME BowlingGameNot()=>void BowlingGameNotInitialized() METHOD
 CompilationAction 1479315504961 TestBowlingGameException.java
 EditAction 1479315507438 TestBowlingScoreKeeper.java 879 3 6 2
+UnitTestCaseAction 1479315508001 TestBowlingGameException.java FAIL
+UnitTestSessionAction 1479315508003 TestBowlingGameException.BowlingGameNotInitialized FAIL
+EditAction 1479315560497 TestBowlingGameException.java 849 3 5 0
