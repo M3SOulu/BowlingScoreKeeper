@@ -18,8 +18,22 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		int score = 0;
+		int bonus = 0;
+		
+		for( Frame frame : frames ){
+			if( bonus == 1 ){
+				//
+			}
+			else if( bonus == 2 ){
+				//
+			}
+			
+			score += frame.score() + bonus;
+			bonus = frame.bonus();
+		}
+		
+		return score;
 	}
 	
 	public boolean isNextFrameBonus(){
