@@ -26,13 +26,26 @@ public class BowlingGame {
 	
 	public int score(){
 		for(int i=0;i<frames.size();i++){
-			if(frames.get(frames.size()-1).isSpare()){
-				score=score+frames.get(frames.size()-1).score()+frames.get(frames.size()).getFirstThrow();
+			if(frames.get(frames.size()-1).isLastFrame()){
+				if(frames.get(9).bonus()==1){
+					score=score+frames.get(9).score()+bonus.getFirstThrow();
+				}
+				else if(frames.get(9).bonus()==2){
+					score=score+frames.get(9).score()+bonus.score();					
+				}
+				else
+					score=score+frames.get(9).score();
 			}
-			else if(frames.get(frames.size()-1).isStrike()){
-				score=score+frames.get(frames.size()-1).score()+frames.get(frames.size()).score();
-			}else
-				score=score+frames.get(frames.size()-1).score();
+			else{
+				if(frames.get(frames.size()-1).isSpare()){
+					score=score+frames.get(frames.size()-1).score()+frames.get(frames.size()).getFirstThrow();
+				}
+				else if(frames.get(frames.size()-1).isStrike()){
+					score=score+frames.get(frames.size()-1).score()+frames.get(frames.size()).score();
+				}else{
+					score=score+frames.get(frames.size()-1).score();
+				}
+			}
 		}
 		
 		return score;
