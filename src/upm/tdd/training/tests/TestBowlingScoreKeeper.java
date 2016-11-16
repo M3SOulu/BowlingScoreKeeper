@@ -31,9 +31,9 @@ public class TestBowlingScoreKeeper {
 
 	@Test
 	public void test() throws BowlingException {
-		/*for (int i = 0; i < frame.length; i++) {
+		for (int i = 0; i < frame.length; i++) {
 			game.addFrame(frame[i]);
-		}*/
+		}
 	}
 
 }
