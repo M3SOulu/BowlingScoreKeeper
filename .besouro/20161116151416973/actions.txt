@@ -4,3 +4,5 @@ RefactoringAction 1479307184937 Frame.java ADD int bonus FIELD
 RefactoringAction 1479307186946 Frame.java REMOVE bonus FIELD
 EditAction 1479307345102 Frame.java 802 6 9 0
 EditAction 1479307348078 BowlingGame.java 646 5 2 0
+CompilationAction 1479307348360 BowlingGame.java
+EditAction 1479307525515 Frame.java 863 6 11 0

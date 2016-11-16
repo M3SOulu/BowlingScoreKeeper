@@ -20,7 +20,7 @@ public class Frame {
 	public boolean isStrike(){
 		boolean result = false;
 		
-		if((firstThrow + secondThrow) == 10) {
+		if(firstThrow == 10) {
 			result = true;
 		}
 		
@@ -29,8 +29,14 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		boolean result = false;
+		
+		if((firstThrow + secondThrow) == 10) {
+			result = true;
+		}
+		
+		
+		return result;
 	}
 
 	//return whether this is the last frame of the match

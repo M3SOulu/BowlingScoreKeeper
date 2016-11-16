@@ -30,8 +30,6 @@ public class BowlingGame {
 	public boolean isNextFrameBonus(){
 		boolean result = false;
 		
-		if()
-		
 		return false;
 	}
 }
