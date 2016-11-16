@@ -125,3 +125,24 @@ UnitTestCaseAction 1479311209722 TestFrame.java FAIL
 UnitTestSessionAction 1479311209722 TestFrame FAIL
 EditAction 1479311499889 TestFrame.java 1480 9 9 0
 EditAction 1479311499997 BowlingGame.java 695 5 5 0
+CompilationAction 1479311500142 BowlingGame.java
+CompilationAction 1479311530027 BowlingGame.java
+UnitTestCaseAction 1479311531506 TestFrame.java OK
+UnitTestSessionAction 1479311531507 TestFrame OK
+RefactoringAction 1479311939309 Frame.java ADD int get FIELD
+RefactoringAction 1479311941815 Frame.java RENAME get=>int getFis FIELD
+RefactoringAction 1479311943326 Frame.java RENAME getFis=>int getFirst FIELD
+RefactoringAction 1479311944334 Frame.java RENAME getFirst=>int getFirstT FIELD
+RefactoringAction 1479311947340 Frame.java RENAME getFirstT=>int getFirstThrow FIELD
+RefactoringAction 1479311950848 Frame.java RENAME getFirstThrow=>int getFirstThrow() METHOD
+RefactoringAction 1479312077486 Frame.java ADD int getFirstThrow()/2 METHOD
+RefactoringAction 1479312082006 Frame.java RENAME getFirstThrow()/2=>int getThrow() METHOD
+RefactoringAction 1479312084514 Frame.java RENAME getThrow()=>int getSeconfThrow() METHOD
+RefactoringAction 1479312411738 Frame.java RENAME getSeconfThrow()=>int getSecondThrow() METHOD
+RefactoringAction 1479312521234 TestFrame.java ADD void testScore()/2 METHOD
+RefactoringAction 1479312525757 TestFrame.java RENAME testScore()/2=>void test() METHOD
+RefactoringAction 1479312532277 TestFrame.java RENAME test()=>void testG() METHOD
+RefactoringAction 1479312533801 TestFrame.java RENAME testG()=>void testGame() METHOD
+RefactoringAction 1479312537811 TestFrame.java RENAME testGame()=>void testGameGetScore() METHOD
+RefactoringAction 1479312557358 TestFrame.java ADD import upm.tdd.training.BowlingGame IMPORT
+EditAction 1479312739921 TestFrame.java 1842 10 9 0
