@@ -18,7 +18,7 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		//to be implemented
+		if(frames)
 		return 0;
 	}
 	
