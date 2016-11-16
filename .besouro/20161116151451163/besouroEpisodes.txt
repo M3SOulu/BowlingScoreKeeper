@@ -21,3 +21,7 @@
 1479308095503 regression 1 2 true
 1479308301619 test-last 1 186 false
 1479308429948 test-addition 1 81 true
+1479308505466 test-addition 2 40 true
+1479308505467 test-addition 1 40 true
+1479308505468 test-addition 2 40 true
+1479308505469 test-addition 1 40 true

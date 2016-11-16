@@ -53,5 +53,15 @@ public class TestsFrame {
 		//Assert
 		assertEquals(false, ris);
 	}
+	
+	@Test
+	public void testBonusStrike() throws BowlingException{
+		//Assign
+		Frame newFrame = new Frame(10, 1);
+		//Act
+		int bonus = newFrame.bonus();
+		//Assert
+		assertEquals(1, bonus);
+	}
 
 }
