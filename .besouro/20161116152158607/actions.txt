@@ -29,3 +29,4 @@ RefactoringAction 1479309945319 BowlingGame.java RENAME sco=>int score FIELD
 RefactoringAction 1479310254326 BowlingGame.java REMOVE score FIELD
 RefactoringAction 1479310264107 BowlingGame.java ADD int score FIELD
 EditAction 1479310378039 BowlingGame.java 759 5 3 0
+EditAction 1479310415364 BowlingGame.java 681 5 3 0

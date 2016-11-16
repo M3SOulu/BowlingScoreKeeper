@@ -13,10 +13,7 @@ public class BowlingGame {
 		if(frames.size() == 10){
 			throw new BowlingException();
 		}else{
-			if(isNextFrameBonus()){
-				setBonus(frame.getFirstThrow(),frame.getSecondThrow());
-				score();
-			}
+			this.frames.add(frame);
 		}
 	}
 	
