@@ -40,6 +40,22 @@ public class TestFrame {
 		assertEquals( true, new Frame(5, 5).isLastFrame() );
 	}
 	
+	@Test
+	public void testIsLastFrameWithStrike() throws BowlingException{
+		Frame.resetIdCounting();
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(10, 0).isLastFrame() );
+		assertEquals( true, new Frame(5, 5).isLastFrame() );
+	}
+	
 	@Test(expected = BowlingException.class)
 	public void createInvalidFrame1() throws BowlingException{
 		new Frame( 11, 0 );
