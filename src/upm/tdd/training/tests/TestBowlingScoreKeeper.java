@@ -15,13 +15,13 @@ public class TestBowlingScoreKeeper {
 	@Before
 	public void setUp(){
 		game = new BowlingGame();
-		game.addFrame(frame);
 	}
 	
 	@Test
 	public void test() {
 		//Act
 		frame = new Frame(4,3);
+		game.addFrame(frame);
 		int score = game.score();
 		
 		//Assert
