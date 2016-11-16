@@ -70,3 +70,4 @@ RefactoringAction 1479312805583 Frame.java RENAME tiro=>int tiroSuccessivoAlSucc
 RefactoringAction 1479312810814 BowlingGame.java REMOVE ultimoTiro FIELD
 RefactoringAction 1479312810815 BowlingGame.java REMOVE penultimoTiro FIELD
 EditAction 1479312920427 BowlingGame.java 1134 6 11 0
+EditAction 1479312920508 Frame.java 1247 10 15 0

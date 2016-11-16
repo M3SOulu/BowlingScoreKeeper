@@ -6,13 +6,15 @@ public class Frame {
 	private int secondThrow;
 	private int nFrame;
 	private int bonusPoints;
+	public int tiroSuccessivo;
+	public int tiroSuccessivoAlSuccesivo;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
 	
-
+	
 	//the score of a single frame
 	public int score(){
 		return firstThrow + secondThrow + bonusPoints;
@@ -54,6 +56,11 @@ public class Frame {
 	public int getFirstThrow() {
 		return this.firstThrow;
 	}
+	
+	public int getSecondThrow() {
+		return this.secondThrow;
+	}
+	
 	public void setNFrame(int n) {
 		n = this.nFrame;
 	}
