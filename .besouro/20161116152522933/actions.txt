@@ -200,3 +200,4 @@ RefactoringAction 1479313351542 TestFrame.java ADD void testIsStrikeFalse()/2 ME
 RefactoringAction 1479313355551 TestFrame.java RENAME testIsStrikeTrue()/2=>void testIsSpareTrue() METHOD
 RefactoringAction 1479313360558 TestFrame.java RENAME testIsStrikeFalse()/2=>void testIsSpareFalse() METHOD
 EditAction 1479313445324 TestFrame.java 2038 13 17 0
+EditAction 1479313445402 Frame.java 1064 8 13 0
