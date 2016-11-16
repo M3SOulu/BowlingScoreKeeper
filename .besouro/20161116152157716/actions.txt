@@ -86,3 +86,11 @@ RefactoringAction 1479316259391 TestBowlingScoreKeeper.java RENAME te()=>void te
 RefactoringAction 1479316277919 TestBowlingScoreKeeper.java ADD upm.tdd.training.Frame frame/2 FIELD
 RefactoringAction 1479316280424 TestBowlingScoreKeeper.java RENAME frame/2=>upm.tdd.training.Frame last FIELD
 EditAction 1479316292070 TestBowlingScoreKeeper.java 1666 6 10 4
+UnitTestCaseAction 1479316294745 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316294746 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316584496 TestBowlingScoreKeeper.java RENAME frame=>upm.tdd.training.Frame frame1 FIELD
+RefactoringAction 1479316588002 TestBowlingScoreKeeper.java ADD upm.tdd.training.Frame frame1/2 FIELD
+RefactoringAction 1479316590007 TestBowlingScoreKeeper.java RENAME frame1/2=>upm.tdd.training.Frame frame2 FIELD
+RefactoringAction 1479316595514 TestBowlingScoreKeeper.java ADD void testScore()/2 METHOD
+RefactoringAction 1479316600019 TestBowlingScoreKeeper.java REMOVE testScore()/2 METHOD
+EditAction 1479316694965 TestBowlingScoreKeeper.java 1806 6 13 5

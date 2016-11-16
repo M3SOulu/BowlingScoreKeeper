@@ -10,7 +10,9 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+		int firstThrow = 0;
+		int secondThrow = 0;
+		Frame newFrame = new Frame(firstThrow, secondThrow);
 	}
 	//l'ultimo bonus, il bonus finale che puoi avere nel lancio finale
 	public void setBonus(int firstThrow, int secondThrow) {
@@ -18,7 +20,8 @@ public class BowlingGame {
 	}
 	//setta il totale, gamescore
 	public int score(){
-		int gameScore;
+		int gameScore, lastScore;
+		
 		
 		return 0;
 	}
