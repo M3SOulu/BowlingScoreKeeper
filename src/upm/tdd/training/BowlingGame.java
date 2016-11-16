@@ -11,7 +11,7 @@ public class BowlingGame {
 	
 	public void addFrame( Frame frame ) throws BowlingException{
 		if( frames.get( frames.size() - 1 ).isLastFrame() ){
-			throw new BowlingException( "Bowling match finished" );
+			throw new BowlingException( "Bowling match is alreadyfinished" );
 		}
 		
 		frames.add( frame );
