@@ -14,7 +14,6 @@ public class TestBowlingScoreKeeper {
 	public void test() throws BowlingException {
 		BowlingGame test = new BowlingGame();
 		BowlingGame test1 = new BowlingGame();
-		BowlingGame test2 = new BowlingGame();
 		
 		test.addFrame(new Frame(1, 4));
 		test.addFrame(new Frame(4, 5));
