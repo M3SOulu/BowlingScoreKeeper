@@ -13,8 +13,8 @@ public class TestBowlingScoreKeeper {
 	
 	BowlingGame game = new BowlingGame();
 	
-	@Before
-	public void setUp(){
+	@Test
+	public void testScoreNormal() {
 		Frame f1 = new Frame(2,2);
 		Frame f2 = new Frame(1,2);
 		Frame f3 = new Frame(1,2);
@@ -35,11 +35,6 @@ public class TestBowlingScoreKeeper {
 		game.addFrame(f8);
 		game.addFrame(f9);
 		game.addFrame(f10);
-	}
-	
-	@Test
-	public void testScoreNormal() {
-		assertEquals(game.getFrames().get(0).score(), 4);
 		assertEquals(game.score(), 33);
 	}
 	

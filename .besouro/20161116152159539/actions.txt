@@ -180,3 +180,7 @@ RefactoringAction 1479314574453 TestBowlingScoreKeeper.java RENAME testScoreNorm
 RefactoringAction 1479314577460 TestBowlingScoreKeeper.java RENAME testScoreì()=>void testf1Scoreì() METHOD
 RefactoringAction 1479314579964 TestBowlingScoreKeeper.java RENAME testf1Scoreì()=>void testf1Score() METHOD
 EditAction 1479314598052 TestBowlingScoreKeeper.java 2048 4 46 4
+UnitTestCaseAction 1479314599257 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314599257 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314625024 TestBowlingScoreKeeper.java REMOVE setUp() METHOD
+EditAction 1479314628102 TestBowlingScoreKeeper.java 1960 3 45 3
