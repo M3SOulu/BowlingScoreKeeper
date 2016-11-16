@@ -36,6 +36,7 @@ public class TestBowlingScoreKeeper {
 		assertEquals(100,partita.score());
 	}
 	
+	
 	@Test
 	public void test() {
 		fail("Not yet implemented");
