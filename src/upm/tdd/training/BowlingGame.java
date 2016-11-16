@@ -12,7 +12,7 @@ public class BowlingGame {
 	private Frame bonus;
 
 	public BowlingGame() {
-			
+
 	}
 
 	public void addFrame(Frame frame) throws BowlingException {
@@ -22,24 +22,23 @@ public class BowlingGame {
 	}
 
 	public void setBonus(int firstThrow, int secondThrow) {
-		bonus=new Frame(firstThrow,secondThrow);
+		bonus = new Frame(firstThrow, secondThrow);
 	}
 
-	public int score(){
+	public int score() {
 		int score = 0;
 		int bonusForStrike;
-		for(int i=0;i<10;i++){
-			
-			if(frames.get(i).isSpare()){
-				score+=frames.get(i-1).score()+frames.get(i).score();
-			}else if(frames.get(i).isStrike()){
-				score+=10;
-				bonusForStrike=frames.get(i+1).score();
-			}else {
-				score+=frames.get(i).score();
+		for (int i = 0; i < 10; i++) {
+			if (frames.get(i).isSpare()) {
+				score += frames.get(i - 1).score() + frames.get(i).score();
+			} else if (frames.get(i).isStrike()) {
+				score += 10;
+				bonusForStrike = frames.get(i + 1).score();
+			} else {
+				score += frames.get(i).score();
 			}
 		}
-		
+
 		return score;
 	}
 
@@ -47,5 +46,5 @@ public class BowlingGame {
 		// to be implemented
 		return false;
 	}
-	
+
 }

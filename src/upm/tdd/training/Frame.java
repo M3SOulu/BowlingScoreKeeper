@@ -10,8 +10,13 @@ public class Frame {
 	
 
 	public Frame(int firstThrow, int secondThrow) {
-		this.firstThrow = firstThrow;
-		this.secondThrow = secondThrow;
+		if(this.firstThrow==10){
+			this.firstThrow = firstThrow;
+		}else{
+			this.firstThrow = firstThrow;
+			this.secondThrow = secondThrow;
+		}
+		
 		frameNumber=frameCounterGlobal++;
 		
 	}
