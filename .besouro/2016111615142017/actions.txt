@@ -127,3 +127,8 @@ EditAction 1479312347753 TestBowlingScoreKeeper.java 2664 5 58 5
 UnitTestCaseAction 1479312348282 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479312348283 TestBowlingScoreKeeper FAIL
 EditAction 1479312477627 BowlingGame.java 1671 8 13 0
+UnitTestCaseAction 1479312481022 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312481024 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479312561571 TestBowlingScoreKeeper.java ADD void testGeme()/2 METHOD
+RefactoringAction 1479312566120 TestBowlingScoreKeeper.java RENAME testGeme()/2=>void testPerfectGeme() METHOD
+EditAction 1479312589436 TestBowlingScoreKeeper.java 3550 6 81 6

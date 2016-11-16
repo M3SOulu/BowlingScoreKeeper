@@ -101,5 +101,38 @@ public class TestBowlingScoreKeeper {
 		assertEquals(133, BowlingGame.score());
 		
 	}
+	
+	@Test
+	public void testPerfectGeme() throws BowlingException {
+		//Arrage
+		Frame frame1 = new Frame(10,0);
+		Frame frame2 = new Frame(10,0);
+		Frame frame3 = new Frame(10,0);
+		Frame frame4 = new Frame(10,0);
+		Frame frame5 = new Frame(10,0);
+		Frame frame6 = new Frame(10,0);
+		Frame frame7 = new Frame(10,0);
+		Frame frame8 = new Frame(10,0);
+		Frame frame9 = new Frame(10,0);
+		Frame frame10 = new Frame(10,0);
+		Frame frameBonus = new Frame(10,0);
+		
+		//Act
+		BowlingGame.addFrame(frame1);
+		BowlingGame.addFrame(frame2);
+		BowlingGame.addFrame(frame3);
+		BowlingGame.addFrame(frame4);
+		BowlingGame.addFrame(frame5);
+		BowlingGame.addFrame(frame6);
+		BowlingGame.addFrame(frame7);
+		BowlingGame.addFrame(frame8);
+		BowlingGame.addFrame(frame9);
+		BowlingGame.addFrame(frame10);
+		BowlingGame.addFrame(frameBonus);
+		
+		//Assert
+		assertEquals(133, BowlingGame.score());
+		
+	}
 
 }
