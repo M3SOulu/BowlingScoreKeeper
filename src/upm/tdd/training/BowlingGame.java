@@ -17,11 +17,9 @@ public class BowlingGame {
 		Frame previous = frames.get(frames.size()-2);
 		if(previous.isSpare()) {
 			previous.setBonusPoints(firstThrow);
-		} else if(previous.isStrike() {
-			previous.setBonusPoints(secondThrow);
-		})
-		
-		
+		} else if(previous.isStrike()) {
+			previous.setBonusPoints(firstThrow + secondThrow);
+		}
 	}
 	
 	public int score(){
@@ -39,4 +37,15 @@ public class BowlingGame {
 		}
 		return false;
 	}
+	
+	public void boh() {
+		Frame previous = frames.get(frames.size()-2);
+		Frame actual = frames.get(frames.size()-1);
+		if(previous.isStrike()) {
+			previous.setBonusPoints(actual.score());
+		} else if(previous.isSpare()) {
+			previous.setBonusPoints(actual.getFirstThrow());
+		}
+	}
+	
 }

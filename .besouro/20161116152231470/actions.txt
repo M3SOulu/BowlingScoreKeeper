@@ -32,3 +32,13 @@ CompilationAction 1479308324533 BowlingGame.java
 CompilationAction 1479308388500 BowlingGame.java
 EditAction 1479309711051 BowlingGame.java 880 5 7 0
 EditAction 1479309711158 Frame.java 1055 8 13 0
+CompilationAction 1479309711432 BowlingGame.java
+CompilationAction 1479309711432 BowlingGame.java
+CompilationAction 1479309732937 BowlingGame.java
+RefactoringAction 1479310743784 BowlingGame.java ADD void boh() METHOD
+RefactoringAction 1479310884936 Frame.java ADD int get FIELD
+RefactoringAction 1479310886951 Frame.java RENAME get=>int getFirst FIELD
+RefactoringAction 1479310892470 Frame.java RENAME getFirst=>int getFirstTh FIELD
+RefactoringAction 1479310893484 Frame.java RENAME getFirstTh=>int getFirstThrow FIELD
+RefactoringAction 1479310894497 Frame.java RENAME getFirstThrow=>int getFirstThrow() METHOD
+EditAction 1479311039412 BowlingGame.java 1171 6 12 0
