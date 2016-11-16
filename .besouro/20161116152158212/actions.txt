@@ -497,3 +497,7 @@ EditAction 1479316614348 BowlingGame.java 2024 6 14 0
 UnitTestCaseAction 1479316616297 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479316616298 TestBowlingScoreKeeper FAIL
 EditAction 1479316638085 BowlingGame.java 1943 6 13 0
+UnitTestCaseAction 1479316640804 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316640806 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316662634 BowlingGame.java REMOVE getBonusScore() METHOD
+EditAction 1479316669623 BowlingGame.java 1656 5 11 0
