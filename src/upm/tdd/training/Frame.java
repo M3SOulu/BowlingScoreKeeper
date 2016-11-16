@@ -91,10 +91,18 @@ public class Frame {
 
 	/**
 	 * bonus throws
-	 * @return bonus
+	 * @return
 	 */
 	public int bonus(){
-		return bonus;
+		if( isSpare() ){
+			return 2;
+		}
+		else if( isStrike() ){
+			return 1;
+		}
+		else{
+			return 0;
+		}
 	}
 
 	/**
