@@ -318,3 +318,7 @@ UnitTestCaseAction 1479314480822 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314480823 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479314500445 TestBowlingScoreKeeper.java RENAME ifStrikeFrameContainsOnly10Point()=>void ifStrikeTheFrameContainsOnly10Point() METHOD
 EditAction 1479314538468 TestBowlingScoreKeeper.java 1087 4 9 2
+CompilationAction 1479314538592 TestBowlingScoreKeeper.java
+CompilationAction 1479314538592 TestBowlingScoreKeeper.java
+CompilationAction 1479314538592 TestBowlingScoreKeeper.java
+EditAction 1479314558490 TestBowlingScoreKeeper.java 1087 4 9 2
