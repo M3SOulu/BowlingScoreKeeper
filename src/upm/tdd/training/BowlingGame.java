@@ -23,10 +23,16 @@ public class BowlingGame {
 	public int score() throws BowlingException{
 		if (frames.size() < 10)
 			throw new BowlingException("Partita non terminata.");
-		int result = 0;
-		for (Frame frame : frames){
-			result += frame.score();
+		int i = 0;
+		int result = frames.get(i).score();
+		for (i = 1; i < frames.size(); ++i){
+			result += frames.get(i).score();
+			if (frames.get(i-1).isStrike())
+				result += frames.get(i).score();
+			if (frames.get(i-1).isSpare())
+				result += 
 		}
+		
 		if (isNextFrameBonus())
 			result += bonus.score();
 		
