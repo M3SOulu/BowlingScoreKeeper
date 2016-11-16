@@ -8,3 +8,6 @@ RefactoringAction 1479307075744 Frame.java RENAME MAX_=>int MAX_FRAME_SCORE FIEL
 RefactoringAction 1479307076366 Frame.java RENAME MAX_FRAME_SCORE=>int STRIKE_SCORE FIELD
 RefactoringAction 1479307078231 Frame.java RENAME STRIKE_SCORE=>int MAX_FRAME_SCORE FIELD
 EditAction 1479307169319 BowlingGame.java 545 5 2 0
+RefactoringAction 1479307705444 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479307705456 Frame.java ADD int getSecondThrow() METHOD
+EditAction 1479307737360 BowlingGame.java 595 5 3 0
