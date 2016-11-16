@@ -31,15 +31,26 @@ public class TestBowlingScoreKeeper{
 		assertEquals(5, myFrame.score());
 	}
 	
-	/*@Test(expected = Exception.class)
+	@Test(expected = Exception.class)
 	public void testIsStrike() throws BowlingException {
 		//ARRANGE all necessary preconditions and inputs.
 		upm.tdd.training.Frame myFrame = new upm.tdd.training.Frame(1, 4);
 		//ACT on the object or method under test.
-		frame.score();	
+		frame.isStrike();	
 		//ASSERT that the expected results have occurred
-		assertEquals(5, myFrame.score());
-	}*/
+		assertTrue("There is a Strike", false);
+	}
+	
+	@Test(expected = Exception.class)
+	public void testIsSpare() throws BowlingException {
+		//ARRANGE all necessary preconditions and inputs.
+		upm.tdd.training.Frame myFrame = new upm.tdd.training.Frame(1, 4);
+		//ACT on the object or method under test.
+		frame.isSpare();	
+		//ASSERT that the expected results have occurred
+		assertTrue("There is a Spare", false);
+	}
+	
 	public void test() {
 		//fail("Not yet implemented");
 	}
