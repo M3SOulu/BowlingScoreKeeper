@@ -41,3 +41,9 @@ EditAction 1479308833690 BowlingGame.java 750 5 6 0
 EditAction 1479308956518 BowlingGame.java 592 5 6 0
 RefactoringAction 1479308982316 BowlingGame.java REMOVE frameIndex FIELD
 EditAction 1479308993143 Frame.java 1225 9 11 0
+CompilationAction 1479309097288 BowlingGame.java
+CompilationAction 1479309102500 BowlingGame.java
+RefactoringAction 1479309137692 Frame.java ADD boolean is FIELD
+RefactoringAction 1479309141716 Frame.java RENAME is=>boolean isBonus FIELD
+RefactoringAction 1479309144239 Frame.java RENAME isBonus=>boolean isBonusFrame FIELD
+EditAction 1479309146727 Frame.java 1256 9 11 0
