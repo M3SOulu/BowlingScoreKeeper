@@ -48,7 +48,7 @@ public class BowlingGame {
 			System.out.println(result);
 		}
 			
-		return result + ((bonus != null)?bonus.score():0);
+		return result;
 	}
 
 	public boolean isNextFrameBonus() throws BowlingException {
