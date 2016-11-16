@@ -21,11 +21,11 @@ public class BowlingGame {
 			previousOfPrevious = frames.get(frames.size()-3);
 		} 
 		
-		if (previous.isStrike() && previousOfPrevious.isStrike()) {
+		if (previous.isStrike() && previousOfPrevious.isStrike() && frames.size() > 1) {
 			previousOfPrevious.setBonusPoints(previousOfPrevious.getBonusPoints() + frame.getFirstThrow());
 		}
 		
-		if(previous.isStrike()  && frame.isStrike()) {
+		if(previous.isStrike()  && frame.isStrike() && frames.size() > 0) {
 			previous.setBonusPoints(frame.getFirstThrow());
 		} else if (previous.isStrike() && !frame.isStrike()) {
 			frame.setBonusPoints(frame.getFirstThrow() + frame.getSecondThrow());
