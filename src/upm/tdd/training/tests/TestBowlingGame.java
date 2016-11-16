@@ -28,7 +28,7 @@ public class TestBowlingGame {
 		f7 = new Frame(7,3); 
 		f8 = new Frame(6,4); 
 		f9 = new Frame(10,0); 
-		f10 = new Frame(2,8); 
+		f10 = new Frame(2,1); 
 	}	
 	
 	@Test
@@ -48,7 +48,7 @@ public class TestBowlingGame {
 		bg.addFrame(f8);
 		bg.addFrame(f9);
 		bg.addFrame(f10);
-		assert(bg.score()==127);		
+		assert(bg.score()==120);		
 
 
 	}
