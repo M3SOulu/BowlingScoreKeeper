@@ -83,3 +83,7 @@ EditAction 1479312218869 BowlingGame.java 1456 5 5 0
 UnitTestCaseAction 1479312227011 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479312227011 TestBowlingScoreKeeper FAIL
 EditAction 1479312255661 TestBowlingScoreKeeper.java 566 2 4 2
+UnitTestCaseAction 1479312258324 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312258324 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479312277969 BowlingGame.java REMOVE score FIELD
+EditAction 1479312288628 BowlingGame.java 1449 5 6 0
