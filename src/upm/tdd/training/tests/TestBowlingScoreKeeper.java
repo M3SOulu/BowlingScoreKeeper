@@ -20,6 +20,7 @@ public class TestBowlingScoreKeeper {
 		for(int i=0;i<10;i++){
 			match1.addFrame(new Frame(10,0));
 		}
+		match1.setBonus(10,10);
 	}
 	
 	@Test
