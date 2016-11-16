@@ -70,7 +70,7 @@ public class TestBowlingScoreKeeper {
 	
 	@Test
 	public void testScoreStrikeAndSpare() {
-		Frame f1 = new Frame(0,10);
+		Frame f1 = new Frame(10,0);
 		Frame f2 = new Frame(1,9);
 		Frame f3 = new Frame(1,0);
 		Frame f4 = new Frame(4,6);
