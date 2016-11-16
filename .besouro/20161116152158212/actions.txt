@@ -248,3 +248,6 @@ EditAction 1479313159684 BowlingGame.java 897 5 7 0
 EditAction 1479313244375 Frame.java 2045 9 13 0
 EditAction 1479313280920 BowlingGame.java 1005 5 7 0
 EditAction 1479313583405 Frame.java 2148 9 13 0
+RefactoringAction 1479313617062 TestFrame.java REMOVE testIsLastFrameWithStrike() METHOD
+RefactoringAction 1479313617063 TestFrame.java REMOVE testIsLastFrameWithSpare() METHOD
+EditAction 1479313625742 TestFrame.java 2273 12 22 18
