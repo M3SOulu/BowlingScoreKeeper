@@ -15,10 +15,13 @@ public class BowlingGame {
 	
 	public void setBonus(int firstThrow, int secondThrow) {
 		Frame previous = frames.get(frames.size()-2);
-		Frame actual = frames.get(frames.size()-1);
 		if(previous.isSpare()) {
-			actual.setBonusPoints()
-		}
+			previous.setBonusPoints(firstThrow);
+		} else if(previous.isStrike() {
+			previous.setBonusPoints(secondThrow);
+		})
+		
+		
 	}
 	
 	public int score(){
