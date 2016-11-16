@@ -5,3 +5,10 @@ RefactoringAction 1479306470136 Frame.java RENAME totFrame=>int totFrames FIELD
 RefactoringAction 1479306479662 Frame.java ADD int frame FIELD
 RefactoringAction 1479306514875 Frame.java ADD int getFrame() METHOD
 EditAction 1479306690910 BowlingGame.java 566 5 3 0
+RefactoringAction 1479306850917 Frame.java REMOVE frame FIELD
+RefactoringAction 1479306850923 Frame.java REMOVE totFrames FIELD
+RefactoringAction 1479306855940 Frame.java REMOVE getFrame() METHOD
+RefactoringAction 1479306919003 Frame.java ADD int totFrames FIELD
+RefactoringAction 1479306919004 Frame.java ADD int frame FIELD
+RefactoringAction 1479306919005 Frame.java ADD int getFrame() METHOD
+EditAction 1479306997087 Frame.java 984 7 13 0
