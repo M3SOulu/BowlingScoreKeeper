@@ -26,7 +26,7 @@ public class BowlingGame {
 	public int score(){
 		setBonus();
 		for(int i=0;i<getFrames().size();i++){
-			setTotScore(getTotScore() + getFrames().get(i).points);
+			setTotScore(getTotScore() + getFrames().get(i).score());
 		}
 		return 0;
 	}

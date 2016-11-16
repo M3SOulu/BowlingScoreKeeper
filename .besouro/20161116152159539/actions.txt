@@ -160,3 +160,4 @@ UnitTestSessionAction 1479314145836 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479314177833 Frame.java ADD int getThirdThrow() METHOD
 RefactoringAction 1479314177834 Frame.java ADD void setThirdThrow(int) METHOD
 EditAction 1479314177837 Frame.java 1481 12 18 0
+EditAction 1479314288662 BowlingGame.java 1151 9 10 0
