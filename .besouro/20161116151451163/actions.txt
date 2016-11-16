@@ -103,3 +103,6 @@ EditAction 1479309124184 TestsFrame.java 1899 8 24 8
 UnitTestCaseAction 1479309127413 TestsFrame.java FAIL
 UnitTestSessionAction 1479309127413 TestsFrame FAIL
 EditAction 1479309144226 TestsFrame.java 1908 8 24 8
+UnitTestCaseAction 1479309145838 TestsFrame.java FAIL
+UnitTestSessionAction 1479309145838 TestsFrame FAIL
+EditAction 1479309206156 TestsFrame.java 1907 8 24 8
