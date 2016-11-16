@@ -10,11 +10,12 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame) throws BowlingException{
-		if(frames.size()<=10)
+		if(frames.size()<10)
 			frames.add(frame);
-		else if (frames.size()>10)
+		else if (frames.size()>=10) {
 			setBonus(frame.getFirstThrow(), frame.getSecondThrow());
 			frames.add(bonus);
+		}
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
@@ -35,9 +36,8 @@ public class BowlingGame {
 				
 				if(thisFrame.isStrike()) {
 					if (nextFrame.isStrike()){
-						frameScore=20;
+						frameScore=10;
 						frameScore+=bonus(nextFrame, lastFrame);
-						i=i+2;
 					}
 					else {
 						frameScore+=bonus(thisFrame, nextFrame);
@@ -50,18 +50,16 @@ public class BowlingGame {
 					frameScore=thisFrame.score();
 			}
 			else if (i<frames.size()-1) {
-				Frame nextFrame=frames.get(i++);
+				Frame nextFrame=frames.get(i+1);
 				
 				if(thisFrame.isStrike()) {
 					if (nextFrame.isStrike())
 					{
 						frameScore=20;
 						frameScore+=bonus(nextFrame, bonus);
-						i=i+2;
 					}
 					else {
 						frameScore+=bonus(thisFrame, nextFrame);
-						i=i+1;
 					}
 				}
 				else if (thisFrame.isSpare()) {

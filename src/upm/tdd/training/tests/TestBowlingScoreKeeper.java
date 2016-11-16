@@ -13,7 +13,9 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void test() throws BowlingException {
 		BowlingGame test = new BowlingGame();
-			
+		BowlingGame test1 = new BowlingGame();
+		BowlingGame test2 = new BowlingGame();
+		
 		test.addFrame(new Frame(1, 4));
 		test.addFrame(new Frame(4, 5));
 		test.addFrame(new Frame(6, 4));
@@ -26,7 +28,22 @@ public class TestBowlingScoreKeeper {
 		test.addFrame(new Frame(2, 8));
 		test.addFrame(new Frame(6, 0));
 		
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		test1.addFrame(new Frame(10, 0));
+		
 		assertEquals(133, test.score());
+		assertEquals(300, test1.score());
+		
+		
 	}
 
 }
