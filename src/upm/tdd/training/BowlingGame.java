@@ -9,12 +9,12 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
-	public void addFrame( Frame frame ){
+	public void addFrame( Frame frame ) throws BowlingException{
 		if( frames.get( frames.size() - 1 ).isLastFrame() ){
 			throw new BowlingException( "Bowling match finished" );
 		}
+		
 		frames.add( frame );
-		frame.bonus();
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
