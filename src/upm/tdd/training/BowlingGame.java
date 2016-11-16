@@ -7,13 +7,13 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
-	private int frameIndex = -1;
+	private int frameIndex = 0;
 	
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		frameIndex++;
 		frames.add(frameIndex,frame);	
+		frameIndex++;
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
@@ -26,7 +26,7 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus() throws BowlingException{
-		if(frameIndex<9) throw new BowlingException();
+		if(frameIndex<10) throw new BowlingException();
 		else{
 			Frame tenthFrame = frames.get(10); 
 			return tenthFrame.isSpare() || tenthFrame.isStrike();
