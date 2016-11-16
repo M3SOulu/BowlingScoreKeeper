@@ -42,3 +42,6 @@ RefactoringAction 1479309212508 Frame.java REMOVE thirdThrow FIELD
 RefactoringAction 1479309214018 Frame.java ADD boolean last FIELD
 RefactoringAction 1479309216042 Frame.java RENAME last=>boolean lastFrame FIELD
 EditAction 1479309253662 Frame.java 1316 10 16 0
+RefactoringAction 1479309452837 BowlingGame.java RENAME isNextFrameBonus()=>boolean isNextFrameBonus(Frame) METHOD
+RefactoringAction 1479309546020 BowlingGame.java RENAME isNextFrameBonus(Frame)=>boolean isNextFrameBonus() METHOD
+EditAction 1479309562996 BowlingGame.java 896 5 6 0
