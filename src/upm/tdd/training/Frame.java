@@ -10,6 +10,7 @@ public class Frame {
 
 	private int firstThrow;
 	private int secondThrow;
+	private int bonus;
 
 	/**
 	 * create a new Bowling Frame

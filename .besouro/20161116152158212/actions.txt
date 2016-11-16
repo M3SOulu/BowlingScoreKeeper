@@ -150,3 +150,6 @@ EditAction 1479309197581 TestFrame.java 1916 9 20 15
 RefactoringAction 1479309271400 Frame.java REMOVE reset() METHOD
 EditAction 1479309281583 TestFrame.java 1898 9 19 15
 EditAction 1479309281672 Frame.java 1544 6 10 0
+UnitTestCaseAction 1479309284087 TestFrame.java OK
+UnitTestSessionAction 1479309284089 TestFrame OK
+EditAction 1479309470804 Frame.java 1564 6 10 0
