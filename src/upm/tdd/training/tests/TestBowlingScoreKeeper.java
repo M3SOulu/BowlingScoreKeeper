@@ -11,13 +11,13 @@ import upm.tdd.training.Frame;
 public class TestBowlingScoreKeeper {
 
 	@Test
-	public void test() {
+	public void testScoreOfAMatchWithOnlyAFrame() {
 		BowlingGame partita = new BowlingGame();
-		Frame strike = new Frame(10,0);
+		Frame frame1 = new Frame(5,2);
 		partita.addFrame(strike);
 	
 		
-		assertEquals(10, partita.score());
+		assertEquals(7, partita.score());
 		
 		
 		

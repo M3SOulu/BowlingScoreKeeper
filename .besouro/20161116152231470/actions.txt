@@ -108,3 +108,15 @@ EditAction 1479314478855 BowlingGame.java 1650 6 15 0
 UnitTestCaseAction 1479314482746 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314482746 TestBowlingScoreKeeper FAIL
 EditAction 1479314520030 TestBowlingScoreKeeper.java 425 1 4 1
+UnitTestCaseAction 1479314522879 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314522880 TestBowlingScoreKeeper OK
+RefactoringAction 1479314535011 TestBowlingScoreKeeper.java RENAME test()=>void testA() METHOD
+RefactoringAction 1479314539518 TestBowlingScoreKeeper.java RENAME testA()=>void test() METHOD
+RefactoringAction 1479314541533 TestBowlingScoreKeeper.java RENAME test()=>void testScore() METHOD
+RefactoringAction 1479314547553 TestBowlingScoreKeeper.java RENAME testScore()=>void testScoreOfA() METHOD
+RefactoringAction 1479314549060 TestBowlingScoreKeeper.java RENAME testScoreOfA()=>void testScoreOf() METHOD
+RefactoringAction 1479314552579 TestBowlingScoreKeeper.java RENAME testScoreOf()=>void testScoreOfAMatch() METHOD
+RefactoringAction 1479314560618 TestBowlingScoreKeeper.java RENAME testScoreOfAMatch()=>void testScoreOfAMatchWithA() METHOD
+RefactoringAction 1479314562635 TestBowlingScoreKeeper.java RENAME testScoreOfAMatchWithA()=>void testScoreOfAMatchWithOnly() METHOD
+RefactoringAction 1479314565141 TestBowlingScoreKeeper.java RENAME testScoreOfAMatchWithOnly()=>void testScoreOfAMatchWithOnlyAFrame() METHOD
+EditAction 1479314583037 TestBowlingScoreKeeper.java 450 1 4 1
