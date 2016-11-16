@@ -23,7 +23,7 @@ public class BowlingGame {
 	}
 	
 	/**
-	 * 
+	 * set the bonus frame if it is allowed
 	 * @param firstThrow
 	 * @param secondThrow
 	 * @throws BowlingException
