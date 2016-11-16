@@ -15,17 +15,8 @@ import upm.tdd.training.BowlingException;
 import upm.tdd.training.BowlingGame;
 import upm.tdd.training.Frame;
 
-//@RunWith(Parameterized.class)
-public class TestBowlingScoreKeeper {
 
-	/*
-	 * @Parameters public static Collection<Object[]> data() { return
-	 * Arrays.asList(new Object[][] { { "IIII" }, { "XXXX" }, { "CCCC" }, {
-	 * "XXXX" }, { "MMMM" }, { "VV" }, { "LL" }, { "DD" }, { "IIV" }, { "IIX" },
-	 * { "XXL" }, { "XXC" }, { "CCD" }, { "CCM" }
-	 * 
-	 * }); }
-	 */
+public class TestBowlingScoreKeeper {
 
 	Frame[] frame;
 	BowlingGame game;
