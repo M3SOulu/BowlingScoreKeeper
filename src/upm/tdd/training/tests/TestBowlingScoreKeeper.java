@@ -4,11 +4,16 @@ import static org.junit.Assert.*;
 
 import java.awt.Frame;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 public class TestBowlingScoreKeeper {
 
-
+	@Before
+	
+	@After
+	
 	@Test
 	public void test() {
 		fail("Not yet implemented");
