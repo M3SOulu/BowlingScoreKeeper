@@ -118,3 +118,7 @@ RefactoringAction 1479308563152 Frame.java REMOVE firstThrow FIELD
 RefactoringAction 1479308567198 Frame.java ADD int firstThrow FIELD
 RefactoringAction 1479308567198 Frame.java ADD int secondThrow FIELD
 EditAction 1479308568945 Frame.java 1540 6 10 0
+UnitTestCaseAction 1479308571643 TestFrame.java OK
+UnitTestSessionAction 1479308571643 TestFrame OK
+RefactoringAction 1479308673249 Frame.java ADD String toString() METHOD
+EditAction 1479308678834 Frame.java 1592 7 11 0
