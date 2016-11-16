@@ -19,7 +19,7 @@ public class BowlingGame {
 		bonus = new Frame(firstThrow,secondThrow);
 	}
 	
-	public int score(){
+	public int score() throws BowlingException{
 		int totScore = 0;
 		int bonusThrowsNum = 0;
 		for(Frame f : frames){
@@ -32,6 +32,7 @@ public class BowlingGame {
 			else if(f.isStrike()) bonusThrowsNum = 2;
 			else bonusThrowsNum = 0;
 		}
+		if(totScore>0 && bonus == null) throw new BowlingException();
 		switch(bonusThrowsNum){
 		case 1: totScore += bonus.getFirstThrow();
 		case 2: totScore += bonus.score();
