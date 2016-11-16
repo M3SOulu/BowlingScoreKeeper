@@ -98,3 +98,14 @@ RefactoringAction 1479312719213 Frame.java RENAME secondThrow/2=>int thirdThrow 
 EditAction 1479312731086 Frame.java 1345 10 16 0
 CompilationAction 1479312731231 TestBowlingScoreKeeper.java
 EditAction 1479312731255 TestBowlingScoreKeeper.java 2201 2 43 2
+CompilationAction 1479312732306 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479312841840 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312841841 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479312867309 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312867309 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479312932376 TestBowlingScoreKeeper.java ADD void testScoreNormal()/2 METHOD
+RefactoringAction 1479312937381 TestBowlingScoreKeeper.java RENAME testScoreNormal()/2=>void setUp() METHOD
+RefactoringAction 1479312942538 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479313082501 BowlingGame.java RENAME addFrame(Frame)=>void addFrame(java.awt.Frame) METHOD
+RefactoringAction 1479313093709 BowlingGame.java RENAME addFrame(java.awt.Frame)=>void addFrame(Frame) METHOD
+EditAction 1479313170594 TestBowlingScoreKeeper.java 2515 3 53 2

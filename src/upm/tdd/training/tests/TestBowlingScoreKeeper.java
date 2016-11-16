@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.awt.Frame;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import upm.tdd.training.BowlingGame;
@@ -12,9 +13,23 @@ public class TestBowlingScoreKeeper {
 	
 	BowlingGame game = new BowlingGame();
 	
+	@Before
+	public void setUp(){
+		Frame f1 = new Frame();
+		Frame f2 = new Frame();
+		Frame f3 = new Frame();
+		Frame f4 = new Frame();
+		Frame f5 = new Frame();
+		Frame f6 = new Frame();
+		Frame f7 = new Frame();
+		Frame f8 = new Frame();
+		Frame f9 = new Frame();
+		Frame f10 = new Frame();
+		game.addFrame(f1);
+	}
+	
 	@Test
 	public void testScoreNormal() {
-		Frame f1 = new Frame(1,2);
 		game.getFrames().get(0).setFirstThrow(2);
 		game.getFrames().get(0).setSecondThrow(2);
 		game.getFrames().get(1).setFirstThrow(1);
