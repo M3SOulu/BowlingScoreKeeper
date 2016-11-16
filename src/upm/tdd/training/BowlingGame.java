@@ -4,8 +4,11 @@ import java.util.List;
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
-	private List<Frame> frames = new ArrayList<Frame>(10);
+	private static final int MAX_PINS=10;
+	private static final int MAX_FRAMES=10;
+	private List<Frame> frames = new ArrayList<Frame>(MAX_FRAMES);
 	private Frame bonus;
+	
 	
 	public BowlingGame(){
 		for(int i=0;i<10;i++){

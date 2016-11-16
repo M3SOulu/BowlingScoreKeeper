@@ -1,8 +1,8 @@
 package upm.tdd.training;
 
 public class Frame {
-	private static int frameCounter=0;
-	private int frameNumber;
+	
+
 	private int firstThrow;
 	private int secondThrow;
 	
@@ -10,7 +10,7 @@ public class Frame {
 	public Frame(int firstThrow, int secondThrow) {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-		frameNumber=frameCounter++;
+		
 	}
 
 	// the score of a single frame
@@ -36,9 +36,7 @@ public class Frame {
 
 	// return whether this is the last frame of the match
 	public boolean isLastFrame() {
-		if(frameNumber==10){
-			return true;
-		}
+		
 		return false;
 	}
 
