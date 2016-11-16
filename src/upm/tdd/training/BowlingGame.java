@@ -24,10 +24,14 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		// to be implemented
 	}
-	
+
 	// the score of entire game
-	public int score() {
-		return frames.get(MAX_FRAMES_SIZE).score();
+	public int score() throws BowlingException {
+		if (frames.size() != MAX_FRAMES_SIZE) {
+			throw new BowlingException();
+		} else {
+			return frames.get(MAX_FRAMES_SIZE).score();
+		}
 	}
 
 	public boolean isNextFrameBonus() {

@@ -42,3 +42,4 @@ CompilationAction 1479309058299 BowlingGame.java
 EditAction 1479309067009 Frame.java 1318 10 10 0
 EditAction 1479309159703 Frame.java 1336 10 10 0
 EditAction 1479309488358 BowlingGame.java 806 5 3 0
+EditAction 1479309567330 BowlingGame.java 920 5 3 0
