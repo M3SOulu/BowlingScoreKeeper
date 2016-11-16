@@ -141,3 +141,6 @@ RefactoringAction 1479311920502 TestBowlingScoreKeeper.java RENAME testMoreThanE
 RefactoringAction 1479311922018 TestBowlingScoreKeeper.java RENAME testMoreThanElevenThrows=>void testMoreThanElevenThrows() METHOD
 EditAction 1479311958209 TestBowlingScoreKeeper.java 950 4 10 2
 EditAction 1479312023791 BowlingGame.java 1150 5 10 0
+RefactoringAction 1479312038572 TestBowlingScoreKeeper.java RENAME testMoreThanElevenThrows()=>void testMoreThanElevenThrowsBowlin() METHOD
+RefactoringAction 1479312041578 TestBowlingScoreKeeper.java RENAME testMoreThanElevenThrowsBowlin()=>void testMoreThanElevenThrowsBowlingException() METHOD
+EditAction 1479312052369 TestBowlingScoreKeeper.java 1002 4 10 2
