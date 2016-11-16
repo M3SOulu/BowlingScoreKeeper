@@ -18,3 +18,12 @@ RefactoringAction 1479311674472 Frame.java ADD int bonus FIELD
 RefactoringAction 1479311677009 Frame.java RENAME bonus=>int bonusThrow FIELD
 EditAction 1479311798344 Frame.java 1101 10 11 0
 EditAction 1479312008737 BowlingGame.java 886 5 6 0
+RefactoringAction 1479312016561 BowlingGame.java REMOVE bonus FIELD
+RefactoringAction 1479313033367 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479313033368 TestBowlingScoreKeeper.java ADD import org.junit.After IMPORT
+RefactoringAction 1479313043886 TestBowlingScoreKeeper.java ADD void inizialize() METHOD
+RefactoringAction 1479313053410 TestBowlingScoreKeeper.java ADD void setToNull() METHOD
+RefactoringAction 1479313184858 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479313205030 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479313327453 TestBowlingScoreKeeper.java ADD BowlingGame match FIELD
+EditAction 1479313340190 TestBowlingScoreKeeper.java 821 3 12 1
