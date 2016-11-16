@@ -20,5 +20,9 @@ public class TestBowlingScoreKeeper {
 		b = new BowlingGame();
 	}
 	
+	public void TesScore()
+	{
+		
+	}
 
 }

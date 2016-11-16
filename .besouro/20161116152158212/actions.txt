@@ -381,3 +381,8 @@ RefactoringAction 1479315598250 TestBowlingGame.java ADD void setUp() METHOD
 RefactoringAction 1479315602678 TestBowlingScoreKeeper.java ADD BowlingGame b FIELD
 RefactoringAction 1479315602678 TestBowlingScoreKeeper.java ADD void setUp() METHOD
 EditAction 1479315607247 TestBowlingScoreKeeper.java 409 1 2 0
+RefactoringAction 1479315617248 TestBowlingScoreKeeper.java ADD void getScore FIELD
+RefactoringAction 1479315621766 TestBowlingScoreKeeper.java RENAME getScore=>void TesetScore FIELD
+RefactoringAction 1479315622784 TestBowlingScoreKeeper.java RENAME TesetScore=>void TesScore FIELD
+RefactoringAction 1479315625794 TestBowlingScoreKeeper.java RENAME TesScore=>void TesScore() METHOD
+EditAction 1479315627782 TestBowlingScoreKeeper.java 442 2 2 0
