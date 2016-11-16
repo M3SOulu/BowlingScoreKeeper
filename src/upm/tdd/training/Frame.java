@@ -45,7 +45,7 @@ public class Frame {
 		return false;
 	}
 	
-	public bolean isFirstFrame(){
+	public boolean isFirstFrame(){
 		if(this.frameNumber==0){
 			return true;
 		}
