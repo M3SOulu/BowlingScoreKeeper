@@ -33,3 +33,7 @@ RefactoringAction 1479308032534 BowlingScore.java ADD int score FIELD
 RefactoringAction 1479308036049 BowlingScore.java RENAME score=>int scoreBownling FIELD
 RefactoringAction 1479308041063 BowlingScore.java REMOVE scoreBownling FIELD
 EditAction 1479308054602 BowlingScore.java 80 0 0 0
+CompilationAction 1479308054733 BowlingScore.java
+CompilationAction 1479308054735 BowlingScore.java
+RefactoringAction 1479308058081 BowlingScore.java ADD int score FIELD
+EditAction 1479308071000 BowlingScore.java 85 0 0 0

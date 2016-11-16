@@ -2,5 +2,5 @@ package upm.tdd.training;
 
 public class BowlingScore {
 	
-	private int ;
+	private int score;
 }
