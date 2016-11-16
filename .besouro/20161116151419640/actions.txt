@@ -304,3 +304,15 @@ UnitTestCaseAction 1479314736062 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314736063 TestBowlingScoreKeeper FAIL
 EditAction 1479314757035 BowlingGame.java 1365 6 11 0
 EditAction 1479314760684 BowlingGame.java 1361 6 11 0
+UnitTestCaseAction 1479314763192 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314763193 TestBowlingScoreKeeper OK
+RefactoringAction 1479314806777 TestBowlingScoreKeeper.java ADD void testMoreThanElevenThrowsBowlingException()/2 METHOD
+RefactoringAction 1479314815783 TestBowlingScoreKeeper.java RENAME testMoreThanElevenThrowsBowlingException()/2=>void testThrowsBowlingException() METHOD
+RefactoringAction 1479314817290 TestBowlingScoreKeeper.java RENAME testThrowsBowlingException()=>void testInvalThrowsBowlingException() METHOD
+RefactoringAction 1479314818294 TestBowlingScoreKeeper.java RENAME testInvalThrowsBowlingException()=>void testInvalidThrowsBowlingException() METHOD
+RefactoringAction 1479314819310 TestBowlingScoreKeeper.java RENAME testInvalidThrowsBowlingException()=>void testInvalidBThrowsBowlingException() METHOD
+RefactoringAction 1479314820829 TestBowlingScoreKeeper.java RENAME testInvalidBThrowsBowlingException()=>void testInvalidBonusThrowsBowlingException() METHOD
+RefactoringAction 1479314826336 TestBowlingScoreKeeper.java RENAME testInvalidBonusThrowsBowlingException()=>void testInvalidBonusThrowThrowsBowlingException() METHOD
+RefactoringAction 1479314828844 TestBowlingScoreKeeper.java RENAME testInvalidBonusThrowThrowsBowlingException()=>void testInvalidBonusThrow() METHOD
+RefactoringAction 1479314837355 TestBowlingScoreKeeper.java RENAME testMoreThanElevenThrowsBowlingException()=>void testMoreThanElevenThrows() METHOD
+EditAction 1479314839691 TestBowlingScoreKeeper.java 1120 5 11 2
