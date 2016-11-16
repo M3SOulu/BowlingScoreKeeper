@@ -12,5 +12,10 @@ public class TestFrame {
 	public void testIsStrike() {
 		assertEquals(true, new Frame( 10, 0 ).isStrike() );
 	}
+	
+	@Test
+	public void testIsNotStrike() {
+		assertEquals(true, new Frame( 5, 5 ).isStrike() );
+	}
 
 }
