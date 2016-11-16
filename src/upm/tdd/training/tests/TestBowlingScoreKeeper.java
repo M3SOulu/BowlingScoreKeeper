@@ -22,6 +22,7 @@ public class TestBowlingScoreKeeper {
 			testGame.addFrame(frame);
 	}
 	
+	//temporary
 	@Test
 	public void testScore() throws BowlingException{
 		initFramesNoBonus();
