@@ -33,6 +33,7 @@ public class BowlingGame {
 		if( ! isNextFrameBonus() ){
 			throw new BowlingException();
 		}
+		Frame lastFrame = frames.get( frames.size() - 1 );
 		
 		bonus = new Frame( firstThrow, secondThrow );
 	}
