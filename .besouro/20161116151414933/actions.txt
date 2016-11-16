@@ -125,3 +125,8 @@ CompilationAction 1479309521543 TestBowlingScoreKeeper.java
 RefactoringAction 1479309523968 BowlingGame.java ADD void add(Frame) METHOD
 RefactoringAction 1479309526576 BowlingGame.java REMOVE add(Frame) METHOD
 EditAction 1479309531948 TestBowlingScoreKeeper.java 932 2 12 0
+CompilationAction 1479309532096 TestBowlingScoreKeeper.java
+CompilationAction 1479309532096 TestBowlingScoreKeeper.java
+CompilationAction 1479309553612 TestBowlingScoreKeeper.java
+CompilationAction 1479309553621 TestBowlingScoreKeeper.java
+EditAction 1479309662930 TestBowlingScoreKeeper.java 1028 2 12 0

@@ -41,10 +41,13 @@ public class TestBowlingScoreKeeper {
 		
 	}
 	
-	@Test
-	public void testAddEleventhFrame() {
-		Frame frame11;
+	@Test(expected=CannotCreateAnotherFrame.class)
+	public void testAddEleventhFrame() throws CannotCreateAnotherFrame {
+		Frame frame11 = new Frame(1,4);
 		partita.addFrame(frame11);
 	}
+	
+	
+	
 
 }
