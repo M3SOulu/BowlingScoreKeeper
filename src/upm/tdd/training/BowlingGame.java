@@ -14,11 +14,11 @@ public class BowlingGame {
 		Frame previousOfPrevious = null; 
 		
 		if (frames.size() > 0) {
-			previous = frames.get(frames.size()-2);
+			previous = frames.get(frames.size()-1);
 		} 
 		
 		if (frames.size() > 1) {
-			previousOfPrevious = frames.get(frames.size()-3);
+			previousOfPrevious = frames.get(frames.size()-2);
 		} 
 		
 		if (previous.isStrike() && previousOfPrevious.isStrike() && frames.size() > 1) {
