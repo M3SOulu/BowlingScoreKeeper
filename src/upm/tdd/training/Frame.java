@@ -37,9 +37,10 @@ public class Frame {
 		return false;
 	}
 
-	//bonus throws
+	//bonus throws (1=true,0=false)
 	public int bonus(){
-		//to be implemented
+		if(isStrike() || isSpare())
+			return 1;
 		return 0;
 	}
 

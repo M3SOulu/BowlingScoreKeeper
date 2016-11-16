@@ -9,3 +9,7 @@ RefactoringAction 1479307563176 Frame.java REMOVE score FIELD
 RefactoringAction 1479307566709 Frame.java ADD int points FIELD
 EditAction 1479307655764 Frame.java 881 6 10 0
 EditAction 1479307655876 BowlingGame.java 532 5 3 0
+CompilationAction 1479307656020 BowlingGame.java
+CompilationAction 1479307656020 BowlingGame.java
+CompilationAction 1479307656022 BowlingGame.java
+EditAction 1479307988161 Frame.java 919 6 11 0
