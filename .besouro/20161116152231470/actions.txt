@@ -87,3 +87,6 @@ RefactoringAction 1479313912500 TestBowlingScoreKeeper.java ADD import upm.tdd.t
 RefactoringAction 1479313938540 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
 RefactoringAction 1479314049634 TestBowlingScoreKeeper.java ADD import org.junit.Assert.* IMPORT
 EditAction 1479314057070 TestBowlingScoreKeeper.java 536 1 8 1
+UnitTestCaseAction 1479314103174 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314103175 TestBowlingScoreKeeper FAIL
+EditAction 1479314250235 BowlingGame.java 1586 6 15 0
