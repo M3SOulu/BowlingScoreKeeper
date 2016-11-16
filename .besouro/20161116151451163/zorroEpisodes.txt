@@ -9,6 +9,7 @@
 1479309083651 regression 2 56 true
 1479309946326 test-first 3 862 true
 1479310897512 test-last 1 951 false
-1479311102108 test-addition 1 204 false
-1479311182581 test-addition 2 80 false
-1479311370803 test-addition 1 188 false
+1479311102108 test-addition 1 204 true
+1479311182581 test-addition 2 80 true
+1479311370803 test-addition 1 188 true
+1479313244362 test-first 3 1873 true

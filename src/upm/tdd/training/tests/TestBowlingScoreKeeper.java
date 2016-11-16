@@ -71,8 +71,8 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void testScore() throws BowlingException{
 		//Act
-		newGame.addFrame(newFrame); 
-		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame); //[8,1]
+		newGame.addFrame(newFrame); //[8,1]
 		int score = newGame.score();
 		//Assert
 		assertEquals(18, score);
