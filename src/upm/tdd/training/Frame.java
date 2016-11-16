@@ -11,6 +11,15 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+	public int getSecondThrow() {
+		return secondThrow;
+	}
+
+
 	/**
 	 * create a new Bowling Frame
 	 * @param firstThrow

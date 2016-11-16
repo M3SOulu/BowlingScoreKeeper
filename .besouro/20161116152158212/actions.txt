@@ -183,3 +183,6 @@ CompilationAction 1479311030628 Frame.java
 RefactoringAction 1479311045394 Frame.java REMOVE score() METHOD
 RefactoringAction 1479311049399 Frame.java RENAME getScoreWithoutBonus()=>int score() METHOD
 EditAction 1479311430150 BowlingGame.java 546 5 3 0
+RefactoringAction 1479311747028 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479311747028 Frame.java ADD int getSecondThrow() METHOD
+EditAction 1479311751171 Frame.java 1774 8 12 0
