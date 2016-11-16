@@ -167,3 +167,18 @@ RefactoringAction 1479314866644 BowlingGame.java RENAME MAX_FRAMES/2=>int BONUS_
 EditAction 1479314884479 BowlingGame.java 1353 5 10 0
 EditAction 1479314935449 BowlingGame.java 1355 5 10 0
 EditAction 1479314963022 BowlingGame.java 1355 5 10 0
+UnitTestCaseAction 1479314968990 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314968991 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479314974469 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314974470 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479314975806 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314975807 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479314977075 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314977076 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479315005603 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315005603 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479315029839 TestBowlingScoreKeeper.java REMOVE test() METHOD
+RefactoringAction 1479315045352 TestBowlingScoreKeeper.java ADD publ ic FIELD
+RefactoringAction 1479315046364 TestBowlingScoreKeeper.java REMOVE ic FIELD
+RefactoringAction 1479315062384 TestBowlingScoreKeeper.java REMOVE testGame FIELD
+EditAction 1479315068455 TestBowlingScoreKeeper.java 699 2 7 1
