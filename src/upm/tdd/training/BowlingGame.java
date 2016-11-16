@@ -25,7 +25,7 @@ public class BowlingGame {
 		bonus = new Frame(firstThrow, secondThrow);
 	}
 
-	public int score() {
+	public int score() throws BowlingException {
 		if(frames.isEmpty())throw new BowlingException();
 		int score = 0;
 		for (int i = 0; i < 10; i++) {

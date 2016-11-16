@@ -28,5 +28,10 @@ public class TestBowlingGameException {
 		frame11 = new Frame(1, 4);
 		partita.addFrame(frame11);
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void eleventhFrameSholudNotAccepted() throws BowlingException {
+		partita.score();
+	}
 
 }

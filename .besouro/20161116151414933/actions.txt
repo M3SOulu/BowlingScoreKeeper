@@ -372,3 +372,7 @@ RefactoringAction 1479315400657 AllBowlingTest.java ADD import org.junit.runner.
 CompilationAction 1479315400978 AllBowlingTest.java
 EditAction 1479315406482 AllBowlingTest.java 314 0 0 0
 EditAction 1479315457554 BowlingGame.java 1190 5 8 0
+CompilationAction 1479315457682 BowlingGame.java
+CompilationAction 1479315462292 BowlingGame.java
+RefactoringAction 1479315470759 TestBowlingGameException.java ADD void eleventhFrameSholudNotAccepted()/2 METHOD
+EditAction 1479315478791 TestBowlingGameException.java 840 3 5 0
