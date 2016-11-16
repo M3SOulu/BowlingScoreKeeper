@@ -7,6 +7,7 @@ public class Frame {
 	private int secondThrow;
 	private int frameNumber;
 	
+	
 
 	public Frame(int firstThrow, int secondThrow) {
 		this.firstThrow = firstThrow;

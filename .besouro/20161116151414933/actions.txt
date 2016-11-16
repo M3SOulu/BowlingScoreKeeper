@@ -223,3 +223,10 @@ EditAction 1479310800691 TestBowlingScoreKeeper.java 808 3 5 0
 CompilationAction 1479310803304 BowlingGame.java
 CompilationAction 1479310851762 BowlingGame.java
 EditAction 1479310988369 BowlingGame.java 865 5 3 0
+CompilationAction 1479310988625 BowlingGame.java
+CompilationAction 1479310988626 BowlingGame.java
+CompilationAction 1479310988626 BowlingGame.java
+RefactoringAction 1479311188365 Frame.java ADD int frame FIELD
+RefactoringAction 1479311190883 Frame.java RENAME frame=>int frameForBonus FIELD
+RefactoringAction 1479311210405 Frame.java REMOVE frameForBonus FIELD
+EditAction 1479311213935 Frame.java 915 6 10 0
