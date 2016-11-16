@@ -179,3 +179,11 @@ EditAction 1479316154344 TestBowlingScoreKeeper.java 1185 4 22 4
 UnitTestCaseAction 1479316158780 TestBowlingScoreKeeper.java OK
 UnitTestSessionAction 1479316158781 TestBowlingScoreKeeper OK
 EditAction 1479316178214 TestBowlingScoreKeeper.java 1193 4 22 4
+UnitTestCaseAction 1479316179473 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316179474 TestBowlingScoreKeeper OK
+RefactoringAction 1479316362718 TestBowlingScoreKeeper.java RENAME testScoreAfterAStrike()=>void testScoreAfterAStrikeAndA() METHOD
+RefactoringAction 1479316365226 TestBowlingScoreKeeper.java RENAME testScoreAfterAStrikeAndA()=>void testScoreAfterAStrikeAndAFrame() METHOD
+RefactoringAction 1479316367243 TestBowlingScoreKeeper.java RENAME testScoreAfterAStrikeAndAFrame()=>void testScoreAfterAStrikeAndAFrameWithNo() METHOD
+RefactoringAction 1479316375756 TestBowlingScoreKeeper.java RENAME testScoreAfterAStrikeAndAFrameWithNo()=>void testScoreAfterAStrikeAndAFrameWithNoStrike() METHOD
+RefactoringAction 1479316388775 TestBowlingScoreKeeper.java RENAME testScoreAfterAStrikeAndAFrameWithNoStrike()=>void testScoreAfterAStrikeAndAnotherFrame() METHOD
+EditAction 1479316391408 TestBowlingScoreKeeper.java 1208 4 22 4

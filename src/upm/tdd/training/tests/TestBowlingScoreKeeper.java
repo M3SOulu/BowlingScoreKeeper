@@ -20,7 +20,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void testScoreAfterAStrike() {
+	public void testScoreAfterAStrikeAndAnotherFrame() {
 		BowlingGame partita2 = new BowlingGame();
 		Frame strike = new Frame(10,0);
 		Frame frame1 = new Frame(5,2);
