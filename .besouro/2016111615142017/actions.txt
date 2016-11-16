@@ -61,3 +61,24 @@ EditAction 1479311190675 BowlingGame.java 1522 6 11 0
 UnitTestCaseAction 1479311191331 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479311191331 TestBowlingScoreKeeper FAIL
 EditAction 1479311211207 BowlingGame.java 1524 6 11 0
+UnitTestCaseAction 1479311211749 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479311211750 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479311463384 TestFrame.java ADD void test() METHOD
+RefactoringAction 1479311463391 TestFrame.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479311463409 TestFrame.java ADD TestFrame.java CLASS
+FileOpenedAction 1479311463593 TestFrame.java 198 1 1 0
+RefactoringAction 1479311475098 TestFrame.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479311475099 TestFrame.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479311481123 TestFrame.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479311493634 TestFrame.java RENAME BowlingGame=>Frame frame FIELD
+RefactoringAction 1479311517648 TestFrame.java REMOVE frame FIELD
+RefactoringAction 1479311517648 TestFrame.java REMOVE setUp() METHOD
+RefactoringAction 1479311586227 TestFrame.java RENAME test()=>void testIsStrin() METHOD
+RefactoringAction 1479311587231 TestFrame.java RENAME testIsStrin()=>void testIsStri() METHOD
+RefactoringAction 1479311588247 TestFrame.java RENAME testIsStri()=>void testIsStrike() METHOD
+RefactoringAction 1479311592750 TestFrame.java ADD void testIsStrike()/2 METHOD
+RefactoringAction 1479311596257 TestFrame.java RENAME testIsStrike()/2=>void testIsSpare() METHOD
+RefactoringAction 1479311634370 TestFrame.java ADD void testIsSpare()/2 METHOD
+RefactoringAction 1479311727651 TestFrame.java ADD import upm.tdd.training.BowlingException IMPORT
+RefactoringAction 1479311740405 TestFrame.java RENAME testIsSpare()/2=>void testIsScore() METHOD
+EditAction 1479311755802 BowlingGame.java 1524 6 11 0
