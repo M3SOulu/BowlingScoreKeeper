@@ -163,3 +163,14 @@ RefactoringAction 1479309896041 Frame.java RENAME setBonus(int)=>void setBonus()
 RefactoringAction 1479309904547 Frame.java RENAME setBonus()=>void setBonus(int, int) METHOD
 EditAction 1479309988660 Frame.java 1788 7 11 0
 EditAction 1479310051255 Frame.java 1848 7 11 0
+UnitTestCaseAction 1479310301089 TestFrame.java OK
+UnitTestSessionAction 1479310301090 TestFrame OK
+RefactoringAction 1479310411433 Frame.java REMOVE setBonus(int, int) METHOD
+RefactoringAction 1479310434957 Frame.java ADD void setBonus(int, int) METHOD
+RefactoringAction 1479310442525 Frame.java REMOVE setBonus(int, int) METHOD
+RefactoringAction 1479310444033 Frame.java ADD void setBonus(int, int) METHOD
+RefactoringAction 1479310522593 Frame.java ADD int getScore FIELD
+RefactoringAction 1479310524599 Frame.java RENAME getScore=>int getScoreWithout FIELD
+RefactoringAction 1479310526110 Frame.java RENAME getScoreWithout=>int getScoreWithoutBonus FIELD
+RefactoringAction 1479310527121 Frame.java RENAME getScoreWithoutBonus=>int getScoreWithoutBonus() METHOD
+EditAction 1479310784562 Frame.java 2006 8 12 0

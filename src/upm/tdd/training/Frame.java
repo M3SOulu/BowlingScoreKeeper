@@ -31,13 +31,22 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
-	
+
 
 	/**
-	 * the score of a single frame
+	 * the score of a single frame with bonus
 	 * @return
 	 */
 	public int score(){
+		return getScoreWithoutBonus() + bonus;
+	}
+	
+	/**
+	 * the score of a single frame without bonus
+	 * @return
+	 */
+	public int getScoreWithoutBonus()
+	{
 		return firstThrow + secondThrow;
 	}
 
@@ -87,7 +96,7 @@ public class Frame {
 	public int bonus(){
 		return bonus;
 	}
-	
+
 	/**
 	 * 
 	 * @param firstThrow
@@ -102,9 +111,9 @@ public class Frame {
 			bonus = ( firstThrow + secondThrow );
 		}
 	}
-	
-	
-	
+
+
+
 
 
 }
