@@ -122,3 +122,4 @@ UnitTestCaseAction 1479308571643 TestFrame.java OK
 UnitTestSessionAction 1479308571643 TestFrame OK
 RefactoringAction 1479308673249 Frame.java ADD String toString() METHOD
 EditAction 1479308678834 Frame.java 1592 7 11 0
+EditAction 1479308700198 TestFrame.java 1296 8 10 5
