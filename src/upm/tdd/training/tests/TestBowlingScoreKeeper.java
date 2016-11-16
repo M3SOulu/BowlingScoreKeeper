@@ -50,7 +50,7 @@ public class TestBowlingScoreKeeper {
 		Frame f = new Frame(9,1);
 		for(int i=0; i<10; i++) game.addFrame(f);
 		game.addFrame(new Frame(9,0));
-		Assert.assertEquals(199, game.score());
+		Assert.assertEquals(190, game.score());
 	}
 	
 	@Test (expected = BowlingException.class)
