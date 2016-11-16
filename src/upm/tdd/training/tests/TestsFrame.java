@@ -73,6 +73,16 @@ public class TestsFrame {
 		//Assert
 		assertEquals(9, score);
 	}
+	
+	@Test
+	public void testScoreWithBonus() throws BowlingException{
+		//Assign
+		Frame newFrame = new Frame(10, 3);
+		//Act
+		int score = newFrame.score();
+		//Assert
+		assertEquals(13, score);
+	}
 
 
 }
