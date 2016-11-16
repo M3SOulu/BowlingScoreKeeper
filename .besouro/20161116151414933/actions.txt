@@ -364,3 +364,10 @@ EditAction 1479315272467 BowlingGame.java 1138 5 7 0
 RefactoringAction 1479315324092 AllBowlingTest.java REMOVE test() METHOD
 RefactoringAction 1479315336112 AllBowlingTest.java ADD import org.junit.runners.Suite IMPORT
 EditAction 1479315384547 AllBowlingTest.java 286 0 0 0
+CompilationAction 1479315384689 AllBowlingTest.java
+CompilationAction 1479315384690 AllBowlingTest.java
+CompilationAction 1479315397329 AllBowlingTest.java
+CompilationAction 1479315397509 AllBowlingTest.java
+RefactoringAction 1479315400657 AllBowlingTest.java ADD import org.junit.runner.RunWith IMPORT
+CompilationAction 1479315400978 AllBowlingTest.java
+EditAction 1479315406482 AllBowlingTest.java 314 0 0 0
