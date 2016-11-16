@@ -250,3 +250,6 @@ RefactoringAction 1479314814648 TestBowlingScoreKeeper.java RENAME gameWithoutSp
 RefactoringAction 1479314927432 TestBowlingScoreKeeper.java ADD void testTotalScoreWithoutSpareOrStrike()/2 METHOD
 RefactoringAction 1479314936939 TestBowlingScoreKeeper.java RENAME testTotalScoreWithoutSpareOrStrike()/2=>void testTotalScoreWithSomeSpare() METHOD
 EditAction 1479315003535 TestBowlingScoreKeeper.java 1485 4 9 2
+UnitTestCaseAction 1479315007437 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315007438 TestBowlingScoreKeeper FAIL
+EditAction 1479315186918 TestBowlingScoreKeeper.java 1485 4 9 2
