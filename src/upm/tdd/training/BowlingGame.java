@@ -16,9 +16,10 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 	}
-	//setta il totale
+	//setta il totale, gamescore
 	public int score(){
-		//to be implemented
+		int gameScore;
+		
 		return 0;
 	}
 	

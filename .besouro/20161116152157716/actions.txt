@@ -49,3 +49,11 @@ UnitTestSessionAction 1479313727084 TestBowlingScoreKeeper FAIL
 UnitTestCaseAction 1479313980082 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479313980083 TestBowlingScoreKeeper FAIL
 EditAction 1479314046817 TestBowlingScoreKeeper.java 917 3 5 1
+RefactoringAction 1479314100209 Frame.java RENAME score()=>int score(int) METHOD
+RefactoringAction 1479314114233 Frame.java RENAME score(int)=>int score() METHOD
+CompilationAction 1479314427975 Frame.java
+CompilationAction 1479314778541 Frame.java
+CompilationAction 1479314778541 Frame.java
+CompilationAction 1479314876337 Frame.java
+CompilationAction 1479314876338 Frame.java
+EditAction 1479315364006 BowlingGame.java 637 5 3 0
