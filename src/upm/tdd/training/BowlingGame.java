@@ -43,8 +43,11 @@ public class BowlingGame {
 		}
 		
 		int result = 0;
-		for (Frame frameTemp : frames)
+		for (Frame frameTemp : frames) {
 			result += frameTemp.score();
+			System.out.println(result);
+		}
+			
 		return result + ((bonus != null)?bonus.score():0);
 	}
 
