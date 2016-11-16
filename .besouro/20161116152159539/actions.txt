@@ -150,3 +150,8 @@ EditAction 1479314018950 TestBowlingScoreKeeper.java 1853 3 42 2
 UnitTestCaseAction 1479314020623 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314020624 TestBowlingScoreKeeper FAIL
 EditAction 1479314032740 TestBowlingScoreKeeper.java 1853 3 42 2
+UnitTestCaseAction 1479314034808 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314034808 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314131766 BowlingGame.java ADD int getTotScore() METHOD
+RefactoringAction 1479314131767 BowlingGame.java ADD void setTotScore(int) METHOD
+EditAction 1479314131769 BowlingGame.java 1150 9 10 0

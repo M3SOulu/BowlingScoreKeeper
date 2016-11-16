@@ -26,7 +26,7 @@ public class BowlingGame {
 	public int score(){
 		setBonus();
 		for(int i=0;i<getFrames().size();i++){
-			totScore += getFrames().get(i).points;
+			setTotScore(getTotScore() + getFrames().get(i).points);
 		}
 		return 0;
 	}
@@ -41,5 +41,13 @@ public class BowlingGame {
 
 	public void setFrames(List<Frame> frames) {
 		this.frames = frames;
+	}
+
+	public int getTotScore() {
+		return totScore;
+	}
+
+	public void setTotScore(int totScore) {
+		this.totScore = totScore;
 	}
 }
