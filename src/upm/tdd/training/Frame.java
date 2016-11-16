@@ -21,7 +21,11 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		return firstThrow+secondThrow;
+		if((firstThrow+secondThrow)>10){
+			throw new BowlingException();
+		}
+		else
+			return firstThrow+secondThrow;
 	}
 
 	public void setFirstThrow(int firstThrow) {

@@ -187,3 +187,8 @@ EditAction 1479314062449 TestFrame.java 1342 5 18 13
 UnitTestCaseAction 1479314063859 TestFrame.java OK
 UnitTestSessionAction 1479314063859 TestFrame OK
 EditAction 1479314084071 TestFrame.java 1386 5 19 14
+UnitTestCaseAction 1479314086417 TestFrame.java OK
+UnitTestSessionAction 1479314086449 TestFrame OK
+UnitTestCaseAction 1479314093126 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314093126 TestBowlingScoreKeeper OK
+EditAction 1479314221031 Frame.java 1344 11 12 0
