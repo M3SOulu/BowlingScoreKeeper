@@ -61,12 +61,13 @@ public class TestFrame {
 	public void testGameGetScore() throws BowlingException {
 		BowlingGame bg = new BowlingGame();
 		Frame f1 = new Frame(1,4);
-		Frame f2 = new Frame(4,5);
-		Frame f3 = new Frame(6,4);
-		Frame f4 = new Frame(5,5);
-		Frame f5 = new Frame(10,0);
-		Frame f6 = new Frame(0,1);
-		assert(bg.score()==61);
+		bg.addFrame(f1);
+		//Frame f2 = new Frame(4,5);
+		//Frame f3 = new Frame(6,4);
+		//Frame f4 = new Frame(5,5);
+		//Frame f5 = new Frame(10,0);
+		//Frame f6 = new Frame(0,1);
+		assert(bg.score()==5);
 		
 	}
 	
