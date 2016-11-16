@@ -14,6 +14,7 @@ public class TestBowlingScoreKeeper {
 	Frame newFrame;
 	BowlingGame newGame;
 	
+	
 	@Before
 	public void setUp() throws BowlingException{
 		newFrame = new Frame(8, 1);
