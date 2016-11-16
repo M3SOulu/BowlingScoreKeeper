@@ -58,7 +58,7 @@ public class BowlingGame {
 		}
 		
 		if( bonus != null ){
-			score += getBonusScore();
+			score += bonus.score();
 		}
 		
 		return score;
