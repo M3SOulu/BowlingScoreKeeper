@@ -78,3 +78,4 @@ RefactoringAction 1479308603771 CannotCreateAnotherFrame.java ADD CannotCreateAn
 FileOpenedAction 1479308603960 CannotCreateAnotherFrame.java 93 0 0 0
 RefactoringAction 1479308611007 CannotCreateAnotherFrame.java ADD CannotCreateAnotherFrame() METHOD
 EditAction 1479308635512 CannotCreateAnotherFrame.java 172 1 1 0
+EditAction 1479308639911 CannotCreateAnotherFrame.java 175 1 1 0
