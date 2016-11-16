@@ -227,3 +227,8 @@ EditAction 1479314729539 TestBowlingException.java 449 2 2 0
 UnitTestCaseAction 1479314754544 TestBowlingException.java OK
 UnitTestSessionAction 1479314754550 TestBowlingException OK
 EditAction 1479314968908 Frame.java 1545 11 12 0
+UnitTestCaseAction 1479314975514 TestFrame.java OK
+UnitTestSessionAction 1479314975514 TestFrame OK
+UnitTestCaseAction 1479314979843 TestBowlingException.java OK
+UnitTestSessionAction 1479314979844 TestBowlingException OK
+EditAction 1479314989616 TestBowlingException.java 450 2 2 0

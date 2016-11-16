@@ -14,7 +14,7 @@ public class TestBowlingException {
 	
 	@Before
 	public void setUp() {
-		fr1=new Frame(7,4);
+		fr1=new Frame(11,4);
 	}
 	
 	@Test (expected = BowlingException.class)
