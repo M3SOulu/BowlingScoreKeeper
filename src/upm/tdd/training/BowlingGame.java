@@ -18,6 +18,7 @@ public class BowlingGame {
 				if(frame.bonus() == 0) throw new BowlingException();
 				else setBonus(frame.getFirstThrow(), frame.getSecondThrow());
 			}
+			else throw new BowlingException();
 		}
 		frames.add(frame);	
 		frameNumber ++;
