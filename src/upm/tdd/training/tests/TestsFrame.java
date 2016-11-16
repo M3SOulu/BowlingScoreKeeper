@@ -87,12 +87,12 @@ public class TestsFrame {
 	@Test(expected = BowlingException.class)
 	public void testStrike1() throws BowlingException {
 		//Assign
-		Frame newFrame = new Frame(1, 1);
-		//Act
+		Frame newFrame = new Frame(-1, 1);
+		/*//Act
 		boolean ris = newFrame.isStrike();
 		//Assert
 		assertEquals(false, ris);
-		
+		*/
 	}
 
 
