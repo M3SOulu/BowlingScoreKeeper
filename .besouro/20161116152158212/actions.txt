@@ -144,3 +144,6 @@ EditAction 1479309081201 Frame.java 1789 7 11 0
 EditAction 1479309124798 Frame.java 1843 7 11 0
 EditAction 1479309157171 Frame.java 1883 7 12 0
 EditAction 1479309166175 TestFrame.java 1916 9 20 15
+UnitTestCaseAction 1479309168060 TestFrame.java OK
+UnitTestSessionAction 1479309168060 TestFrame OK
+EditAction 1479309197581 TestFrame.java 1916 9 20 15

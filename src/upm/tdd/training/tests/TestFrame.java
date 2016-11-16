@@ -11,7 +11,6 @@ public class TestFrame {
 
 	@Test
 	public void testIsLastFrame() throws BowlingException{
-		Frame.reset();
 		assertEquals( false, new Frame(0, 0).isLastFrame() );
 		assertEquals( false, new Frame(0, 0).isLastFrame() );
 		assertEquals( false, new Frame(0, 0).isLastFrame() );
@@ -22,6 +21,7 @@ public class TestFrame {
 		assertEquals( false, new Frame(0, 0).isLastFrame() );
 		assertEquals( false, new Frame(0, 0).isLastFrame() );
 		assertEquals( true, new Frame(0, 0).isLastFrame() );
+		Frame.reset();
 	}
 	
 	@Test(expected = BowlingException.class)

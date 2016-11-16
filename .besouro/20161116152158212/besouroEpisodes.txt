@@ -22,3 +22,11 @@
 1479308878871 test-addition 1 50 true
 1479308878872 test-addition 1 50 true
 1479308920839 test-addition 1 0 true
+1479309168060 refactoring 3 191 true
+1479309168061 refactoring 3 191 true
+1479309168062 refactoring 3 191 true
+1479309168063 refactoring 3 191 true
+1479309168064 refactoring 3 191 true
+1479309168065 refactoring 3 191 true
+1479309168066 refactoring 3 191 true
+1479309168067 refactoring 3 191 true
