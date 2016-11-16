@@ -176,3 +176,5 @@ RefactoringAction 1479310527121 Frame.java RENAME getScoreWithoutBonus=>int getS
 EditAction 1479310784562 Frame.java 2006 8 12 0
 EditAction 1479310908081 Frame.java 2087 8 12 0
 EditAction 1479310924884 Frame.java 2087 8 12 0
+RefactoringAction 1479311020373 Frame.java REMOVE setBonus(int, int) METHOD
+EditAction 1479311023480 Frame.java 1845 7 11 0

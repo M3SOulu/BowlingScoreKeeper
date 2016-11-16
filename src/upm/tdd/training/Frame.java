@@ -104,24 +104,6 @@ public class Frame {
 			return 0;
 		}
 	}
-
-	/**
-	 * 
-	 * @param firstThrow
-	 * @param secondThrow
-	 */
-	public void setBonus( int firstThrow, int secondThrow )
-	{
-		if( isSpare() ){
-			bonus = firstThrow;
-		}
-		else if( isStrike() ){
-			bonus = ( firstThrow + secondThrow );
-		}
-	}
-
-
-
-
+	
 
 }
