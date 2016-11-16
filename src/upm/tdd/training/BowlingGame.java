@@ -58,12 +58,27 @@ public class BowlingGame {
 		}
 		
 		if( bonus != null ){
-			score += bonus.score();
+			score += getBonusScore();
 		}
 		
 		return score;
 	}
 	
+	/**
+	 * calculate bonus score
+	 * @return
+	 */
+	private int getBonusScore()
+	{
+		Frame lastFrame = frames.get( frames.size() - 1 );
+		
+		if( lastFrame.isSpare() ){
+			return lastFrame.getFirstThrow();
+		}
+		else{
+			return lastFrame.getFirstThrow() + lastFrame.getSecondThrow();
+		}
+	}
 	
 	/**
 	 * 

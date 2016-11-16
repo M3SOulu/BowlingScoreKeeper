@@ -487,3 +487,7 @@ RefactoringAction 1479316523975 TestBowlingScoreKeeper.java RENAME TesBonusScore
 EditAction 1479316524472 TestBowlingScoreKeeper.java 3288 7 70 6
 EditAction 1479316532081 TestBowlingScoreKeeper.java 3289 7 70 6
 EditAction 1479316545480 TestBowlingScoreKeeper.java 3289 7 70 6
+UnitTestCaseAction 1479316547199 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316547200 TestBowlingScoreKeeper OK
+RefactoringAction 1479316553015 BowlingGame.java ADD int getBonusScore() METHOD
+EditAction 1479316553236 BowlingGame.java 1943 6 13 0
