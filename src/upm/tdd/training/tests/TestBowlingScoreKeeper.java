@@ -21,7 +21,6 @@ public class TestBowlingScoreKeeper {
 		}
 		for (Frame frame : frames)
 			testGame.addFrame(frame);
-		//testGame.setFrames(frames);
 	}
 	
 	@Test
