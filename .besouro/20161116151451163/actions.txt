@@ -148,3 +148,9 @@ RefactoringAction 1479311053552 TestBowlingScoreKeeper.java RENAME testMaxFrames
 RefactoringAction 1479311054569 TestBowlingScoreKeeper.java RENAME testMFrames()=>void testFrames() METHOD
 RefactoringAction 1479311058086 TestBowlingScoreKeeper.java RENAME testFrames()=>void testAddTenFrames() METHOD
 EditAction 1479311100882 TestBowlingScoreKeeper.java 1057 3 17 2
+UnitTestCaseAction 1479311102108 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479311102108 TestBowlingScoreKeeper OK
+RefactoringAction 1479311117742 TestBowlingScoreKeeper.java RENAME testAddTenFrames()=>void testAddMaxFrames() METHOD
+RefactoringAction 1479311134753 TestBowlingScoreKeeper.java ADD void testAddMaxFrames()/2 METHOD
+RefactoringAction 1479311140258 TestBowlingScoreKeeper.java RENAME testAddMaxFrames()/2=>void testAddOverMaxFrames() METHOD
+EditAction 1479311155399 TestBowlingScoreKeeper.java 1543 4 30 3

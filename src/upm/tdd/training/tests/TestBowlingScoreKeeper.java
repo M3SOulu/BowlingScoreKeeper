@@ -30,8 +30,28 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void testAddTenFrames() throws BowlingException{
+	public void testAddMaxFrames() throws BowlingException{
 		//Act
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame);
+		int size = newGame.sizeFrames();
+		//Assert
+		assertEquals(10, size);
+		
+	}
+	
+	@Test
+	public void testAddOverMaxFrames() throws BowlingException{
+		//Act
+		newGame.addFrame(newFrame);
 		newGame.addFrame(newFrame);
 		newGame.addFrame(newFrame);
 		newGame.addFrame(newFrame);
