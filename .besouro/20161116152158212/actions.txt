@@ -175,3 +175,4 @@ RefactoringAction 1479310526110 Frame.java RENAME getScoreWithout=>int getScoreW
 RefactoringAction 1479310527121 Frame.java RENAME getScoreWithoutBonus=>int getScoreWithoutBonus() METHOD
 EditAction 1479310784562 Frame.java 2006 8 12 0
 EditAction 1479310908081 Frame.java 2087 8 12 0
+EditAction 1479310924884 Frame.java 2087 8 12 0

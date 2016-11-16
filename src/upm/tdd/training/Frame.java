@@ -94,10 +94,10 @@ public class Frame {
 	 * @return
 	 */
 	public int bonus(){
-		if( isSpare() ){
+		if( isStrike() ){
 			return 2;
 		}
-		else if( isStrike() ){
+		else if( isSpare() ){
 			return 1;
 		}
 		else{
