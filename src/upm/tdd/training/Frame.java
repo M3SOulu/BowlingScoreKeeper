@@ -5,6 +5,12 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	/**
+	 * create a new Bowling Frame
+	 * @param firstThrow
+	 * @param secondThrow
+	 * @throws BowlingException
+	 */
 	public Frame( int firstThrow, int secondThrow ) throws BowlingException{
 		if( firstThrow > 10 || secondThrow > 10 || (firstThrow + secondThrow) > 10 ){
 			throw new BowlingException();

@@ -47,3 +47,5 @@ EditAction 1479307641066 TestFrame.java 571 4 4 4
 UnitTestCaseAction 1479307643259 TestFrame.java OK
 UnitTestSessionAction 1479307643260 TestFrame OK
 EditAction 1479307761203 Frame.java 1069 6 8 0
+CompilationAction 1479307761465 TestFrame.java
+EditAction 1479307775088 Frame.java 1184 6 8 0
