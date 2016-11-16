@@ -212,3 +212,26 @@ RefactoringAction 1479313938923 TestBowlingScoreKeeper.java RENAME testTotalScor
 RefactoringAction 1479313941427 TestBowlingScoreKeeper.java RENAME testTotalScoreWithout()=>void testTotalScoreWithoutSpareOr() METHOD
 RefactoringAction 1479313943439 TestBowlingScoreKeeper.java RENAME testTotalScoreWithoutSpareOr()=>void testTotalScoreWithoutSpareOrStrike() METHOD
 EditAction 1479313990403 TestBowlingScoreKeeper.java 861 2 4 1
+UnitTestCaseAction 1479313994427 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479313994428 TestBowlingScoreKeeper OK
+RefactoringAction 1479314021049 TestBowlingScoreKeeper.java RENAME frame=>Frame FIELD
+RefactoringAction 1479314022575 TestBowlingScoreKeeper.java RENAME frameWith=>Frame FIELD
+RefactoringAction 1479314026093 TestBowlingScoreKeeper.java RENAME frameWithout=>Frame FIELD
+RefactoringAction 1479314026601 TestBowlingScoreKeeper.java RENAME frame=>Frame FIELD
+RefactoringAction 1479314039126 TestBowlingScoreKeeper.java RENAME game=>BowlingGame gameWithout FIELD
+RefactoringAction 1479314040630 TestBowlingScoreKeeper.java RENAME gameWithout=>BowlingGame gameWithoutSpare FIELD
+RefactoringAction 1479314042917 TestBowlingScoreKeeper.java RENAME gameWithoutSpare=>BowlingGame game FIELD
+RefactoringAction 1479314043026 TestBowlingScoreKeeper.java RENAME game=>BowlingGame gameWithoutSpareOrStrike FIELD
+RefactoringAction 1479314070170 TestBowlingScoreKeeper.java ADD void initialize1() METHOD
+RefactoringAction 1479314084685 TestBowlingScoreKeeper.java RENAME initialize()=>void initiali() METHOD
+RefactoringAction 1479314086690 TestBowlingScoreKeeper.java RENAME initiali()=>void initialize() METHOD
+RefactoringAction 1479314093197 TestBowlingScoreKeeper.java RENAME initialize()=>void initializeTestWithout() METHOD
+RefactoringAction 1479314097186 TestBowlingScoreKeeper.java RENAME initializeTestWithout()=>void initialize() METHOD
+RefactoringAction 1479314099538 TestBowlingScoreKeeper.java RENAME initialize()=>void initializeTestWithoutSpareOrStrike() METHOD
+RefactoringAction 1479314103280 TestBowlingScoreKeeper.java REMOVE testTotalScoreWithoutSpareOrStrike() METHOD
+RefactoringAction 1479314105285 TestBowlingScoreKeeper.java ADD void testTotalScoreWithoutSpareOrStrike() METHOD
+RefactoringAction 1479314120314 TestBowlingScoreKeeper.java RENAME initialize1()=>void initializeTest() METHOD
+RefactoringAction 1479314122371 TestBowlingScoreKeeper.java RENAME initializeTest()=>void initializeTestWithSome() METHOD
+RefactoringAction 1479314123890 TestBowlingScoreKeeper.java RENAME initializeTestWithSome()=>void initializeTestWithSomeS() METHOD
+RefactoringAction 1479314126906 TestBowlingScoreKeeper.java RENAME initializeTestWithSomeS()=>void initializeTestWithSomeSpare() METHOD
+EditAction 1479314441211 TestBowlingScoreKeeper.java 1106 3 4 1

@@ -18,24 +18,30 @@ import upm.tdd.training.Frame;
 
 public class TestBowlingScoreKeeper {
 
-	Frame[] frame = new Frame[10];
-	BowlingGame game;
+	Frame[] frameWithoutSpareOrStrike = new Frame[10];
+	BowlingGame gameWithoutSpareOrStrike;
 
 	@Before
-	public void initialize() throws BowlingException {
-		game = new BowlingGame();
+	public void initializeTestWithoutSpareOrStrike() throws BowlingException {
+		gameWithoutSpareOrStrike = new BowlingGame();
 		for (int i = 0; i < 10; i++) {
-			frame[i] = new Frame(4, 5);
+			frameWithoutSpareOrStrike[i] = new Frame(4, 5);
 		}
-		for (int i = 0; i < frame.length; i++) {
-			game.addFrame(frame[i]);
+		for (int i = 0; i < frameWithoutSpareOrStrike.length; i++) {
+			gameWithoutSpareOrStrike.addFrame(frameWithoutSpareOrStrike[i]);
 		}
 	}
-
+	
 	@Test
 	public void testTotalScoreWithoutSpareOrStrike() throws BowlingException {
-		assertEquals(90, game.score());
+		assertEquals(90, gameWithoutSpareOrStrike.score());
+	}
+	
+	@Before
+	public void initializeTestWithSomeSpare(){
 		
 	}
+
+
 
 }

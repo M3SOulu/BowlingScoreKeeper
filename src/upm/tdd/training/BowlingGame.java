@@ -62,7 +62,16 @@ public class BowlingGame {
 	}
 
 	public boolean isNextFrameBonus() {
-		// to be implemented
+
+		/* check if exists 9th frame */
+		if (frames.size() == MAX_FRAMES_SIZE - 1) {
+			Frame actualFrame = frames.get(frames.size() - 1);
+			if (actualFrame.isSpare() || actualFrame.isStrike()) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 		return false;
 	}
 }
