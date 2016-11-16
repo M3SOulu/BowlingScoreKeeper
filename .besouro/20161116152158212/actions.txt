@@ -44,3 +44,6 @@ RefactoringAction 1479307603176 TestFrame.java ADD void testIsNotStrike()/2 METH
 RefactoringAction 1479307607188 TestFrame.java RENAME testIsStrike()/2=>void testIsSpare() METHOD
 RefactoringAction 1479307634309 TestFrame.java RENAME testIsNotStrike()/2=>void testIsNotSpare() METHOD
 EditAction 1479307641066 TestFrame.java 571 4 4 4
+UnitTestCaseAction 1479307643259 TestFrame.java OK
+UnitTestSessionAction 1479307643260 TestFrame OK
+EditAction 1479307761203 Frame.java 1069 6 8 0
