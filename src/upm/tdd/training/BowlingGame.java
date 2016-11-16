@@ -14,7 +14,6 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
-		//to be implemented
 		bonus = new Frame(firstThrow, secondThrow);
 		frames.add(bonus);
 	}
