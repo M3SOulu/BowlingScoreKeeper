@@ -34,15 +34,25 @@ public class TestBowlingScoreKeeper {
 		
 		//Act
 		BowlingGame.addFrame(frame1);
+		assertEquals(5, BowlingGame.score());
 		BowlingGame.addFrame(frame2);
+		assertEquals(14, BowlingGame.score());
 		BowlingGame.addFrame(frame3);
+		assertEquals(29, BowlingGame.score());
 		BowlingGame.addFrame(frame4);
+		assertEquals(49, BowlingGame.score());
 		BowlingGame.addFrame(frame5);
+		assertEquals(60, BowlingGame.score());
 		BowlingGame.addFrame(frame6);
+		assertEquals(61, BowlingGame.score());
 		BowlingGame.addFrame(frame7);
+		assertEquals(77, BowlingGame.score());
 		BowlingGame.addFrame(frame8);
+		assertEquals(97, BowlingGame.score());
 		BowlingGame.addFrame(frame9);
+		assertEquals(117, BowlingGame.score());
 		BowlingGame.addFrame(frame10);
+		assertEquals(133, BowlingGame.score());
 		BowlingGame.addFrame(frameBonus);
 		
 		//Assert
