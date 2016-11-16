@@ -41,7 +41,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void ifStrikeFrameContainsOnly10Point() throws BowlingException{
+	public void ifStrikeTheFrameContainsOnly10Point() throws BowlingException{
 		//Arrange
 		Frame frame11;
 		//Act
@@ -49,6 +49,9 @@ public class TestBowlingScoreKeeper {
 		//Assert
 		assertEquals(10,frame11.score());
 	}
+	
+	@Test
+	public void 
 	
 	
 	
