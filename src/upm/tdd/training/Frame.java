@@ -63,6 +63,11 @@ public class Frame {
 		n = this.nFrame;
 	}
 	
+	public int getBonusPoints() {
+		return this.bonusPoints;
+	}
+
+	
 	public void setBonusPoints(int bonus) {
 		bonus = this.bonusPoints;
 	}
