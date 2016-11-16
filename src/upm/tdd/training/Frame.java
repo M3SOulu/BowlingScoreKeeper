@@ -45,7 +45,9 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		//to be implemented
+		if(this.isLastFrame()) {
+			
+		}
 		return 0;
 	}
 
