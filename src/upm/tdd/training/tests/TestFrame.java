@@ -17,5 +17,15 @@ public class TestFrame {
 	public void testIsNotStrike() {
 		assertEquals( false, new Frame( 5, 5 ).isStrike() );
 	}
+	
+	@Test
+	public void testIsSpare() {
+		assertEquals( true, new Frame( 5, 5 ).isSpare() );
+	}
+	
+	@Test
+	public void testIsNotSpare() {
+		assertEquals( false, new Frame( 5, 4 ).isSpare() );
+	}
 
 }

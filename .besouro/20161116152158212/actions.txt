@@ -37,3 +37,10 @@ RefactoringAction 1479307564960 TestFrame.java ADD void testIsStrike()/2 METHOD
 RefactoringAction 1479307567992 TestFrame.java RENAME testIsStrike()/2=>void testIsNotStrike() METHOD
 EditAction 1479307577232 TestFrame.java 366 2 2 2
 EditAction 1479307585355 TestFrame.java 369 2 2 2
+UnitTestCaseAction 1479307587143 TestFrame.java OK
+UnitTestSessionAction 1479307587143 TestFrame OK
+RefactoringAction 1479307603176 TestFrame.java ADD void testIsStrike()/2 METHOD
+RefactoringAction 1479307603176 TestFrame.java ADD void testIsNotStrike()/2 METHOD
+RefactoringAction 1479307607188 TestFrame.java RENAME testIsStrike()/2=>void testIsSpare() METHOD
+RefactoringAction 1479307634309 TestFrame.java RENAME testIsNotStrike()/2=>void testIsNotSpare() METHOD
+EditAction 1479307641066 TestFrame.java 571 4 4 4
