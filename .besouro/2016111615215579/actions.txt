@@ -107,3 +107,12 @@ EditAction 1479312998395 BowlingGame.java 1937 9 19 0
 UnitTestCaseAction 1479312999085 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479312999086 TestBowlingScoreKeeper FAIL
 EditAction 1479313154176 BowlingGame.java 1974 9 19 0
+UnitTestCaseAction 1479313154729 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313154729 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479313179956 BowlingGame.java REMOVE setBonus(int, int) METHOD
+RefactoringAction 1479313179956 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1479313179956 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1479313183488 BowlingGame.java ADD void setBonus(int, int) METHOD
+RefactoringAction 1479313183488 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1479313183488 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+EditAction 1479313186764 BowlingGame.java 1975 9 19 0
