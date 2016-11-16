@@ -30,7 +30,7 @@ public class BowlingGame {
 			Frame thisFrame=frames.get(i);
 			
 			if (i<frames.size()-2) {
-				Frame nextFrame=frames.get(i++);
+				Frame nextFrame=frames.get(i+1);
 				Frame lastFrame=frames.get(i+2);
 				
 				if(thisFrame.isStrike()) {
