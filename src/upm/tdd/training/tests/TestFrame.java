@@ -21,7 +21,7 @@ public class TestFrame {
 		p = new Frame(0,-10);
 	}
 	
-	@Test
+	@Test (expected = BowlingException.class)
 	public void testInitFrameExceptionLessThanZero2() throws BowlingException{
 		p = new Frame(-3,  1);
 	}

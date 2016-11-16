@@ -72,3 +72,6 @@ RefactoringAction 1479310562798 TestFrame.java RENAME testInitFrameExceptionLess
 RefactoringAction 1479310564803 TestFrame.java RENAME testInitFrameExceptionLessThanZero2=>void testInitFrameExceptionLessThanZero2() METHOD
 EditAction 1479310605652 Frame.java 854 6 8 0
 EditAction 1479310605781 BowlingGame.java 688 5 7 0
+UnitTestCaseAction 1479310609458 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479310609458 TestBowlingScoreKeeper FAIL
+EditAction 1479310625051 TestFrame.java 591 3 2 0
