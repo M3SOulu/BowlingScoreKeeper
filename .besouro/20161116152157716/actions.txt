@@ -38,3 +38,14 @@ RefactoringAction 1479313173091 TestBowlingScoreKeeper.java ADD void test() METH
 RefactoringAction 1479313208122 TestBowlingScoreKeeper.java ADD int firstThrow FIELD
 RefactoringAction 1479313208122 TestBowlingScoreKeeper.java ADD int secondThrow FIELD
 EditAction 1479313212859 TestBowlingScoreKeeper.java 704 4 4 1
+RefactoringAction 1479313360820 TestBowlingScoreKeeper.java ADD upm.tdd.training.Frame score FIELD
+RefactoringAction 1479313384338 TestBowlingScoreKeeper.java ADD upm.tdd.training.Frame score/2 FIELD
+RefactoringAction 1479313386344 TestBowlingScoreKeeper.java RENAME score/2=>upm.tdd.training.Frame fr FIELD
+RefactoringAction 1479313387350 TestBowlingScoreKeeper.java RENAME fr=>upm.tdd.training.Frame frame FIELD
+RefactoringAction 1479313409369 TestBowlingScoreKeeper.java REMOVE Score() METHOD
+RefactoringAction 1479313703795 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+UnitTestCaseAction 1479313727076 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313727084 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479313980082 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313980083 TestBowlingScoreKeeper FAIL
+EditAction 1479314046817 TestBowlingScoreKeeper.java 917 3 5 1
