@@ -12,7 +12,7 @@ public class TestsFrame {
 	
 	
 
-	@Test(expected = BowlingException.class)
+	@Test
 	public void testStrike() throws BowlingException {
 		//Assign
 		Frame newFrame = new Frame(9, 1);
