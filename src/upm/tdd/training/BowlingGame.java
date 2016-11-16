@@ -12,6 +12,7 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame){
 		//to be implemented
+				
 		if(frames.isEmpty()){
 			addFirstFrame(frame);
 		}else if(frames.get(frames.size()-1).isStrike()){
@@ -21,6 +22,17 @@ public class BowlingGame {
 		}else{
 			frames.add(frame);
 			gameScore += frame.score();
+		}
+		
+		if(frame.isLastFrame()){
+			if(frame.getFirstThrow() == 10 || frame.getFirstThrow()+frame.getSecondThrow() == 10){
+				
+			}
+			else {
+				Frame tempFrame = new
+				addFrame(tempFrame);
+				setBonus(frame.getFirstThrow(),frame.getSecondThrow());
+			}
 		}
 
 	}
@@ -42,16 +54,21 @@ public class BowlingGame {
 		Frame f = getLastFrame();
 		int bonus = f.getFirstThrow();
 		frame.setScoreWithBonus(bonus);
+		gameScore += frame.score();
 	}
 	
 	private void addFrameWithPreviousFrameStrike(Frame frame){
 		Frame f = getLastFrame();
+		if(f.isStrike()){
+			addFrameWithPreviousFrameStrike(f);
+		}
 		int bonus = f.getFirstThrow()+f.getSecondThrow();
 		frame.setScoreWithBonus(bonus);
+		gameScore += frame.score();
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		bonus = new Frame(firstThrow,secondThrow);
 	}
 	
 	public int score(){

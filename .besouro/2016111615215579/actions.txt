@@ -68,3 +68,4 @@ RefactoringAction 1479312196881 TestBowlingScoreKeeper.java RENAME import upm.td
 RefactoringAction 1479312198894 TestBowlingScoreKeeper.java REMOVE import upm.tdd.training.B IMPORT
 RefactoringAction 1479312206900 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
 EditAction 1479312215703 TestBowlingScoreKeeper.java 315 2 0 0
+EditAction 1479312215801 BowlingGame.java 1901 9 19 0
