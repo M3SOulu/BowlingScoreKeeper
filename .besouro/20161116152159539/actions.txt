@@ -114,3 +114,8 @@ CompilationAction 1479313170967 TestBowlingScoreKeeper.java
 RefactoringAction 1479313190289 TestBowlingScoreKeeper.java REMOVE import upm.tdd.training.BowlingGame IMPORT
 RefactoringAction 1479313212308 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
 EditAction 1479313212571 TestBowlingScoreKeeper.java 2515 3 53 2
+CompilationAction 1479313212813 TestBowlingScoreKeeper.java
+RefactoringAction 1479313316095 BowlingGame.java RENAME addFrame(Frame)=>void addFrame(java.awt.Frame) METHOD
+RefactoringAction 1479313345696 BowlingGame.java RENAME addFrame(java.awt.Frame)=>void addFrame() METHOD
+RefactoringAction 1479313348202 BowlingGame.java RENAME addFrame()=>void addFrame(Frame) METHOD
+EditAction 1479313350496 BowlingGame.java 1013 7 8 0
