@@ -89,3 +89,6 @@ RefactoringAction 1479308999056 TestsFrame.java ADD void testScore()/2 METHOD
 RefactoringAction 1479309007566 TestsFrame.java RENAME testScore()/2=>void testScoreWith() METHOD
 RefactoringAction 1479309009588 TestsFrame.java RENAME testScoreWith()=>void testScoreWithBonus() METHOD
 EditAction 1479309025833 TestsFrame.java 1662 7 21 7
+UnitTestCaseAction 1479309027459 TestsFrame.java OK
+UnitTestSessionAction 1479309027459 TestsFrame OK
+EditAction 1479309055488 TestsFrame.java 1662 7 21 7
