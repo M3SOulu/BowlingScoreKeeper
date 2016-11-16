@@ -63,8 +63,12 @@ public class Frame {
 	 * @return if is the last frame
 	 */
 	public boolean isLastFrame(){
-		if(  )
-		return false;
+		if( id == 10 ){
+			return tre;
+		}
+		else{
+			return false;
+		}
 	}
 
 	//bonus throws

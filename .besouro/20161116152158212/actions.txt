@@ -98,3 +98,5 @@ RefactoringAction 1479308388330 Frame.java REMOVE frame FIELD
 RefactoringAction 1479308388333 Frame.java REMOVE the FIELD
 RefactoringAction 1479308388333 Frame.java REMOVE the/2 FIELD
 EditAction 1479308408114 Frame.java 1293 6 9 0
+CompilationAction 1479308408385 Frame.java
+EditAction 1479308437562 Frame.java 1334 6 10 0
