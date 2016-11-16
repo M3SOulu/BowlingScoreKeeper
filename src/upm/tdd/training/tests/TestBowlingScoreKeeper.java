@@ -20,7 +20,7 @@ public class TestBowlingScoreKeeper {
 		b = new BowlingGame();
 	}
 	
-	public void TesScore()
+	public void TesSimpleScore() throws BowlingException
 	{
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
@@ -32,6 +32,8 @@ public class TestBowlingScoreKeeper {
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
+		
+		assertEquals(30, b.score());
 	}
 
 }
