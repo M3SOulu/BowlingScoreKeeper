@@ -58,3 +58,30 @@ RefactoringAction 1479310464653 BowlingGame.java RENAME get=>ArrayList<Frame> ge
 RefactoringAction 1479310466168 BowlingGame.java RENAME getFrame=>ArrayList<Frame> getFrameList FIELD
 RefactoringAction 1479310467178 BowlingGame.java RENAME getFrameList=>ArrayList<Frame> getFrameList() METHOD
 EditAction 1479310490171 BowlingGame.java 994 7 3 0
+CompilationAction 1479310490347 BowlingGame.java
+CompilationAction 1479310490348 BowlingGame.java
+CompilationAction 1479310490348 BowlingGame.java
+CompilationAction 1479310490349 BowlingGame.java
+CompilationAction 1479310490352 BowlingGame.java
+CompilationAction 1479310490352 Frame.java
+RefactoringAction 1479310545233 Frame.java REMOVE equals(Frame) METHOD
+RefactoringAction 1479310568292 Frame.java REMOVE getPreviousFrame() METHOD
+RefactoringAction 1479311392924 Frame.java REMOVE thirdThrow FIELD
+RefactoringAction 1479311397940 Frame.java REMOVE getThirdThrow() METHOD
+RefactoringAction 1479311397941 Frame.java REMOVE setThirdThrow(int) METHOD
+RefactoringAction 1479311877345 BowlingGame.java REMOVE getPreviousFrame() METHOD
+RefactoringAction 1479312246892 BowlingGame.java REMOVE getFrameList() METHOD
+RefactoringAction 1479312878782 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1479312878782 Frame.java REMOVE isLastFrame() METHOD
+RefactoringAction 1479312878782 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1479312878783 Frame.java REMOVE bonus() METHOD
+RefactoringAction 1479312881833 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1479312881834 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1479312881834 Frame.java ADD boolean isLastFrame() METHOD
+RefactoringAction 1479312881834 Frame.java ADD int bonus() METHOD
+CompilationAction 1479312943870 BowlingGame.java
+CompilationAction 1479312943871 BowlingGame.java
+CompilationAction 1479312943872 BowlingGame.java
+CompilationAction 1479312943872 BowlingGame.java
+CompilationAction 1479312943872 BowlingGame.java
+EditAction 1479313562017 BowlingGame.java 653 5 5 0

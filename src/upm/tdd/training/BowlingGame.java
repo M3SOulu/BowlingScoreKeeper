@@ -18,7 +18,7 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		for()
+	
 	}
 	
 	public int score(){
@@ -28,28 +28,10 @@ public class BowlingGame {
 	
 	public boolean isNextFrameBonus(){
 		boolean result = false;
-		Frame previous = frames.get(index)
+		int index = 0;
+
 		
-		for(Frame bowl: this.frames) {
-			if(bowl.isSpare() || bowl.isStrike()) {
-				
-			}
-		}
+		
 		return false;
-	}
-	
-	public Frame getPreviousFrame() {
-		Frame previous = null;
-		
-		for(Frame frame: frames) {
-			if(frame.equals(this)) {
-				previous = frames.get()
-			}
-		}
-		
-	}
-	
-	public List<Frame> getFrameList() {
-		return this.frames;
 	}
 }
