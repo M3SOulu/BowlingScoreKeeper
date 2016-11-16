@@ -1,0 +1,11 @@
+FileOpenedAction 1479306119252 Frame.java 748 6 7 0
+RefactoringAction 1479306678899 Frame.java ADD boolean last FIELD
+RefactoringAction 1479306680951 Frame.java RENAME last=>boolean lastFrame FIELD
+RefactoringAction 1479306710589 Frame.java ADD void setLastFrame(boolean) METHOD
+RefactoringAction 1479306719131 Frame.java REMOVE setLastFrame(boolean) METHOD
+RefactoringAction 1479306787315 Frame.java ADD void set FIELD
+RefactoringAction 1479306788838 Frame.java RENAME set=>void setlast FIELD
+RefactoringAction 1479306792397 Frame.java RENAME setlast=>void setlastFrame FIELD
+RefactoringAction 1479306794005 Frame.java RENAME setlastFrame=>void setlastFrame() METHOD
+RefactoringAction 1479306801036 Frame.java RENAME setlastFrame()=>void setlastFrame(boolean) METHOD
+EditAction 1479306831957 Frame.java 903 7 8 0
