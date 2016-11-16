@@ -1,0 +1,18 @@
+FileOpenedAction 1479306151948 TestBowlingScoreKeeper.java 197 1 1 0
+FileOpenedAction 1479306176022 BowlingGame.java 545 5 2 0
+FileOpenedAction 1479306224286 BowlingException.java 148 0 0 0
+FileOpenedAction 1479306290352 Frame.java 748 6 7 0
+RefactoringAction 1479306604274 Frame.java ADD int nFrame FIELD
+RefactoringAction 1479306620812 Frame.java RENAME Frame(int, int)=>Frame(int, int, int) METHOD
+RefactoringAction 1479306847273 Frame.java ADD Frame(int, int, int)/2 METHOD
+RefactoringAction 1479306852825 Frame.java RENAME Frame(int, int, int)/2=>Frame(int, int) METHOD
+RefactoringAction 1479307232076 Frame.java REMOVE nFrame FIELD
+RefactoringAction 1479307249612 Frame.java ADD int nFrame FIELD
+RefactoringAction 1479307254128 Frame.java REMOVE Frame(int, int, int) METHOD
+RefactoringAction 1479307273194 Frame.java ADD int s FIELD
+RefactoringAction 1479307274203 Frame.java RENAME s=>int set FIELD
+RefactoringAction 1479307279709 Frame.java RENAME set=>int setNFrame() METHOD
+RefactoringAction 1479307734036 Frame.java ADD int bonusPoints FIELD
+RefactoringAction 1479307840587 Frame.java ADD int setNFrame()/2 METHOD
+RefactoringAction 1479307847599 Frame.java RENAME setNFrame()/2=>int setBonusPoints() METHOD
+EditAction 1479308171890 Frame.java 1028 8 12 0
