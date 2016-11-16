@@ -331,3 +331,4 @@ EditAction 1479315324154 TestBowlingScoreKeeper.java 1565 6 22 4
 RefactoringAction 1479315333319 TestBowlingScoreKeeper.java ADD void testIsNotNextFrameBonus()/2 METHOD
 EditAction 1479315355014 BowlingGame.java 1651 5 11 0
 EditAction 1479315358283 BowlingGame.java 1652 5 11 0
+EditAction 1479315363192 TestBowlingScoreKeeper.java 1721 7 24 5
