@@ -74,3 +74,7 @@ CompilationAction 1479308377434 TestBowlingScoreKeeper.java
 CompilationAction 1479308377434 TestBowlingScoreKeeper.java
 CompilationAction 1479308377597 TestBowlingScoreKeeper.java
 EditAction 1479308529046 Frame.java 936 6 11 0
+RefactoringAction 1479308603771 CannotCreateAnotherFrame.java ADD CannotCreateAnotherFrame.java CLASS
+FileOpenedAction 1479308603960 CannotCreateAnotherFrame.java 93 0 0 0
+RefactoringAction 1479308611007 CannotCreateAnotherFrame.java ADD CannotCreateAnotherFrame() METHOD
+EditAction 1479308635512 CannotCreateAnotherFrame.java 172 1 1 0
