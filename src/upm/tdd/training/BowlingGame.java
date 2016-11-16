@@ -17,7 +17,18 @@ public class BowlingGame {
 		if (frames.size() == MAX_FRAMES_SIZE) {
 			throw new BowlingException();
 		} else {
+			// add new frame to the game
 			frames.add(new Frame(frame.getFirstThrow(), frame.getSecondThrow()));
+
+			/*
+			 * if frame before the actual was a spare, add to the previous frame
+			 * the point of the actual frames' first throw
+			 */
+
+			if (frames.get(frames.size() - 1).isSpare()) {
+				
+			}
+
 		}
 	}
 
