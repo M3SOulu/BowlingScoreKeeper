@@ -1,5 +1,6 @@
 package upm.tdd.training;
 
+import org.junit.experimental.theories.Theories;
 
 public class Frame {
 	private int firstThrow;
