@@ -187,3 +187,8 @@ EditAction 1479315337932 Frame.java 1341 9 14 0
 UnitTestCaseAction 1479315338577 TestFrame.java FAIL
 UnitTestSessionAction 1479315338578 TestFrame FAIL
 EditAction 1479315360042 TestFrame.java 732 3 7 3
+CompilationAction 1479315360158 TestFrame.java
+CompilationAction 1479315366642 TestFrame.java
+UnitTestCaseAction 1479315367088 TestFrame.java OK
+UnitTestSessionAction 1479315367089 TestFrame OK
+EditAction 1479315469157 TestFrame.java 734 3 7 3
