@@ -118,3 +118,36 @@ EditAction 1479315294006 TestBowlingScoreKeeper.java 2515 8 32 5
 UnitTestCaseAction 1479315294506 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479315294507 TestBowlingScoreKeeper FAIL
 EditAction 1479315331896 TestBowlingScoreKeeper.java 2514 8 32 5
+UnitTestCaseAction 1479315332475 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315332475 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479315481653 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315481654 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479315555283 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315555284 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479315755985 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315755986 TestBowlingScoreKeeper OK
+CompilationAction 1479315942252 TestBowlingScoreKeeper.java
+CompilationAction 1479315959175 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479315959746 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315959747 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479315971830 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315971831 TestBowlingScoreKeeper OK
+RefactoringAction 1479316211904 TestBowlingScoreKeeper.java ADD void popo FIELD
+RefactoringAction 1479316212914 TestBowlingScoreKeeper.java RENAME popo=>void popola FIELD
+RefactoringAction 1479316221928 TestBowlingScoreKeeper.java RENAME popola=>void popolabowlingGame FIELD
+RefactoringAction 1479316223438 TestBowlingScoreKeeper.java RENAME popolabowlingGame=>void popolaowlingGame FIELD
+RefactoringAction 1479316224457 TestBowlingScoreKeeper.java RENAME popolaowlingGame=>void popolaBowlingGame FIELD
+RefactoringAction 1479316239467 TestBowlingScoreKeeper.java RENAME popolaBowlingGame=>void populatesBowlingGame FIELD
+RefactoringAction 1479316243481 TestBowlingScoreKeeper.java RENAME populatesBowlingGame=>void populatesBowlingGame() METHOD
+RefactoringAction 1479316255562 TestBowlingScoreKeeper.java RENAME populatesBowlingGame()=>void populatesBowlingGame(Frame) METHOD
+RefactoringAction 1479316277580 TestBowlingScoreKeeper.java RENAME populatesBowlingGame(Frame)=>void populatesBowlingGame(Frame, BowlingGame) METHOD
+RefactoringAction 1479316415388 TestBowlingScoreKeeper.java RENAME populatesBowlingGame(Frame, BowlingGame)=>void populatesBowlingGame(Frame, owlingGame) METHOD
+RefactoringAction 1479316417406 TestBowlingScoreKeeper.java RENAME populatesBowlingGame(Frame, owlingGame)=>void populatesBowlingGame(Frame, bowlingGame) METHOD
+RefactoringAction 1479316427417 TestBowlingScoreKeeper.java RENAME populatesBowlingGame(Frame, bowlingGame)=>void populatesBowlingGame(Frame) METHOD
+RefactoringAction 1479316436935 TestBowlingScoreKeeper.java RENAME populatesBowlingGame(Frame)=>void populatesBowlingGame() METHOD
+RefactoringAction 1479316443996 TestBowlingScoreKeeper.java RENAME populatesBowlingGame()=>void populatesBowlingGame(Frame) METHOD
+RefactoringAction 1479316475043 TestBowlingScoreKeeper.java RENAME populatesBowlingGame(Frame)=>void populatesBowlingGame(Frame, int) METHOD
+UnitTestCaseAction 1479316604414 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316604415 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316635627 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316635628 TestBowlingScoreKeeper OK

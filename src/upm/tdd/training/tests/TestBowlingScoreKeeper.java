@@ -28,9 +28,7 @@ public class TestBowlingScoreKeeper {
 		// Arrange
 		Frame frame = new Frame(0, 0);
 		// Act
-		for (int i = 0; i < 11; i++) {
-			bowlingGame.addFrame(frame);
-		}
+		populatesBowlingGame(frame,11);
 	}
 
 	@Test
@@ -38,9 +36,7 @@ public class TestBowlingScoreKeeper {
 		// Arrange
 		Frame frame = new Frame(10, 0);
 		// Act
-		for (int i = 0; i < 10; i++) {
-			bowlingGame.addFrame(frame);
-		}
+		populatesBowlingGame(frame, 10);
 		bowlingGame.setBonus(10, 0);
 		// Assert
 		assertEquals(300, bowlingGame.score());
@@ -51,9 +47,7 @@ public class TestBowlingScoreKeeper {
 		// Arrange
 		Frame frame = new Frame(0, 0);
 		// Act
-		for (int i = 0; i < 10; i++) {
-			bowlingGame.addFrame(frame);
-		}
+		populatesBowlingGame(frame, 10);
 		// Assert
 		assertEquals(0, bowlingGame.score());
 	}
@@ -67,9 +61,8 @@ public class TestBowlingScoreKeeper {
 		// Act
 		bowlingGame.addFrame(frame1);
 		bowlingGame.addFrame(frame2);
-		for (int i = 2; i < 10; i++) {
-			bowlingGame.addFrame(frame3);
-		}
+
+		populatesBowlingGame(frame3, 8);
 		// Assert
 		assertEquals(92, bowlingGame.score());
 	}
@@ -83,9 +76,8 @@ public class TestBowlingScoreKeeper {
 		// Act
 		bowlingGame.addFrame(frame1);
 		bowlingGame.addFrame(frame2);
-		for (int i = 2; i < 10; i++) {
-			bowlingGame.addFrame(frame3);
-		}
+
+		populatesBowlingGame(frame3, 8);
 		// Assert
 		assertEquals(102, bowlingGame.score());
 	}
@@ -99,10 +91,19 @@ public class TestBowlingScoreKeeper {
 		// Act
 		bowlingGame.addFrame(frame1);
 		bowlingGame.addFrame(frame2);
-		for (int i = 2; i < 10; i++) {
-			bowlingGame.addFrame(frame3);
-		}
+
+		populatesBowlingGame(frame3, 8);
 		// Assert
 		assertEquals(99, bowlingGame.score());
+	}
+	
+	
+	private void populatesBowlingGame(Frame f, int n) throws BowlingException{
+		Frame frame;
+		int temp=f.getFirstThrow();
+		for (int i = 0; i <n; i++) {
+			frame=new Frame(temp, f.score()-temp);
+			bowlingGame.addFrame(frame);
+		}
 	}
 }
