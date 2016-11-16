@@ -11,6 +11,7 @@ public class TestFrame {
 
 	@Test
 	public void testIsLastFrame() throws BowlingException{
+		resetIdCounting();
 		assertEquals( false, new Frame(0, 0).isLastFrame() );
 		assertEquals( false, new Frame(0, 0).isLastFrame() );
 		assertEquals( false, new Frame(0, 0).isLastFrame() );

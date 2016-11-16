@@ -215,3 +215,4 @@ RefactoringAction 1479312282896 Frame.java ADD static void resetId() METHOD
 RefactoringAction 1479312297930 Frame.java RENAME resetId()=>static void resetIdCou() METHOD
 RefactoringAction 1479312299443 Frame.java RENAME resetIdCou()=>static void resetIdCounting() METHOD
 EditAction 1479312322104 Frame.java 2018 9 13 0
+EditAction 1479312332142 TestFrame.java 2275 12 23 18
