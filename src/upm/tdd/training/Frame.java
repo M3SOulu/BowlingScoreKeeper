@@ -69,7 +69,7 @@ public class Frame {
 
 	
 	public void setBonusPoints(int bonus) {
-		bonus = this.bonusPoints;
+		this.bonusPoints = bonus;
 	}
 
 }
