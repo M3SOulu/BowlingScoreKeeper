@@ -16,9 +16,7 @@ public class TestBowlingScoreKeeper {
 		Frame frame1 = new Frame(5,2);
 		partita1.addFrame(frame1);
 	
-		
 		assertEquals(7, partita1.score());
-	
 	}
 	
 	@Test
@@ -28,10 +26,8 @@ public class TestBowlingScoreKeeper {
 		Frame frame1 = new Frame(5,2);
 		partita2.addFrame(strike);
 		partita2.addFrame(frame1);
-	
 		
 		assertEquals(17+7, partita2.score());
-	
 	}
 	
 	@Test
@@ -42,9 +38,7 @@ public class TestBowlingScoreKeeper {
 		partita2.addFrame(strike);
 		partita2.addFrame(frame1);
 	
-		
 		assertEquals(15+7, partita2.score());
-	
 	}
 	
 
