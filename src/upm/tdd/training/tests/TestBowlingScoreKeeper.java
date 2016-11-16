@@ -14,12 +14,14 @@ public class TestBowlingScoreKeeper {
 
 	BowlingGame testGame = new BowlingGame();
 	
-	public void initFrames(){
+	public void initFrames() throws BowlingException{
 		ArrayList<Frame> frames = new ArrayList<Frame>();
 		for (int i = 0; i < 10; ++i){
 			frames.add(i, new Frame (1, 1));
 		}
-		testGame.setFrames(frames);
+		for (Frame frame : frames)
+			testGame.addFrame(frame);
+		//testGame.setFrames(frames);
 	}
 	
 	@Test
