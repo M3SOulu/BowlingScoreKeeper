@@ -17,7 +17,7 @@ public class BowlingGame {
 		Frame previous = frames.get(frames.size()-2);
 		Frame actual = frames.get(frames.size()-1);
 		if(previous.isSpare()) {
-			actual.
+			actual.setBonusPoints()
 		}
 	}
 	
