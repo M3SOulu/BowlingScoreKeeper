@@ -27,7 +27,7 @@ public class BowlingGame {
 
 	public int score(){
 		int score = 0;
-		int bonusForStrike=0;
+		int bonusForStrike;
 		for(int i=0;i<10;i++){
 			
 			if(frames.get(i).isSpare()){
