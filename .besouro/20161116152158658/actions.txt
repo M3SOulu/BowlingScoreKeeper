@@ -48,3 +48,17 @@ EditAction 1479310507544 BowlingGame.java 1098 5 5 0
 EditAction 1479310538385 BowlingGame.java 1135 5 5 0
 EditAction 1479310567970 BowlingGame.java 1149 5 5 0
 EditAction 1479311033184 BowlingGame.java 1487 5 5 0
+RefactoringAction 1479311098148 TestBowlingScoreKeeper.java RENAME test()=>void test_() METHOD
+RefactoringAction 1479311100152 TestBowlingScoreKeeper.java RENAME test_()=>void test_of() METHOD
+RefactoringAction 1479311101660 TestBowlingScoreKeeper.java RENAME test_of()=>void test_of_() METHOD
+RefactoringAction 1479311103171 TestBowlingScoreKeeper.java RENAME test_of_()=>void test_of_full() METHOD
+RefactoringAction 1479311106176 TestBowlingScoreKeeper.java RENAME test_of_full()=>void test_of_full_strike() METHOD
+RefactoringAction 1479311132733 TestBowlingScoreKeeper.java ADD void setUp() METHOD
+RefactoringAction 1479311142268 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479311168937 TestBowlingScoreKeeper.java ADD BowlingGame match1 FIELD
+RefactoringAction 1479311175767 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479311232487 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479311278822 TestBowlingScoreKeeper.java ADD import junit.framework.Assert IMPORT
+RefactoringAction 1479311284833 TestBowlingScoreKeeper.java REMOVE import junit.framework.Assert IMPORT
+RefactoringAction 1479311287821 TestBowlingScoreKeeper.java ADD import org.junit.Assert IMPORT
+EditAction 1479311306424 TestBowlingScoreKeeper.java 506 2 3 1
