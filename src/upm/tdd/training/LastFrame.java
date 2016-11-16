@@ -1,4 +1,4 @@
-package upm.tdd.training;
+/*package upm.tdd.training;
 
 public class LastFrame extends Frame {
 
@@ -12,3 +12,4 @@ public class LastFrame extends Frame {
 	
 
 }
+*/

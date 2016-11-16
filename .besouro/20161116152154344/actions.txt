@@ -42,3 +42,24 @@ CompilationAction 1479309190677 BowlingGame.java
 CompilationAction 1479309190677 BowlingGame.java
 CompilationAction 1479309190678 BowlingGame.java
 EditAction 1479309253415 BowlingGame.java 878 5 7 0
+CompilationAction 1479309253675 BowlingGame.java
+CompilationAction 1479309253676 BowlingGame.java
+CompilationAction 1479309253676 BowlingGame.java
+CompilationAction 1479309274096 BowlingGame.java
+CompilationAction 1479309274096 BowlingGame.java
+CompilationAction 1479309274097 BowlingGame.java
+CompilationAction 1479309274261 BowlingGame.java
+CompilationAction 1479309274261 BowlingGame.java
+CompilationAction 1479309289701 BowlingGame.java
+CompilationAction 1479309289702 BowlingGame.java
+CompilationAction 1479309289892 BowlingGame.java
+CompilationAction 1479309289893 BowlingGame.java
+CompilationAction 1479309289894 BowlingGame.java
+RefactoringAction 1479309380257 BowlingGame.java REMOVE BowlingGame() METHOD
+CompilationAction 1479309384274 BowlingGame.java
+CompilationAction 1479309384448 BowlingGame.java
+CompilationAction 1479309384448 BowlingGame.java
+RefactoringAction 1479309389790 BowlingGame.java ADD BowlingGame() METHOD
+CompilationAction 1479309395442 BowlingGame.java
+CompilationAction 1479309395442 BowlingGame.java
+EditAction 1479309574549 BowlingGame.java 697 5 5 0

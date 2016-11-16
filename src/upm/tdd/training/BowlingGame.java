@@ -7,7 +7,6 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	private final int MAX_FRAMES = 10;
-	private final int 
 	
 	public BowlingGame(){}
 	
@@ -18,11 +17,7 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		Frame lastPlayedFrame = frames.get(frames.size()-1); 
-		if (lastPlayedFrame.isStrike())
-			bonus = new Frame(firstThrow, secondThrow);
-		if (lastPlayedFrame.isSpare())
-			bonus = new Frame (firstThrow, 0);
+		bonus = new Frame (firstThrow, secondThrow);
 	}
 	
 	public int score(){
