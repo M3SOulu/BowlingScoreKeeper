@@ -9,7 +9,6 @@ import org.junit.Test;
 
 import upm.tdd.training.BowlingException;
 import upm.tdd.training.BowlingGame;
-import upm.tdd.training.CannotCreateAnotherFrame;
 
 public class TestBowlingScoreKeeper {
 
@@ -27,7 +26,7 @@ public class TestBowlingScoreKeeper {
 	
 	
 	@Before
-	public void setUp() throws CannotCreateAnotherFrame{
+	public void setUp() throws BowlingException{
 		//Arrange
 		partita.addFrame(frame1);
 		partita.addFrame(frame2);
@@ -43,10 +42,12 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test(expected=BowlingException.class)
-	public void testAddEleventhFrame() throws BowlingException, CannotCreateAnotherFrame {
+	public void testAddEleventhFrame() throws BowlingException {
 		Frame frame11 = new Frame(1,4);
 		partita.addFrame(frame11);
 	}
+	
+	
 	
 	
 	

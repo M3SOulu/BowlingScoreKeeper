@@ -148,3 +148,14 @@ CompilationAction 1479309741127 TestBowlingScoreKeeper.java
 CompilationAction 1479309741128 TestBowlingScoreKeeper.java
 CompilationAction 1479309741128 TestBowlingScoreKeeper.java
 EditAction 1479309742430 TestBowlingScoreKeeper.java 1080 2 12 0
+CompilationAction 1479309742560 TestBowlingScoreKeeper.java
+CompilationAction 1479309742560 TestBowlingScoreKeeper.java
+CompilationAction 1479309743420 TestBowlingScoreKeeper.java
+CompilationAction 1479309743600 TestBowlingScoreKeeper.java
+CompilationAction 1479309743600 TestBowlingScoreKeeper.java
+CompilationAction 1479309746667 TestBowlingScoreKeeper.java
+CompilationAction 1479309747204 TestBowlingScoreKeeper.java
+RefactoringAction 1479309758072 TestBowlingScoreKeeper.java REMOVE import upm.tdd.training.CannotCreateAnotherFrame IMPORT
+UnitTestCaseAction 1479309764392 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479309764400 TestBowlingScoreKeeper OK
+EditAction 1479309791625 TestBowlingScoreKeeper.java 1000 2 12 0
