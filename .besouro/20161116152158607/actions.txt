@@ -4,3 +4,4 @@ FileOpenedAction 1479306151460 BowlingGame.java 545 5 2 0
 FileOpenedAction 1479306156511 Frame.java 748 6 7 0
 EditAction 1479307462709 Frame.java 827 6 10 0
 EditAction 1479307571643 Frame.java 827 6 10 0
+EditAction 1479307698915 BowlingGame.java 549 5 3 0
