@@ -371,3 +371,4 @@ CompilationAction 1479315397509 AllBowlingTest.java
 RefactoringAction 1479315400657 AllBowlingTest.java ADD import org.junit.runner.RunWith IMPORT
 CompilationAction 1479315400978 AllBowlingTest.java
 EditAction 1479315406482 AllBowlingTest.java 314 0 0 0
+EditAction 1479315457554 BowlingGame.java 1190 5 8 0

@@ -26,6 +26,7 @@ public class BowlingGame {
 	}
 
 	public int score() {
+		if(frames.isEmpty())throw new BowlingException();
 		int score = 0;
 		for (int i = 0; i < 10; i++) {
 			if (frames.get(i).isSpare()) {
