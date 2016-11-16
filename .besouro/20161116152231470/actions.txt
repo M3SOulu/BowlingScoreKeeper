@@ -120,3 +120,14 @@ RefactoringAction 1479314560618 TestBowlingScoreKeeper.java RENAME testScoreOfAM
 RefactoringAction 1479314562635 TestBowlingScoreKeeper.java RENAME testScoreOfAMatchWithA()=>void testScoreOfAMatchWithOnly() METHOD
 RefactoringAction 1479314565141 TestBowlingScoreKeeper.java RENAME testScoreOfAMatchWithOnly()=>void testScoreOfAMatchWithOnlyAFrame() METHOD
 EditAction 1479314583037 TestBowlingScoreKeeper.java 450 1 4 1
+CompilationAction 1479314583298 TestBowlingScoreKeeper.java
+CompilationAction 1479314591361 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479314593047 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314593047 TestBowlingScoreKeeper OK
+RefactoringAction 1479314649685 TestBowlingScoreKeeper.java ADD void testScoreOfAMatchWithOnlyAFrame()/2 METHOD
+RefactoringAction 1479314658702 TestBowlingScoreKeeper.java RENAME testScoreOfAMatchWithOnlyAFrame()/2=>void test() METHOD
+RefactoringAction 1479314660224 TestBowlingScoreKeeper.java RENAME test()=>void testScore() METHOD
+RefactoringAction 1479314662233 TestBowlingScoreKeeper.java RENAME testScore()=>void testScoreAfter() METHOD
+RefactoringAction 1479314675238 TestBowlingScoreKeeper.java RENAME testScoreAfter()=>void testScoreAfterA() METHOD
+RefactoringAction 1479314677244 TestBowlingScoreKeeper.java RENAME testScoreAfterA()=>void testScoreAfterAStrike() METHOD
+EditAction 1479314786186 TestBowlingScoreKeeper.java 676 2 10 2
