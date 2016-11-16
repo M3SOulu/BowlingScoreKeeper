@@ -69,5 +69,15 @@ public class TestFrame {
 		assertEquals( 2, new Frame( 10, 0 ).bonus() );
 	}
 	
+	@Test
+	public void test1Bonus() throws BowlingException {
+		assertEquals( 1, new Frame( 5, 5 ).bonus() );
+	}
+	
+	@Test
+	public void test0Bonus() throws BowlingException {
+		assertEquals( 0, new Frame( 2, 3 ).bonus() );
+	}
+	
 
 }

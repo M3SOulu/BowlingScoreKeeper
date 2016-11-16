@@ -194,3 +194,8 @@ RefactoringAction 1479311906713 TestFrame.java ADD void testIsNotSpare()/2 METHO
 RefactoringAction 1479311912227 TestFrame.java RENAME testIsNotSpare()/2=>void test2() METHOD
 RefactoringAction 1479311913745 TestFrame.java RENAME test2()=>void test2Bonus() METHOD
 EditAction 1479311925860 TestFrame.java 2019 10 20 16
+RefactoringAction 1479311930857 TestFrame.java ADD void test2Bonus()/2 METHOD
+RefactoringAction 1479311932370 TestFrame.java ADD void test2Bonus()/3 METHOD
+RefactoringAction 1479311935893 TestFrame.java RENAME test2Bonus()/3=>void test1Bonus() METHOD
+RefactoringAction 1479311943932 TestFrame.java RENAME test2Bonus()/2=>void test0Bonus() METHOD
+EditAction 1479311949397 TestFrame.java 2253 12 22 18
