@@ -4,7 +4,7 @@ import java.util.List;
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
-	private List<Frame> frames = new ArrayList<Frame>(10);
+	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	static private int Throws=0;
 	static private int score=0;
