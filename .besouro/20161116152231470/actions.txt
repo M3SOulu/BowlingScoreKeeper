@@ -148,3 +148,11 @@ UnitTestCaseAction 1479315342309 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479315342310 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479315441623 BowlingGame.java REMOVE setBonus(Frame, Frame) METHOD
 EditAction 1479315483896 BowlingGame.java 1395 5 13 0
+UnitTestCaseAction 1479315485223 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315485223 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479315552979 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315552980 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479315652494 TestBowlingScoreKeeper.java ADD void testScoreAfterAStrike()/2 METHOD
+RefactoringAction 1479315658016 TestBowlingScoreKeeper.java RENAME testScoreAfterAStrike()/2=>void testScoreAfterAS() METHOD
+RefactoringAction 1479315660524 TestBowlingScoreKeeper.java RENAME testScoreAfterAS()=>void testScoreAfterASpare() METHOD
+EditAction 1479315674553 TestBowlingScoreKeeper.java 947 3 16 3
