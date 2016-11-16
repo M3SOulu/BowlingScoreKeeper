@@ -448,3 +448,6 @@ UnitTestSessionAction 1479316046278 AllTests FAIL
 UnitTestCaseAction 1479316055438 TestFrame.java OK
 UnitTestSessionAction 1479316055439 TestFrame OK
 EditAction 1479316076470 AllTests.java 294 0 0 0
+UnitTestCaseAction 1479316078535 AllTests.java OK
+UnitTestSessionAction 1479316078535 AllTests OK
+EditAction 1479316087765 TestFrame.java 2271 12 23 18
