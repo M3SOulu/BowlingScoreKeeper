@@ -59,7 +59,7 @@ public class BowlingGame {
 	
 	private void addFrameWithPreviousFrameStrike(Frame frame){
 		Frame f = getLastFrame();
-		if(frames.get(frames.indexOf(f)).isStrike()){
+		if(frames.get(frames.indexOf(f)-1).isStrike()){
 			addFrameWithPreviousFrameStrike(f);
 		}
 		int bonus = f.getFirstThrow()+f.getSecondThrow();
