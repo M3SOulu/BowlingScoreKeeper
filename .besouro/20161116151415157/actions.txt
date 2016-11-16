@@ -164,3 +164,8 @@ RefactoringAction 1479312530610 TestBowlingScoreKeeper.java ADD Frame frame FIEL
 RefactoringAction 1479312536119 TestBowlingScoreKeeper.java REMOVE frame FIELD
 RefactoringAction 1479312540624 TestBowlingScoreKeeper.java ADD Frame FIELD
 EditAction 1479312575181 TestBowlingScoreKeeper.java 832 2 2 0
+UnitTestCaseAction 1479312578849 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479312578850 TestBowlingScoreKeeper OK
+RefactoringAction 1479312587663 TestBowlingScoreKeeper.java REMOVE test() METHOD
+RefactoringAction 1479312590167 TestBowlingScoreKeeper.java ADD void test() METHOD
+EditAction 1479312592582 TestBowlingScoreKeeper.java 798 2 2 0

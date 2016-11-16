@@ -24,10 +24,9 @@ public class TestBowlingScoreKeeper {
 	@Before
 	public void initialize() throws BowlingException {
 		game = new BowlingGame();
-		/*for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			frame[i] = new Frame(4, 5);
-		}*/
-		frame[0] = new Frame(3, 3);
+		}
 	}
 
 	@Test
