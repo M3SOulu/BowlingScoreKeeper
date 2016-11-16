@@ -26,12 +26,12 @@ public class TestBowlingScoreKeeper {
 		game.addFrame(new Frame(7,3));
 		game.addFrame(new Frame(6,4));
 		game.addFrame(new Frame(10,0));
-		game.addFrame(new Frame(2,8));
+		game.addFrame(new Frame(2,7));
 	}
 	
 	@Test
 	public void test() {
-		assertTrue(game.score() == 127);
+		assertTrue(game.score() == 126);
 	}
 	
 	@After
