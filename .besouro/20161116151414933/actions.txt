@@ -20,3 +20,10 @@ CompilationAction 1479307460576 BowlingGame.java
 CompilationAction 1479307460576 BowlingGame.java
 CompilationAction 1479307497982 BowlingGame.java
 EditAction 1479307620686 BowlingGame.java 650 5 6 0
+RefactoringAction 1479307795726 Frame.java ADD int nFrame FIELD
+RefactoringAction 1479307827330 Frame.java ADD int nFrame/2 FIELD
+RefactoringAction 1479307830844 Frame.java RENAME nFrame/2=>int nFrameCounter FIELD
+RefactoringAction 1479307836362 Frame.java RENAME nFrameCounter=>int frameCounter FIELD
+RefactoringAction 1479307842866 Frame.java RENAME nFrame=>int frameNumber FIELD
+RefactoringAction 1479307892177 Frame.java REMOVE totalFrame FIELD
+EditAction 1479307911178 BowlingGame.java 650 5 6 0
