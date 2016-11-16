@@ -130,3 +130,5 @@ CompilationAction 1479309532096 TestBowlingScoreKeeper.java
 CompilationAction 1479309553612 TestBowlingScoreKeeper.java
 CompilationAction 1479309553621 TestBowlingScoreKeeper.java
 EditAction 1479309662930 TestBowlingScoreKeeper.java 1028 2 12 0
+FileOpenedAction 1479309679934 BowlingException.java 148 0 0 0
+EditAction 1479309702763 TestBowlingScoreKeeper.java 1014 2 12 0

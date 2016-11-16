@@ -41,8 +41,8 @@ public class TestBowlingScoreKeeper {
 		
 	}
 	
-	@Test(expected=CannotCreateAnotherFrame.class)
-	public void testAddEleventhFrame() throws CannotCreateAnotherFrame {
+	@Test(expected=BownlingException.class)
+	public void testAddEleventhFrame() throws BownlingException {
 		Frame frame11 = new Frame(1,4);
 		partita.addFrame(frame11);
 	}
