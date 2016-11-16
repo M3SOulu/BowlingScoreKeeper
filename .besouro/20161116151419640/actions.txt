@@ -49,3 +49,4 @@ RefactoringAction 1479309144239 Frame.java RENAME isBonus=>boolean isBonusFrame 
 EditAction 1479309146727 Frame.java 1256 9 11 0
 EditAction 1479309157909 Frame.java 1256 9 11 0
 EditAction 1479309176996 Frame.java 1255 9 11 0
+EditAction 1479309271749 Frame.java 1312 9 11 0
