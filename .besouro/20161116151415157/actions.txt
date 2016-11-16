@@ -14,3 +14,7 @@ EditAction 1479307737360 BowlingGame.java 595 5 3 0
 CompilationAction 1479307737606 BowlingGame.java
 CompilationAction 1479307737607 BowlingGame.java
 EditAction 1479307750746 Frame.java 949 8 9 0
+RefactoringAction 1479307866793 BowlingGame.java ADD int MAX_FRAMES_SIZE FIELD
+RefactoringAction 1479308010655 BowlingGame.java REMOVE MAX_FRAMES_SIZE FIELD
+RefactoringAction 1479308013183 BowlingGame.java ADD int MAX_FRAMES_SIZE FIELD
+EditAction 1479308147998 Frame.java 1056 8 10 0
