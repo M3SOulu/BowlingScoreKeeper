@@ -11,7 +11,7 @@ public class Frame {
 	}
 	
 	//the number of this Frame in the Game
-	private int frameNumber = 0;
+	private static int frameNumber = 0;
 	
 	public int getFrameNumber() {
 		return frameNumber;
