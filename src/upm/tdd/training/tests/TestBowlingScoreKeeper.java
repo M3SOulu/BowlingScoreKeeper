@@ -12,6 +12,7 @@ public class TestBowlingScoreKeeper {
 
 	@Test
 	public void testScoreOfAMatchWithOnlyAFrame() {
+		
 		BowlingGame partita1 = new BowlingGame();
 		Frame frame1 = new Frame(5,2);
 		partita1.addFrame(frame1);
