@@ -47,7 +47,7 @@ public class TestFrame {
 	
 	@Test (expected = BowlingException.class)
 	public void testInitFrameExceptionScoreMoreThanTen() throws BowlingException{
-		p = new Frame(11,  30);
+		p = new Frame(9,  9);
 	}
 	
 	

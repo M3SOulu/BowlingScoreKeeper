@@ -104,3 +104,6 @@ RefactoringAction 1479311024733 TestFrame.java RENAME testInitFrameExceptionScor
 RefactoringAction 1479311027758 TestFrame.java RENAME testInitFrameExceptionScoreMoreThan()=>void testInitFrameExceptionScoreMoreThanTen() METHOD
 EditAction 1479311033032 TestFrame.java 1367 8 7 0
 EditAction 1479311033147 Frame.java 920 6 8 0
+UnitTestCaseAction 1479311036755 TestFrame.java OK
+UnitTestSessionAction 1479311036755 TestFrame OK
+EditAction 1479311054117 TestFrame.java 1365 8 7 0
