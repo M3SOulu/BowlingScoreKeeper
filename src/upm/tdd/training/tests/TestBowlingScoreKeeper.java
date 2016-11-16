@@ -17,7 +17,7 @@ public class TestBowlingScoreKeeper {
 	public void initFrames() throws BowlingException{
 		ArrayList<Frame> frames = new ArrayList<Frame>();
 		for (int i = 0; i < 10; ++i){
-			frames.add(i, new Frame (1, 1));
+			frames.add(i, new Frame (0, 0));
 		}
 		for (Frame frame : frames)
 			testGame.addFrame(frame);
