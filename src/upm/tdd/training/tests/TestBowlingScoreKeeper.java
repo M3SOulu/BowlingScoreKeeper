@@ -11,11 +11,11 @@ import upm.tdd.training.BowlingGame;
 import upm.tdd.training.Frame;
 
 public class TestBowlingScoreKeeper {
-	
+	static BowlingGame testGame;
 	public static void initFrames() throws BowlingException{
-		BowlingGame testGame = new BowlingGame();
+		testGame = new BowlingGame();
 		ArrayList<Frame> frames = new ArrayList<Frame>();
-		for (int i = 0; i < 10; ++i){
+		for (int i = 0; i < 11; ++i){
 			frames.add(i, new Frame (0, 0));
 		}
 		for (Frame frame : frames)
