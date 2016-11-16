@@ -38,6 +38,13 @@ public class BowlingGame {
 				if (previousFrame.isStrike()) {
 					previousFrame.addToScore(frame.getFirstThrow() + frame.getSecondThrow());
 				}
+				
+				/*
+				 * if next frame is bonus, add the point of bonus throw
+				 */
+				if (isNextFrameBonus()) {
+					
+				}
 
 				/*
 				 * add to the actual frame the current score

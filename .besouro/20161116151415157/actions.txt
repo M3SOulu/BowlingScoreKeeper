@@ -242,3 +242,11 @@ RefactoringAction 1479314569522 TestBowlingScoreKeeper.java REMOVE import java.u
 RefactoringAction 1479314569522 TestBowlingScoreKeeper.java REMOVE import java.util.Collection IMPORT
 RefactoringAction 1479314633515 Frame.java ADD void addBonusThrow() METHOD
 EditAction 1479314661831 Frame.java 1412 11 11 0
+RefactoringAction 1479314803619 TestBowlingScoreKeeper.java ADD Frame FIELD
+RefactoringAction 1479314803620 TestBowlingScoreKeeper.java ADD BowlingGame gameWithoutSpareOrStrike/2 FIELD
+RefactoringAction 1479314807623 TestBowlingScoreKeeper.java RENAME frameWithoutSpareOrStrike/2=>Frame FIELD
+RefactoringAction 1479314809128 TestBowlingScoreKeeper.java RENAME frameWithSome=>Frame FIELD
+RefactoringAction 1479314814648 TestBowlingScoreKeeper.java RENAME gameWithoutSpareOrStrike/2=>BowlingGame gameWithSomeSpare FIELD
+RefactoringAction 1479314927432 TestBowlingScoreKeeper.java ADD void testTotalScoreWithoutSpareOrStrike()/2 METHOD
+RefactoringAction 1479314936939 TestBowlingScoreKeeper.java RENAME testTotalScoreWithoutSpareOrStrike()/2=>void testTotalScoreWithSomeSpare() METHOD
+EditAction 1479315003535 TestBowlingScoreKeeper.java 1485 4 9 2
