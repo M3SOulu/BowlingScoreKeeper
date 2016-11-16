@@ -24,10 +24,11 @@ public class TestFrame {
 		new Frame( 11, 11 );
 	}
 	
-//	@Test
-//	public void createValidFrame() throws BowlingException{
-//		new Frame( 0, 0 );
-//	}
+	@Test
+	public void createValidFrame() throws BowlingException{
+		Frame f = new Frame( 0, 0 );
+		assertEquals( false, f.isSpare() );
+	}
 	
 	@Test
 	public void testIsStrike() throws BowlingException {
