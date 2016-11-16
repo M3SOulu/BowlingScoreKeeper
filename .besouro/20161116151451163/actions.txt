@@ -129,3 +129,10 @@ RefactoringAction 1479310585970 TestBowlingScoreKeeper.java ADD BowlingGame newG
 RefactoringAction 1479310587725 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
 RefactoringAction 1479310611682 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
 EditAction 1479310629815 TestBowlingScoreKeeper.java 475 2 2 0
+RefactoringAction 1479310744408 BowlingGame.java ADD void se FIELD
+RefactoringAction 1479310745921 BowlingGame.java REMOVE se FIELD
+RefactoringAction 1479310746943 BowlingGame.java ADD void se FIELD
+RefactoringAction 1479310748958 BowlingGame.java RENAME se=>void size FIELD
+RefactoringAction 1479310752476 BowlingGame.java RENAME size=>void sizeFrames FIELD
+RefactoringAction 1479310761023 BowlingGame.java RENAME sizeFrames=>int sizeFrames() METHOD
+EditAction 1479310828433 BowlingGame.java 726 6 6 0
