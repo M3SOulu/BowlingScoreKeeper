@@ -57,12 +57,11 @@ public class BowlingGame {
 		return false;
 	}
 
-	public boolean isFull(){
+	private boolean isFull(){
 		if(frames.size()==10){
 			return true;
 		}else{
 			return false;
 		}
-		
 	}
 }

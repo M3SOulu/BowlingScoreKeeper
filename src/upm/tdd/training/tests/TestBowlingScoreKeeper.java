@@ -40,13 +40,7 @@ public class TestBowlingScoreKeeper {
 		assertEquals(10,frame11.score());
 	}
 	
-	@Test
-	public void sizeOfBowlingFrameIsMaxPossibile() throws BowlingException{
-		for(int i=0;i<10;i++){
-			partita.addFrame(new Frame(10));
-		}
-		assertEquals(10)
-	}
+	
 	
 	
 	
