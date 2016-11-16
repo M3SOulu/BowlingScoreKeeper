@@ -64,6 +64,13 @@ public class BowlingGame {
 		return score;
 	}
 	
+	private int getBonusScore()
+	{
+		Frame lastFrame = frames.get( frames.size() - 1 );
+		
+		
+	}
+	
 	/**
 	 * 
 	 * @return true if the next frame is a bonus
