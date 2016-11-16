@@ -7,6 +7,9 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	private int score = 0;
+	private int index = 0;
+	
+	
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame) throws BowlingException{
@@ -23,6 +26,7 @@ public class BowlingGame {
 	
 	public int score(){
 		for(int i = 2; i < frames.size(); i++){
+			index = i;
 			if(isNextFrameBonus()){
 			this.score += (frames.get(i - 2).score()+frames.get(i-1).bonus());
 				if(frames.get(i-1).isStrike()){
@@ -36,6 +40,6 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus(){
-		return(frames.get(frames.size()).bonus() != 0);
+		return (frames.get(index - 2).bonus() != 0);
 	}
 }
