@@ -23,8 +23,8 @@ public class BowlingGame {
 		return this.frames.size();
 	}
 	
-	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
+		bonus = new Frame(firstThrow, secondThrow);
 	}
 	
 	public int score(){

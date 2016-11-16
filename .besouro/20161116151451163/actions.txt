@@ -161,3 +161,9 @@ UnitTestCaseAction 1479311182581 TestBowlingScoreKeeper.java OK
 UnitTestSessionAction 1479311182581 TestBowlingScoreKeeper OK
 EditAction 1479311337018 TestBowlingScoreKeeper.java 1770 4 30 3
 EditAction 1479311337117 TestsFrame.java 1669 7 21 7
+RefactoringAction 1479311365755 AllTests.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479311365766 AllTests.java ADD AllTests.java CLASS
+FileOpenedAction 1479311365928 AllTests.java 270 0 0 0
+UnitTestCaseAction 1479311370794 AllTests.java OK
+UnitTestSessionAction 1479311370803 AllTests OK
+EditAction 1479312079418 BowlingGame.java 774 6 7 0
