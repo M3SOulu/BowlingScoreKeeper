@@ -9,8 +9,10 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
-	public void addFrame(Frame frame){
-		if(isNextFrameBonus()){
+	public void addFrame(Frame frame) throws BowlingException{
+		if(frames.size() == 10){
+			throw new BowlingException();
+		}else{
 			
 		}
 	}
