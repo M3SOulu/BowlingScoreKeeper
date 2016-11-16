@@ -26,7 +26,7 @@ public class BowlingGame {
 	
 	public int score(){
 		for(int i=0;i<frames.size();i++){
-			if(frames.get(frames.size()-1).isLastFrame()){
+			if(frames.get(i).isLastFrame()){
 				if(frames.get(9).bonus()==1){
 					score=score+frames.get(9).score()+bonus.getFirstThrow();
 				}
@@ -37,13 +37,13 @@ public class BowlingGame {
 					score=score+frames.get(9).score();
 			}
 			else{
-				if(frames.get(frames.size()-1).isSpare()){
-					score=score+frames.get(frames.size()-1).score()+frames.get(frames.size()).getFirstThrow();
+				if(frames.get(i).isSpare()){
+					score=score+frames.get(i).score()+frames.get(i+1).getFirstThrow();
 				}
 				else if(frames.get(frames.size()-1).isStrike()){
-					score=score+frames.get(frames.size()-1).score()+frames.get(frames.size()).score();
+					score=score+frames.get(i).score()+frames.get(i+1).score();
 				}else{
-					score=score+frames.get(frames.size()-1).score();
+					score=score+frames.get(i).score();
 				}
 			}
 		}
