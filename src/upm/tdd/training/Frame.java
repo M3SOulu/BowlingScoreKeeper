@@ -25,7 +25,9 @@ public class Frame {
 	}
 	// the score of a single frame
 	public int score() {
-		
+		if(this.firstThrow+this.secondThrow==20){
+			return 10;
+		}
 		return this.firstThrow+this.secondThrow;
 	}
 
