@@ -1,0 +1,34 @@
+FileOpenedAction 1479306114897 TestBowlingScoreKeeper.java 197 1 1 0
+FileOpenedAction 1479306580965 BowlingGame.java 545 5 2 0
+RefactoringAction 1479307041909 BowlingGame.java ADD import Frame.java IMPORT
+RefactoringAction 1479307056440 BowlingGame.java REMOVE import Frame.java IMPORT
+RefactoringAction 1479307689586 BowlingGame.java ADD int M FIELD
+RefactoringAction 1479307694097 BowlingGame.java REMOVE M FIELD
+RefactoringAction 1479307695619 BowlingGame.java ADD int MAX FIELD
+RefactoringAction 1479307702138 BowlingGame.java RENAME MAX=>int MAX_FRAMES FIELD
+RefactoringAction 1479307775854 BowlingGame.java ADD void BowlingException() METHOD
+RefactoringAction 1479307781869 BowlingGame.java REMOVE BowlingException() METHOD
+RefactoringAction 1479307789967 BowlingGame.java ADD void BowlingException() METHOD
+RefactoringAction 1479307792995 BowlingGame.java RENAME BowlingException()=><initializer /1> null
+RefactoringAction 1479307796517 BowlingGame.java RENAME <initializer /1>=>void BowlingException() METHOD
+RefactoringAction 1479307799527 BowlingGame.java REMOVE BowlingException() METHOD
+RefactoringAction 1479307940662 Frame.java ADD int MAX_PINS FIELD
+RefactoringAction 1479308310491 LastFrame.java ADD LastFrame.java CLASS
+FileOpenedAction 1479308310803 LastFrame.java 60 0 0 0
+RefactoringAction 1479308325408 LastFrame.java ADD LastFrame(int, int) METHOD
+RefactoringAction 1479308334874 LastFrame.java RENAME LastFrame(int, int)=>LastFrame(int, int, int) METHOD
+RefactoringAction 1479308361931 LastFrame.java ADD int thirdThr FIELD
+RefactoringAction 1479308363441 LastFrame.java RENAME thirdThr=>int thirdThrow FIELD
+RefactoringAction 1479309153743 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1479309153743 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1479309164358 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1479309164359 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+RefactoringAction 1479309165376 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1479309165377 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1479309167904 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1479309167905 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+RefactoringAction 1479309171937 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1479309171937 BowlingGame.java REMOVE score() METHOD
+RefactoringAction 1479309176958 BowlingGame.java ADD int score() METHOD
+RefactoringAction 1479309176958 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+EditAction 1479309181559 BowlingGame.java 882 5 5 0
