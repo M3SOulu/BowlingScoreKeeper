@@ -17,7 +17,7 @@ public class BowlingGame {
 		if (frames.size() >= 10)
 			throw new BowlingException();
 		frames.add(frame);
-	}
+	} 
 
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
 		bonus = new Frame(firstThrow, secondThrow);
