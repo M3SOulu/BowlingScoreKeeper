@@ -41,7 +41,7 @@ public class Frame {
 	 * @return true if is a Strike
 	 */
 	public boolean isStrike(){
-		if( firstThrow == 10 ){
+		if( firstThrow == MAX_NUMBER_OF_PINS ){
 			return true;
 		}
 		else{
@@ -54,7 +54,7 @@ public class Frame {
 	 * @return true if is a Spare
 	 */
 	public boolean isSpare(){
-		if( (firstThrow + secondThrow) == 10 ){
+		if( (firstThrow + secondThrow) == MAX_NUMBER_OF_PINS ){
 			return true;
 		}
 		else{
