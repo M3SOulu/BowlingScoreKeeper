@@ -11,6 +11,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 
+	
 	public int getFirstThrow() {
 		return firstThrow;
 	}
