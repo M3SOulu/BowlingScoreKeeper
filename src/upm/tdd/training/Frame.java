@@ -15,7 +15,7 @@ public class Frame {
 	public int score() throws BowlingException{
 		int result = firstThrow + secondThrow;
 		if (result < 0 || result > 10)
-			throw new BowlingException();
+			throw new BowlingException("Punteggi errati.");
 		return result;
 	}
 
