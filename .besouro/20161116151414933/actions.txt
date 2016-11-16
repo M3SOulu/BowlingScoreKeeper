@@ -351,3 +351,6 @@ EditAction 1479315159109 TestBowlingScoreKeeper.java 1095 4 9 2
 EditAction 1479315170652 TestBowlingScoreKeeper.java 1091 4 9 2
 CompilationAction 1479315170800 TestBowlingScoreKeeper.java
 EditAction 1479315175590 TestBowlingScoreKeeper.java 1094 4 9 2
+RefactoringAction 1479315210921 TestBowlingScoreKeeper.java REMOVE eleventhFrameSholudNotAccepted() METHOD
+RefactoringAction 1479315213059 TestBowlingGameException.java MOVE test()=>import org.junit.Assert.* IMPORT
+EditAction 1479315213066 TestBowlingGameException.java 445 1 3 0
