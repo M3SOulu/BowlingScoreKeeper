@@ -15,7 +15,6 @@ public class TestBowlingScoreKeeper {
 	@Before
 	public void setUp(){
 		game = new BowlingGame();
-		frame = new Frame(4,3);
 		game.addFrame(frame);
 	}
 	
@@ -23,6 +22,7 @@ public class TestBowlingScoreKeeper {
 	public void test() {
 		//Act
 		int score = game.score();
+		frame = new Frame(4,3);
 		
 		assertTrue("score is 7", score == 7);
 	}

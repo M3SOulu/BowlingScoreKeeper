@@ -29,9 +29,9 @@ public class BowlingGame {
 				
 			}
 			else {
-				Frame tempFrame = new
-				addFrame(tempFrame);
-				setBonus(frame.getFirstThrow(),frame.getSecondThrow());
+				//Frame tempFrame = new
+				//addFrame(tempFrame);
+				//setBonus(frame.getFirstThrow(),frame.getSecondThrow());
 			}
 		}
 
