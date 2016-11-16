@@ -196,3 +196,12 @@ EditAction 1479314787503 TestBowlingScoreKeeper.java 1572 3 45 3
 UnitTestCaseAction 1479314789173 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314789174 TestBowlingScoreKeeper FAIL
 EditAction 1479314796351 BowlingGame.java 1151 9 10 0
+UnitTestCaseAction 1479314797936 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314797937 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479314799149 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314799150 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314808310 TestBowlingScoreKeeper.java REMOVE import org.junit.Before IMPORT
+RefactoringAction 1479314920328 BowlingGame.java REMOVE totScore FIELD
+RefactoringAction 1479314927844 BowlingGame.java REMOVE getTotScore() METHOD
+RefactoringAction 1479314927844 BowlingGame.java REMOVE setTotScore(int) METHOD
+EditAction 1479314928648 BowlingGame.java 1003 7 9 0
