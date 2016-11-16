@@ -21,6 +21,14 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
+		if(lastFrame){
+			if(isStrike()){
+				return firstThrow+bonus();
+			}
+			else if(isSpare()){
+				return firstThrow+secondThrow+bonus();
+			}
+		}
 		return firstThrow+secondThrow;
 	}
 

@@ -17,3 +17,4 @@ RefactoringAction 1479307253842 Frame.java RENAME getFirstThrow=>int getFirstThr
 RefactoringAction 1479307271557 Frame.java ADD int getFirstThrow()/2 METHOD
 RefactoringAction 1479307276595 Frame.java RENAME getFirstThrow()/2=>int getSecondThrow() METHOD
 EditAction 1479307281631 Frame.java 1015 9 10 0
+EditAction 1479307569071 Frame.java 1162 9 11 0
