@@ -28,7 +28,6 @@ public class TestFrame {
 	public void createValidFrame() throws BowlingException{
 		Frame f = new Frame( 0, 0 );
 		assertEquals( false, f.isSpare() );
-		System.out.println( f.toString() );
 	}
 	
 	@Test
