@@ -50,7 +50,7 @@ public class TestBowlingScoreKeeper {
 	
 	@Test
 	public void testTotalScoreWithSomeSpare() throws BowlingException {
-		assertEquals(95, gameWithSomeSpare.score());
+		assertEquals(96, gameWithSomeSpare.score());
 	}
 
 }
