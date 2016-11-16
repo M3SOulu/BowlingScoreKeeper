@@ -71,7 +71,7 @@ public class BowlingGame {
 	private int getBonusScore()
 	{
 		Frame lastFrame = frames.get( frames.size() - 1 );
-		System.out.println(lastFrame.getFirstThrow() + " " + lastFrame.getSecondThrow());
+		
 		if( lastFrame.isSpare() ){
 			return lastFrame.getFirstThrow();
 		}
