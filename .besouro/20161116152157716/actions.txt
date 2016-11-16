@@ -75,3 +75,14 @@ RefactoringAction 1479315569853 TestBowlingScoreKeeper.java RENAME testIsS()=>vo
 RefactoringAction 1479315570859 TestBowlingScoreKeeper.java RENAME testIs()=>void testIsP() METHOD
 RefactoringAction 1479315573869 TestBowlingScoreKeeper.java RENAME testIsP()=>void testIsSpare() METHOD
 EditAction 1479315656938 TestBowlingScoreKeeper.java 1660 5 10 3
+RefactoringAction 1479316035714 TestBowlingScoreKeeper.java RENAME score=>int strike FIELD
+RefactoringAction 1479316175344 TestBowlingScoreKeeper.java RENAME secondThrow=>upm.tdd.training.Frame spare FIELD
+RefactoringAction 1479316178849 TestBowlingScoreKeeper.java REMOVE firstThrow FIELD
+UnitTestCaseAction 1479316204360 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316204361 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316252873 TestBowlingScoreKeeper.java ADD void testIsSpare()/2 METHOD
+RefactoringAction 1479316255379 TestBowlingScoreKeeper.java RENAME testIsSpare()/2=>void te() METHOD
+RefactoringAction 1479316259391 TestBowlingScoreKeeper.java RENAME te()=>void testIsLastFrame() METHOD
+RefactoringAction 1479316277919 TestBowlingScoreKeeper.java ADD upm.tdd.training.Frame frame/2 FIELD
+RefactoringAction 1479316280424 TestBowlingScoreKeeper.java RENAME frame/2=>upm.tdd.training.Frame last FIELD
+EditAction 1479316292070 TestBowlingScoreKeeper.java 1666 6 10 4

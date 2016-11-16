@@ -11,14 +11,15 @@ import org.junit.Test;
 import upm.tdd.training.BowlingException;
 
 public class TestBowlingScoreKeeper{
-	private upm.tdd.training.Frame firstThrow;
-	private upm.tdd.training.Frame secondThrow;
-	private upm.tdd.training.Frame score;
+	private upm.tdd.training.Frame spare;
+	private upm.tdd.training.Frame strike;
 	private upm.tdd.training.Frame frame;
+	private upm.tdd.training.Frame last;
 	
 	@Before
 	public void SetUp(){
 		frame = new upm.tdd.training.Frame(1, 4); 
+	
 	}
 	
 	@Test(expected = Exception.class)
@@ -33,20 +34,24 @@ public class TestBowlingScoreKeeper{
 	
 	@Test(expected = Exception.class)
 	public void testIsStrike() throws BowlingException {
-		//ARRANGE all necessary preconditions and inputs.
-		upm.tdd.training.Frame myFrame = new upm.tdd.training.Frame(1, 4);
 		//ACT on the object or method under test.
-		frame.isStrike();	
+		strike.isStrike();	
 		//ASSERT that the expected results have occurred
 		assertTrue("There is a Strike", false);
 	}
 	
 	@Test(expected = Exception.class)
 	public void testIsSpare() throws BowlingException {
-		//ARRANGE all necessary preconditions and inputs.
-		upm.tdd.training.Frame myFrame = new upm.tdd.training.Frame(1, 4);
 		//ACT on the object or method under test.
-		frame.isSpare();	
+		spare.isSpare();	
+		//ASSERT that the expected results have occurred
+		assertTrue("There is a Spare", false);
+	}
+	
+	@Test(expected = Exception.class)
+	public void testIsLastFrame() throws BowlingException {
+		//ACT on the object or method under test.
+		last.isLastFrame();	
 		//ASSERT that the expected results have occurred
 		assertTrue("There is a Spare", false);
 	}
