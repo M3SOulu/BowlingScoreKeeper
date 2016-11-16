@@ -75,13 +75,9 @@ public class TestBowlingScoreKeeper {
 	public void testTotalScoreWithSomeStrike() throws BowlingException {
 		assertEquals(20, gameWithSomeStrike.score());
 	}
-	
-	
-	
-	
-	
-	@Test (expected = BowlingException.class)
-	public void testExceptionBowling() throws BowlingException{
+
+	@Test(expected = BowlingException.class)
+	public void testExceptionBowling() throws BowlingException {
 		Frame frame = new Frame(1000, 0);
 	}
 
