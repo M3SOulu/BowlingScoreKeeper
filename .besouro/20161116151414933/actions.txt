@@ -288,3 +288,9 @@ CompilationAction 1479313795965 BowlingGame.java
 EditAction 1479313838153 Frame.java 1242 9 16 0
 RefactoringAction 1479313915097 Frame.java ADD Frame(int) METHOD
 EditAction 1479313925850 Frame.java 1293 10 17 0
+CompilationAction 1479313926194 BowlingGame.java
+CompilationAction 1479313926195 Frame.java
+CompilationAction 1479313961563 Frame.java
+CompilationAction 1479313961722 Frame.java
+CompilationAction 1479314062108 Frame.java
+EditAction 1479314077052 TestBowlingScoreKeeper.java 861 3 6 1

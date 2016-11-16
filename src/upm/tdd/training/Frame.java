@@ -17,7 +17,8 @@ public class Frame {
 	}
 	
 	public Frame(int firstThrow){
-		super(10,0);
+		this.firstThrow=10;
+		this.secondThrow=0;
 	}
 
 	public int getFirstThrow(){

@@ -13,8 +13,6 @@ import upm.tdd.training.BowlingGame;
 public class TestBowlingScoreKeeper {
 
 	BowlingGame partita = new BowlingGame();
-
-
 	@Before
 	public void setUp() throws BowlingException {
 		// Act
