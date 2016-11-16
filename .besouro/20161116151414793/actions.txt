@@ -38,3 +38,6 @@ RefactoringAction 1479313517917 TestBowlingScoreKeeper.java RENAME clearMatch()=
 RefactoringAction 1479313518932 TestBowlingScoreKeeper.java RENAME clearM()=>void clear() METHOD
 RefactoringAction 1479313540243 TestBowlingScoreKeeper.java RENAME match=>BowlingGame game FIELD
 EditAction 1479313543637 TestBowlingScoreKeeper.java 830 3 13 1
+CompilationAction 1479313543774 TestBowlingScoreKeeper.java
+CompilationAction 1479313543790 BowlingGame.java
+EditAction 1479313562060 TestBowlingScoreKeeper.java 799 3 12 1

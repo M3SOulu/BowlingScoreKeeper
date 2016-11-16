@@ -32,7 +32,6 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void test() {
 		assertTrue(game.score() == 133);
-		fail("Not yet implemented");
 	}
 	
 	@After

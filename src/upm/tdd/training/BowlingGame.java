@@ -30,10 +30,17 @@ public class BowlingGame {
 				gameScore += frames.get(i).score();
 			}
 		}
-		if
 		return gameScore;
 	}
 	
+	public List<Frame> getFrames() {
+		return frames;
+	}
+
+	public void setFrames(List<Frame> frames) {
+		this.frames = frames;
+	}
+
 	public boolean isNextFrameBonus(){
 		return frames.get(frames.size()).isStrike();
 	}
