@@ -10,8 +10,8 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
-	public void addFrame(Frame frame){
-		getFrames().add(frame);
+	public void addFrame(Frame f1){
+		frames.add(f1);
 	}
 	
 	public void setBonus() {

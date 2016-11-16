@@ -109,3 +109,4 @@ RefactoringAction 1479312942538 TestBowlingScoreKeeper.java ADD import org.junit
 RefactoringAction 1479313082501 BowlingGame.java RENAME addFrame(Frame)=>void addFrame(java.awt.Frame) METHOD
 RefactoringAction 1479313093709 BowlingGame.java RENAME addFrame(java.awt.Frame)=>void addFrame(Frame) METHOD
 EditAction 1479313170594 TestBowlingScoreKeeper.java 2515 3 53 2
+EditAction 1479313170710 BowlingGame.java 1013 7 8 0
