@@ -36,7 +36,7 @@ public class TestBowlingScoreKeeper {
 		
 		assertEquals(133,partita.score());
 	}
-	@Test
+	/*@Test
 	public void tutti_10_score_equals_300() throws BowlingException {
 		
 		partita.addFrame(frame);
@@ -53,7 +53,7 @@ public class TestBowlingScoreKeeper {
 
 		
 		assertEquals(300,partita.score());
-	}
+	}*/
 	
 	
 	@Test //(expected = BowlingException.class)
