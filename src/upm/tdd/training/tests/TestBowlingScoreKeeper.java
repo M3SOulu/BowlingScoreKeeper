@@ -15,12 +15,9 @@ public class TestBowlingScoreKeeper {
 		BowlingGame partita = new BowlingGame();
 		Frame strike = new Frame(10,0);
 		partita.addFrame(strike);
-		partita.addFrame(strike);
-		partita.addFrame(strike);
-		partita.addFrame(strike);
-		partita.addFrame(strike);
+	
 		
-		assertEquals(120, partita.score());
+		assertEquals(10, partita.score());
 		
 		
 		
