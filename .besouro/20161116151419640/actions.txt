@@ -71,3 +71,10 @@ EditAction 1479310687786 Frame.java 1233 10 12 0
 EditAction 1479310702162 Frame.java 1224 10 12 0
 EditAction 1479310756282 BowlingGame.java 1088 5 9 0
 EditAction 1479310759880 BowlingGame.java 1094 5 9 0
+RefactoringAction 1479310808814 Frame.java ADD void isLastFrame()/2 METHOD
+RefactoringAction 1479310810320 Frame.java REMOVE isLastFrame()/2 METHOD
+RefactoringAction 1479310816341 Frame.java RENAME isBonusFrame()=>int getFrameNumber()/2 METHOD
+RefactoringAction 1479310818855 Frame.java REMOVE getFrameNumber()/2 METHOD
+RefactoringAction 1479310826363 Frame.java ADD int getFrameNumber()/2 METHOD
+RefactoringAction 1479310829879 Frame.java RENAME getFrameNumber()/2=>boolean isBonusFrame() METHOD
+EditAction 1479310834026 Frame.java 1381 10 12 0

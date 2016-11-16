@@ -56,14 +56,17 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		
-		return false;
+		return frameNumber == 10;
 	}
 
 	//bonus throws
-	public int bonus(){
-		
-		return 0;		
+	public int bonus() throws BowlingException{
+		if(!isLastFrame()) throw new BowlingException();
+		else{
+			if(isStrike()) return 2;
+			else if(isSpare()) return 1;
+			else return 0;
+		}
 	}
 
 
