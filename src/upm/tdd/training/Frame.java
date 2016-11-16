@@ -11,6 +11,7 @@ public class Frame {
 		if (this.firstThrow == 10) {
 			this.firstThrow = firstThrow;
 		} else {
+			
 			this.firstThrow = firstThrow;
 			this.secondThrow = secondThrow;
 		}
