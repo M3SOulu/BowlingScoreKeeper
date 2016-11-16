@@ -71,3 +71,10 @@ RefactoringAction 1479310811035 TestBowlingScoreKeeper.java RENAME import org.ju
 CompilationAction 1479310813636 TestBowlingScoreKeeper.java
 RefactoringAction 1479310831409 TestBowlingScoreKeeper.java RENAME setUpBeforeClass()=>static void setUp() METHOD
 EditAction 1479310837225 TestBowlingScoreKeeper.java 896 3 14 1
+UnitTestCaseAction 1479310838449 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479310838457 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479310869477 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479310869477 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479310888478 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479310888479 TestBowlingScoreKeeper FAIL
+EditAction 1479310907297 TestBowlingScoreKeeper.java 889 3 14 1

@@ -13,7 +13,7 @@ public class TestBowlingScoreKeeper {
 	static BowlingGame partita;
 	static Frame frame;
 	@Before
-	public static void setUp() throws Exception {
+	public void setUp() throws Exception {
 		
 		partita = new BowlingGame();
 		frame = new Frame(10,0);
