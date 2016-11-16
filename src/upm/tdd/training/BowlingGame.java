@@ -22,9 +22,15 @@ public class BowlingGame {
 	public int score(){
 		int totScore = 0;
 		int bonusThrowsNum = 0;
-		for(Frame f : frames){			
+		for(Frame f : frames){
+			switch(bonusThrowsNum){
+			case 1: totScore += f.getFirstThrow();
+			case 2: totScore += f.score();
+			}
 			totScore += f.score();
-			if(f.isSpare()) totScore += 
+			if(f.isSpare()) bonusThrowsNum = 1;
+			else if(f.isStrike()) bonusThrowsNum = 2;
+			else bonusThrowsNum = 0;
 		}
 		return totScore;
 	}
