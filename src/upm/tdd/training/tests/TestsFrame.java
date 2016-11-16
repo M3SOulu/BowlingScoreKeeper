@@ -19,7 +19,7 @@ public class TestsFrame {
 		//Act
 		boolean ris = newFrame.isStrike();
 		//Assert
-		assertEquals(true, ris);
+		assertEquals(false, ris);
 		
 	}
 
