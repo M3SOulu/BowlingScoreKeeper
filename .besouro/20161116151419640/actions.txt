@@ -47,3 +47,4 @@ RefactoringAction 1479309137692 Frame.java ADD boolean is FIELD
 RefactoringAction 1479309141716 Frame.java RENAME is=>boolean isBonus FIELD
 RefactoringAction 1479309144239 Frame.java RENAME isBonus=>boolean isBonusFrame FIELD
 EditAction 1479309146727 Frame.java 1256 9 11 0
+EditAction 1479309157909 Frame.java 1256 9 11 0

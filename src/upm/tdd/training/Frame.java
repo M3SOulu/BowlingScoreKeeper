@@ -28,7 +28,7 @@ public class Frame {
 	public Frame(int firstThrow, int secondThrow) throws BowlingException{
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-		if(frameNumber == 10) throw new BowlingException();
+		if(frameNumber == 11) throw new BowlingException();
 		else frameNumber++;
 	}
 	
