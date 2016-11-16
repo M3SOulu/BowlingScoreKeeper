@@ -24,18 +24,18 @@ public class TestBowlingScoreKeeper {
 	
 	public static void initFramesWithBonus() throws BowlingException{
 		testGame = new BowlingGame();
-		ArrayList<Frame> frames = new ArrayList<Frame>();
+		ArrayList<Frame> frames = new ArrayList<Frame>(11);
 		for (int i = 0; i < 10; ++i){
 			frames.add(i, new Frame (10, 0));
 		}
-		frames.add(11, new Frame (10, 10));
+		frames.add(new Frame (10, 10));
 		for (Frame frame : frames)
 			testGame.addFrame(frame);
 	}
 	
-	//temporary
+	
 	@Test
-	public void testScore() throws BowlingException{
+	public void testMaxScore() throws BowlingException{
 		initFramesWithBonus();
 		int score = testGame.score();
 		assertEquals (score, 300);

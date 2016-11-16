@@ -221,3 +221,36 @@ UnitTestCaseAction 1479316119766 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479316119766 TestBowlingScoreKeeper FAIL
 EditAction 1479316351302 Frame.java 1185 9 12 0
 EditAction 1479316366388 BowlingGame.java 1358 5 10 0
+UnitTestCaseAction 1479316370291 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316370291 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316417063 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316417064 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316423473 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316423474 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316427929 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316427929 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316431004 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316431004 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316464144 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316464144 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316469241 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316469241 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316470560 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316470561 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316472041 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316472042 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316480997 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316480998 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316584992 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316584992 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316603049 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316603049 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316640632 TestBowlingScoreKeeper.java RENAME testScore()=>void testMaxScore() METHOD
+RefactoringAction 1479316648151 TestBowlingScoreKeeper.java ADD void testMaxScore()/2 METHOD
+RefactoringAction 1479316652656 TestBowlingScoreKeeper.java RENAME testMaxScore()/2=>void testMinScore() METHOD
+RefactoringAction 1479316663175 TestBowlingScoreKeeper.java REMOVE testMinScore() METHOD
+UnitTestCaseAction 1479316703837 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316703837 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316762421 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316762421 TestBowlingScoreKeeper FAIL
+EditAction 1479316807380 Frame.java 1201 9 12 0
