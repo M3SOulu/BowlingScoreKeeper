@@ -1,0 +1,7 @@
+FileOpenedAction 1479306115522 TestBowlingScoreKeeper.java 197 1 1 0
+RefactoringAction 1479306426024 Frame.java ADD int numFrame FIELD
+RefactoringAction 1479306468619 Frame.java RENAME numFrame=>int totFrame FIELD
+RefactoringAction 1479306470136 Frame.java RENAME totFrame=>int totFrames FIELD
+RefactoringAction 1479306479662 Frame.java ADD int frame FIELD
+RefactoringAction 1479306514875 Frame.java ADD int getFrame() METHOD
+EditAction 1479306690910 BowlingGame.java 566 5 3 0
