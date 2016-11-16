@@ -20,20 +20,22 @@ public class BowlingGame {
 			// add new frame to the game
 			frames.add(new Frame(frame.getFirstThrow(), frame.getSecondThrow()));
 
-			/*
-			 * if frame before the actual was a spare, add to the previous frame
-			 * the point of the actual frame's first throw
-			 */
-			if (frames.get(frames.size() - 1).isSpare()) {
-				frames.get(frames.size() - 1).addToScore(frame.getFirstThrow());
-			}
+			if (frames.size() > 1) {
+				/*
+				 * if frame before the actual was a spare, add to the previous
+				 * frame the point of the actual frame's first throw
+				 */
+				if (frames.get(frames.size() - 1).isSpare()) {
+					frames.get(frames.size() - 1).addToScore(frame.getFirstThrow());
+				}
 
-			/*
-			 * if frame before the actual was a strike, add to the previous
-			 * frame the point of the actual frame's score
-			 */
-			if (frames.get(frames.size() - 1).isStrike()) {
-				frames.get(frames.size() - 1).addToScore(frame.score());
+				/*
+				 * if frame before the actual was a strike, add to the previous
+				 * frame the point of the actual frame's score
+				 */
+				if (frames.get(frames.size() - 1).isStrike()) {
+					frames.get(frames.size() - 1).addToScore(frame.score());
+				}
 			}
 
 		}
