@@ -33,11 +33,8 @@ public class TestBowlingScoreKeeper {
 	}
 
 	@Test
-	public void test() {
-		for (Frame frame2 : frame) {
-			System.out.println(frame2.score());
-		}
-		
+	public void testTotalScoreWithoutSpareOrStrike() throws BowlingException {
+		assertEquals(90, game.score());
 		
 	}
 

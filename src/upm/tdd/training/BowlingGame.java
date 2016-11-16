@@ -22,7 +22,7 @@ public class BowlingGame {
 
 			if (frames.size() > 1) {
 				Frame previousFrame = frames.get(frames.size() - 2);
-				
+
 				/*
 				 * if frame before the actual was a spare, add to the previous
 				 * frame the point of the actual frame's first throw
@@ -57,7 +57,7 @@ public class BowlingGame {
 		if (frames.size() != MAX_FRAMES_SIZE) {
 			throw new BowlingException();
 		} else {
-			return frames.get(MAX_FRAMES_SIZE).score();
+			return frames.get(MAX_FRAMES_SIZE - 1).score();
 		}
 	}
 

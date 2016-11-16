@@ -124,3 +124,5 @@
 1479312578897 refactoring 3 67 true
 1479312578898 refactoring 3 67 true
 1479313483191 test-first 3 895 true
+1479313600873 test-addition 1 55 true
+1479313694990 regression 1 0 true

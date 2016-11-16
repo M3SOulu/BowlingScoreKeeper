@@ -202,3 +202,13 @@ UnitTestSessionAction 1479313483191 TestBowlingScoreKeeper OK
 RefactoringAction 1479313545093 TestBowlingScoreKeeper.java REMOVE test() METHOD
 RefactoringAction 1479313556603 TestBowlingScoreKeeper.java ADD void test() METHOD
 EditAction 1479313598558 TestBowlingScoreKeeper.java 850 2 4 0
+UnitTestCaseAction 1479313600873 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479313600873 TestBowlingScoreKeeper OK
+UnitTestCaseAction 1479313694990 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479313694990 TestBowlingScoreKeeper OK
+RefactoringAction 1479313933401 TestBowlingScoreKeeper.java RENAME test()=>void testTotalScore() METHOD
+RefactoringAction 1479313937915 TestBowlingScoreKeeper.java RENAME testTotalScore()=>void testTotalScoreWithou() METHOD
+RefactoringAction 1479313938923 TestBowlingScoreKeeper.java RENAME testTotalScoreWithou()=>void testTotalScoreWithout() METHOD
+RefactoringAction 1479313941427 TestBowlingScoreKeeper.java RENAME testTotalScoreWithout()=>void testTotalScoreWithoutSpareOr() METHOD
+RefactoringAction 1479313943439 TestBowlingScoreKeeper.java RENAME testTotalScoreWithoutSpareOr()=>void testTotalScoreWithoutSpareOrStrike() METHOD
+EditAction 1479313990403 TestBowlingScoreKeeper.java 861 2 4 1
