@@ -18,3 +18,4 @@ RefactoringAction 1479307604617 BowlingGame.java REMOVE index FIELD
 RefactoringAction 1479307607623 BowlingGame.java ADD int frameIndex FIELD
 EditAction 1479307612762 BowlingGame.java 572 5 3 0
 EditAction 1479307632576 BowlingGame.java 576 5 3 0
+EditAction 1479307656212 BowlingGame.java 577 5 3 0
