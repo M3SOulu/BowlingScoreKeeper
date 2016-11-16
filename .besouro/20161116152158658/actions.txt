@@ -19,3 +19,7 @@ RefactoringAction 1479307276595 Frame.java RENAME getFirstThrow()/2=>int getSeco
 EditAction 1479307281631 Frame.java 1015 9 10 0
 EditAction 1479307569071 Frame.java 1162 9 11 0
 EditAction 1479307850659 Frame.java 1078 9 10 0
+RefactoringAction 1479307905349 BowlingGame.java ADD int thr FIELD
+RefactoringAction 1479307906366 BowlingGame.java REMOVE thr FIELD
+RefactoringAction 1479307914903 BowlingGame.java ADD int Throws FIELD
+EditAction 1479307916764 BowlingGame.java 556 5 2 0

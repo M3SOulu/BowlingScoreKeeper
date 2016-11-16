@@ -6,11 +6,12 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
+	static private int Throws=0;
 	
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+		
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
