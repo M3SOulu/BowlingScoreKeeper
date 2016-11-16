@@ -1,0 +1,18 @@
+FileOpenedAction 1479305655224 Frame.java 748 6 7 0
+RefactoringAction 1479307535622 Frame.java ADD int nFrame FIELD
+RefactoringAction 1479307559860 Frame.java REMOVE nFrame FIELD
+RefactoringAction 1479307882431 BowlingGame.java ADD Frame lastFrame FIELD
+RefactoringAction 1479307897947 BowlingGame.java RENAME lastFrame=>Frame lastFrameAdded FIELD
+RefactoringAction 1479307899957 BowlingGame.java RENAME lastFrameAdded=>Frame lastFrameAdd FIELD
+RefactoringAction 1479307901468 BowlingGame.java RENAME lastFrameAdd=>Frame lastFrameAdd() METHOD
+RefactoringAction 1479309639218 BowlingGame.java RENAME lastFrameAdd()=>Frame lastFrame() METHOD
+RefactoringAction 1479310670701 BowlingGame.java REMOVE lastFrame() METHOD
+RefactoringAction 1479310845985 Frame.java ADD int bonus()/2 METHOD
+RefactoringAction 1479310848998 Frame.java RENAME bonus()/2=>int get() METHOD
+RefactoringAction 1479310854002 Frame.java RENAME get()=>int getfirstThrow() METHOD
+RefactoringAction 1479310855516 Frame.java RENAME getfirstThrow()=>int getFirstThrow() METHOD
+RefactoringAction 1479310865049 Frame.java RENAME bonus()=>int bsonus() METHOD
+CompilationAction 1479310882096 Frame.java
+RefactoringAction 1479310886083 Frame.java RENAME bsonus()=>int bonus() METHOD
+CompilationAction 1479312066011 Frame.java
+EditAction 1479312066025 BowlingGame.java 1369 5 13 0
