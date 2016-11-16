@@ -303,3 +303,9 @@ RefactoringAction 1479315048069 TestBowlingScoreKeeper.java RENAME testInorrectA
 RefactoringAction 1479315049091 TestBowlingScoreKeeper.java RENAME testIncorrectAddFrame()=>void testInorrectAddFrame() METHOD
 RefactoringAction 1479315054104 TestBowlingScoreKeeper.java RENAME testInorrectAddFrame()=>void testNotCorrectAddFrame() METHOD
 EditAction 1479315084544 TestBowlingScoreKeeper.java 1383 3 25 1
+UnitTestCaseAction 1479315088253 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315088254 TestBowlingScoreKeeper OK
+RefactoringAction 1479315120722 TestBowlingScoreKeeper.java ADD void testNotCorrectAddFrame()/2 METHOD
+RefactoringAction 1479315130243 TestBowlingScoreKeeper.java RENAME testNotCorrectAddFrame()/2=>void testIsNextFrame() METHOD
+RefactoringAction 1479315131765 TestBowlingScoreKeeper.java RENAME testIsNextFrame()=>void testIsNextFrameBonus() METHOD
+EditAction 1479315170195 TestBowlingScoreKeeper.java 1862 4 36 2
