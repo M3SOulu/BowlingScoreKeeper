@@ -22,7 +22,20 @@ public class BowlingGame {
 	public int score(){
 		int total=0;
 		for(int i=0;i<frames.size();i++){
-			total=total+frames.get(i).score();
+			if(frames.get(i).isSpare()){
+				total=total+frames.get(i).score()+frames.get(i+1).getFirstThrow();
+			}else{
+				if(frames.get(i).isStrike()){
+					if(frames.get(i+1).isStrike()){
+						total=total+frames.get(i).score()+frames.get(i+1).getFirstThrow()+frames.get(i+2).getFirstThrow();
+					}else{
+						total=total+frames.get(i).score()+frames.get(i+1).getFirstThrow()+frames.get(i+1).getSecondThrow();
+					}
+				}else{
+					total=total+frames.get(i).score();
+				}
+			}
+				
 		}
 		return total;
 	}
