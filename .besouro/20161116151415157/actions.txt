@@ -308,3 +308,7 @@ UnitTestSessionAction 1479316098983 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479316137845 Frame.java RENAME areNotValidThrows()=>boolean areNotValidThrows(int) METHOD
 RefactoringAction 1479316146391 Frame.java RENAME areNotValidThrows(int)=>boolean areNotValidThrows(int, int) METHOD
 EditAction 1479316153782 Frame.java 1469 11 11 0
+UnitTestCaseAction 1479316157004 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316157006 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316167277 BowlingException.java REMOVE BowlingException() METHOD
+EditAction 1479316168439 BowlingException.java 150 0 0 0
