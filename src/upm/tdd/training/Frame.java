@@ -13,6 +13,7 @@ public class Frame {
 		} else {
 			this.firstThrow = firstThrow;
 			this.secondThrow = secondThrow;
+			this.frameScore = this.firstThrow + this.secondThrow;
 		}
 	}
 
@@ -20,8 +21,8 @@ public class Frame {
 	public int score() {
 		return frameScore;
 	}
-	
-	public void setScore(int score){
+
+	public void addToScore(int score) {
 		this.frameScore = score;
 	}
 
@@ -58,6 +59,5 @@ public class Frame {
 	private boolean areNotValidThrows() {
 		return firstThrow < 0 || firstThrow > 10 || secondThrow < 0 || secondThrow > 10;
 	}
-	
 
 }
