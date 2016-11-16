@@ -31,3 +31,10 @@ RefactoringAction 1479312994900 TestBowlingScoreKeeper.java ADD void unità(JUnit
 RefactoringAction 1479312997920 TestBowlingScoreKeeper.java REMOVE di FIELD
 RefactoringAction 1479312997921 TestBowlingScoreKeeper.java REMOVE unità(JUnit) METHOD
 EditAction 1479313075854 TestBowlingScoreKeeper.java 598 2 4 1
+RefactoringAction 1479313130029 TestBowlingScoreKeeper.java ADD void SetUp() METHOD
+RefactoringAction 1479313159568 TestBowlingScoreKeeper.java ADD void Score() METHOD
+RefactoringAction 1479313167081 TestBowlingScoreKeeper.java REMOVE test() METHOD
+RefactoringAction 1479313173091 TestBowlingScoreKeeper.java ADD void test() METHOD
+RefactoringAction 1479313208122 TestBowlingScoreKeeper.java ADD int firstThrow FIELD
+RefactoringAction 1479313208122 TestBowlingScoreKeeper.java ADD int secondThrow FIELD
+EditAction 1479313212859 TestBowlingScoreKeeper.java 704 4 4 1
