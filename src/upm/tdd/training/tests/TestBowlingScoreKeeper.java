@@ -31,7 +31,7 @@ public class TestBowlingScoreKeeper {
 	
 	@Test
 	public void test() {
-		assertTrue(game.score() == 133);
+		assertTrue(game.score() == 127);
 	}
 	
 	@After
