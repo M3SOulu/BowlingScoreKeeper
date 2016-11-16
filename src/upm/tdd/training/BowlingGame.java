@@ -13,6 +13,11 @@ public class BowlingGame {
 	}
 	
 	public void addFrame(Frame frame){
+		if(frameNumber > 10){
+			if(frameNumber == 10){
+				if
+			}
+		}
 		frames.add(frame);	
 		frameNumber ++;
 	}
