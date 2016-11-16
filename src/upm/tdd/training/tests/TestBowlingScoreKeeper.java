@@ -68,7 +68,7 @@ public class TestBowlingScoreKeeper {
 		
 	}
 	
-	@Test(expected = BowlingException)
+	@Test(expected = BowlingException.class)
 	public void testCntSetBonus() throws BowlingException {
 		b.addFrame( new Frame( 0, 0 )  );
 		b.setBonus( 5 , 5 );
