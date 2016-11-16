@@ -49,7 +49,8 @@ public class Frame {
 		if(isSpare() && nextFrame != null)
 			return nextFrame.firstThrow;
 		if(isStrike() && nextFrame != null)
-			return nextFrame.firstThrow + nextFrame.secondThrow;
+			return nextFrame.score();
+//			return nextFrame.firstThrow + nextFrame.secondThrow;
 		return 0;
 	}
 
