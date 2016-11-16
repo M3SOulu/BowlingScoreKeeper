@@ -208,3 +208,10 @@ RefactoringAction 1479311983593 Frame.java ADD int getSecondThrow() METHOD
 EditAction 1479312186839 Frame.java 1855 8 12 0
 CompilationAction 1479312187099 Frame.java
 EditAction 1479312193934 Frame.java 1867 8 12 0
+RefactoringAction 1479312259850 Frame.java ADD void resetId FIELD
+RefactoringAction 1479312261357 Frame.java RENAME resetId=>static void resetId() METHOD
+RefactoringAction 1479312277383 Frame.java REMOVE resetId() METHOD
+RefactoringAction 1479312282896 Frame.java ADD static void resetId() METHOD
+RefactoringAction 1479312297930 Frame.java RENAME resetId()=>static void resetIdCou() METHOD
+RefactoringAction 1479312299443 Frame.java RENAME resetIdCou()=>static void resetIdCounting() METHOD
+EditAction 1479312322104 Frame.java 2018 9 13 0

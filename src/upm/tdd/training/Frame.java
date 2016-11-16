@@ -12,6 +12,15 @@ public class Frame {
 	private int secondThrow;
 
 	/**
+	 * reset the counting of id
+	 * (the purpose of this method is only for test)
+	 */
+	public static void resetIdCounting()
+	{
+		count = 0;
+	}
+	
+	/**
 	 * create a new Bowling Frame
 	 * @param firstThrow
 	 * @param secondThrow
@@ -105,6 +114,7 @@ public class Frame {
 			return 0;
 		}
 	}
-
+	
+	
 
 }
