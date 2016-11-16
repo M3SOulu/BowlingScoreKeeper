@@ -9,6 +9,11 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
+	/**
+	 * add a frame if the match isnt alreadty finished
+	 * @param frame
+	 * @throws BowlingException
+	 */
 	public void addFrame( Frame frame ) throws BowlingException{
 		if( frames.get( frames.size() - 1 ).isLastFrame() ){
 			throw new BowlingException( "Bowling match is already finished" );
