@@ -11,14 +11,6 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 
-	public int getFirstThrow() {
-		return firstThrow;
-	}
-
-	public int getSecondThrow() {
-		return secondThrow;
-	}
-
 	/**
 	 * create a new Bowling Frame
 	 * @param firstThrow
@@ -39,6 +31,13 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+	public int getSecondThrow() {
+		return secondThrow;
+	}
 
 	/**
 	 * the score of a single frame 
@@ -80,8 +79,11 @@ public class Frame {
 	 * @return if is the last frame
 	 */
 	public boolean isLastFrame(){
-		if( id == MAX_NUMBER_OF_FRAMES ){
+		if( id == (MAX_NUMBER_OF_FRAMES + 1) ){
 			return true;
+		}
+		else if( id == MAX_NUMBER_OF_FRAMES && !isSpare() && !isStrike() ){
+			
 		}
 		else{
 			return false;
@@ -103,6 +105,6 @@ public class Frame {
 			return 0;
 		}
 	}
-	
+
 
 }

@@ -199,3 +199,10 @@ RefactoringAction 1479311932370 TestFrame.java ADD void test2Bonus()/3 METHOD
 RefactoringAction 1479311935893 TestFrame.java RENAME test2Bonus()/3=>void test1Bonus() METHOD
 RefactoringAction 1479311943932 TestFrame.java RENAME test2Bonus()/2=>void test0Bonus() METHOD
 EditAction 1479311949397 TestFrame.java 2253 12 22 18
+UnitTestCaseAction 1479311951934 TestFrame.java OK
+UnitTestSessionAction 1479311951935 TestFrame OK
+RefactoringAction 1479311976576 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1479311976577 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1479311983592 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479311983593 Frame.java ADD int getSecondThrow() METHOD
+EditAction 1479312186839 Frame.java 1855 8 12 0
