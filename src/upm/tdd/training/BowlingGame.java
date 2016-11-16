@@ -18,15 +18,15 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow){
-		
+		bonus=new Frame(firstThrow,secondThrow);
 	}
 	
 	public int score(){
 		if(frames.get(frames.size()-1).isSpare()){
-			score=score+frames.get(frames.size()).getFirstThrow();
+			score=score+bonus.getFirstThrow();
 		}
-		else if(frames.get(frames.size()-1).isSpare()){
-			score=score+frames.get(frames.size()).getFirstThrow()+frames.get(frames.size()).getSecondThrow();
+		else if(frames.get(frames.size()-1).isStrike()){
+			score=score+bonus.getFirstThrow()+bonus.getSecondThrow();
 		}else
 			score=score+frames.get(frames.size()-1).score();
 		return score;
