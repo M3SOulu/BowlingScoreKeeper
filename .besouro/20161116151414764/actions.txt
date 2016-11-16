@@ -40,3 +40,4 @@ RefactoringAction 1479313503217 TestBowlingScoreKeeper.java ADD void BowlingExce
 RefactoringAction 1479313542831 TestBowlingScoreKeeper.java ADD import java.awt.Frame IMPORT
 RefactoringAction 1479313632020 TestBowlingScoreKeeper.java RENAME BowlingException()/2=>void dBowlingException() METHOD
 EditAction 1479313798015 TestBowlingScoreKeeper.java 830 4 6 1
+EditAction 1479313798116 Frame.java 981 7 11 0
