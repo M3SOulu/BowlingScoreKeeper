@@ -20,7 +20,12 @@ public class Frame {
 
 	// the score of a single frame
 	public int score() {
-		return firstThrow + secondThrow + bonus();
+		try {
+			return firstThrow + secondThrow + bonus();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	// returns whether the frame is a strike or not
