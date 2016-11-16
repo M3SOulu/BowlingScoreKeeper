@@ -240,3 +240,7 @@ RefactoringAction 1479315954242 BowlingGame.java REMOVE calcolaBonusTiroSuccessi
 UnitTestCaseAction 1479315971431 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479315971432 TestBowlingScoreKeeper FAIL
 EditAction 1479315997470 BowlingGame.java 1554 5 7 0
+RefactoringAction 1479316021058 Frame.java REMOVE getBonusForSpare() METHOD
+RefactoringAction 1479316021058 Frame.java REMOVE getBonusForStrike() METHOD
+RefactoringAction 1479316143238 Frame.java ADD void bonusForStrike() METHOD
+EditAction 1479316157646 Frame.java 1005 9 12 0
