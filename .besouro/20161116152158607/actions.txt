@@ -222,3 +222,12 @@ RefactoringAction 1479315289897 Frame.java RENAME getBonusForSpare=>int getBonus
 RefactoringAction 1479315309105 Frame.java ADD int getBonusForSpare()/2 METHOD
 RefactoringAction 1479315315466 Frame.java RENAME getBonusForSpare()/2=>int getBonusForStrike() METHOD
 EditAction 1479315323746 Frame.java 957 10 11 0
+RefactoringAction 1479315467193 BowlingGame.java ADD int calcola FIELD
+RefactoringAction 1479315473044 BowlingGame.java RENAME calcola=>int calcolaBonusTiroSuccessivo FIELD
+RefactoringAction 1479315476319 BowlingGame.java RENAME calcolaBonusTiroSuccessivo=>int calcolaBonusTiroSuccessivo() METHOD
+RefactoringAction 1479315516661 BowlingGame.java REMOVE calcolaBonusTiroSuccessivo() METHOD
+RefactoringAction 1479315542792 BowlingGame.java ADD int calcola FIELD
+RefactoringAction 1479315547503 BowlingGame.java RENAME calcola=>int calcolaBonusTiroSuccessivo FIELD
+RefactoringAction 1479315550567 BowlingGame.java RENAME calcolaBonusTiroSuccessivo=>int METHOD
+RefactoringAction 1479315788055 BowlingGame.java REMOVE calcolaBonusTiroSuccessivo() METHOD
+EditAction 1479315831055 BowlingGame.java 2067 5 8 0
