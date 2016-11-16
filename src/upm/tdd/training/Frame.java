@@ -38,6 +38,9 @@ public class Frame {
 	 */
 	public static boolean reset()
 	{
+		if( count == 0 ){
+			return true;
+		}
 		if( count == 10 ){
 			count = 0;
 			return true;	//reset has been executed
