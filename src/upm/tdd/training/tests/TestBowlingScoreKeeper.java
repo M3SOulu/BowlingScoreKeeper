@@ -48,7 +48,7 @@ public class TestBowlingScoreKeeper {
 		
 	}
 	
-	@Test
+	@Test(expected = BowlingException.class)
 	public void testAddOverMaxFrames() throws BowlingException{
 		//Act
 		newGame.addFrame(newFrame);
