@@ -42,3 +42,4 @@ RefactoringAction 1479310892470 Frame.java RENAME getFirst=>int getFirstTh FIELD
 RefactoringAction 1479310893484 Frame.java RENAME getFirstTh=>int getFirstThrow FIELD
 RefactoringAction 1479310894497 Frame.java RENAME getFirstThrow=>int getFirstThrow() METHOD
 EditAction 1479311039412 BowlingGame.java 1171 6 12 0
+EditAction 1479311039516 Frame.java 1114 9 14 0

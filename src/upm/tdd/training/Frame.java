@@ -51,6 +51,9 @@ public class Frame {
 		return 0;
 	}
 
+	public int getFirstThrow() {
+		return this.firstThrow;
+	}
 	public void setNFrame(int n) {
 		n = this.nFrame;
 	}
