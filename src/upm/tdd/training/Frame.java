@@ -5,6 +5,7 @@ public class Frame {
 
 	private int firstThrow;
 	private int secondThrow;
+	private int bonusThrow;
 	private int frameScore;
 
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
@@ -23,7 +24,7 @@ public class Frame {
 	}
 
 	public void addToScore(int score) {
-		this.frameScore = this.frameScore + score;
+		this.frameScore += score;
 	}
 
 	// returns whether the frame is a strike or not

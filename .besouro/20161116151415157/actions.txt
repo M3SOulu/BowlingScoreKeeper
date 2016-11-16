@@ -62,3 +62,7 @@ EditAction 1479310485087 BowlingGame.java 1508 5 3 0
 RefactoringAction 1479310494463 BowlingGame.java ADD int totalScore FIELD
 RefactoringAction 1479310564600 BowlingGame.java REMOVE totalScore FIELD
 EditAction 1479310581661 BowlingGame.java 1507 5 3 0
+RefactoringAction 1479310917941 Frame.java ADD int bonus FIELD
+RefactoringAction 1479310918953 Frame.java RENAME bonus=>int bonusT FIELD
+RefactoringAction 1479310920962 Frame.java RENAME bonusT=>int bonusThrow FIELD
+EditAction 1479311052811 Frame.java 1344 10 10 0
