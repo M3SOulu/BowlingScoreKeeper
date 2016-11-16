@@ -35,7 +35,7 @@ public class TestBowlingScoreKeeper {
 	public void allStrikeInBowlingGamePoint() throws BowlingException{
 		for(int i=0;i<10;i++){
 			partita.addFrame(new Frame(10,10));
-			partita.setBonus(10);
+			partita.setBonus(10,10);
 		}
 		assertEquals(300,partita.score());
 		
