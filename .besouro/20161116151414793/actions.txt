@@ -27,3 +27,4 @@ RefactoringAction 1479313184858 TestBowlingScoreKeeper.java ADD import upm.tdd.t
 RefactoringAction 1479313205030 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
 RefactoringAction 1479313327453 TestBowlingScoreKeeper.java ADD BowlingGame match FIELD
 EditAction 1479313340190 TestBowlingScoreKeeper.java 821 3 12 1
+EditAction 1479313340340 BowlingGame.java 893 5 3 0
