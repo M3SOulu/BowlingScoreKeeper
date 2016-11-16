@@ -22,19 +22,19 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void tutti_10_score_equals_100() throws BowlingException {
 		
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
-		partita.addFrame(frame);
+		partita.addFrame(new Frame(1,4));
+		partita.addFrame(new Frame(4,5));
+		partita.addFrame(new Frame(6,4));
+		partita.addFrame(new Frame(5,5));
+		partita.addFrame(new Frame(10,0));
+		partita.addFrame(new Frame(0,1));
+		partita.addFrame(new Frame(7,3));
+		partita.addFrame(new Frame(6,4));
+		partita.addFrame(new Frame(10,0));
+		partita.addFrame(new Frame(2,8));
+		partita.addFrame(new Frame(6,0));
 		
-		assertEquals(300,partita.score());
+		assertEquals(133,partita.score());
 	}
 	
 	
