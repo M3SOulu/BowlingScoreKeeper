@@ -25,7 +25,7 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void testScore() throws BowlingException{
 		int score = testGame.score();
-		assertEquals (score, 22);
+		assertEquals (score, 21);
 	}
 	
 	@Test
