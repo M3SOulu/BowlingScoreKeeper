@@ -47,3 +47,6 @@ RefactoringAction 1479309546020 BowlingGame.java RENAME isNextFrameBonus(Frame)=
 EditAction 1479309562996 BowlingGame.java 896 5 6 0
 CompilationAction 1479309563135 BowlingGame.java
 EditAction 1479309645662 BowlingGame.java 896 5 6 0
+CompilationAction 1479309645919 BowlingGame.java
+RefactoringAction 1479310322376 BowlingGame.java RENAME setBonus(int, int)=>void setBonus() METHOD
+EditAction 1479310349961 BowlingGame.java 837 5 6 0
