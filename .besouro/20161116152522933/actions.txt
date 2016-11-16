@@ -259,3 +259,25 @@ RefactoringAction 1479314515656 TestBowlingGame.java ADD import upm.tdd.training
 RefactoringAction 1479314543181 TestBowlingGame.java REMOVE import java.awt.Frame IMPORT
 EditAction 1479314545323 TestBowlingGame.java 561 1 0 0
 EditAction 1479314545414 BowlingGame.java 1087 5 5 0
+CompilationAction 1479314545542 TestBowlingGame.java
+RefactoringAction 1479314596339 TestBowlingGame.java RENAME import upm.tdd.training.*=>import upm.tdd.training IMPORT
+RefactoringAction 1479314603573 TestBowlingGame.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479314616520 TestBowlingGame.java ADD import java.awt.Frame IMPORT
+RefactoringAction 1479314627367 TestBowlingGame.java REMOVE import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479314630872 TestBowlingGame.java REMOVE import upm.tdd.training IMPORT
+RefactoringAction 1479314631897 TestBowlingGame.java ADD import upm.tdd.training.* IMPORT
+RefactoringAction 1479314673656 TestBowlingGame.java RENAME <initializer /1>=>BowlingGame bg FIELD
+RefactoringAction 1479314737678 TestBowlingGame.java REMOVE import java.awt.Frame IMPORT
+RefactoringAction 1479314765717 TestBowlingGame.java REMOVE import upm.tdd.training.* IMPORT
+RefactoringAction 1479314769183 TestBowlingGame.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479314774458 TestBowlingGame.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479314832894 TestBowlingGame.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479314843950 TestBowlingGame.java ADD void init() METHOD
+RefactoringAction 1479314873941 TestBowlingGame.java ADD import upm.tdd.training.BowlingException IMPORT
+RefactoringAction 1479314882570 TestBowlingGame.java REMOVE f2 FIELD
+RefactoringAction 1479314884090 TestBowlingGame.java ADD Frame f2 FIELD
+RefactoringAction 1479314890112 TestBowlingGame.java RENAME f2f3=>Frame f2 FIELD
+RefactoringAction 1479315158401 BowlingGame.java ADD List<> getList FIELD
+RefactoringAction 1479315174985 BowlingGame.java RENAME getList=>List<Frame> getList() METHOD
+CompilationAction 1479315260679 TestBowlingGame.java
+EditAction 1479315260690 BowlingGame.java 1215 6 7 0

@@ -13,6 +13,12 @@ public class BowlingGame {
 		frames.add(frame);
 	}
 	
+	//utilizzata nei test 
+	public List<Frame> getList(){
+		List<Frame> lista = new ArrayList<Frame>(frames);
+		return lista;
+	}
+	
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
 		//to be implemented
 
