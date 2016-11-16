@@ -21,6 +21,16 @@ public class TestBowlingScoreKeeper {
 	@Test(expected = BowlingException.class)
 	public void invalidThrowBowlingException() throws BowlingException {
 		bowlingGame.setBonus(8, 3);
+	}	
+	
+	@Test(expected = BowlingException.class)
+	public void invalidNumFrameBowlingException() throws BowlingException {
+		// Arrange
+		Frame frame = new Frame(0, 0);
+		// Act
+		for (int i = 0; i < 11; i++) {
+			bowlingGame.addFrame(frame);
+		}
 	}
 
 	@Test

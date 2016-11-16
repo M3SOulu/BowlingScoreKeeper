@@ -95,3 +95,9 @@ EditAction 1479314927858 BowlingGame.java 1643 6 15 0
 UnitTestCaseAction 1479314929421 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314929422 TestBowlingScoreKeeper FAIL
 EditAction 1479315007539 TestBowlingScoreKeeper.java 1445 5 16 3
+UnitTestCaseAction 1479315008098 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315008099 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479315072367 TestBowlingScoreKeeper.java ADD void invalidThrowBowlingException()/2 METHOD
+RefactoringAction 1479315084412 TestBowlingScoreKeeper.java RENAME invalidThrowBowlingException()/2=>void invalidNumBowlingException() METHOD
+RefactoringAction 1479315086949 TestBowlingScoreKeeper.java RENAME invalidNumBowlingException()=>void invalidNumFrameBowlingException() METHOD
+EditAction 1479315109811 TestBowlingScoreKeeper.java 1690 6 18 3
