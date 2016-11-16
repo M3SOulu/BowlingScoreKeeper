@@ -17,30 +17,31 @@ public class Frame {
 	}
 
 	//returns whether the frame is a strike or not
-	public boolean isStrike(){
-		int thisFirstThrow = 10;
-		int strike;
+	public boolean isStrike(){   //10 pins in one throws
+		int strike, nextOneThrows = 0, nextSecondThrow = 0;
 		boolean isStrike;
+		firstThrow = 10;
 		if (isStrike = true){
-			strike = thisFirstThrow + firstThrow + secondThrow;
+			strike = firstThrow + nextOneThrows + nextSecondThrow;
 		}
 		return false;
 	}
 	
 	//return whether a frame is a spare or not
-	public boolean isSpare(){
-		
-		int spare;
+	public boolean isSpare(){   //10 pins in two throws
+		int spare, nextOneThrows = 0;
 		boolean isSpare;
 		if (isSpare = true){
-			spare =  firstThrow;
+			spare =  firstThrow + secondThrow + nextOneThrows;
 		}
 		return false;
 	}
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
+		if( firstThrow = 10){
+			
+		}
 		return false;
 	}
 
