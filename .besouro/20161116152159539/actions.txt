@@ -81,3 +81,6 @@ UnitTestSessionAction 1479311929708 TestBowlingScoreKeeper FAIL
 UnitTestCaseAction 1479311960916 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479311960917 TestBowlingScoreKeeper FAIL
 EditAction 1479312054026 TestBowlingScoreKeeper.java 2176 2 40 2
+UnitTestCaseAction 1479312058320 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312058321 TestBowlingScoreKeeper FAIL
+EditAction 1479312094840 TestBowlingScoreKeeper.java 2172 2 42 2
