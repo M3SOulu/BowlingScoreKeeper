@@ -10,7 +10,7 @@ public class Frame {
 
 	private int firstThrow;
 	private int secondThrow;
-	private int bonus;
+	private int bonus = 0;
 
 	/**
 	 * create a new Bowling Frame
@@ -38,7 +38,7 @@ public class Frame {
 	 * @return
 	 */
 	public int score(){
-		return firstThrow + secondThrow + bonus();
+		return firstThrow + secondThrow;
 	}
 
 	/**
@@ -85,16 +85,20 @@ public class Frame {
 	 * @return bonus
 	 */
 	public int bonus(){
+		return bonus;
+	}
+	
+	public void setBonus( int firstThrow, int secondThrow )
+	{
 		if( isSpare() ){
-			return 1;
+			bonus = firstThrow;
 		}
 		else if( isStrike() ){
-			return 1;
-		}
-		else{
-			return 0;
+			bonus = ( firstThrow + secondThrow );
 		}
 	}
+	
+	
 	
 
 

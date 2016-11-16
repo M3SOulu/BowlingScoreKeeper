@@ -156,3 +156,9 @@ EditAction 1479309470804 Frame.java 1564 6 10 0
 RefactoringAction 1479309575289 Frame.java REMOVE score() METHOD
 RefactoringAction 1479309576806 Frame.java ADD int score() METHOD
 EditAction 1479309604904 Frame.java 1696 6 10 0
+RefactoringAction 1479309866495 Frame.java ADD void setBonus FIELD
+RefactoringAction 1479309889008 Frame.java RENAME setBonus=>void setBonus() METHOD
+RefactoringAction 1479309893527 Frame.java RENAME setBonus()=>void setBonus(int) METHOD
+RefactoringAction 1479309896041 Frame.java RENAME setBonus(int)=>void setBonus() METHOD
+RefactoringAction 1479309904547 Frame.java RENAME setBonus()=>void setBonus(int, int) METHOD
+EditAction 1479309988660 Frame.java 1788 7 11 0
