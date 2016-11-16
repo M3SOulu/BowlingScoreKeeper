@@ -64,10 +64,10 @@ public class BowlingGame {
 		int indexFrames = frames.indexOf(frame)+1;
 		Frame resultFrame = null;
 		switch (indexFrames) {
-		case 11:
+		case 10:
 			resultFrame = bonus;
 			break;
-		case 12:
+		case 11:
 			break;
 		default:
 			resultFrame = frames.get(indexFrames);
