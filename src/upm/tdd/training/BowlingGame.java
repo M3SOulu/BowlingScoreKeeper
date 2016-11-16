@@ -11,9 +11,7 @@ public class BowlingGame {
 	
 	
 	public BowlingGame(){
-		for(int i=0;i<10;i++){
-			frames.add(new Frame());
-		}
+		
 	}
 	
 	public void addFrame(Frame frame) throws BowlingException{
@@ -30,6 +28,10 @@ public class BowlingGame {
 		int score = 0;
 		for(int i=0;i<10;i++){
 			if(frames.get(i).isSpare()){
+				score
+			}else if(frames.get(i).isStrike()){
+				score+=
+			}else{
 				
 			}
 		}

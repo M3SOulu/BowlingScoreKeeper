@@ -220,3 +220,6 @@ EditAction 1479310579230 TestBowlingScoreKeeper.java 660 2 4 0
 CompilationAction 1479310579491 TestBowlingScoreKeeper.java
 RefactoringAction 1479310621932 TestBowlingScoreKeeper.java ADD void allStrikeInBowlingGame() METHOD
 EditAction 1479310800691 TestBowlingScoreKeeper.java 808 3 5 0
+CompilationAction 1479310803304 BowlingGame.java
+CompilationAction 1479310851762 BowlingGame.java
+EditAction 1479310988369 BowlingGame.java 865 5 3 0
