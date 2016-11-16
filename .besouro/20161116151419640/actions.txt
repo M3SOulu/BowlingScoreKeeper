@@ -317,3 +317,4 @@ RefactoringAction 1479314828844 TestBowlingScoreKeeper.java RENAME testInvalidBo
 RefactoringAction 1479314837355 TestBowlingScoreKeeper.java RENAME testMoreThanElevenThrowsBowlingException()=>void testMoreThanElevenThrows() METHOD
 EditAction 1479314839691 TestBowlingScoreKeeper.java 1120 5 11 2
 EditAction 1479314856390 TestBowlingScoreKeeper.java 1120 5 11 2
+EditAction 1479314863277 TestBowlingScoreKeeper.java 1120 5 11 2
