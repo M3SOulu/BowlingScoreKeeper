@@ -67,5 +67,15 @@ public class TestBowlingScoreKeeper {
 		assertEquals(10, size);
 		
 	}
+	
+	@Test
+	public void testScore() throws BowlingException{
+		//Act
+		newGame.addFrame(newFrame); 
+		newGame.addFrame(newFrame);
+		int score = newGame.score();
+		//Assert
+		assertEquals(18, score);
+	}
 
 }

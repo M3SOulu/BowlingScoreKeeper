@@ -169,3 +169,5 @@ UnitTestSessionAction 1479311370803 AllTests OK
 EditAction 1479312079418 BowlingGame.java 774 6 7 0
 EditAction 1479312116802 BowlingGame.java 777 6 7 0
 EditAction 1479313004859 BowlingGame.java 816 6 9 0
+RefactoringAction 1479313080383 TestBowlingScoreKeeper.java ADD void testScore() METHOD
+EditAction 1479313175240 TestBowlingScoreKeeper.java 1970 5 34 4
