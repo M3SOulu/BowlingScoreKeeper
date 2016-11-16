@@ -485,3 +485,4 @@ UnitTestSessionAction 1479316511233 TestBowlingScoreKeeper OK
 RefactoringAction 1479316520469 TestBowlingScoreKeeper.java ADD void TesBonusScoreWithBonusFrameSpire()/2 METHOD
 RefactoringAction 1479316523975 TestBowlingScoreKeeper.java RENAME TesBonusScoreWithBonusFrameSpire()/2=>void TesBonusScoreWithBonusFrameStrike() METHOD
 EditAction 1479316524472 TestBowlingScoreKeeper.java 3288 7 70 6
+EditAction 1479316532081 TestBowlingScoreKeeper.java 3289 7 70 6
