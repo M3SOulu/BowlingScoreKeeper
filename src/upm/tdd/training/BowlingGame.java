@@ -23,6 +23,11 @@ public class BowlingGame {
 	public int score(){
 		
 		int score = 0;
+		for(int i=0;i<10;i++){
+			if(frames.get(i).isSpare()){
+				
+			}
+		}
 		
 		return score;
 	}
