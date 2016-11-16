@@ -219,3 +219,6 @@ EditAction 1479312332142 TestFrame.java 2275 12 23 18
 CompilationAction 1479312332395 TestFrame.java
 CompilationAction 1479312337729 TestFrame.java
 EditAction 1479312345577 Frame.java 2019 9 13 0
+RefactoringAction 1479312373421 TestFrame.java ADD void testIsLastFrame()/2 METHOD
+RefactoringAction 1479312378997 TestFrame.java RENAME testIsLastFrame()/2=>void testIsLastFrameWithSpare() METHOD
+EditAction 1479312403875 TestFrame.java 3016 13 35 29
