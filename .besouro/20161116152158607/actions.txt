@@ -235,3 +235,8 @@ UnitTestCaseAction 1479315845106 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479315845107 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479315933916 BowlingGame.java ADD int calcolaBonusTiroSuccessivo() METHOD
 EditAction 1479315949970 BowlingGame.java 1606 6 7 0
+CompilationAction 1479315950224 BowlingGame.java
+RefactoringAction 1479315954242 BowlingGame.java REMOVE calcolaBonusTiroSuccessivo() METHOD
+UnitTestCaseAction 1479315971431 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315971432 TestBowlingScoreKeeper FAIL
+EditAction 1479315997470 BowlingGame.java 1554 5 7 0

@@ -41,7 +41,7 @@ public class BowlingGame {
 			}
 		}	
 		if(isNextFrameBonus()){
-			this.score += (frames.get(index - 2).score() + frames.get(index-1).bonus());
+			this.score += (frames.get(index - 2).score()+frames.get(index-1).bonus());
 			if(frames.get(index-1).isStrike()){
 				this.score +=  frames.get(index).bonus();
 				}
@@ -58,10 +58,4 @@ public class BowlingGame {
 	public boolean isNextFrameBonus(){
 		return (frames.get(index - 2).isSpare() || frames.get(index - 2).isStrike());
 	}
-	
-	public int calcolaBonusTiroSuccessivo(){
-	}
-
 }
-
-
