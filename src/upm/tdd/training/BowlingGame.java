@@ -60,13 +60,16 @@ public class BowlingGame {
 	private void addFrameWithPreviousFrameStrike(Frame frame){
 		Frame f = getLastFrame();
 		if (f.getFrame() == 1){
-			
+			int bonus = f.getFirstThrow()+f.getSecondThrow();
+			frame.setScoreWithBonus(bonus);
+			gameScore += frame.score();
+			return;
 		}else/*(frames.get(frames.indexOf(f)-1).isStrike())*/{
 			addFrameWithPreviousFrameStrike(f);
 		}
-		int bonus = f.getFirstThrow()+f.getSecondThrow();
-		frame.setScoreWithBonus(bonus);
-		gameScore += frame.score();
+//		int bonus = f.getFirstThrow()+f.getSecondThrow();
+//		frame.setScoreWithBonus(bonus);
+//		gameScore += frame.score();
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
