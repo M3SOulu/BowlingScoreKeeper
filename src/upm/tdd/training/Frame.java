@@ -11,10 +11,7 @@ public class Frame {
 	public int getFrameNumber() {
 		return frameNumber;
 	}
-
-	public void setFrameNumber(int frameNumber) {
-		this.frameNumber = frameNumber;
-	}
+		
 
 	//constructor
 	public Frame(int firstThrow, int secondThrow) throws BowlingException{
