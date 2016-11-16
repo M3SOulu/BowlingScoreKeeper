@@ -29,21 +29,29 @@ public class BowlingGame {
 		Frame next;
 		for (Frame f : frames) {
 			res += f.score();
-			if (f != frames.get(9)) {
+			if (!isLastFrame(f)) {
 				// prendo l'elemento di posizione count e successivamente
 				// aggiorno count
 				next = frames.get(count++);
 				if (f.isStrike()) {
 					res += next.score();
-					if (next.getFirstThrow() == 10 && next != frames.get(9))
-						res += frames.get(count + 1).getFirstThrow();
+					if (next.getFirstThrow() == 10) {
+						if (isLastFrame(next))
+							res += bonus.getFirstThrow();
+						else
+							res += frames.get(count + 1).getFirstThrow();
+					}
 				}
 				if (f.isSpare())
 					res += next.getFirstThrow();
 			}
 		}
-		if (isNextFrameBonus())
-			res += bonus.score();
+		if (isNextFrameBonus()) {
+			if (frames.get(9).isStrike())
+				res += bonus.score();
+			else
+				res += bonus.bonus();
+		}
 		if (res > 300)
 			throw new BowlingException();
 		return res;
@@ -51,6 +59,12 @@ public class BowlingGame {
 
 	public boolean isNextFrameBonus() {
 		if (frames.size() == 10 && frames.get(9).score() == 10)
+			return true;
+		return false;
+	}
+	
+	private boolean isLastFrame(Frame frame){
+		if (frames.size() == 10 && frames.get(9) == frame)
 			return true;
 		return false;
 	}
