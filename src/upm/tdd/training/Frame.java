@@ -5,6 +5,15 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	private static int count = 0;
+	private int id;
+	
+	private Frame()
+	{
+		count++;
+		id = count;
+	}
+	
 	/**
 	 * create a new Bowling Frame
 	 * @param firstThrow
@@ -16,6 +25,7 @@ public class Frame {
 			throw new BowlingException();
 		}
 		
+		Frame();
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}

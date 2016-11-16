@@ -78,3 +78,9 @@ UnitTestCaseAction 1479308022554 TestFrame.java OK
 UnitTestSessionAction 1479308022554 TestFrame OK
 RefactoringAction 1479308038754 TestFrame.java ADD void createValidFrame() METHOD
 EditAction 1479308126933 TestFrame.java 1257 8 9 5
+UnitTestCaseAction 1479308131433 TestFrame.java OK
+UnitTestSessionAction 1479308131434 TestFrame OK
+RefactoringAction 1479308260712 Frame.java ADD int count FIELD
+RefactoringAction 1479308268750 Frame.java ADD int id FIELD
+RefactoringAction 1479308287282 Frame.java ADD Frame() METHOD
+EditAction 1479308318716 Frame.java 1295 7 11 0
