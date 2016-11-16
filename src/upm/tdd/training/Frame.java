@@ -6,9 +6,7 @@ public class Frame {
 	private int secondThrow;
 	private int nFrame;
 	private int bonusPoints;
-	public int tiroSuccessivo;
-	public int tiroSuccessivoAlSuccesivo;
-	
+
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
