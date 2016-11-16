@@ -13,24 +13,26 @@ public class TestBowlingScoreKeeper {
 	private BowlingGame b;
 	
 	@Before
-	public void setUp()
+	public void setUp() throws BowlingException
 	{
-		b = new BowlingGame();
 		Frame.resetIdCounting();
+		b = new BowlingGame();
+		
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
 	}
 	
 
 	@Test
 	public void testCorrectAddFrame() throws BowlingException {
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
+		
 		
 		Frame f = new Frame( 1, 2 );
 		b.addFrame( f  );

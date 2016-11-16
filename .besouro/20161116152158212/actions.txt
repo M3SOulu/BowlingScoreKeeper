@@ -321,3 +321,6 @@ RefactoringAction 1479315200990 TestBowlingScoreKeeper.java ADD void testIsNextF
 RefactoringAction 1479315204498 TestBowlingScoreKeeper.java RENAME testIsNextFrameBonusSpire()/2=>void testIsNotNextFrameBonusSpire() METHOD
 RefactoringAction 1479315207519 TestBowlingScoreKeeper.java RENAME testIsNotNextFrameBonusSpire()=>void testIsNotNextFrameBonus() METHOD
 EditAction 1479315213458 TestBowlingScoreKeeper.java 2833 6 58 4
+UnitTestCaseAction 1479315215667 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315215667 TestBowlingScoreKeeper OK
+EditAction 1479315262806 TestBowlingScoreKeeper.java 2863 6 58 4
