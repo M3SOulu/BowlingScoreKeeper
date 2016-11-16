@@ -243,3 +243,7 @@ CompilationAction 1479316488911 Frame.java
 RefactoringAction 1479316499867 BowlingException.java ADD BowlingException(String)/2 METHOD
 RefactoringAction 1479316502372 BowlingException.java RENAME BowlingException(String)/2=>BowlingException() METHOD
 EditAction 1479316505732 BowlingException.java 254 2 2 0
+RefactoringAction 1479316517521 TestFrame.java RENAME import org.junit.Assert.*=>import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1479316561096 AllTests.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479316561109 AllTests.java ADD AllTests.java CLASS
+FileOpenedAction 1479316561280 AllTests.java 269 0 0 0

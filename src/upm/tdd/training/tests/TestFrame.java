@@ -1,12 +1,10 @@
 package upm.tdd.training.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import upm.tdd.training.BowlingException;
-import upm.tdd.training.BowlingGame;
 import upm.tdd.training.Frame;
 
 public class TestFrame {
