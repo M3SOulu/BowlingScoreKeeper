@@ -223,3 +223,8 @@ RefactoringAction 1479313470986 TestBowlingScoreKeeper.java REMOVE testAllStrike
 RefactoringAction 1479313473002 TestBowlingScoreKeeper.java ADD void testAllZerosScore() METHOD
 RefactoringAction 1479313473003 TestBowlingScoreKeeper.java ADD void testMoreThanElevenThrowsBowlingException() METHOD
 EditAction 1479313473963 TestBowlingScoreKeeper.java 958 3 6 1
+UnitTestCaseAction 1479313477319 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479313477319 TestBowlingScoreKeeper OK
+RefactoringAction 1479313499023 TestBowlingScoreKeeper.java REMOVE testAllZerosScore() METHOD
+RefactoringAction 1479313499024 TestBowlingScoreKeeper.java REMOVE testMoreThanElevenThrowsBowlingException() METHOD
+EditAction 1479313500718 TestBowlingScoreKeeper.java 954 4 9 2

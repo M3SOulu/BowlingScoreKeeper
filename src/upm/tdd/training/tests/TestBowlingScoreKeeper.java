@@ -15,13 +15,13 @@ public class TestBowlingScoreKeeper {
 	public void createGame(){
 		game = new BowlingGame();
 	}
-/*
+
 	@Test
 	public void testAllStrikesScore() throws BowlingException {
 		Frame strikeFrame = new Frame(10,0);
 		for(int i=0; i<11; i++) game.addFrame(strikeFrame);
 		Assert.assertEquals(300, game.score());
-	}*/
+	}
 	
 	@Test
 	public void testAllZerosScore() throws BowlingException {
