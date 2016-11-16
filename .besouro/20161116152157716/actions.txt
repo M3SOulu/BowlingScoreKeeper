@@ -5,3 +5,6 @@ FileOpenedAction 1479306176154 TestBowlingScoreKeeper.java 197 1 1 0
 EditAction 1479310155923 BowlingGame.java 562 5 2 0
 EditAction 1479310156152 Frame.java 1013 6 17 0
 EditAction 1479311313201 BowlingGame.java 628 5 2 0
+CompilationAction 1479311313329 Frame.java
+RefactoringAction 1479311713804 TestBowlingScoreKeeper.java ADD void testScore FIELD
+EditAction 1479311715896 TestBowlingScoreKeeper.java 222 1 1 0

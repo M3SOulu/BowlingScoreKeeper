@@ -10,5 +10,7 @@ public class TestBowlingScoreKeeper {
 	public void test() {
 		fail("Not yet implemented");
 	}
+	
+	public void testScore
 
 }
