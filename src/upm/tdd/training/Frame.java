@@ -2,15 +2,15 @@ package upm.tdd.training;
 
 
 public class Frame {
-	private int firstThrow;
-	private int secondThrow;
-	
 	private static int count = 0;
 	private int id;
-	
+
 	private static final int MAX_NUMBER_OF_PINS = 10;
 	private static final int MAX_NUMBER_OF_FRAMES = 10;
-	
+
+	private int firstThrow;
+	private int secondThrow;
+
 	/**
 	 * create a new Bowling Frame
 	 * @param firstThrow
@@ -23,14 +23,14 @@ public class Frame {
 				(firstThrow + secondThrow) > MAX_NUMBER_OF_PINS ){
 			throw new BowlingException();
 		}
-		
+
 		count++;
 		id = count;
-		
+
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
-	
+
 	//the score of a single frame
 	public int score(){
 		//to be implemented
@@ -49,7 +49,7 @@ public class Frame {
 			return false;
 		}
 	}
-	
+
 	/**
 	 * return whether a frame is a spare or not
 	 * @return true if is a Spare
