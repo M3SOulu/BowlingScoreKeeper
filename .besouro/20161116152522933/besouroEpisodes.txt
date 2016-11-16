@@ -330,3 +330,16 @@
 1479315261220 test-first 2 1199 true
 1479315261221 test-last 1 1199 false
 1479315266037 regression 1 0 true
+1479315493777 refactoring 1A 179 true
+1479315493778 refactoring 3 179 true
+1479315493779 refactoring 3 179 true
+1479315493780 refactoring 3 179 true
+1479315493781 refactoring 3 179 true
+1479315493782 refactoring 3 179 true
+1479315493783 refactoring 3 179 true
+1479315493784 refactoring 3 179 true
+1479315493785 refactoring 3 179 true
+1479315493786 refactoring 3 179 true
+1479315493787 refactoring 3 179 true
+1479315493788 refactoring 3 179 true
+1479315493789 refactoring 3 179 true
