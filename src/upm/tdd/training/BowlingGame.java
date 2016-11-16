@@ -12,13 +12,13 @@ public class BowlingGame {
 	public void addFrame(Frame frame) throws BowlingException{
 		if(frames.size()<=10)
 			frames.add(frame);
-		if (frames.size()>10)
+		else if (frames.size()>10)
 			setBonus(frame.getFirstThrow(), frame.getSecondThrow());
+			frames.add(bonus);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
 		bonus = new Frame(firstThrow, secondThrow);
-		frames.add(bonus);
 	}
 	
 	public int score(){
