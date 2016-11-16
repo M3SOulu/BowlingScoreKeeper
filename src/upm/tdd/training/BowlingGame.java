@@ -12,7 +12,7 @@ public class BowlingGame {
 	public BowlingGame(){}
 
 	public void addFrame(Frame frame) throws BowlingException{
-		if (frames.size() >= MAX_FRAMES)
+		if (frames.size() >= BONUS_FRAMES)
 			throw new BowlingException("Partita terminata.");
 		frames.add(frame);
 	}

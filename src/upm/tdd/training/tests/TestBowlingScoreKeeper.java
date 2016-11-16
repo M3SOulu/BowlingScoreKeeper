@@ -12,11 +12,11 @@ import upm.tdd.training.Frame;
 
 public class TestBowlingScoreKeeper {
 	static BowlingGame testGame;
-	public static void initFrames() throws BowlingException{
+	public static void initFramesNoBonus() throws BowlingException{
 		testGame = new BowlingGame();
 		ArrayList<Frame> frames = new ArrayList<Frame>();
 		for (int i = 0; i < 10; ++i){
-			frames.add(i, new Frame (0, 0));
+			frames.add(i, new Frame (1, 1));
 		}
 		for (Frame frame : frames)
 			testGame.addFrame(frame);
@@ -24,9 +24,9 @@ public class TestBowlingScoreKeeper {
 	
 	@Test
 	public void testScore() throws BowlingException{
-		initFrames();
+		initFramesNoBonus();
 		int score = testGame.score();
-		assertEquals (score, 0);
+		assertEquals (score, 20);
 	}
 
 }
