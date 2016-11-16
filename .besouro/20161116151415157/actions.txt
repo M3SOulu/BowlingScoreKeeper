@@ -73,3 +73,10 @@ RefactoringAction 1479311260654 BowlingGame.java ADD void setBonus(int, int) MET
 RefactoringAction 1479311260655 BowlingGame.java ADD int score() METHOD
 RefactoringAction 1479311260655 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
 EditAction 1479311426667 BowlingGame.java 1649 5 3 0
+RefactoringAction 1479311471697 TestBowlingScoreKeeper.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479311481244 TestBowlingScoreKeeper.java ADD import org.junit.runners.Parameterized IMPORT
+RefactoringAction 1479311495260 TestBowlingScoreKeeper.java ADD static Collection<Object METHOD
+RefactoringAction 1479311499209 TestBowlingScoreKeeper.java ADD import org.junit.runners.Parameterized.Parameters IMPORT
+RefactoringAction 1479311501959 TestBowlingScoreKeeper.java ADD import java.util.Collection IMPORT
+RefactoringAction 1479311505020 TestBowlingScoreKeeper.java ADD import java.util.Arrays IMPORT
+EditAction 1479311530682 TestBowlingScoreKeeper.java 678 2 2 0
