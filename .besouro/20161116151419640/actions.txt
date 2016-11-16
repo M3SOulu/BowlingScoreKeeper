@@ -68,3 +68,4 @@ EditAction 1479310414445 BowlingGame.java 1085 5 9 0
 RefactoringAction 1479310677758 Frame.java ADD void isLastFrame()/2 METHOD
 RefactoringAction 1479310684764 Frame.java REMOVE isLastFrame()/2 METHOD
 EditAction 1479310687786 Frame.java 1233 10 12 0
+EditAction 1479310702162 Frame.java 1224 10 12 0
