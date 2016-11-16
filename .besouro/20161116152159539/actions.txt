@@ -208,3 +208,11 @@ EditAction 1479314928648 BowlingGame.java 1003 7 9 0
 UnitTestCaseAction 1479314930167 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314930167 TestBowlingScoreKeeper FAIL
 EditAction 1479314952293 BowlingGame.java 1010 7 9 0
+UnitTestCaseAction 1479314955133 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314955133 TestBowlingScoreKeeper OK
+RefactoringAction 1479314991181 TestBowlingScoreKeeper.java ADD void testScoreSpare()/2 METHOD
+RefactoringAction 1479315002688 TestBowlingScoreKeeper.java RENAME testScoreSpare()/2=>void testScoreS() METHOD
+RefactoringAction 1479315004694 TestBowlingScoreKeeper.java RENAME testScoreS()=>void testScoreStrike() METHOD
+RefactoringAction 1479315019729 TestBowlingScoreKeeper.java RENAME testScoreStrike()=>void testScoreStrikeAnd() METHOD
+RefactoringAction 1479315022241 TestBowlingScoreKeeper.java RENAME testScoreStrikeAnd()=>void testScoreStrikeAndSpare() METHOD
+EditAction 1479315064426 TestBowlingScoreKeeper.java 2136 4 66 4
