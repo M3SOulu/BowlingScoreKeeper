@@ -23,7 +23,7 @@ public class TestBowlingScoreKeeper {
 	@Before
 	public void initializeTestWithoutSpareOrStrike() throws BowlingException {
 		gameWithoutSpareOrStrike = new BowlingGame();
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < frameWithoutSpareOrStrike.length; i++) {
 			frameWithoutSpareOrStrike[i] = new Frame(4, 5);
 		}
 		for (int i = 0; i < frameWithoutSpareOrStrike.length; i++) {
