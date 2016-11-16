@@ -16,7 +16,7 @@ public class BowlingGame {
 	 */
 	public void addFrame( Frame frame ) throws BowlingException{
 		if( frames.get( frames.size() - 1 ).isLastFrame() ){
-			throw new BowlingException( "Bowling match is already finished" );
+			throw new BowlingException();
 		}
 		
 		frames.add( frame );
@@ -48,11 +48,12 @@ public class BowlingGame {
 	public boolean isNextFrameBonus(){
 		Frame lastFrame = frames.get( frames.size() - 1 );
 		
-		if( !lastFrame.isLastFrame() &&
-				frames.get){
-			
+		if( lastFrame.isLastFrame() &&
+				( lastFrame.isSpare() || lastFrame.isStrike()) ){
+			return true;
 		}
-
-		return false;
+		else{
+			return false;
+		}
 	}
 }

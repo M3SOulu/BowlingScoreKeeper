@@ -252,3 +252,10 @@ RefactoringAction 1479313617062 TestFrame.java REMOVE testIsLastFrameWithStrike(
 RefactoringAction 1479313617063 TestFrame.java REMOVE testIsLastFrameWithSpare() METHOD
 EditAction 1479313625742 TestFrame.java 2273 12 22 18
 EditAction 1479313629499 BowlingGame.java 1099 5 9 0
+CompilationAction 1479313629606 BowlingGame.java
+UnitTestCaseAction 1479313631495 TestFrame.java OK
+UnitTestSessionAction 1479313631496 TestFrame OK
+CompilationAction 1479313678028 BowlingGame.java
+CompilationAction 1479313678202 BowlingGame.java
+CompilationAction 1479313727247 BowlingGame.java
+EditAction 1479313747116 BowlingGame.java 1122 5 8 0
