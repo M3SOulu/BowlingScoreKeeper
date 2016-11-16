@@ -26,5 +26,10 @@ public class TestBowlingException {
 	public void test_of_exception1() throws BowlingException{
 		fr1.setFirstThrow(11);
 	}
+	
+	@Test (expected = BowlingException.class)
+	public void test_of_exception2() throws BowlingException{
+		fr1.setSecondThrow(11);
+	}
 
 }

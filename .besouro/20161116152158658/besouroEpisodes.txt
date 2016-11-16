@@ -57,3 +57,16 @@
 1479314991212 regression 1 1 true
 1479314995337 regression 1 0 true
 1479314998323 regression 1 0 true
+1479315072259 refactoring 3 56 true
+1479315072260 refactoring 3 56 true
+1479315072261 refactoring 3 56 true
+1479315072262 refactoring 3 56 true
+1479315072263 refactoring 3 56 true
+1479315072264 refactoring 3 56 true
+1479315072265 refactoring 1A 56 true
+1479315072266 refactoring 3 56 true
+1479315072267 refactoring 3 56 true
+1479315072268 refactoring 3 56 true
+1479315072269 refactoring 3 56 true
+1479315072270 refactoring 3 56 true
+1479315072271 refactoring 3 56 true

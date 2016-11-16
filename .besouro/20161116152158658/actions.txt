@@ -242,3 +242,8 @@ RefactoringAction 1479315015992 TestBowlingException.java ADD void test_of FIELD
 RefactoringAction 1479315020496 TestBowlingException.java RENAME test_of=>void test_of_exception1 FIELD
 RefactoringAction 1479315023502 TestBowlingException.java RENAME test_of_exception1=>void test_of_exception1() METHOD
 EditAction 1479315069553 TestBowlingException.java 586 3 3 0
+UnitTestCaseAction 1479315072259 TestBowlingException.java OK
+UnitTestSessionAction 1479315072259 TestBowlingException OK
+RefactoringAction 1479315079086 TestBowlingException.java ADD void test_of_exception1()/2 METHOD
+RefactoringAction 1479315082608 TestBowlingException.java RENAME test_of_exception1()/2=>void test_of_exception2() METHOD
+EditAction 1479315089511 TestBowlingException.java 724 4 4 0
