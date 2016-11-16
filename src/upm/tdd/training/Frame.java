@@ -20,8 +20,8 @@ public class Frame {
 		if(isStrike()){
 			score = 10 + bonus();
 		}
-		if(isSpare()){
-			
+		else if(isSpare()){
+			score = this.firstThrow + this.secondThrow;
 		}
 		else{
 			score = this.firstThrow + this.secondThrow;
