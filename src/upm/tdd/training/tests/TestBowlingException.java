@@ -14,12 +14,17 @@ public class TestBowlingException {
 	
 	@Before
 	public void setUp() {
-		fr1=new Frame(11,4);
+		fr1=new Frame(7,4);
 	}
 	
 	@Test (expected = BowlingException.class)
 	public void test_of_exception() throws BowlingException {
 		fr1.score();
+	}
+	
+	@Test (expected = BowlingException.class)
+	public void test_of_exception1() throws BowlingException{
+		fr1.setFirstThrow(11);
 	}
 
 }

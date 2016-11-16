@@ -232,3 +232,13 @@ UnitTestSessionAction 1479314975514 TestFrame OK
 UnitTestCaseAction 1479314979843 TestBowlingException.java OK
 UnitTestSessionAction 1479314979844 TestBowlingException OK
 EditAction 1479314989616 TestBowlingException.java 450 2 2 0
+UnitTestCaseAction 1479314991211 TestBowlingException.java OK
+UnitTestSessionAction 1479314991212 TestBowlingException OK
+UnitTestCaseAction 1479314995337 TestFrame.java OK
+UnitTestSessionAction 1479314995337 TestFrame OK
+UnitTestCaseAction 1479314998323 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314998323 TestBowlingScoreKeeper OK
+RefactoringAction 1479315015992 TestBowlingException.java ADD void test_of FIELD
+RefactoringAction 1479315020496 TestBowlingException.java RENAME test_of=>void test_of_exception1 FIELD
+RefactoringAction 1479315023502 TestBowlingException.java RENAME test_of_exception1=>void test_of_exception1() METHOD
+EditAction 1479315069553 TestBowlingException.java 586 3 3 0
