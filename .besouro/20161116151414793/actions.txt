@@ -1,0 +1,58 @@
+FileOpenedAction 1479305655217 TestBowlingScoreKeeper.java 197 1 1 0
+RefactoringAction 1479307202284 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479307202285 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1479307202285 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1479307202286 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1479307518212 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1479307518213 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1479307518213 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1479307518213 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1479307521227 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479307521228 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1479307521229 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1479307521237 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1479310368617 Frame.java ADD int thirdThr FIELD
+RefactoringAction 1479310370144 Frame.java RENAME thirdThr=>int thirdThrow FIELD
+RefactoringAction 1479310565185 Frame.java REMOVE thirdThrow FIELD
+RefactoringAction 1479311674472 Frame.java ADD int bonus FIELD
+RefactoringAction 1479311677009 Frame.java RENAME bonus=>int bonusThrow FIELD
+EditAction 1479311798344 Frame.java 1101 10 11 0
+EditAction 1479312008737 BowlingGame.java 886 5 6 0
+RefactoringAction 1479312016561 BowlingGame.java REMOVE bonus FIELD
+RefactoringAction 1479313033367 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479313033368 TestBowlingScoreKeeper.java ADD import org.junit.After IMPORT
+RefactoringAction 1479313043886 TestBowlingScoreKeeper.java ADD void inizialize() METHOD
+RefactoringAction 1479313053410 TestBowlingScoreKeeper.java ADD void setToNull() METHOD
+RefactoringAction 1479313184858 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479313205030 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479313327453 TestBowlingScoreKeeper.java ADD BowlingGame match FIELD
+EditAction 1479313340190 TestBowlingScoreKeeper.java 821 3 12 1
+EditAction 1479313340340 BowlingGame.java 893 5 3 0
+EditAction 1479313340464 Frame.java 1086 10 11 0
+CompilationAction 1479313341399 BowlingGame.java
+RefactoringAction 1479313393364 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1479313393365 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
+RefactoringAction 1479313507888 TestBowlingScoreKeeper.java RENAME setToNull()=>void clear() METHOD
+RefactoringAction 1479313514405 TestBowlingScoreKeeper.java RENAME clear()=>void clearMatch() METHOD
+RefactoringAction 1479313517917 TestBowlingScoreKeeper.java RENAME clearMatch()=>void clearM() METHOD
+RefactoringAction 1479313518932 TestBowlingScoreKeeper.java RENAME clearM()=>void clear() METHOD
+RefactoringAction 1479313540243 TestBowlingScoreKeeper.java RENAME match=>BowlingGame game FIELD
+EditAction 1479313543637 TestBowlingScoreKeeper.java 830 3 13 1
+CompilationAction 1479313543774 TestBowlingScoreKeeper.java
+CompilationAction 1479313543790 BowlingGame.java
+EditAction 1479313562060 TestBowlingScoreKeeper.java 799 3 12 1
+UnitTestCaseAction 1479313594860 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313594867 TestBowlingScoreKeeper FAIL
+EditAction 1479313645739 TestBowlingScoreKeeper.java 799 3 12 1
+UnitTestCaseAction 1479313647560 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313647561 TestBowlingScoreKeeper FAIL
+EditAction 1479313667292 BowlingGame.java 1005 7 8 0
+UnitTestCaseAction 1479313670538 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313670539 TestBowlingScoreKeeper FAIL
+EditAction 1479313676378 BowlingGame.java 1004 7 8 0
+UnitTestCaseAction 1479313679187 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313679187 TestBowlingScoreKeeper FAIL
+EditAction 1479314383577 TestBowlingScoreKeeper.java 799 3 12 1
+EditAction 1479314383684 BowlingGame.java 985 7 8 0
+UnitTestCaseAction 1479314384347 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314384348 TestBowlingScoreKeeper FAIL
