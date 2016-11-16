@@ -146,3 +146,4 @@ RefactoringAction 1479312533801 TestFrame.java RENAME testG()=>void testGame() M
 RefactoringAction 1479312537811 TestFrame.java RENAME testGame()=>void testGameGetScore() METHOD
 RefactoringAction 1479312557358 TestFrame.java ADD import upm.tdd.training.BowlingGame IMPORT
 EditAction 1479312739921 TestFrame.java 1842 10 9 0
+EditAction 1479312740038 Frame.java 1047 8 13 0

@@ -35,11 +35,20 @@ public class Frame {
 		//to be implemented
 		return false;
 	}
+	
+	public int getFirstThrow(){
+		int fT = firstThrow;
+		return fT;
+	}
+	
+	public int getSecondThrow(){
+		int sT = secondThrow;
+		return sT;
+	}
 
 	//bonus throws
 	public int bonus(){
-		//to be implemented
-		return 0;
+		return firstThrow;
 	}
 
 
