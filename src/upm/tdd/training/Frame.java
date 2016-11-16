@@ -13,6 +13,12 @@ public class Frame {
 		this.setSecondThrow(secondThrow);
 	}
 	
+	public Frame(int firstThrow, int secondThrow, int thirdThrow){
+		this.setFirstThrow(firstThrow);
+		this.setSecondThrow(secondThrow);
+		this.setThirdThrow(thirdThrow);
+	}
+	
 	//the score of a single frame
 	public int score(){
 		points += (getFirstThrow() + getSecondThrow());
