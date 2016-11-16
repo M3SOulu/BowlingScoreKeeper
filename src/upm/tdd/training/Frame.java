@@ -53,7 +53,7 @@ public class Frame {
 	}
 
 	// bonus throws
-	private int bonus() {
-		return bowlingGameMembership.getBonus(this);
+	public int bonus() {
+		return bowlingGameMembership.calcolateBonus(this, bowlingGameMembership.getNextFrame(this));
 	}
 }

@@ -183,3 +183,4 @@ RefactoringAction 1479315141489 BowlingGame.java REMOVE Frame FIELD
 RefactoringAction 1479315232436 TestFrame.java RENAME testScore()=>void test() METHOD
 RefactoringAction 1479315233967 TestFrame.java RENAME test()=>void testBonus() METHOD
 EditAction 1479315337789 TestFrame.java 734 3 7 3
+EditAction 1479315337932 Frame.java 1341 9 14 0
