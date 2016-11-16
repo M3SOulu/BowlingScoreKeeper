@@ -35,3 +35,4 @@
 1479313708844 test-addition 1 367 true
 1479313708845 test-addition 1 367 true
 1479313725578 test-addition 1 2 true
+1479313743329 test-addition 1 1 true

@@ -162,3 +162,7 @@ EditAction 1479313722834 TestFrame.java 616 2 7 2
 UnitTestCaseAction 1479313725577 TestFrame.java OK
 UnitTestSessionAction 1479313725578 TestFrame OK
 EditAction 1479313741726 TestFrame.java 656 2 8 3
+UnitTestCaseAction 1479313743328 TestFrame.java OK
+UnitTestSessionAction 1479313743329 TestFrame OK
+RefactoringAction 1479313747259 TestFrame.java RENAME test_of_frames()=>void test_of_frame1() METHOD
+EditAction 1479313749038 TestFrame.java 656 2 8 3
