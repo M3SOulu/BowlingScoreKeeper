@@ -30,7 +30,7 @@ public class TestBowlingScoreKeeper {
 		partita2.addFrame(strike);
 	
 		
-		assertEquals(7, partita2.score());
+		assertEquals(17+7, partita2.score());
 	
 	}
 	
