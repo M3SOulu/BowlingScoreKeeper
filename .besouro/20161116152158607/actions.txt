@@ -212,3 +212,13 @@ UnitTestSessionAction 1479314705770 TestBowlingScoreKeeper FAIL
 UnitTestCaseAction 1479314807522 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314807523 TestBowlingScoreKeeper FAIL
 EditAction 1479314973206 Frame.java 964 8 11 0
+UnitTestCaseAction 1479314982550 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314982551 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479315283220 Frame.java ADD int get FIELD
+RefactoringAction 1479315284780 Frame.java RENAME get=>int getBonus FIELD
+RefactoringAction 1479315285748 Frame.java RENAME getBonus=>int getBonusFor FIELD
+RefactoringAction 1479315288525 Frame.java RENAME getBonusFor=>int getBonusForSpare FIELD
+RefactoringAction 1479315289897 Frame.java RENAME getBonusForSpare=>int getBonusForSpare() METHOD
+RefactoringAction 1479315309105 Frame.java ADD int getBonusForSpare()/2 METHOD
+RefactoringAction 1479315315466 Frame.java RENAME getBonusForSpare()/2=>int getBonusForStrike() METHOD
+EditAction 1479315323746 Frame.java 957 10 11 0
