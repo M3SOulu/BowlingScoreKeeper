@@ -2,13 +2,31 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
+
+import upm.tdd.training.BowlingException;
+import upm.tdd.training.BowlingGame;
+import upm.tdd.training.Frame;
 
 public class TestFrame {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testIsStrike() throws BowlingException {
+		Frame frame = new Frame(10,0);
+		assertEquals(true, frame.isStrike());
+	}
+	
+	@Test
+	public void testIsSpare() throws BowlingException {
+		Frame frame = new Frame(5,5);
+		assertEquals(true, frame.isSpare());
+	}
+	
+	@Test
+	public void testIsScore() throws BowlingException {
+		Frame frame = new Frame(5,5);
+		assertEquals(10, frame.score());
 	}
 
 }
