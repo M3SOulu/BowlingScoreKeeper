@@ -118,3 +118,6 @@ RefactoringAction 1479311139518 TestFrame.java RENAME test=>void tests FIELD
 RefactoringAction 1479311142038 TestFrame.java RENAME tests=>void testScore FIELD
 RefactoringAction 1479311143057 TestFrame.java RENAME testScore=>void testScore() METHOD
 EditAction 1479311202180 TestFrame.java 1481 9 9 0
+UnitTestCaseAction 1479311203959 TestFrame.java OK
+UnitTestSessionAction 1479311203959 TestFrame OK
+EditAction 1479311207931 TestFrame.java 1481 9 9 0

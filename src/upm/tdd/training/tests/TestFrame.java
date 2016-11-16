@@ -53,7 +53,7 @@ public class TestFrame {
 	@Test
 	public void testScore() throws BowlingException{
 		p = new Frame(9, 1);
-		assert(p.score()==10);
+		assert(p.score()==12);
 	}
 	
 	
