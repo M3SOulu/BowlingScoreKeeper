@@ -6,10 +6,11 @@ public class Frame {
 	private int secondThrow;
 	private int frameNumber = 0;
 	
-	public Frame(int firstThrow, int secondThrow){
+	public Frame(int firstThrow, int secondThrow) throws BowlingException{
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-		frameNumber++;		
+		if(frameNumber == 10) throw new BowlingException();
+		else frameNumber++;
 	}
 	
 	//the score of a single frame
