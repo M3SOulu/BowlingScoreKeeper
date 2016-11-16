@@ -2,6 +2,7 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -57,6 +58,13 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void test_of_example_match(){
 		Assert.assertEquals(133, match3.score());
+	}
+	
+	@After
+	public void tearDown(){
+		match1=null;
+		match2=null;
+		match3=null;
 	}
 
 }

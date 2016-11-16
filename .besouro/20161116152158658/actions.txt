@@ -127,3 +127,9 @@ RefactoringAction 1479313274029 TestBowlingScoreKeeper.java RENAME test_of_examp
 RefactoringAction 1479313276048 TestBowlingScoreKeeper.java RENAME test_of_example_ma=>void test_of_example_match FIELD
 RefactoringAction 1479313277584 TestBowlingScoreKeeper.java RENAME test_of_example_match=>void test_of_example_match() METHOD
 EditAction 1479313301749 TestBowlingScoreKeeper.java 1291 4 20 3
+UnitTestCaseAction 1479313304605 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479313304606 TestBowlingScoreKeeper OK
+RefactoringAction 1479313341778 TestBowlingScoreKeeper.java ADD void tearDown FIELD
+RefactoringAction 1479313344286 TestBowlingScoreKeeper.java RENAME tearDown=>void tearDown() METHOD
+RefactoringAction 1479313354405 TestBowlingScoreKeeper.java ADD import org.junit.After IMPORT
+EditAction 1479313373381 TestBowlingScoreKeeper.java 1398 5 23 3
