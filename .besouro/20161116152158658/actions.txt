@@ -95,3 +95,21 @@ UnitTestSessionAction 1479312439213 TestBowlingScoreKeeper FAIL
 UnitTestCaseAction 1479312613806 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479312613807 TestBowlingScoreKeeper FAIL
 EditAction 1479312660942 TestBowlingScoreKeeper.java 590 2 5 2
+UnitTestCaseAction 1479312662936 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479312662936 TestBowlingScoreKeeper OK
+RefactoringAction 1479312689086 TestBowlingScoreKeeper.java ADD BowlingGame match1/2 FIELD
+RefactoringAction 1479312689090 TestBowlingScoreKeeper.java ADD BowlingGame match1/3 FIELD
+RefactoringAction 1479312690620 TestBowlingScoreKeeper.java RENAME match1/3=>BowlingGame match3 FIELD
+RefactoringAction 1479312692147 TestBowlingScoreKeeper.java RENAME match1/2=>BowlingGame match2 FIELD
+RefactoringAction 1479312703787 TestBowlingScoreKeeper.java RENAME test_of_full_strike()=>void test_of_no() METHOD
+RefactoringAction 1479312705795 TestBowlingScoreKeeper.java RENAME test_of_no()=>void test_of_no_() METHOD
+RefactoringAction 1479312706832 TestBowlingScoreKeeper.java RENAME test_of_no_()=>void test_of_no_S() METHOD
+RefactoringAction 1479312708338 TestBowlingScoreKeeper.java RENAME test_of_no_S()=>void test_of_no_s() METHOD
+RefactoringAction 1479312709854 TestBowlingScoreKeeper.java RENAME test_of_no_s()=>void test_of_no_strike() METHOD
+RefactoringAction 1479312711870 TestBowlingScoreKeeper.java RENAME test_of_no_strike()=>void test_of_no_strike FIELD
+RefactoringAction 1479312713897 TestBowlingScoreKeeper.java RENAME spare()=>void spare_tesrt() METHOD
+RefactoringAction 1479312714943 TestBowlingScoreKeeper.java RENAME spare_tesrt()=>void spare_test() METHOD
+RefactoringAction 1479312732560 TestBowlingScoreKeeper.java ADD void test_of_no_strike_spare_test()/2 METHOD
+RefactoringAction 1479312740605 TestBowlingScoreKeeper.java RENAME test_of_no_strike_spare_test()/2=>void test_of_full_strike_spare_test() METHOD
+RefactoringAction 1479312744115 TestBowlingScoreKeeper.java RENAME test_of_full_strike_spare_test()=>void test_of_full_strike() METHOD
+EditAction 1479312785328 TestBowlingScoreKeeper.java 787 3 7 2
