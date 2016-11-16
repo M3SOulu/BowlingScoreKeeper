@@ -139,3 +139,6 @@ RefactoringAction 1479313799146 TestBowlingScoreKeeper.java ADD void testScoreSp
 EditAction 1479313884551 TestBowlingScoreKeeper.java 2553 3 53 2
 EditAction 1479313923669 TestBowlingScoreKeeper.java 2743 3 62 2
 EditAction 1479313938990 TestBowlingScoreKeeper.java 1853 3 42 2
+UnitTestCaseAction 1479313940634 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313940635 TestBowlingScoreKeeper FAIL
+EditAction 1479313975861 BowlingGame.java 1009 7 8 0
