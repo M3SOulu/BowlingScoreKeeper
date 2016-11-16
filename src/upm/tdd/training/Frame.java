@@ -24,6 +24,17 @@ public class Frame {
 		return firstThrow+secondThrow;
 	}
 
+	public void setFirstThrow(int firstThrow) {
+		this.firstThrow = firstThrow;
+	}
+	public void setSecondThrow(int secondThrow) {
+		this.secondThrow = secondThrow;
+	}
+
+	public void setLastFrame(boolean lastFrame) {
+		this.lastFrame = lastFrame;
+	}
+
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		if(firstThrow==10)

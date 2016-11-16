@@ -24,3 +24,8 @@ RefactoringAction 1479307906366 BowlingGame.java REMOVE thr FIELD
 RefactoringAction 1479307914903 BowlingGame.java ADD int Throws FIELD
 EditAction 1479307916764 BowlingGame.java 556 5 2 0
 EditAction 1479308075044 BowlingGame.java 571 5 3 0
+RefactoringAction 1479308155925 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1479308155925 Frame.java ADD void setLastFrame(boolean) METHOD
+RefactoringAction 1479308190439 Frame.java ADD void setFirstThrow(int)/2 METHOD
+RefactoringAction 1479308195952 Frame.java RENAME setFirstThrow(int)/2=>void setSecondThrow(int) METHOD
+EditAction 1479308215713 Frame.java 1324 12 13 0
