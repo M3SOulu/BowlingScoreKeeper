@@ -94,3 +94,6 @@ RefactoringAction 1479316590007 TestBowlingScoreKeeper.java RENAME frame1/2=>upm
 RefactoringAction 1479316595514 TestBowlingScoreKeeper.java ADD void testScore()/2 METHOD
 RefactoringAction 1479316600019 TestBowlingScoreKeeper.java REMOVE testScore()/2 METHOD
 EditAction 1479316694965 TestBowlingScoreKeeper.java 1806 6 13 5
+UnitTestCaseAction 1479316696558 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316696559 TestBowlingScoreKeeper FAIL
+EditAction 1479316775548 BowlingGame.java 743 5 7 0

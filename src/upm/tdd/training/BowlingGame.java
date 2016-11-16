@@ -21,7 +21,7 @@ public class BowlingGame {
 	//setta il totale, gamescore
 	public int score(){
 		int gameScore, lastScore;
-		
+		bonus.bonus();
 		
 		return 0;
 	}
