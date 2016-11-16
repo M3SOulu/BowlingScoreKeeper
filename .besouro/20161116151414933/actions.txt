@@ -159,3 +159,4 @@ RefactoringAction 1479309758072 TestBowlingScoreKeeper.java REMOVE import upm.td
 UnitTestCaseAction 1479309764392 TestBowlingScoreKeeper.java OK
 UnitTestSessionAction 1479309764400 TestBowlingScoreKeeper OK
 EditAction 1479309791625 TestBowlingScoreKeeper.java 1000 2 12 0
+EditAction 1479309815882 TestBowlingScoreKeeper.java 1021 2 13 0

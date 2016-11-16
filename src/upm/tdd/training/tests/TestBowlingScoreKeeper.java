@@ -43,7 +43,10 @@ public class TestBowlingScoreKeeper {
 	
 	@Test(expected=BowlingException.class)
 	public void testAddEleventhFrame() throws BowlingException {
-		Frame frame11 = new Frame(1,4);
+		//
+		Frame frame11;
+		//
+		frame11 = new Frame(1,4);
 		partita.addFrame(frame11);
 	}
 	
