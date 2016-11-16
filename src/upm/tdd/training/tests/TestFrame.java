@@ -10,7 +10,7 @@ public class TestFrame {
 
 	@Test
 	public void testIsStrike() {
-		assertEquals(true, new Frame( 10, 0 ) );
+		assertEquals(true, new Frame( 10, 0 ).isStrike() );
 	}
 
 }
