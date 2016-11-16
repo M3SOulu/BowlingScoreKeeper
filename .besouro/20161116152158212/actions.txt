@@ -371,3 +371,4 @@ RefactoringAction 1479315581221 TestBowlingGame.java ADD import upm.tdd.training
 RefactoringAction 1479315581221 TestBowlingGame.java ADD import upm.tdd.training.BowlingGame IMPORT
 RefactoringAction 1479315581222 TestBowlingGame.java ADD import upm.tdd.training.Frame IMPORT
 EditAction 1479315581975 TestBowlingGame.java 1956 8 26 4
+EditAction 1479315584423 TestBowlingScoreKeeper.java 273 0 0 0
