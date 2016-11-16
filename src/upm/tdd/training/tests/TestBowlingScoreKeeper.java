@@ -22,14 +22,7 @@ public class TestBowlingScoreKeeper {
 
 	}
 
-	@Test(expected = BowlingException.class)
-	public void eleventhFrameSholudNotAccepted() throws BowlingException {
-		// Arrange
-		Frame frame11;
-		// Act
-		frame11 = new Frame(1, 4);
-		partita.addFrame(frame11);
-	}
+	
 	
 	@Test
 	public void allStrikeInBowlingGamePoint() throws BowlingException{
