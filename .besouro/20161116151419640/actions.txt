@@ -391,3 +391,4 @@ RefactoringAction 1479316377590 TestBowlingScoreKeeper.java RENAME testAllNineAn
 RefactoringAction 1479316378622 TestBowlingScoreKeeper.java RENAME testAllNineAndScore()=>void testAllNineAndOneScore() METHOD
 EditAction 1479316384192 TestBowlingScoreKeeper.java 1949 9 25 5
 EditAction 1479316390832 TestBowlingScoreKeeper.java 1949 9 25 5
+EditAction 1479316400833 TestBowlingScoreKeeper.java 1949 9 25 5
