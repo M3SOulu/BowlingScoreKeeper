@@ -4,11 +4,6 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	private boolean isBonusFrame = false;
-	
-	public boolean isBonusFrame() {
-		return isBonusFrame;
-	}
 		
 
 	public int getFirstThrow() {
