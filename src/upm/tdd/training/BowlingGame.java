@@ -25,6 +25,7 @@ public class BowlingGame {
 	
 	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
 		bonus = new Frame(firstThrow, secondThrow);
+		
 	}
 	
 	public int score(){
