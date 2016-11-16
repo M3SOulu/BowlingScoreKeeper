@@ -7,26 +7,26 @@ public class Frame {
 	int points = 0;
 	
 	public Frame(int firstThrow, int secondThrow){
-		this.firstThrow = firstThrow;
+		this.setFirstThrow(firstThrow);
 		this.secondThrow = secondThrow;
 	}
 	
 	//the score of a single frame
 	public int score(){
-		points += (firstThrow + secondThrow);
+		points += (getFirstThrow() + secondThrow);
 		return points;
 	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		if(firstThrow == 10)
+		if(getFirstThrow() == 10)
 			return true;
 		return false;
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		if(firstThrow >=0 && firstThrow <9 && secondThrow == (10 - firstThrow))
+		if(getFirstThrow() >=0 && getFirstThrow() <9 && secondThrow == (10 - getFirstThrow()))
 			return true;
 		return false;
 	}
@@ -42,6 +42,14 @@ public class Frame {
 		if(isStrike() || isSpare())
 			return 1;
 		return 0;
+	}
+
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+	public void setFirstThrow(int firstThrow) {
+		this.firstThrow = firstThrow;
 	}
 
 
