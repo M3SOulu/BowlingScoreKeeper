@@ -4,8 +4,19 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	
+	//the number of this Frame in the Game
 	private int frameNumber = 0;
 	
+	public int getFrameNumber() {
+		return frameNumber;
+	}
+
+	public void setFrameNumber(int frameNumber) {
+		this.frameNumber = frameNumber;
+	}
+
+	//constructor
 	public Frame(int firstThrow, int secondThrow) throws BowlingException{
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;

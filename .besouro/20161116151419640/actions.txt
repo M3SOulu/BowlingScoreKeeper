@@ -9,3 +9,6 @@ RefactoringAction 1479306971853 Frame.java RENAME frameNum=>int frameNumber FIEL
 EditAction 1479306999398 Frame.java 922 6 8 0
 EditAction 1479307021747 Frame.java 912 6 8 0
 EditAction 1479307097399 Frame.java 993 6 8 0
+RefactoringAction 1479307131747 Frame.java ADD int getFrameNumber() METHOD
+RefactoringAction 1479307131748 Frame.java ADD void setFrameNumber(int) METHOD
+EditAction 1479307182743 Frame.java 1192 8 10 0
