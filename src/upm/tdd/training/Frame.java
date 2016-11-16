@@ -30,8 +30,7 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
-		return false;
+		return frameNumber == 10;
 	}
 
 	//bonus throws

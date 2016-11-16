@@ -7,3 +7,4 @@ RefactoringAction 1479306969807 Frame.java ADD int frame FIELD
 RefactoringAction 1479306970817 Frame.java RENAME frame=>int frameNum FIELD
 RefactoringAction 1479306971853 Frame.java RENAME frameNum=>int frameNumber FIELD
 EditAction 1479306999398 Frame.java 922 6 8 0
+EditAction 1479307021747 Frame.java 912 6 8 0
