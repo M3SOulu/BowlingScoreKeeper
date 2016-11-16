@@ -28,11 +28,18 @@ public class Frame {
 			return firstThrow+secondThrow;
 	}
 
-	public void setFirstThrow(int firstThrow) {
-		this.firstThrow = firstThrow;
+	public void setFirstThrow(int firstThrow) throws BowlingException {
+		if(firstThrow>10){
+			throw new BowlingException();
+		}
+		else
+			this.firstThrow = firstThrow;
 	}
-	public void setSecondThrow(int secondThrow) {
-		this.secondThrow = secondThrow;
+	public void setSecondThrow(int secondThrow) throws BowlingException {
+		if(secondThrow>10)
+			throw new BowlingException();
+		else	
+			this.secondThrow = secondThrow;
 	}
 
 	public void setLastFrame(boolean lastFrame) {
