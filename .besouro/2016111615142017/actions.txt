@@ -236,3 +236,10 @@ RefactoringAction 1479316392359 BowlingException.java ADD BowlingException(Strin
 RefactoringAction 1479316397268 BowlingException.java REMOVE BowlingException(String) METHOD
 RefactoringAction 1479316398775 BowlingException.java ADD BowlingException(String) METHOD
 EditAction 1479316414497 BowlingException.java 209 1 1 0
+CompilationAction 1479316414783 BowlingGame.java
+CompilationAction 1479316414784 Frame.java
+CompilationAction 1479316414784 Frame.java
+CompilationAction 1479316488911 Frame.java
+RefactoringAction 1479316499867 BowlingException.java ADD BowlingException(String)/2 METHOD
+RefactoringAction 1479316502372 BowlingException.java RENAME BowlingException(String)/2=>BowlingException() METHOD
+EditAction 1479316505732 BowlingException.java 254 2 2 0

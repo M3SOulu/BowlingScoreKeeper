@@ -9,5 +9,9 @@ public class BowlingException extends Exception {
 	public BowlingException(String string) {
 		super(string);
 	}
+	
+	public BowlingException() {
+		super();
+	}
 
 }
