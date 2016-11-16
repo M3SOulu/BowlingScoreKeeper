@@ -76,3 +76,8 @@ RefactoringAction 1479311885611 TestBowlingScoreKeeper.java RENAME testScore()=>
 RefactoringAction 1479311887115 TestBowlingScoreKeeper.java RENAME testScoreS()=>void testScoreSpare() METHOD
 CompilationAction 1479311888225 TestBowlingScoreKeeper.java
 EditAction 1479311926700 TestBowlingScoreKeeper.java 2172 2 42 2
+UnitTestCaseAction 1479311929698 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479311929708 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479311960916 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479311960917 TestBowlingScoreKeeper FAIL
+EditAction 1479312054026 TestBowlingScoreKeeper.java 2176 2 40 2
