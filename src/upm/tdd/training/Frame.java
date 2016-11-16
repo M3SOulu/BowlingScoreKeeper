@@ -6,13 +6,14 @@ public class Frame {
 	private int secondThrow;
 	private BowlingGame bowlingGameMembership = null;
 	
-	public Frame(Frame newFrame, BowlingGame bowlingGameMembership) {
-		firstThrow = newFrame.firstThrow;
-		secondThrow = newFrame.secondThrow;
+	public Frame(Frame newFrame, BowlingGame bowlingGameMembership) throws BowlingException {
+		this(newFrame.firstThrow, newFrame.secondThrow);
 		this.bowlingGameMembership = bowlingGameMembership;
 	}
 
-	public Frame(int firstThrow, int secondThrow) {
+	public Frame(int firstThrow, int secondThrow) throws BowlingException {
+		if((firstThrow + secondThrow) > 10)
+			throw new BowlingException();
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
@@ -43,7 +44,7 @@ public class Frame {
 	}
 
 	// bonus throws
-	public int bonus() {
+	private int bonus() {
 		Frame nextFrame = bowlingGameMembership.getNextFrame(this);
 		if(isSpare() && nextFrame != null)
 			return nextFrame.firstThrow;

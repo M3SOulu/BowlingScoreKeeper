@@ -83,3 +83,4 @@ RefactoringAction 1479311727651 TestFrame.java ADD import upm.tdd.training.Bowli
 RefactoringAction 1479311740405 TestFrame.java RENAME testIsSpare()/2=>void testIsScore() METHOD
 EditAction 1479311755802 BowlingGame.java 1524 6 11 0
 EditAction 1479311755946 TestFrame.java 694 3 6 3
+EditAction 1479311756079 Frame.java 1371 7 15 0
