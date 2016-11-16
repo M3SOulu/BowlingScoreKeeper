@@ -30,7 +30,7 @@ public class Frame {
 		if( firstThrow > MAX_NUMBER_OF_PINS || 
 				secondThrow > MAX_NUMBER_OF_PINS || 
 				(firstThrow + secondThrow) > MAX_NUMBER_OF_PINS ){
-			throw new BowlingException();
+			throw new BowlingException( "Invalid Bowling throws" );
 		}
 
 		count++;
