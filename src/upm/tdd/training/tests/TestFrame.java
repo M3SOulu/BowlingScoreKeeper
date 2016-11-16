@@ -22,11 +22,5 @@ public class TestFrame {
 		Frame frame = new Frame(5,5);
 		assertEquals(true, frame.isSpare());
 	}
-	
-	@Test
-	public void testIsScore() throws BowlingException {
-		Frame frame = new Frame(5,5);
-		assertEquals(10, frame.isSpare());
-	}
 
 }

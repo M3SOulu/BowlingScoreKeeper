@@ -214,3 +214,7 @@ RefactoringAction 1479315603798 Frame.java ADD void getBonus(Frame) METHOD
 RefactoringAction 1479315607825 Frame.java REMOVE getBonus(Frame) METHOD
 CompilationAction 1479315627751 Frame.java
 EditAction 1479315631068 TestFrame.java 696 3 6 3
+UnitTestCaseAction 1479315631607 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315631607 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479315641845 TestFrame.java REMOVE testIsScore() METHOD
+EditAction 1479315662227 TestFrame.java 556 2 4 2
