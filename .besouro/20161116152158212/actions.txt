@@ -133,3 +133,10 @@ EditAction 1479308875359 TestFrame.java 1565 9 19 6
 UnitTestCaseAction 1479308878871 TestFrame.java OK
 UnitTestSessionAction 1479308878871 TestFrame OK
 EditAction 1479308920263 TestFrame.java 1898 9 19 15
+UnitTestCaseAction 1479308920838 TestFrame.java OK
+UnitTestSessionAction 1479308920839 TestFrame OK
+RefactoringAction 1479308976380 Frame.java REMOVE toString() METHOD
+RefactoringAction 1479308988456 Frame.java ADD void rese FIELD
+RefactoringAction 1479308994973 Frame.java RENAME rese=>boolean reset FIELD
+RefactoringAction 1479308997983 Frame.java RENAME reset=>static boolean reset() METHOD
+EditAction 1479309044055 Frame.java 1665 7 11 0

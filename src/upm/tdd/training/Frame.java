@@ -30,6 +30,17 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
+	
+	public static boolean reset()
+	{
+		if( count == 10 ){
+			count = 0;
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
 
 	//the score of a single frame
 	public int score(){
@@ -82,10 +93,6 @@ public class Frame {
 		return 0;
 	}
 	
-	public String toString()
-	{
-		return "" + id;
-	}
 
 
 }
