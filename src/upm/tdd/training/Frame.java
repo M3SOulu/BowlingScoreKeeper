@@ -46,8 +46,12 @@ public class Frame {
 	// bonus throws
 	private int bonus() {
 		Frame nextFrame = bowlingGameMembership.getNextFrame(this);
-		if(isStrike() && nextFrame != null)
-			return (nextFrame.firstThrow + nextFrame.secondThrow);
+		if(isStrike() && nextFrame != null) {
+			if(nextFrame.isStrike())
+				return (nextFrame.firstThrow +  bowlingGameMembership.getNextFrame(nextFrame).firstThrow);
+			else
+				return (nextFrame.firstThrow + nextFrame.secondThrow);
+		}
 		if(isSpare() && nextFrame != null)
 			return nextFrame.firstThrow;
 		return 0;
