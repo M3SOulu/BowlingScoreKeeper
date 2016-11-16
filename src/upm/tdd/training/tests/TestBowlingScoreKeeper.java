@@ -38,7 +38,7 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test
-	public void testAddMoreFrame() throws BowlingException {
+	public void testAddFrameBonus() throws BowlingException {
 		//Arrage
 		Frame frame1 = new Frame(1,4);
 		Frame frame2 = new Frame(4,5);

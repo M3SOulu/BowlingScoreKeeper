@@ -113,3 +113,10 @@ UnitTestCaseAction 1479312054307 TestBowlingScoreKeeper.java OK
 UnitTestSessionAction 1479312054308 TestBowlingScoreKeeper OK
 RefactoringAction 1479312067860 TestBowlingScoreKeeper.java ADD void testAddMoreFrame()/2 METHOD
 EditAction 1479312123373 TestBowlingScoreKeeper.java 2729 4 35 4
+CompilationAction 1479312123526 TestBowlingScoreKeeper.java
+RefactoringAction 1479312128187 TestBowlingScoreKeeper.java RENAME testAddMoreFrame()/2=>void testAddFrame()/2 METHOD
+RefactoringAction 1479312132729 TestBowlingScoreKeeper.java RENAME testAddFrame()/2=>void testAddFrameBonus() METHOD
+CompilationAction 1479312134832 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479312135314 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479312135315 TestBowlingScoreKeeper.testAddFrameBonus FAIL
+EditAction 1479312336891 BowlingGame.java 1671 8 13 0

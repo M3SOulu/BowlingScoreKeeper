@@ -22,7 +22,7 @@ public class BowlingGame {
 	public BowlingGame() {}
 
 	public void addFrame(Frame frame) throws BowlingException {
-		if (isNextFrameBonus() && frames.get(MAX_SIZE_FRAMES-1).isStrike()) {
+		if (isNextFrameBonus() && (frames.get(MAX_SIZE_FRAMES-1).isStrike() || frames.get(MAX_SIZE_FRAMES-1).isSpare())) {
 			bonus = new Frame(frame, this);
 		} else
 			frames.add(new Frame(frame, this));
