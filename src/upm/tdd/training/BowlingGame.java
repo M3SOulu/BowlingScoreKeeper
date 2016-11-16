@@ -10,9 +10,9 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame) throws BowlingException{
-		if(frames.size()<10)
+		if(frames.size()<=10)
 			frames.add(frame);
-		if (frames.size()==10)
+		if (frames.size()>10)
 			setBonus(frame.getFirstThrow(), frame.getSecondThrow());
 	}
 	

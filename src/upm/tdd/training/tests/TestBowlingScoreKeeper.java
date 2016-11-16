@@ -24,6 +24,7 @@ public class TestBowlingScoreKeeper {
 		test.addFrame(new Frame(6, 4));
 		test.addFrame(new Frame(10, 0));
 		test.addFrame(new Frame(2, 8));
+		test.addFrame(new Frame(6, 0));
 		
 		assertEquals(133, test.score());
 	}
