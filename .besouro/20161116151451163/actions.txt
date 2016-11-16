@@ -139,3 +139,12 @@ EditAction 1479310828433 BowlingGame.java 726 6 6 0
 EditAction 1479310828576 TestBowlingScoreKeeper.java 548 2 2 0
 CompilationAction 1479310828715 TestBowlingScoreKeeper.java
 EditAction 1479310894224 TestBowlingScoreKeeper.java 605 2 5 1
+UnitTestCaseAction 1479310897505 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479310897512 TestBowlingScoreKeeper OK
+RefactoringAction 1479310926944 TestBowlingScoreKeeper.java ADD void test FIELD
+RefactoringAction 1479310939953 TestBowlingScoreKeeper.java RENAME test=>void testMaxFrames FIELD
+RefactoringAction 1479310940961 TestBowlingScoreKeeper.java RENAME testMaxFrames=>void testMaxFrames() METHOD
+RefactoringAction 1479311053552 TestBowlingScoreKeeper.java RENAME testMaxFrames()=>void testMFrames() METHOD
+RefactoringAction 1479311054569 TestBowlingScoreKeeper.java RENAME testMFrames()=>void testFrames() METHOD
+RefactoringAction 1479311058086 TestBowlingScoreKeeper.java RENAME testFrames()=>void testAddTenFrames() METHOD
+EditAction 1479311100882 TestBowlingScoreKeeper.java 1057 3 17 2

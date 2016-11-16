@@ -50,3 +50,7 @@
 1479309946339 test-first 3 857 true
 1479309946340 test-first 3 857 true
 1479309946341 test-first 3 857 true
+1479310897512 test-last 1 654 false
+1479310897513 test-first 4 654 true
+1479310897514 test-last 1 654 false
+1479310897515 test-last 1 654 false
