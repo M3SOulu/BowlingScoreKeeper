@@ -11,6 +11,14 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus = null;
 
+	public List<Frame> getFrames() {
+		return frames;
+	}
+
+	public Frame getBonus() {
+		return bonus;
+	}
+
 	public BowlingGame() {}
 
 	public void addFrame(Frame frame) throws BowlingException {

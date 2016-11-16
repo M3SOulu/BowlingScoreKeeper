@@ -84,3 +84,15 @@ RefactoringAction 1479311740405 TestFrame.java RENAME testIsSpare()/2=>void test
 EditAction 1479311755802 BowlingGame.java 1524 6 11 0
 EditAction 1479311755946 TestFrame.java 694 3 6 3
 EditAction 1479311756079 Frame.java 1371 7 15 0
+UnitTestCaseAction 1479311756634 TestFrame.java FAIL
+UnitTestSessionAction 1479311756643 TestFrame FAIL
+RefactoringAction 1479311813515 TestFrame.java REMOVE import org.junit.Before IMPORT
+UnitTestCaseAction 1479311818641 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479311818642 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479311883490 BowlingGame.java ADD List<Frame> getFrames() METHOD
+RefactoringAction 1479311883490 BowlingGame.java ADD Frame getBonus() METHOD
+RefactoringAction 1479311897660 TestBowlingScoreKeeper.java RENAME test()=>void testGeme() METHOD
+RefactoringAction 1479311903680 TestBowlingScoreKeeper.java ADD void testGeme()/2 METHOD
+RefactoringAction 1479311907706 TestBowlingScoreKeeper.java RENAME testGeme()/2=>void testAdd() METHOD
+RefactoringAction 1479311911247 TestBowlingScoreKeeper.java RENAME testAdd()=>void testAddFrame() METHOD
+EditAction 1479311970498 BowlingGame.java 1626 8 13 0
