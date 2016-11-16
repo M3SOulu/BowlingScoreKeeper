@@ -8,3 +8,5 @@ CompilationAction 1479306972786 BowlingGame.java
 CompilationAction 1479307203359 BowlingGame.java
 RefactoringAction 1479307259770 Frame.java REMOVE totalFrame FIELD
 EditAction 1479307260428 Frame.java 853 6 10 0
+CompilationAction 1479307260755 Frame.java
+EditAction 1479307262267 BowlingGame.java 584 5 3 0
