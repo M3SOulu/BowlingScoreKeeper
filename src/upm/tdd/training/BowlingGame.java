@@ -18,6 +18,8 @@ public class BowlingGame {
 		for(int i=0;i<frames.size();i++){
 			if(frames.get(i).bonus() == 1)
 				frames.get(i).points += frames.get(i+1).getFirstThrow();
+			else if(frames.get(i).bonus() == 2)
+				
 		}
 	}
 	
