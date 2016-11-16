@@ -114,3 +114,6 @@ UnitTestSessionAction 1479309315252 TestsFrame FAIL
 RefactoringAction 1479309321745 TestsFrame.java REMOVE testStrike1() METHOD
 EditAction 1479309601877 Frame.java 1260 6 19 0
 EditAction 1479309943112 Frame.java 1308 6 18 0
+UnitTestCaseAction 1479309946323 TestsFrame.java OK
+UnitTestSessionAction 1479309946326 TestsFrame OK
+EditAction 1479310242987 BowlingGame.java 585 5 2 0
