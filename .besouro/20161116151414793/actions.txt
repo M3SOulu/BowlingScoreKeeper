@@ -17,3 +17,4 @@ RefactoringAction 1479310565185 Frame.java REMOVE thirdThrow FIELD
 RefactoringAction 1479311674472 Frame.java ADD int bonus FIELD
 RefactoringAction 1479311677009 Frame.java RENAME bonus=>int bonusThrow FIELD
 EditAction 1479311798344 Frame.java 1101 10 11 0
+EditAction 1479312008737 BowlingGame.java 886 5 6 0
