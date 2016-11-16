@@ -30,7 +30,7 @@ public class BowlingGame {
 		int result = 0;
 		for (Frame frameTemp : frames)
 			result += frameTemp.score();
-		return result + bonus.score();
+		return result + ((bonus != null)?bonus.score():0);
 	}
 
 	public boolean isNextFrameBonus() throws BowlingException {
