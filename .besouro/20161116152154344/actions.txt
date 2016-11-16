@@ -158,3 +158,4 @@ RefactoringAction 1479314663476 Frame.java RENAME getFirstThrow()/2=>int getSeco
 EditAction 1479314721027 BowlingGame.java 1316 5 10 0
 EditAction 1479314721139 Frame.java 1162 9 12 0
 EditAction 1479314721348 TestBowlingScoreKeeper.java 741 3 6 1
+EditAction 1479314734234 TestBowlingScoreKeeper.java 741 3 6 1
