@@ -20,6 +20,7 @@ public class BowlingGame {
 		}else if(frames.get(frames.size()-1).isSpare()){
 			addFrameWithPreviousFrameSpare(frame);
 		}else{
+			frame.setScore();
 			frames.add(frame);
 			gameScore += frame.score();
 		}
@@ -52,9 +53,9 @@ public class BowlingGame {
 	private void addFrameWithPreviousFrameSpare(Frame frame){
 		//da controllare
 		Frame f = getLastFrame();
-		int bonus = f.getFirstThrow();
-		frame.setScoreWithBonus(bonus);
-		gameScore += frame.score();
+		int bonus = frame.getFirstThrow();
+		f.setScoreWithBonus(bonus);
+		gameScore += f.score();
 	}
 	
 	private void addFrameWithPreviousFrameStrike(Frame frame){

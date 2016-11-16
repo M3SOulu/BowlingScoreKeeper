@@ -135,3 +135,7 @@ EditAction 1479313761967 BowlingGame.java 2106 9 16 0
 UnitTestCaseAction 1479313762680 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479313762681 TestBowlingScoreKeeper FAIL
 EditAction 1479313814060 BowlingGame.java 2100 9 19 0
+RefactoringAction 1479313908656 TestBowlingScoreKeeper.java RENAME import org.junit.Assert.*=>import org.junit.Assert.assertTrue IMPORT
+UnitTestCaseAction 1479313917414 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313917415 TestBowlingScoreKeeper FAIL
+EditAction 1479314231915 BowlingGame.java 2117 9 19 0

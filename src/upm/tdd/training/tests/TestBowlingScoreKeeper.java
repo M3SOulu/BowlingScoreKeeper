@@ -1,6 +1,6 @@
 package upm.tdd.training.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -35,10 +35,9 @@ public class TestBowlingScoreKeeper {
 		game.addFrame(frame);
 		Frame frame1 = new Frame(4,3);
 		game.addFrame(frame1);
-		int scoreFirstFrame = frame1.score();
 		
 		//Assert
-		assertTrue("score is 17", scoreFirstFrame == 17);
+		assertTrue("score is 17", frame1.score()+frame.score() == 17);
 	}
 
 }
