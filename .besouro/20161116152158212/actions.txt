@@ -190,3 +190,7 @@ EditAction 1479311753146 Frame.java 1776 8 12 0
 EditAction 1479311788043 BowlingGame.java 739 5 6 0
 EditAction 1479311809425 Frame.java 1774 8 12 0
 EditAction 1479311815608 Frame.java 1773 8 12 0
+RefactoringAction 1479311906713 TestFrame.java ADD void testIsNotSpare()/2 METHOD
+RefactoringAction 1479311912227 TestFrame.java RENAME testIsNotSpare()/2=>void test2() METHOD
+RefactoringAction 1479311913745 TestFrame.java RENAME test2()=>void test2Bonus() METHOD
+EditAction 1479311925860 TestFrame.java 2019 10 20 16

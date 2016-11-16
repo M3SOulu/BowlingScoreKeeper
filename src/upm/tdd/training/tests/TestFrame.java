@@ -63,5 +63,11 @@ public class TestFrame {
 	public void testIsNotSpare() throws BowlingException {
 		assertEquals( false, new Frame( 5, 4 ).isSpare() );
 	}
+	
+	@Test
+	public void test2Bonus() throws BowlingException {
+		assertEquals( 2, new Frame( 10, 0 ).bonus() );
+	}
+	
 
 }
