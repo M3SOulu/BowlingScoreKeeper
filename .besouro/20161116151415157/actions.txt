@@ -40,3 +40,4 @@ RefactoringAction 1479309052760 Frame.java RENAME addToScore(int)=>void setScore
 CompilationAction 1479309058131 BowlingGame.java
 CompilationAction 1479309058299 BowlingGame.java
 EditAction 1479309067009 Frame.java 1318 10 10 0
+EditAction 1479309159703 Frame.java 1336 10 10 0

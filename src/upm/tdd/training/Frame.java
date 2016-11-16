@@ -23,7 +23,7 @@ public class Frame {
 	}
 
 	public void addToScore(int score) {
-		this.frameScore = score;
+		this.frameScore = this.frameScore + score;
 	}
 
 	// returns whether the frame is a strike or not
