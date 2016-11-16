@@ -11,15 +11,15 @@ public class TestFrame {
 
 	@Test
 	public void testIsLastFrame() throws BowlingException{
-		new Frame(0, 0);
-		new Frame(0, 0);
-		new Frame(0, 0);
-		new Frame(0, 0);
-		new Frame(0, 0);
-		new Frame(0, 0);
-		new Frame(0, 0);
-		new Frame(0, 0);
-		new Frame(0, 0);
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
+		assertEquals( false, new Frame(0, 0).isLastFrame() );
 		assertEquals( true, new Frame(0, 0).isLastFrame() );
 	}
 	

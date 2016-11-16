@@ -130,3 +130,6 @@ UnitTestCaseAction 1479308712468 TestFrame.java OK
 UnitTestSessionAction 1479308712469 TestFrame OK
 RefactoringAction 1479308827926 TestFrame.java ADD void testIsLastFrame() METHOD
 EditAction 1479308875359 TestFrame.java 1565 9 19 6
+UnitTestCaseAction 1479308878871 TestFrame.java OK
+UnitTestSessionAction 1479308878871 TestFrame OK
+EditAction 1479308920263 TestFrame.java 1898 9 19 15
