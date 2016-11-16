@@ -57,4 +57,7 @@ public class BowlingGame {
 		return false;
 	}
 
+	public boolean isFull(){
+		return frames.size();
+	}
 }

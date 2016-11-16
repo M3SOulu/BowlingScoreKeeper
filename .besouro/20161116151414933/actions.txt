@@ -422,3 +422,6 @@ RefactoringAction 1479316056904 TestBowlingScoreKeeper.java RENAME sizeOfBowling
 RefactoringAction 1479316061419 TestBowlingScoreKeeper.java RENAME sizeOfBowlingFrameIs=>void sizeOfBowlingFrameIsMaxPossibile() METHOD
 EditAction 1479316074191 TestBowlingScoreKeeper.java 910 4 5 2
 EditAction 1479316082314 TestBowlingScoreKeeper.java 975 4 6 2
+CompilationAction 1479316082608 TestBowlingScoreKeeper.java
+RefactoringAction 1479316179696 BowlingGame.java ADD boolean isFull() METHOD
+EditAction 1479316199394 BowlingGame.java 1387 6 10 0
