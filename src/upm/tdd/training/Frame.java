@@ -22,14 +22,9 @@ public class Frame {
 
 
 	//constructor
-	public Frame(int firstThrow, int secondThrow) throws BowlingException{
+	public Frame(int firstThrow, int secondThrow) {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
-		if(frameNumber > 9){
-			if(frameNumber > 10) throw new BowlingException();
-			else isBonusFrame = true;
-		}
-		else frameNumber++;
 	}
 	
 	//the score of a single frame
@@ -49,7 +44,8 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		return frameNumber == 10;
+		
+		return false;
 	}
 
 	//bonus throws

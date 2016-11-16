@@ -173,3 +173,10 @@ UnitTestSessionAction 1479312304127 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479312382734 BowlingGame.java ADD int frameNumber FIELD
 EditAction 1479312395984 BowlingGame.java 1198 5 11 0
 EditAction 1479312407605 Frame.java 1251 9 11 0
+CompilationAction 1479312407848 Frame.java
+CompilationAction 1479312421838 Frame.java
+CompilationAction 1479312422007 Frame.java
+CompilationAction 1479312423982 Frame.java
+CompilationAction 1479312424138 Frame.java
+CompilationAction 1479312437101 Frame.java
+EditAction 1479312441036 Frame.java 1087 9 10 0
