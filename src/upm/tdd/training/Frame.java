@@ -83,7 +83,7 @@ public class Frame {
 			return true;
 		}
 		else if( id == MAX_NUMBER_OF_FRAMES && !isSpare() && !isStrike() ){
-			
+			return true;
 		}
 		else{
 			return false;
