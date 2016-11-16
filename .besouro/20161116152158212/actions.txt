@@ -506,3 +506,4 @@ UnitTestSessionAction 1479316672246 TestBowlingScoreKeeper OK
 UnitTestCaseAction 1479316676196 AllTests.java OK
 UnitTestSessionAction 1479316676197 AllTests OK
 FileOpenedAction 1479316700691 BowlingGame.java 1656 5 11 0
+FileOpenedAction 1479316796425 BowlingException.java 283 2 2 0
