@@ -187,3 +187,9 @@ EditAction 1479314234137 TestBowlingScoreKeeper.java 1472 4 27 2
 UnitTestCaseAction 1479314234609 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314234614 TestBowlingScoreKeeper FAIL
 EditAction 1479314265936 TestBowlingScoreKeeper.java 1472 4 27 2
+UnitTestCaseAction 1479314266437 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314266438 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479314343834 TestBowlingScoreKeeper.java REMOVE tutti_10_score_equals_300() METHOD
+RefactoringAction 1479314343834 TestBowlingScoreKeeper.java REMOVE test() METHOD
+RefactoringAction 1479314347751 TestBowlingScoreKeeper.java ADD void test() METHOD
+EditAction 1479314353094 TestBowlingScoreKeeper.java 1476 3 15 1
