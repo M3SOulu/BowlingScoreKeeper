@@ -43,6 +43,10 @@ public class BowlingGame {
 			bonus = frame.bonus();
 		}
 		
+		if( bonus != null ){
+			score += bonus.score();
+		}
+		
 		return score;
 	}
 	
