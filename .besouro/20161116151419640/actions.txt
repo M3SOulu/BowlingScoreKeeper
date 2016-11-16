@@ -339,3 +339,4 @@ RefactoringAction 1479314965539 TestBowlingScoreKeeper.java RENAME testNoThrows(
 RefactoringAction 1479314968546 TestBowlingScoreKeeper.java RENAME testThrows()=>void test() METHOD
 RefactoringAction 1479314973052 TestBowlingScoreKeeper.java RENAME test()=>void testGameNotFinished() METHOD
 EditAction 1479314979530 TestBowlingScoreKeeper.java 1487 7 16 3
+EditAction 1479314987130 TestBowlingScoreKeeper.java 1503 7 17 3
