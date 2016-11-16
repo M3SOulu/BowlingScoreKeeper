@@ -36,5 +36,22 @@ public class TestBowlingScoreKeeper {
 		
 		assertEquals(30, b.score());
 	}
+	
+	@Test
+	public void TesBonusStripeScore() throws BowlingException
+	{
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 5, 5 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		
+		assertEquals(38, b.score());
+	}
 
 }
