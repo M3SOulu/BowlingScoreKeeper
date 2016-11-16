@@ -48,6 +48,6 @@ public class Frame {
 
 	// bonus throws
 	public int bonus() {
-		return firstThrow;
+		return firstThrow*2;
 	}
 }
