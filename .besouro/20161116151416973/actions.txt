@@ -16,3 +16,12 @@ RefactoringAction 1479307617104 Frame.java RENAME get=>int getSecond FIELD
 RefactoringAction 1479307618621 Frame.java RENAME getSecond=>int getSecondThrow FIELD
 RefactoringAction 1479307620140 Frame.java RENAME getSecondThrow=>int getSecondThrow() METHOD
 EditAction 1479307628971 Frame.java 984 8 13 0
+RefactoringAction 1479307739426 Frame.java ADD int third FIELD
+RefactoringAction 1479307741439 Frame.java RENAME third=>int thirdThrow FIELD
+RefactoringAction 1479307752040 Frame.java ADD int getTh FIELD
+RefactoringAction 1479307753053 Frame.java RENAME getTh=>int getThird FIELD
+RefactoringAction 1479307758067 Frame.java RENAME getThird=>int getThirdT FIELD
+RefactoringAction 1479307759620 Frame.java RENAME getThirdT=>int getThirdTh FIELD
+RefactoringAction 1479307761138 Frame.java RENAME getThirdTh=>int getThirdThrow FIELD
+RefactoringAction 1479307762149 Frame.java RENAME getThirdThrow=>int getThirdThrow() METHOD
+EditAction 1479307775772 Frame.java 1088 9 13 0

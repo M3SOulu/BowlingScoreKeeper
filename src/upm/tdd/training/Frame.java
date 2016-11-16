@@ -4,10 +4,15 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int thirdThrow;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+	}
+	
+	public int getThirdThrow() {
+		return this.thirdThrow;
 	}
 	
 	public int getFirstThrow() {
@@ -48,8 +53,11 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
-		return false;
+		boolean result = false;
+		
+		if()
+		
+		return result;
 	}
 
 	//bonus throws
