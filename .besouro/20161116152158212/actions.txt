@@ -140,3 +140,4 @@ RefactoringAction 1479308988456 Frame.java ADD void rese FIELD
 RefactoringAction 1479308994973 Frame.java RENAME rese=>boolean reset FIELD
 RefactoringAction 1479308997983 Frame.java RENAME reset=>static boolean reset() METHOD
 EditAction 1479309044055 Frame.java 1665 7 11 0
+EditAction 1479309081201 Frame.java 1789 7 11 0

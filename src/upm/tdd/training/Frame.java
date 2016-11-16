@@ -31,6 +31,11 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	/**
+	 * reset the match counting
+	 * @return false if the match is nto already finished
+	 * 			true if it is finished
+	 */
 	public static boolean reset()
 	{
 		if( count == 10 ){
