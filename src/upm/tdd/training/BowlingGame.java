@@ -63,15 +63,11 @@ public class BowlingGame {
 	public Frame getNextFrame(Frame frame) {
 		int indexFrames = frames.indexOf(frame)+1;
 		Frame resultFrame = null;
-		switch (indexFrames) {
-		case 10:
-			resultFrame = bonus;
-			break;
-		case 11:
-			break;
-		default:
+		if(indexFrames < MAX_SIZE_FRAMES)
 			resultFrame = frames.get(indexFrames);
-			break;
+		else {
+			if(indexFrames == MAX_SIZE_FRAMES)
+				resultFrame = bonus;
 		}
 		return resultFrame;
 	}
