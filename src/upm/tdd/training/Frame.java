@@ -88,6 +88,11 @@ public class Frame {
 		return bonus;
 	}
 	
+	/**
+	 * 
+	 * @param firstThrow
+	 * @param secondThrow
+	 */
 	public void setBonus( int firstThrow, int secondThrow )
 	{
 		if( isSpare() ){
