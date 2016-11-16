@@ -24,7 +24,8 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		// to be implemented
 	}
-
+	
+	// the score of entire game
 	public int score() {
 		// to be implemented
 		return 0;

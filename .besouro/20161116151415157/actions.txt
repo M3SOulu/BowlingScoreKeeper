@@ -27,3 +27,4 @@ RefactoringAction 1479308291793 Frame.java RENAME isGoodThrow()=>boolean areGood
 RefactoringAction 1479308296810 Frame.java RENAME areGoodThrows()=>boolean areValidThrows() METHOD
 RefactoringAction 1479308325413 Frame.java RENAME areValidThrows()=>boolean areNotValidThrows() METHOD
 EditAction 1479308350338 Frame.java 1182 9 9 0
+EditAction 1479308557429 Frame.java 1207 9 9 0
