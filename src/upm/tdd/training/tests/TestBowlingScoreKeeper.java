@@ -20,6 +20,7 @@ public class TestBowlingScoreKeeper {
 		b = new BowlingGame();
 	}
 	
+	@Test
 	public void TesSimpleScore() throws BowlingException
 	{
 		b.addFrame( new Frame( 1, 2 )  );

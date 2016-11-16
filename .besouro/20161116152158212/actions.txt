@@ -391,3 +391,6 @@ CompilationAction 1479315644367 TestBowlingScoreKeeper.java
 CompilationAction 1479315647570 TestBowlingScoreKeeper.java
 RefactoringAction 1479315651412 TestBowlingScoreKeeper.java RENAME TesScore()=>void TesSimpleScore() METHOD
 EditAction 1479315671785 TestBowlingScoreKeeper.java 863 2 13 1
+UnitTestCaseAction 1479315674616 TestBowlingGame.java OK
+UnitTestSessionAction 1479315674617 TestBowlingGame OK
+EditAction 1479315683335 TestBowlingScoreKeeper.java 870 2 13 1
