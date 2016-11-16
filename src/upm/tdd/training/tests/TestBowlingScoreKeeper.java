@@ -48,5 +48,7 @@ public class TestBowlingScoreKeeper {
 		frame11 = new Frame(1, 4);
 		partita.addFrame(frame11);
 	}
+	
+	
 
 }
