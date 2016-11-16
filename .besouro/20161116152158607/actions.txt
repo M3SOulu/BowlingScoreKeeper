@@ -196,3 +196,6 @@ EditAction 1479314353094 TestBowlingScoreKeeper.java 1476 3 15 1
 FileOpenedAction 1479314410638 BowlingGame.java 1554 5 7 0
 FileOpenedAction 1479314411670 BowlingGame.java 1554 5 7 0
 EditAction 1479314519610 BowlingGame.java 1554 5 7 0
+RefactoringAction 1479314577956 TestBowlingScoreKeeper.java ADD void tutti_10_score_equals_300() METHOD
+RefactoringAction 1479314577960 TestBowlingScoreKeeper.java ADD void tutti_10_score_equals_300() METHOD
+EditAction 1479314580216 TestBowlingScoreKeeper.java 1472 4 27 2
