@@ -58,3 +58,15 @@ EditAction 1479307880304 BowlingException.java 283 2 2 0
 EditAction 1479307892973 Frame.java 1184 6 8 0
 RefactoringAction 1479307922313 TestFrame.java ADD void createInvalidFrame() METHOD
 EditAction 1479307955216 TestFrame.java 819 5 5 4
+CompilationAction 1479307955346 TestFrame.java
+CompilationAction 1479307961018 TestFrame.java
+UnitTestCaseAction 1479307963349 TestFrame.java OK
+UnitTestSessionAction 1479307963350 TestFrame OK
+RefactoringAction 1479307971565 TestFrame.java RENAME createInvalidFrame()=>void createInvalidFrame14() METHOD
+RefactoringAction 1479307972572 TestFrame.java RENAME createInvalidFrame14()=>void createInvalidFrame1() METHOD
+RefactoringAction 1479307976579 TestFrame.java ADD void createInvalidFrame1()/2 METHOD
+RefactoringAction 1479307977584 TestFrame.java ADD void createInvalidFrame1()/3 METHOD
+RefactoringAction 1479307980098 TestFrame.java RENAME createInvalidFrame1()/3=>void createInvalidFrame2() METHOD
+RefactoringAction 1479307987627 TestFrame.java RENAME createInvalidFrame1()/2=>void createInvalidFrame3() METHOD
+RefactoringAction 1479307997157 TestFrame.java ADD void createInvalidFrame3()/2 METHOD
+EditAction 1479308007085 TestFrame.java 1211 8 8 4

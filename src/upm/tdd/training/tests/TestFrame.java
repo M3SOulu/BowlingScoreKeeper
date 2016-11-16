@@ -10,8 +10,23 @@ import upm.tdd.training.Frame;
 public class TestFrame {
 
 	@Test(expected = BowlingException.class)
-	public void createInvalidFrame(){
+	public void createInvalidFrame1() throws BowlingException{
 		new Frame( 11, 0 );
+	}
+	
+	@Test(expected = BowlingException.class)
+	public void createInvalidFrame2() throws BowlingException{
+		new Frame( 0, 11 );
+	}
+	
+	@Test(expected = BowlingException.class)
+	public void createInvalidFrame3() throws BowlingException{
+		new Frame( 11, 11 );
+	}
+	
+	@Test
+	public void createInvalidFrame3() throws BowlingException{
+		new Frame( 0, 0 );
 	}
 	
 	@Test
