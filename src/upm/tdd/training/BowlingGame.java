@@ -19,7 +19,7 @@ public class BowlingGame {
 			if(frames.get(i).bonus() == 1)
 				frames.get(i).points += frames.get(i+1).getFirstThrow();
 			else if(frames.get(i).bonus() == 2)
-				
+				frames.get(i).points += (frames.get(i+1).getFirstThrow() + frames.get(i+1).getSecondThrow());
 		}
 	}
 	
