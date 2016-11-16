@@ -421,3 +421,4 @@ RefactoringAction 1479316055393 TestBowlingScoreKeeper.java RENAME sizeOfPartita
 RefactoringAction 1479316056904 TestBowlingScoreKeeper.java RENAME sizeOfBowlingFrameIs10=>void sizeOfBowlingFrameIs FIELD
 RefactoringAction 1479316061419 TestBowlingScoreKeeper.java RENAME sizeOfBowlingFrameIs=>void sizeOfBowlingFrameIsMaxPossibile() METHOD
 EditAction 1479316074191 TestBowlingScoreKeeper.java 910 4 5 2
+EditAction 1479316082314 TestBowlingScoreKeeper.java 975 4 6 2

@@ -42,7 +42,10 @@ public class TestBowlingScoreKeeper {
 	
 	@Test
 	public void sizeOfBowlingFrameIsMaxPossibile(){
+		for(int i=0;i<10;i++){
+			partita.addFrame(new Frame(10));
 		
+		}
 	}
 	
 	
