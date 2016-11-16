@@ -13,7 +13,7 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame){
 		frameIndex++;
-		frames.add(frame);	
+		frames.add(frameIndex,frame);	
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
