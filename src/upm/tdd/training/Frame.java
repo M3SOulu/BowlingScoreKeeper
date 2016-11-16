@@ -3,6 +3,7 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int totalFrame;
 	
 
 	public Frame(int firstThrow, int secondThrow) {
@@ -12,8 +13,7 @@ public class Frame {
 
 	// the score of a single frame
 	public int score() {
-		totalFrame+=this.firstThrow;
-		return totalFrame;
+		return this.firstThrow+this.secondThrow;
 	}
 
 	// returns whether the frame is a strike or not
