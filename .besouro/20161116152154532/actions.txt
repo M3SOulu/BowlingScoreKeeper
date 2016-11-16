@@ -45,3 +45,21 @@ RefactoringAction 1479314183714 TestBowlingScoreKeeper.java ADD import upm.tdd.t
 RefactoringAction 1479314193413 BowlingGame.java REMOVE import javax.print.attribute.Size2DSyntax IMPORT
 CompilationAction 1479314193842 BowlingGame.java
 EditAction 1479314193866 TestBowlingScoreKeeper.java 240 1 0 0
+CompilationAction 1479314196317 TestBowlingScoreKeeper.java
+RefactoringAction 1479314225792 TestBowlingScoreKeeper.java ADD BowlingGame test FIELD
+RefactoringAction 1479314263850 TestBowlingScoreKeeper.java RENAME test=>BowlingGame test1 FIELD
+RefactoringAction 1479314288376 TestBowlingScoreKeeper.java ADD TestBowlingScoreKeeper() METHOD
+RefactoringAction 1479314290881 TestBowlingScoreKeeper.java REMOVE TestBowlingScoreKeeper() METHOD
+CompilationAction 1479314298688 TestBowlingScoreKeeper.java
+CompilationAction 1479314298816 TestBowlingScoreKeeper.java
+RefactoringAction 1479314333415 TestBowlingScoreKeeper.java RENAME test1=>BowlingGame cia FIELD
+RefactoringAction 1479314334419 TestBowlingScoreKeeper.java RENAME cia=>BowlingGame ciao FIELD
+CompilationAction 1479314336016 TestBowlingScoreKeeper.java
+RefactoringAction 1479314375942 TestBowlingScoreKeeper.java REMOVE ciao FIELD
+RefactoringAction 1479314425476 TestBowlingScoreKeeper.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1479314425476 TestBowlingScoreKeeper.java ADD import java.util.List IMPORT
+RefactoringAction 1479314425476 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479314604924 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+RefactoringAction 1479314732170 Frame.java ADD int getFirstThrow()/2 METHOD
+RefactoringAction 1479314737176 Frame.java RENAME getFirstThrow()/2=>int getSecondThrow() METHOD
+EditAction 1479314829693 Frame.java 1312 8 14 0

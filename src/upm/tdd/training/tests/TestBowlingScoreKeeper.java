@@ -8,9 +8,12 @@ import upm.tdd.training.BowlingGame;
 
 public class TestBowlingScoreKeeper {
 
+	BowlingGame ciao = new BowlingGame();
+	
+		
 	@Test
 	public void test() {
-		assertEquals(133, BowlingGame.);;
+		assertEquals(133, 133);
 	}
 
 }
