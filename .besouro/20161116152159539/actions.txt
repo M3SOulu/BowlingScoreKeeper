@@ -96,3 +96,5 @@ CompilationAction 1479312595649 TestBowlingScoreKeeper.java
 RefactoringAction 1479312715699 Frame.java ADD int secondThrow/2 FIELD
 RefactoringAction 1479312719213 Frame.java RENAME secondThrow/2=>int thirdThrow FIELD
 EditAction 1479312731086 Frame.java 1345 10 16 0
+CompilationAction 1479312731231 TestBowlingScoreKeeper.java
+EditAction 1479312731255 TestBowlingScoreKeeper.java 2201 2 43 2

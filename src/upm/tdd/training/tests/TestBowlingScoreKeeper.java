@@ -14,8 +14,7 @@ public class TestBowlingScoreKeeper {
 	
 	@Test
 	public void testScoreNormal() {
-		Frame f1;
-		f1.setFirstThrow(2);
+		Frame f1 = new Frame(1,2);
 		game.getFrames().get(0).setFirstThrow(2);
 		game.getFrames().get(0).setSecondThrow(2);
 		game.getFrames().get(1).setFirstThrow(1);
