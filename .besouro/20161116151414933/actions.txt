@@ -132,3 +132,19 @@ CompilationAction 1479309553621 TestBowlingScoreKeeper.java
 EditAction 1479309662930 TestBowlingScoreKeeper.java 1028 2 12 0
 FileOpenedAction 1479309679934 BowlingException.java 148 0 0 0
 EditAction 1479309702763 TestBowlingScoreKeeper.java 1014 2 12 0
+CompilationAction 1479309703033 TestBowlingScoreKeeper.java
+CompilationAction 1479309703033 TestBowlingScoreKeeper.java
+RefactoringAction 1479309717436 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+RefactoringAction 1479309727280 CannotCreateAnotherFrame.java REMOVE CannotCreateAnotherFrame.java CLASS
+CompilationAction 1479309727546 BowlingGame.java
+CompilationAction 1479309727547 TestBowlingScoreKeeper.java
+CompilationAction 1479309727547 TestBowlingScoreKeeper.java
+CompilationAction 1479309727547 TestBowlingScoreKeeper.java
+CompilationAction 1479309727548 TestBowlingScoreKeeper.java
+CompilationAction 1479309727548 TestBowlingScoreKeeper.java
+CompilationAction 1479309740956 BowlingGame.java
+CompilationAction 1479309741127 TestBowlingScoreKeeper.java
+CompilationAction 1479309741127 TestBowlingScoreKeeper.java
+CompilationAction 1479309741128 TestBowlingScoreKeeper.java
+CompilationAction 1479309741128 TestBowlingScoreKeeper.java
+EditAction 1479309742430 TestBowlingScoreKeeper.java 1080 2 12 0

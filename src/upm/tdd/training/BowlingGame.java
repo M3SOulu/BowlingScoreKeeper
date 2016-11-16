@@ -11,8 +11,8 @@ public class BowlingGame {
 		
 	}
 	
-	public void addFrame(Frame frame) throws CannotCreateAnotherFrame{
-		if(frames.size()==10)throw new CannotCreateAnotherFrame();
+	public void addFrame(Frame frame) throws BowlingException{
+		if(frames.size()==10)throw new BowlingException();
 		frames.add(frame);
 	}
 	
@@ -21,11 +21,10 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		int temp = 0;
-		for(int i=0;i<frames.size();i++){
-			temp=frames.get(i).score();
-		}
-		return temp;
+		
+		int score = 0;
+		
+		return score;
 	}
 	
 	public boolean isNextFrameBonus(){
