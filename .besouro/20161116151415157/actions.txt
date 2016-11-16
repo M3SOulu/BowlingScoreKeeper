@@ -18,3 +18,12 @@ RefactoringAction 1479307866793 BowlingGame.java ADD int MAX_FRAMES_SIZE FIELD
 RefactoringAction 1479308010655 BowlingGame.java REMOVE MAX_FRAMES_SIZE FIELD
 RefactoringAction 1479308013183 BowlingGame.java ADD int MAX_FRAMES_SIZE FIELD
 EditAction 1479308147998 Frame.java 1056 8 10 0
+RefactoringAction 1479308231654 Frame.java ADD boolean is FIELD
+RefactoringAction 1479308247676 Frame.java REMOVE is FIELD
+RefactoringAction 1479308259683 Frame.java ADD boolean is FIELD
+RefactoringAction 1479308266188 Frame.java RENAME is=>boolean isGoodThrow FIELD
+RefactoringAction 1479308277769 Frame.java RENAME isGoodThrow=>boolean isGoodThrow() METHOD
+RefactoringAction 1479308291793 Frame.java RENAME isGoodThrow()=>boolean areGoodThrows() METHOD
+RefactoringAction 1479308296810 Frame.java RENAME areGoodThrows()=>boolean areValidThrows() METHOD
+RefactoringAction 1479308325413 Frame.java RENAME areValidThrows()=>boolean areNotValidThrows() METHOD
+EditAction 1479308350338 Frame.java 1182 9 9 0
