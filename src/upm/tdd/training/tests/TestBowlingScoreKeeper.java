@@ -34,7 +34,6 @@ public class TestBowlingScoreKeeper {
 		
 		//Act
 		BowlingGame.addFrame(frame1);
-		assertEquals(133, BowlingGame.score());
 		BowlingGame.addFrame(frame2);
 		BowlingGame.addFrame(frame3);
 		BowlingGame.addFrame(frame4);
@@ -44,6 +43,7 @@ public class TestBowlingScoreKeeper {
 		BowlingGame.addFrame(frame8);
 		BowlingGame.addFrame(frame9);
 		BowlingGame.addFrame(frame10);
+		assertEquals(133, BowlingGame.score());
 		BowlingGame.addFrame(frameBonus);
 		
 		//Assert
