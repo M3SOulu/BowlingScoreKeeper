@@ -40,7 +40,7 @@ public class BowlingGame {
 			}
 		}	
 		if(frames.get(9).isStrike()){
-			//score += bonus.score();
+			score += bonus.score();
 		}
 		return score;
 	}
