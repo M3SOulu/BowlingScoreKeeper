@@ -24,7 +24,7 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		this.bonus = new Frame(firstThrow,secondThrow);
 	}
 	
 	public int score(){
