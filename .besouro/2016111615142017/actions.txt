@@ -58,3 +58,6 @@ EditAction 1479311103713 TestBowlingScoreKeeper.java 1239 2 24 1
 UnitTestCaseAction 1479311104249 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479311104249 TestBowlingScoreKeeper FAIL
 EditAction 1479311190675 BowlingGame.java 1522 6 11 0
+UnitTestCaseAction 1479311191331 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479311191331 TestBowlingScoreKeeper FAIL
+EditAction 1479311211207 BowlingGame.java 1524 6 11 0
