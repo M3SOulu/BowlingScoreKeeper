@@ -179,3 +179,7 @@ EditAction 1479310924884 Frame.java 2087 8 12 0
 RefactoringAction 1479311020373 Frame.java REMOVE setBonus(int, int) METHOD
 EditAction 1479311023480 Frame.java 1845 7 11 0
 EditAction 1479311030385 Frame.java 1821 7 11 0
+CompilationAction 1479311030628 Frame.java
+RefactoringAction 1479311045394 Frame.java REMOVE score() METHOD
+RefactoringAction 1479311049399 Frame.java RENAME getScoreWithoutBonus()=>int score() METHOD
+EditAction 1479311430150 BowlingGame.java 546 5 3 0

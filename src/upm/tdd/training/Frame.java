@@ -33,18 +33,10 @@ public class Frame {
 
 
 	/**
-	 * the score of a single frame with bonus
+	 * the score of a single frame 
 	 * @return
 	 */
-	public int score(){
-		return getScoreWithoutBonus() + bonus;
-	}
-	
-	/**
-	 * the score of a single frame without bonus
-	 * @return
-	 */
-	public int getScoreWithoutBonus()
+	public int score()
 	{
 		return firstThrow + secondThrow;
 	}
