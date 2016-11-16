@@ -11,6 +11,14 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public int getFirstThrow(){
+		return firstThrow;
+	}
+	
+	public int getSecondThrow(){
+		return secondThrow;
+	}
+	
 	//the score of a single frame
 	public int score(){
 		return firstThrow+secondThrow;
