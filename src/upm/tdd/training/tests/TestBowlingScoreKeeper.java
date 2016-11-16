@@ -9,7 +9,7 @@ import upm.tdd.training.BowlingGame;
 public class TestBowlingScoreKeeper {
 
 	BowlingGame testGame = new BowlingGame();
-	
+	testGame 
 	
 	@Test
 	public void test() {
