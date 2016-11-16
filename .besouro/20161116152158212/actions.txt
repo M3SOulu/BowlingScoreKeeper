@@ -278,3 +278,11 @@ RefactoringAction 1479314608441 TestBowlingScoreKeeper.java ADD void setUp() MET
 RefactoringAction 1479314625484 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
 RefactoringAction 1479314628038 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
 EditAction 1479314628374 TestBowlingScoreKeeper.java 381 2 3 0
+CompilationAction 1479314628620 TestBowlingScoreKeeper.java
+RefactoringAction 1479314632463 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+CompilationAction 1479314634725 TestBowlingScoreKeeper.java
+RefactoringAction 1479314696137 TestBowlingScoreKeeper.java RENAME test()=>void testCorrect() METHOD
+RefactoringAction 1479314710651 TestBowlingScoreKeeper.java RENAME testCorrect()=>void testCorrectMatc() METHOD
+RefactoringAction 1479314714665 TestBowlingScoreKeeper.java RENAME testCorrectMatc()=>void testCorrectAddFrame() METHOD
+RefactoringAction 1479314731085 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+EditAction 1479314745295 TestBowlingScoreKeeper.java 817 2 12 0
