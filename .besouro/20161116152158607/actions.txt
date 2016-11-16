@@ -24,3 +24,8 @@ CompilationAction 1479309220175 BowlingGame.java
 EditAction 1479309279342 BowlingGame.java 569 5 3 0
 EditAction 1479309485532 Frame.java 962 8 11 0
 EditAction 1479309652779 BowlingGame.java 636 5 3 0
+RefactoringAction 1479309944539 BowlingGame.java ADD int sco FIELD
+RefactoringAction 1479309945319 BowlingGame.java RENAME sco=>int score FIELD
+RefactoringAction 1479310254326 BowlingGame.java REMOVE score FIELD
+RefactoringAction 1479310264107 BowlingGame.java ADD int score FIELD
+EditAction 1479310378039 BowlingGame.java 759 5 3 0
