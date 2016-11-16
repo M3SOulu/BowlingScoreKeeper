@@ -32,7 +32,10 @@ public class Frame {
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		boolean res = false;
-		int tot = this.firstThrow + this.secondThrow;
+		int tot = 0;
+		if(!isStrike()){
+			tot = this.firstThrow + this.secondThrow;
+		}
 		if(tot == 10){
 			res = true;
 		}

@@ -44,3 +44,9 @@ EditAction 1479308072040 TestsFrame.java 447 1 3 1
 UnitTestCaseAction 1479308073350 TestsFrame.java OK
 UnitTestSessionAction 1479308073351 TestsFrame OK
 EditAction 1479308092878 TestsFrame.java 439 1 3 1
+UnitTestCaseAction 1479308095503 TestsFrame.java OK
+UnitTestSessionAction 1479308095503 TestsFrame OK
+RefactoringAction 1479308115371 TestsFrame.java ADD void test FIELD
+RefactoringAction 1479308116885 TestsFrame.java RENAME test=>void testSpare FIELD
+RefactoringAction 1479308117918 TestsFrame.java RENAME testSpare=>void testSpare() METHOD
+EditAction 1479308252349 Frame.java 1159 6 17 0
