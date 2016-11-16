@@ -1,7 +1,5 @@
 package upm.tdd.training;
 
-import org.junit.experimental.theories.Theories;
-
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
@@ -10,6 +8,10 @@ public class Frame {
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+	}
+	
+	public int getFirstThrow(){
+		return firstThrow;
 	}
 	
 	//the score of a single frame

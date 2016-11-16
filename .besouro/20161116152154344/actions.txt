@@ -73,3 +73,11 @@ EditAction 1479310569719 BowlingException.java 197 1 0 0
 RefactoringAction 1479310686529 Frame.java ADD import org.junit.experimental.theories.Theories IMPORT
 EditAction 1479311089556 BowlingGame.java 1095 5 10 0
 EditAction 1479311089680 Frame.java 976 6 9 0
+RefactoringAction 1479311279380 BowlingGame.java ADD boolean isNextFrameBonus()/2 METHOD
+RefactoringAction 1479311294450 BowlingGame.java REMOVE isNextFrameBonus()/2 METHOD
+RefactoringAction 1479311305469 BowlingGame.java ADD boolean isNextFrameBonus()/2 METHOD
+RefactoringAction 1479311308507 BowlingGame.java REMOVE isNextFrameBonus()/2 METHOD
+RefactoringAction 1479311714269 Frame.java ADD int get FIELD
+RefactoringAction 1479311719779 Frame.java RENAME get=>int getFirstThrow FIELD
+RefactoringAction 1479311720789 Frame.java RENAME getFirstThrow=>int getFirstThrow() METHOD
+EditAction 1479311733134 Frame.java 981 7 10 0
