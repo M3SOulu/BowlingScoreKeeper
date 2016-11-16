@@ -75,3 +75,7 @@ RefactoringAction 1479313031758 Frame.java REMOVE tiroSuccessivo FIELD
 RefactoringAction 1479313031759 Frame.java REMOVE tiroSuccessivoAlSuccesivo FIELD
 EditAction 1479313033105 BowlingGame.java 1190 6 12 0
 EditAction 1479313033189 Frame.java 1179 10 15 0
+RefactoringAction 1479313630912 Frame.java ADD void setBonusPoints(int)/2 METHOD
+RefactoringAction 1479313633919 Frame.java RENAME setBonusPoints(int)/2=>void getBonusPoints(int) METHOD
+RefactoringAction 1479313644461 Frame.java RENAME getBonusPoints(int)=>int getBonusPoints() METHOD
+EditAction 1479313758703 BowlingGame.java 1465 6 13 0
