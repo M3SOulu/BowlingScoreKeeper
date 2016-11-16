@@ -133,3 +133,23 @@ RefactoringAction 1479313341778 TestBowlingScoreKeeper.java ADD void tearDown FI
 RefactoringAction 1479313344286 TestBowlingScoreKeeper.java RENAME tearDown=>void tearDown() METHOD
 RefactoringAction 1479313354405 TestBowlingScoreKeeper.java ADD import org.junit.After IMPORT
 EditAction 1479313373381 TestBowlingScoreKeeper.java 1398 5 23 3
+RefactoringAction 1479313435119 TestFrame.java ADD void test() METHOD
+RefactoringAction 1479313435126 TestFrame.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479313435140 TestFrame.java ADD TestFrame.java CLASS
+FileOpenedAction 1479313435292 TestFrame.java 198 1 1 0
+RefactoringAction 1479313464976 TestFrame.java ADD void setUp() METHOD
+RefactoringAction 1479313478706 TestFrame.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479313502043 TestFrame.java ADD Frame fr1 FIELD
+RefactoringAction 1479313507725 TestFrame.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479313512553 TestFrame.java ADD Frame fr1/2 FIELD
+RefactoringAction 1479313512554 TestFrame.java ADD Frame fr1/3 FIELD
+RefactoringAction 1479313512554 TestFrame.java ADD Frame fr1/4 FIELD
+RefactoringAction 1479313512554 TestFrame.java ADD Frame fr1/5 FIELD
+RefactoringAction 1479313515569 TestFrame.java RENAME fr1/5=>Frame fr2 FIELD
+RefactoringAction 1479313517074 TestFrame.java RENAME fr1/4=>Frame fr3 FIELD
+RefactoringAction 1479313519588 TestFrame.java RENAME fr1/3=>Frame fr4 FIELD
+RefactoringAction 1479313522607 TestFrame.java RENAME fr3=>Frame fr_ FIELD
+RefactoringAction 1479313525619 TestFrame.java RENAME fr_=>Frame fr_spare FIELD
+RefactoringAction 1479313530645 TestFrame.java RENAME fr4=>Frame fr_strike FIELD
+RefactoringAction 1479313535157 TestFrame.java RENAME fr1/2=>Frame fr_bonus FIELD
+EditAction 1479313644778 TestFrame.java 483 2 5 0
