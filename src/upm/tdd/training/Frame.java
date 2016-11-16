@@ -43,10 +43,11 @@ public class Frame {
 	//bonus throws
 	public int bonus(){
 		int bonus = 0;
-		if(this.isSpare() || this.isStrike()){
+		if(this.isSpare()){
 			bonus = this.firstThrow;
 		}else{
-			bonus = this.firstThrow;
+			if(this.isStrike())
+				bonus = this.score();
 		}
 		return bonus;
 	}
