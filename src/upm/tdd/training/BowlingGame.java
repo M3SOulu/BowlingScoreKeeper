@@ -33,7 +33,9 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus(){
-		//to be implemented
-		return false;
+		if(frames.get(frames.size()-1).isSpare()||frames.get(frames.size()-1).isStrike())
+			return true;
+		else
+			return false;
 	}
 }
