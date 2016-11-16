@@ -12,6 +12,7 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
+		frameIndex++;
 		frames.add(frame);	
 	}
 	
