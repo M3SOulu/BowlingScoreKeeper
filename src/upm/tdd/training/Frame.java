@@ -15,6 +15,7 @@ public class Frame {
 			this.secondThrow = secondThrow;
 		}
 
+		
 		frameNumber = frameCounterGlobal++;
 
 	}
