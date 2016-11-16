@@ -1,14 +1,21 @@
 package upm.tdd.training.tests;
 
-import static org.junit.Assert.*;
-
+import org.junit.Before;
 import org.junit.Test;
 
+import upm.tdd.training.BowlingGame;
+
 public class TestBowlingScoreKeeper {
+	BowlingGame game;
+	
+	@Before
+	public void createGame(){
+		game = new BowlingGame();
+	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testAllStrikesScore() {
+		
 	}
 
 }

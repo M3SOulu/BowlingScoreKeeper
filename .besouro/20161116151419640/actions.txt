@@ -78,3 +78,13 @@ RefactoringAction 1479310818855 Frame.java REMOVE getFrameNumber()/2 METHOD
 RefactoringAction 1479310826363 Frame.java ADD int getFrameNumber()/2 METHOD
 RefactoringAction 1479310829879 Frame.java RENAME getFrameNumber()/2=>boolean isBonusFrame() METHOD
 EditAction 1479310834026 Frame.java 1381 10 12 0
+RefactoringAction 1479310881735 TestBowlingScoreKeeper.java RENAME test()=>void testStrike() METHOD
+RefactoringAction 1479310885240 TestBowlingScoreKeeper.java RENAME testStrike()=>void testAllStrike() METHOD
+RefactoringAction 1479310888253 TestBowlingScoreKeeper.java RENAME testAllStrike()=>void testAllStrikes() METHOD
+RefactoringAction 1479310890761 TestBowlingScoreKeeper.java RENAME testAllStrikes()=>void testAllStrikesScore() METHOD
+RefactoringAction 1479310911793 TestBowlingScoreKeeper.java ADD void createGame() METHOD
+RefactoringAction 1479310923839 TestBowlingScoreKeeper.java ADD BowlingGame game FIELD
+RefactoringAction 1479310937556 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479310940148 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479310948378 TestBowlingScoreKeeper.java REMOVE import org.junit.Assert.* IMPORT
+EditAction 1479310948470 TestBowlingScoreKeeper.java 300 2 1 0
