@@ -137,3 +137,4 @@ RefactoringAction 1479313798138 TestBowlingScoreKeeper.java REMOVE testScoreSpar
 RefactoringAction 1479313799145 TestBowlingScoreKeeper.java ADD void testScoreNormal() METHOD
 RefactoringAction 1479313799146 TestBowlingScoreKeeper.java ADD void testScoreSpare() METHOD
 EditAction 1479313884551 TestBowlingScoreKeeper.java 2553 3 53 2
+EditAction 1479313923669 TestBowlingScoreKeeper.java 2743 3 62 2

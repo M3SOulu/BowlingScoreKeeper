@@ -26,6 +26,15 @@ public class TestBowlingScoreKeeper {
 		Frame f9 = new Frame(0,0);
 		Frame f10 = new Frame(1,2);
 		game.addFrame(f1);
+		game.addFrame(f2);
+		game.addFrame(f3);
+		game.addFrame(f4);
+		game.addFrame(f5);
+		game.addFrame(f6);
+		game.addFrame(f7);
+		game.addFrame(f8);
+		game.addFrame(f9);
+		game.addFrame(f10);
 	}
 	
 	@Test
