@@ -19,7 +19,11 @@ public class Frame {
 		int score = 0;
 		if(isStrike()){
 			score = 10 + bonus();
-		}else{
+		}
+		if(isSpare()){
+			
+		}
+		else{
 			score = this.firstThrow + this.secondThrow;
 		}
 		

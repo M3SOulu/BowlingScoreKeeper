@@ -109,3 +109,7 @@ EditAction 1479309206156 TestsFrame.java 1907 8 24 8
 UnitTestCaseAction 1479309207656 TestsFrame.java FAIL
 UnitTestSessionAction 1479309207657 TestsFrame FAIL
 EditAction 1479309313557 TestsFrame.java 1912 8 22 7
+UnitTestCaseAction 1479309315252 TestsFrame.java FAIL
+UnitTestSessionAction 1479309315252 TestsFrame FAIL
+RefactoringAction 1479309321745 TestsFrame.java REMOVE testStrike1() METHOD
+EditAction 1479309601877 Frame.java 1260 6 19 0
