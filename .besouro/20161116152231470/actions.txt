@@ -81,3 +81,9 @@ RefactoringAction 1479313644461 Frame.java RENAME getBonusPoints(int)=>int getBo
 EditAction 1479313758703 BowlingGame.java 1465 6 13 0
 CompilationAction 1479313758802 BowlingGame.java
 EditAction 1479313758811 Frame.java 1243 11 16 0
+RefactoringAction 1479313820962 TestBowlingScoreKeeper.java RENAME import org.junit.Assert.*=>import java.awt.Frame IMPORT
+RefactoringAction 1479313907492 TestBowlingScoreKeeper.java REMOVE import java.awt.Frame IMPORT
+RefactoringAction 1479313912500 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479313938540 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479314049634 TestBowlingScoreKeeper.java ADD import org.junit.Assert.* IMPORT
+EditAction 1479314057070 TestBowlingScoreKeeper.java 536 1 8 1
