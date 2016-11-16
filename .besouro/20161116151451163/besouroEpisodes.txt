@@ -55,3 +55,7 @@
 1479310897514 test-last 1 654 false
 1479310897515 test-last 1 654 false
 1479311102108 test-addition 1 175 true
+1479311182581 test-addition 2 64 true
+1479311182582 test-addition 1 64 true
+1479311182583 test-addition 2 64 true
+1479311182584 test-addition 1 64 true

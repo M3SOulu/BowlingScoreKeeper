@@ -32,16 +32,16 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void testAddMaxFrames() throws BowlingException{
 		//Act
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame); //frame1
+		newGame.addFrame(newFrame); //frame2
+		newGame.addFrame(newFrame); //frame3
+		newGame.addFrame(newFrame); //frame4
+		newGame.addFrame(newFrame); //frame5
+		newGame.addFrame(newFrame); //frame6
+		newGame.addFrame(newFrame); //frame7
+		newGame.addFrame(newFrame); //frame8
+		newGame.addFrame(newFrame); //frame9
+		newGame.addFrame(newFrame); //frame10
 		int size = newGame.sizeFrames();
 		//Assert
 		assertEquals(10, size);
@@ -51,17 +51,17 @@ public class TestBowlingScoreKeeper {
 	@Test(expected = BowlingException.class)
 	public void testAddOverMaxFrames() throws BowlingException{
 		//Act
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
-		newGame.addFrame(newFrame);
+		newGame.addFrame(newFrame); //frame1
+		newGame.addFrame(newFrame); //frame2
+		newGame.addFrame(newFrame); //frame3
+		newGame.addFrame(newFrame); //frame4
+		newGame.addFrame(newFrame); //frame5
+		newGame.addFrame(newFrame); //frame6
+		newGame.addFrame(newFrame); //frame7
+		newGame.addFrame(newFrame); //frame8
+		newGame.addFrame(newFrame); //frame9
+		newGame.addFrame(newFrame); //frame10
+		newGame.addFrame(newFrame); //frame11
 		int size = newGame.sizeFrames();
 		//Assert
 		assertEquals(10, size);
