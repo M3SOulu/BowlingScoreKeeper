@@ -18,7 +18,7 @@ import upm.tdd.training.Frame;
 
 public class TestBowlingScoreKeeper {
 
-	Frame[] frame;
+	//Frame[] frame;
 	BowlingGame game;
 
 	@Before
@@ -27,6 +27,7 @@ public class TestBowlingScoreKeeper {
 		/*for (int i = 0; i < 10; i++) {
 			frame[i] = new Frame(4, 5);
 		}*/
+		Frame[] frame = null;
 		frame[0] = new Frame(3, 3);
 	}
 
