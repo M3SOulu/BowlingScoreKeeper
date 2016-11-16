@@ -178,3 +178,11 @@
 1479315893191 test-addition 1 27 true
 1479315904716 regression 2 6 true
 1479316078535 regression 1 2 true
+1479316367139 test-addition 2 279 true
+1479316367140 test-addition 2 279 true
+1479316367141 test-addition 2 279 true
+1479316367142 test-addition 1 279 true
+1479316367143 test-addition 2 279 true
+1479316367144 test-addition 2 279 true
+1479316367145 test-addition 2 279 true
+1479316367146 test-addition 1 279 true

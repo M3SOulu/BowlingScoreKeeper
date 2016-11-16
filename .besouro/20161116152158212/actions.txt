@@ -463,3 +463,11 @@ EditAction 1479316280401 TestBowlingScoreKeeper.java 2276 5 46 4
 UnitTestCaseAction 1479316283945 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479316283946 TestBowlingScoreKeeper FAIL
 EditAction 1479316365098 TestBowlingScoreKeeper.java 2276 5 46 4
+UnitTestCaseAction 1479316367139 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316367139 TestBowlingScoreKeeper OK
+RefactoringAction 1479316380837 TestBowlingScoreKeeper.java RENAME TesBonusScore()=>void TesMixedBonusScore() METHOD
+RefactoringAction 1479316387842 TestBowlingScoreKeeper.java ADD void TesMixedBonusScore()/2 METHOD
+RefactoringAction 1479316394362 TestBowlingScoreKeeper.java RENAME TesMixedBonusScore()/2=>void TesBonusScore() METHOD
+RefactoringAction 1479316397384 TestBowlingScoreKeeper.java RENAME TesBonusScore()=>void TesBonusScoreWith() METHOD
+RefactoringAction 1479316399900 TestBowlingScoreKeeper.java RENAME TesBonusScoreWith()=>void TesBonusScoreWithBonusFrame() METHOD
+EditAction 1479316406773 TestBowlingScoreKeeper.java 2765 6 57 5

@@ -39,3 +39,4 @@
 1479315904716 regression 2 6 false
 1479316055439 null null 128 true
 1479316078535 regression 1 2 true
+1479316367139 test-addition 2 279 true
