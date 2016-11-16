@@ -52,7 +52,7 @@ public class TestBowlingScoreKeeper {
 	public void dBowlingException() throws BowlingException {		
 		// Arrange
 		Frame frame1 = new Frame(10, 0);
-		Frame frame2 = new Frame(6, 3);
+		Frame frame2 = new Frame(6, 4);
 		Frame frame3 = new Frame(8, 0);
 		// Act
 		bowlingGame.addFrame(frame1);
@@ -61,7 +61,7 @@ public class TestBowlingScoreKeeper {
 			bowlingGame.addFrame(frame3);
 		}
 		// Assert
-		assertEquals(300, bowlingGame.score());
+		assertEquals(92, bowlingGame.score());
 	}
 
 }
