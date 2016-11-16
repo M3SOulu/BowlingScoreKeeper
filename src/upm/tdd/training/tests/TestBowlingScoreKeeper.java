@@ -16,9 +16,15 @@ public class TestBowlingScoreKeeper {
 	public void setUp() {
 		BowlingGame = new BowlingGame();
 	}
+	
+	@Test
+	public void testAddFrame() throws BowlingException {
+		Frame frame1 = new Frame(1,4);
+		assertEquals(1, BowlingGame.getFrames().size());
+	}
 
 	@Test
-	public void test() throws BowlingException {
+	public void testGeme() throws BowlingException {
 		//Arrage
 		Frame frame1 = new Frame(1,4);
 		Frame frame2 = new Frame(4,5);

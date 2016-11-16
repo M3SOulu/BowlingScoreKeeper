@@ -96,3 +96,4 @@ RefactoringAction 1479311903680 TestBowlingScoreKeeper.java ADD void testGeme()/
 RefactoringAction 1479311907706 TestBowlingScoreKeeper.java RENAME testGeme()/2=>void testAdd() METHOD
 RefactoringAction 1479311911247 TestBowlingScoreKeeper.java RENAME testAdd()=>void testAddFrame() METHOD
 EditAction 1479311970498 BowlingGame.java 1626 8 13 0
+EditAction 1479311970660 TestBowlingScoreKeeper.java 1393 3 26 2
