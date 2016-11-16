@@ -9,6 +9,20 @@ import upm.tdd.training.Frame;
 
 public class TestFrame {
 
+	@Test
+	public void testIsLastFrame() throws BowlingException{
+		new Frame(0, 0);
+		new Frame(0, 0);
+		new Frame(0, 0);
+		new Frame(0, 0);
+		new Frame(0, 0);
+		new Frame(0, 0);
+		new Frame(0, 0);
+		new Frame(0, 0);
+		new Frame(0, 0);
+		assertEquals( true, new Frame(0, 0).isLastFrame() );
+	}
+	
 	@Test(expected = BowlingException.class)
 	public void createInvalidFrame1() throws BowlingException{
 		new Frame( 11, 0 );
