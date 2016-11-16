@@ -22,14 +22,14 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		for(int i = 0; i < frames.size(); i++){
+		for(int i = 2; i < frames.size(); i++){
 			if(isNextFrameBonus()){
-			this.score += (frames.get(i).score()+frames.get(i+1).bonus());
-				if(frames.get(i+1).isStrike()){
-					this.score +=  frames.get(i+2).score();
+			this.score += (frames.get(i - 2).score()+frames.get(i-1).bonus());
+				if(frames.get(i-1).isStrike()){
+					this.score +=  frames.get(i).score();
 				}
 			}else{
-				this.score += frames.get(i).score();
+				this.score += frames.get(i-2).score();
 			}
 		}		
 		return score;
