@@ -57,3 +57,10 @@ CompilationAction 1479314778541 Frame.java
 CompilationAction 1479314876337 Frame.java
 CompilationAction 1479314876338 Frame.java
 EditAction 1479315364006 BowlingGame.java 637 5 3 0
+RefactoringAction 1479315373156 TestBowlingScoreKeeper.java ADD void testScore()/2 METHOD
+RefactoringAction 1479315396666 TestBowlingScoreKeeper.java RENAME testScore()/2=>void testi() METHOD
+RefactoringAction 1479315400173 TestBowlingScoreKeeper.java RENAME testi()=>void testIsStrike() METHOD
+RefactoringAction 1479315463687 TestBowlingScoreKeeper.java REMOVE testIsStrike() METHOD
+RefactoringAction 1479315463687 TestBowlingScoreKeeper.java REMOVE test() METHOD
+RefactoringAction 1479315467707 TestBowlingScoreKeeper.java ADD void test() METHOD
+EditAction 1479315472584 TestBowlingScoreKeeper.java 1283 3 4 1
