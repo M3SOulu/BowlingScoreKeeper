@@ -9,6 +9,7 @@ public class Frame {
 	private int id;
 	
 	private static final int MAX_NUMBER_OF_PINS = 10;
+	private static final int MAX_NUMBER_OF_FRAMES = 10;
 	
 	/**
 	 * create a new Bowling Frame
@@ -67,7 +68,7 @@ public class Frame {
 	 * @return if is the last frame
 	 */
 	public boolean isLastFrame(){
-		if( id == 10 ){
+		if( id == MAX_NUMBER_OF_FRAMES ){
 			return true;
 		}
 		else{
