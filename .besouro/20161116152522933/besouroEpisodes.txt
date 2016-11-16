@@ -319,3 +319,11 @@
 1479313343280 test-addition 1 294 true
 1479313447130 test-first 4 95 true
 1479313447131 test-first 4 95 true
+1479313596052 refactoring 2B 91 true
+1479313596053 refactoring 2B 91 true
+1479313596054 refactoring 2B 91 true
+1479313596055 refactoring 2B 91 true
+1479313596056 refactoring 2B 91 true
+1479313596057 refactoring 2B 91 true
+1479313596058 refactoring 2B 91 true
+1479313596059 regression 2 91 true

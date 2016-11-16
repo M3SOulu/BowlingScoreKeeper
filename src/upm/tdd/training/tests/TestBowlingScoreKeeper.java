@@ -5,6 +5,6 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses(TestFrame.class)
+@SuiteClasses({TestFrame.class , TestBowlingGame.class})
 public class TestBowlingScoreKeeper {
 }
