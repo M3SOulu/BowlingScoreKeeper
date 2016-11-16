@@ -55,7 +55,7 @@ public class BowlingGame {
 				if(thisFrame.isStrike()) {
 					if (nextFrame.isStrike())
 					{
-						frameScore=20;
+						frameScore=10;
 						frameScore+=bonus(nextFrame, bonus);
 					}
 					else {
