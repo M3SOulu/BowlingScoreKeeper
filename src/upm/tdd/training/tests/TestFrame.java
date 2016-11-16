@@ -23,9 +23,10 @@ public class TestFrame {
 	}
 	
 	@Test
-	public void testIsScore() throws BowlingException {
+	public void testBonus() throws BowlingException {
 		Frame frame = new Frame(5,5);
-		assertEquals(10, frame.score());
+		Frame nextFrame = new Frame(0,1);
+		assertEquals(10, BowlingGame.calcolateBonus(frame, nextFrame));
 	}
 
 }
