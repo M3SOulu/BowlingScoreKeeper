@@ -67,26 +67,6 @@ public class TestBowlingScoreKeeper {
 		game.addFrame(f8);
 		game.addFrame(f9);
 		game.addFrame(f10);
-		game.getFrames().get(0).setFirstThrow(0);
-		game.getFrames().get(0).setSecondThrow(0);
-		game.getFrames().get(1).setFirstThrow(1);
-		game.getFrames().get(1).setSecondThrow(9);
-		game.getFrames().get(2).setFirstThrow(1);
-		game.getFrames().get(2).setSecondThrow(0);
-		game.getFrames().get(3).setFirstThrow(4);
-		game.getFrames().get(3).setSecondThrow(6);
-		game.getFrames().get(4).setFirstThrow(2);
-		game.getFrames().get(4).setSecondThrow(1);
-		game.getFrames().get(5).setFirstThrow(0);
-		game.getFrames().get(5).setSecondThrow(0);
-		game.getFrames().get(6).setFirstThrow(0);
-		game.getFrames().get(6).setSecondThrow(0);
-		game.getFrames().get(7).setFirstThrow(0);
-		game.getFrames().get(7).setSecondThrow(0);
-		game.getFrames().get(8).setFirstThrow(0);
-		game.getFrames().get(8).setSecondThrow(0);
-		game.getFrames().get(9).setFirstThrow(0);
-		game.getFrames().get(9).setSecondThrow(0);
 		assertEquals(game.score(), 27);
 	}
 }
