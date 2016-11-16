@@ -115,6 +115,6 @@ public class TestBowlingScoreKeeper {
 		game.addFrame(f8);
 		game.addFrame(f9);
 		game.addFrame(f10);
-		assertEquals(game.score(), 48);
+		assertEquals(game.score(), 47);
 	}
 }
