@@ -36,7 +36,7 @@ public class BowlingGame {
 					}else{
 						total=total+frames.get(i).score()+frames.get(i+1).getFirstThrow()+frames.get(i+1).getSecondThrow();
 					}
-				}else{
+				}else{ 
 					total=total+frames.get(i).score();
 				}
 			}
