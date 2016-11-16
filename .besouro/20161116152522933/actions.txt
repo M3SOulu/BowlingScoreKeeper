@@ -193,3 +193,10 @@ RefactoringAction 1479313228729 TestFrame.java ADD void testIsStrike()/2 METHOD
 RefactoringAction 1479313232735 TestFrame.java RENAME testIsStrike()/2=>void testIsStrikeFalse() METHOD
 RefactoringAction 1479313237245 TestFrame.java RENAME testIsStrike()=>void testIsStrikeTrue() METHOD
 EditAction 1479313341413 TestFrame.java 1782 11 13 0
+UnitTestCaseAction 1479313343279 TestFrame.java OK
+UnitTestSessionAction 1479313343280 TestFrame OK
+RefactoringAction 1479313351542 TestFrame.java ADD void testIsStrikeTrue()/2 METHOD
+RefactoringAction 1479313351542 TestFrame.java ADD void testIsStrikeFalse()/2 METHOD
+RefactoringAction 1479313355551 TestFrame.java RENAME testIsStrikeTrue()/2=>void testIsSpareTrue() METHOD
+RefactoringAction 1479313360558 TestFrame.java RENAME testIsStrikeFalse()/2=>void testIsSpareFalse() METHOD
+EditAction 1479313445324 TestFrame.java 2038 13 17 0

@@ -69,6 +69,18 @@ public class TestFrame {
 		assert(p.isStrike()==false);		
 	}
 	
+	@Test
+	public void testIsSpareTrue() throws BowlingException{
+		p = new Frame(9, 1);
+		assert(p.isSpare()==true);
+	}
+	
+	@Test
+	public void testIsSpareFalse() throws BowlingException{
+		p = new Frame(2, 6);
+		assert(p.isSpare()==false);		
+	}
+	
 	
 	
 }
