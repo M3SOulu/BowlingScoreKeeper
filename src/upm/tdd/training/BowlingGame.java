@@ -27,8 +27,7 @@ public class BowlingGame {
 	
 	// the score of entire game
 	public int score() {
-		// to be implemented
-		return 0;
+		return frames.get(MAX_FRAMES_SIZE).score();
 	}
 
 	public boolean isNextFrameBonus() {
