@@ -22,15 +22,15 @@ public class BowlingGame {
 
 			/*
 			 * if frame before the actual was a spare, add to the previous frame
-			 * the point of the actual frames' first throw
+			 * the point of the actual frame's first throw
 			 */
 			if (frames.get(frames.size() - 1).isSpare()) {
 				frames.get(frames.size() - 1).addToScore(frame.getFirstThrow());
 			}
 			
 			/*
-			 * if frame before the actual was a spare, add to the previous frame
-			 * the point of the actual frames' first throw
+			 * if frame before the actual was a strike, add to the previous frame
+			 * the point of the actual frame's score
 			 */
 			if (condition) {
 				

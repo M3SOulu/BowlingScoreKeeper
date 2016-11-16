@@ -51,3 +51,7 @@ RefactoringAction 1479309874405 BowlingGame.java ADD int score() METHOD
 RefactoringAction 1479309874405 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
 EditAction 1479310014122 BowlingGame.java 1150 5 3 0
 EditAction 1479310132695 BowlingGame.java 1382 5 3 0
+CompilationAction 1479310132939 BowlingGame.java
+CompilationAction 1479310174015 BowlingGame.java
+CompilationAction 1479310174174 BowlingGame.java
+EditAction 1479310184058 BowlingGame.java 1377 5 3 0
