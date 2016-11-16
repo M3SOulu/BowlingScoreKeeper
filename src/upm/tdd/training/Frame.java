@@ -5,7 +5,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
-	public Frame(int firstThrow, int secondThrow){
+	public Frame( int firstThrow, int secondThrow ){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
@@ -16,15 +16,25 @@ public class Frame {
 		return 0;
 	}
 
-	//returns whether the frame is a strike or not
+	/**
+	 * returns whether the frame is a strike or not
+	 * @return true if is a Strike
+	 */
 	public boolean isStrike(){
-		//to be implemented
-		return false;
+		if( firstThrow == 10 ){
+			return true;
+		}
+		else{
+			return false;
+		}
 	}
 	
-	//return whether a frame is a spare or not
+	/**
+	 * return whether a frame is a spare or not
+	 * @return true if is a Spare
+	 */
 	public boolean isSpare(){
-		//to be implemented
+		
 		return false;
 	}
 

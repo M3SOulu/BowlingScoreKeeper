@@ -1,0 +1,18 @@
+FileOpenedAction 1479306118669 TestBowlingScoreKeeper.java 197 1 1 0
+RefactoringAction 1479307090075 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1479307090076 Frame.java REMOVE isLastFrame() METHOD
+RefactoringAction 1479307090077 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1479307090077 Frame.java REMOVE bonus() METHOD
+RefactoringAction 1479307090231 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1479307090232 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1479307090233 Frame.java ADD boolean isLastFrame() METHOD
+RefactoringAction 1479307090233 Frame.java ADD int bonus() METHOD
+RefactoringAction 1479307142532 Frame.java ADD whether a FIELD
+RefactoringAction 1479307142533 Frame.java ADD frame is FIELD
+RefactoringAction 1479307142533 Frame.java ADD a spare FIELD
+RefactoringAction 1479307142534 Frame.java ADD or not FIELD
+RefactoringAction 1479307145308 Frame.java REMOVE is FIELD
+RefactoringAction 1479307145309 Frame.java REMOVE spare FIELD
+RefactoringAction 1479307145310 Frame.java REMOVE a FIELD
+RefactoringAction 1479307145310 Frame.java REMOVE not FIELD
+EditAction 1479307196229 Frame.java 853 6 7 0
