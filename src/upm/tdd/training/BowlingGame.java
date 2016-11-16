@@ -23,14 +23,16 @@ public class BowlingGame {
 		return this.frames.size();
 	}
 	
-	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
-		bonus = new Frame(firstThrow, secondThrow);
-		
+	public void setBonus(int firstThrow, int secondThrow) {
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		int gameScore = 0;
+		int size = frames.size();
+		for(int i = 1; i <= size; i++){
+			gameScore += frames.get(i).score();
+		}
+		return gameScore;
 	}
 	
 	public boolean isNextFrameBonus(){
