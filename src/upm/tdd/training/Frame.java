@@ -5,6 +5,7 @@ public class Frame {
 
 	private int firstThrow;
 	private int secondThrow;
+	private int frameScore;
 
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
 		if (areNotValidThrows()) {
@@ -18,6 +19,10 @@ public class Frame {
 	// the score of a single frame
 	public int score() {
 		return this.firstThrow + this.secondThrow + this.bonus();
+	}
+	
+	public void setScore(int score){
+		this.frameScore = score;
 	}
 
 	// returns whether the frame is a strike or not
@@ -53,5 +58,6 @@ public class Frame {
 	private boolean areNotValidThrows() {
 		return firstThrow < 0 || firstThrow > 10 || secondThrow < 0 || secondThrow > 10;
 	}
+	
 
 }
