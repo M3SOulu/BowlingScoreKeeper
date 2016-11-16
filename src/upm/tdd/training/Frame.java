@@ -33,10 +33,12 @@ public class Frame {
 	}
 	
 
-	//the score of a single frame
+	/**
+	 * the score of a single frame
+	 * @return
+	 */
 	public int score(){
-		//to be implemented
-		return 0;
+		return firstThrow + secondThrow + bonus();
 	}
 
 	/**
@@ -78,10 +80,20 @@ public class Frame {
 		}
 	}
 
-	//bonus throws
+	/**
+	 * bonus throws
+	 * @return bonus
+	 */
 	public int bonus(){
-		//to be implemented
-		return 0;
+		if( isSpare() ){
+			return 1;
+		}
+		else if( isStrike() ){
+			return 1;
+		}
+		else{
+			return 0;
+		}
 	}
 	
 

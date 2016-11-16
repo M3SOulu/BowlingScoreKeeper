@@ -153,3 +153,6 @@ EditAction 1479309281672 Frame.java 1544 6 10 0
 UnitTestCaseAction 1479309284087 TestFrame.java OK
 UnitTestSessionAction 1479309284089 TestFrame OK
 EditAction 1479309470804 Frame.java 1564 6 10 0
+RefactoringAction 1479309575289 Frame.java REMOVE score() METHOD
+RefactoringAction 1479309576806 Frame.java ADD int score() METHOD
+EditAction 1479309604904 Frame.java 1696 6 10 0
