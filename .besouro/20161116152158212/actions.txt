@@ -501,3 +501,8 @@ UnitTestCaseAction 1479316640804 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479316640806 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479316662634 BowlingGame.java REMOVE getBonusScore() METHOD
 EditAction 1479316669623 BowlingGame.java 1656 5 11 0
+UnitTestCaseAction 1479316672245 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479316672246 TestBowlingScoreKeeper OK
+UnitTestCaseAction 1479316676196 AllTests.java OK
+UnitTestSessionAction 1479316676197 AllTests OK
+FileOpenedAction 1479316700691 BowlingGame.java 1656 5 11 0

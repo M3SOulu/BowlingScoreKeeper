@@ -43,3 +43,5 @@
 1479316481590 test-first 3 114 true
 1479316511233 refactoring 2B 29 true
 1479316547200 test-addition 1 35 true
+1479316672246 refactoring 2A 125 true
+1479316676197 regression 1 3 true
