@@ -227,3 +227,6 @@ UnitTestSessionAction 1479315162763 TestBowlingScoreKeeper OK
 RefactoringAction 1479315224223 Frame.java ADD Frame(int, int)/2 METHOD
 RefactoringAction 1479315235268 Frame.java RENAME Frame(int, int)/2=>Frame(int, int, int) METHOD
 EditAction 1479315256062 Frame.java 1654 13 21 0
+UnitTestCaseAction 1479315258262 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315258262 TestBowlingScoreKeeper OK
+EditAction 1479315382544 Frame.java 1672 13 21 0

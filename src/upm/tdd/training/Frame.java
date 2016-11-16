@@ -21,7 +21,7 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		points += (getFirstThrow() + getSecondThrow());
+		points += (getFirstThrow() + getSecondThrow() + getThirdThrow());
 		return points;
 	}
 
