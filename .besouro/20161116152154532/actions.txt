@@ -1,0 +1,47 @@
+FileOpenedAction 1479306115047 TestBowlingScoreKeeper.java 197 1 1 0
+RefactoringAction 1479306960147 Frame.java ADD import upm.tdd.training.tests.TestBowlingScoreKeeper IMPORT
+RefactoringAction 1479308276725 BowlingGame.java ADD int a FIELD
+RefactoringAction 1479308278235 BowlingGame.java RENAME a=>int arr FIELD
+RefactoringAction 1479308279747 BowlingGame.java REMOVE arr FIELD
+RefactoringAction 1479308281784 BowlingGame.java ADD int CIAO FIELD
+RefactoringAction 1479308300352 BowlingGame.java REMOVE CIAO FIELD
+RefactoringAction 1479308856035 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479308856036 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1479308856036 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1479308856037 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1479309009563 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1479309009563 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1479309009564 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1479309009564 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1479309549949 BowlingGame.java ADD int totalScore FIELD
+RefactoringAction 1479310401211 BowlingGame.java ADD import javax.print.attribute.Size2DSyntax IMPORT
+RefactoringAction 1479311016230 BowlingGame.java ADD int bonus/2 FIELD
+RefactoringAction 1479311018740 BowlingGame.java RENAME bonus/2=>int bonus() METHOD
+RefactoringAction 1479311036260 BowlingGame.java RENAME bonus()=>int bonus(frame) METHOD
+RefactoringAction 1479311041274 BowlingGame.java RENAME bonus(frame)=>int bonus(RFrame) METHOD
+RefactoringAction 1479311042286 BowlingGame.java RENAME bonus(RFrame)=>int bonus(Frame) METHOD
+RefactoringAction 1479311048798 BowlingGame.java RENAME bonus(Frame)=>int bonus(Frame, Frame) METHOD
+RefactoringAction 1479312367358 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1479312367359 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1479312367360 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1479312367360 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1479312372369 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1479312375378 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1479312379893 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1479312381902 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1479312386429 Frame.java ADD int getFirstThrow() METHOD
+CompilationAction 1479312940615 BowlingGame.java
+CompilationAction 1479312940616 BowlingGame.java
+CompilationAction 1479312976889 BowlingGame.java
+CompilationAction 1479312976890 BowlingGame.java
+CompilationAction 1479312977055 BowlingGame.java
+CompilationAction 1479312977055 BowlingGame.java
+RefactoringAction 1479313403450 BowlingGame.java ADD import java.util.LinkedList IMPORT
+RefactoringAction 1479313449528 BowlingGame.java REMOVE import java.util.LinkedList IMPORT
+CompilationAction 1479313523580 BowlingGame.java
+CompilationAction 1479313523581 BowlingGame.java
+CompilationAction 1479313523743 BowlingGame.java
+RefactoringAction 1479314183714 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479314193413 BowlingGame.java REMOVE import javax.print.attribute.Size2DSyntax IMPORT
+CompilationAction 1479314193842 BowlingGame.java
+EditAction 1479314193866 TestBowlingScoreKeeper.java 240 1 0 0

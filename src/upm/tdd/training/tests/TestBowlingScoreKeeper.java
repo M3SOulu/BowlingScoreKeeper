@@ -4,11 +4,13 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import upm.tdd.training.BowlingGame;
+
 public class TestBowlingScoreKeeper {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		assertEquals(133, BowlingGame.);;
 	}
 
 }
