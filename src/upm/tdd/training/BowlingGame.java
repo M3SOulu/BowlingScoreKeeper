@@ -23,7 +23,7 @@ public class BowlingGame {
 	}
 	
 	
-	public void setBonus( int firstThrow, int secondThrow ) {
+	public void setBonus( int firstThrow, int secondThrow ) throws BowlingException {
 		bonus = new Frame( firstThrow, secondThrow );
 	}
 	
@@ -33,13 +33,13 @@ public class BowlingGame {
 		
 		for( Frame frame : frames ){
 			if( bonus == 1 ){
-				//
+				score += frame.getFirstThrow();
 			}
 			else if( bonus == 2 ){
-				//
+				score += ( frame.getFirstThrow() + frame.getSecondThrow() );
 			}
 			
-			score += frame.score() + bonus;
+			score += (frame.score() + bonus);
 			bonus = frame.bonus();
 		}
 		
