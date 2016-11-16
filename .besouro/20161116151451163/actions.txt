@@ -9,3 +9,4 @@ RefactoringAction 1479307102657 Frame.java REMOVE count FIELD
 CompilationAction 1479307103327 Frame.java
 EditAction 1479307103343 BowlingException.java 152 0 0 0
 EditAction 1479307203739 Frame.java 1074 6 16 0
+EditAction 1479307284182 Frame.java 1124 6 16 0
