@@ -1,0 +1,184 @@
+FileOpenedAction 1479305691626 TestBowlingScoreKeeper.java 197 1 1 0
+EditAction 1479306024406 Frame.java 780 6 8 0
+EditAction 1479306228179 Frame.java 827 6 10 0
+RefactoringAction 1479306531147 Frame.java ADD int count FIELD
+FileOpenedAction 1479306997336 BowlingException.java 148 0 0 0
+EditAction 1479307000495 Frame.java 915 6 12 0
+CompilationAction 1479307000737 Frame.java
+RefactoringAction 1479307102657 Frame.java REMOVE count FIELD
+CompilationAction 1479307103327 Frame.java
+EditAction 1479307103343 BowlingException.java 152 0 0 0
+EditAction 1479307203739 Frame.java 1074 6 16 0
+EditAction 1479307284182 Frame.java 1124 6 16 0
+RefactoringAction 1479307646908 TestsFrame.java ADD void setUp() METHOD
+RefactoringAction 1479307646930 TestsFrame.java ADD void test() METHOD
+RefactoringAction 1479307646948 TestsFrame.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479307646967 TestsFrame.java ADD TestsFrame.java CLASS
+FileOpenedAction 1479307647212 TestsFrame.java 282 2 1 0
+RefactoringAction 1479307717341 TestsFrame.java REMOVE setUp() METHOD
+RefactoringAction 1479307744373 TestsFrame.java RENAME test()=>void testStric() METHOD
+RefactoringAction 1479307745878 TestsFrame.java RENAME testStric()=>void testStri() METHOD
+RefactoringAction 1479307751914 TestsFrame.java RENAME testStri()=>void testStrike() METHOD
+RefactoringAction 1479307804681 TestsFrame.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479307810488 TestsFrame.java ADD import upm.tdd.training.BowlingException IMPORT
+EditAction 1479307834696 TestsFrame.java 395 1 1 0
+EditAction 1479307900805 TestsFrame.java 474 1 3 1
+UnitTestCaseAction 1479307902699 TestsFrame.java FAIL
+UnitTestSessionAction 1479307902706 TestsFrame FAIL
+UnitTestCaseAction 1479307919799 TestsFrame.java FAIL
+UnitTestSessionAction 1479307919799 TestsFrame.testStrike FAIL
+UnitTestCaseAction 1479307967771 TestsFrame.java FAIL
+UnitTestSessionAction 1479307967772 TestsFrame FAIL
+UnitTestCaseAction 1479307974124 TestsFrame.java FAIL
+UnitTestSessionAction 1479307974127 TestsFrame.testStrike FAIL
+EditAction 1479308039949 TestsFrame.java 482 1 3 1
+UnitTestCaseAction 1479308041453 TestsFrame.java FAIL
+UnitTestSessionAction 1479308041454 TestsFrame FAIL
+EditAction 1479308049320 TestsFrame.java 481 1 3 1
+UnitTestCaseAction 1479308051061 TestsFrame.java FAIL
+UnitTestSessionAction 1479308051061 TestsFrame FAIL
+EditAction 1479308059230 TestsFrame.java 482 1 3 1
+UnitTestCaseAction 1479308060683 TestsFrame.java FAIL
+UnitTestSessionAction 1479308060684 TestsFrame FAIL
+EditAction 1479308072040 TestsFrame.java 447 1 3 1
+UnitTestCaseAction 1479308073350 TestsFrame.java OK
+UnitTestSessionAction 1479308073351 TestsFrame OK
+EditAction 1479308092878 TestsFrame.java 439 1 3 1
+UnitTestCaseAction 1479308095503 TestsFrame.java OK
+UnitTestSessionAction 1479308095503 TestsFrame OK
+RefactoringAction 1479308115371 TestsFrame.java ADD void test FIELD
+RefactoringAction 1479308116885 TestsFrame.java RENAME test=>void testSpare FIELD
+RefactoringAction 1479308117918 TestsFrame.java RENAME testSpare=>void testSpare() METHOD
+EditAction 1479308252349 Frame.java 1159 6 17 0
+EditAction 1479308252463 TestsFrame.java 634 2 6 2
+EditAction 1479308300006 TestsFrame.java 632 2 6 2
+UnitTestCaseAction 1479308301618 TestsFrame.java OK
+UnitTestSessionAction 1479308301619 TestsFrame OK
+RefactoringAction 1479308348323 TestsFrame.java ADD void t FIELD
+RefactoringAction 1479308352340 TestsFrame.java RENAME t=>void testSpare FIELD
+RefactoringAction 1479308354354 TestsFrame.java RENAME testSpare=>void testSpare1() METHOD
+RefactoringAction 1479308368898 TestsFrame.java RENAME testSpare1()=>void testSpare()/2 METHOD
+RefactoringAction 1479308372425 TestsFrame.java RENAME testSpare()/2=>void testIsNotSpare() METHOD
+EditAction 1479308428082 TestsFrame.java 840 3 9 3
+UnitTestCaseAction 1479308429947 TestsFrame.java OK
+UnitTestSessionAction 1479308429948 TestsFrame OK
+RefactoringAction 1479308464708 TestsFrame.java ADD void testStrike()/2 METHOD
+RefactoringAction 1479308469727 TestsFrame.java RENAME testStrike()/2=>void testIsStrike() METHOD
+RefactoringAction 1479308471748 TestsFrame.java RENAME testIsStrike()=>void testIsNotStrike() METHOD
+EditAction 1479308486259 TestsFrame.java 1045 4 12 4
+UnitTestCaseAction 1479308487807 TestsFrame.java FAIL
+UnitTestSessionAction 1479308487808 TestsFrame FAIL
+EditAction 1479308503835 TestsFrame.java 1054 4 12 4
+UnitTestCaseAction 1479308505465 TestsFrame.java OK
+UnitTestSessionAction 1479308505466 TestsFrame OK
+RefactoringAction 1479308558495 TestsFrame.java ADD void testIsNotSpare()/2 METHOD
+RefactoringAction 1479308564013 TestsFrame.java RENAME testIsNotSpare()/2=>void test() METHOD
+RefactoringAction 1479308566043 TestsFrame.java RENAME test()=>void testBonus() METHOD
+RefactoringAction 1479308567551 TestsFrame.java RENAME testBonus()=>void testBonusStrike() METHOD
+EditAction 1479308611738 TestsFrame.java 1257 5 15 5
+UnitTestCaseAction 1479308613204 TestsFrame.java OK
+UnitTestSessionAction 1479308613204 TestsFrame OK
+EditAction 1479308859747 Frame.java 1219 6 19 0
+EditAction 1479308874642 Frame.java 1232 6 18 0
+RefactoringAction 1479308903265 TestsFrame.java ADD void testBonusStrike()/2 METHOD
+RefactoringAction 1479308912777 TestsFrame.java RENAME testBonusStrike()/2=>void testScore() METHOD
+EditAction 1479308977775 TestsFrame.java 1455 6 18 6
+UnitTestCaseAction 1479308979589 TestsFrame.java OK
+UnitTestSessionAction 1479308979589 TestsFrame OK
+RefactoringAction 1479308999056 TestsFrame.java ADD void testScore()/2 METHOD
+RefactoringAction 1479309007566 TestsFrame.java RENAME testScore()/2=>void testScoreWith() METHOD
+RefactoringAction 1479309009588 TestsFrame.java RENAME testScoreWith()=>void testScoreWithBonus() METHOD
+EditAction 1479309025833 TestsFrame.java 1662 7 21 7
+UnitTestCaseAction 1479309027459 TestsFrame.java OK
+UnitTestSessionAction 1479309027459 TestsFrame OK
+EditAction 1479309055488 TestsFrame.java 1662 7 21 7
+UnitTestCaseAction 1479309057200 TestsFrame.java FAIL
+UnitTestSessionAction 1479309057200 TestsFrame FAIL
+EditAction 1479309081867 TestsFrame.java 1662 7 21 7
+UnitTestCaseAction 1479309083651 TestsFrame.java OK
+UnitTestSessionAction 1479309083651 TestsFrame OK
+RefactoringAction 1479309088333 TestsFrame.java ADD void testStrike()/2 METHOD
+RefactoringAction 1479309094838 TestsFrame.java RENAME testStrike()/2=>void testStrike1() METHOD
+EditAction 1479309124184 TestsFrame.java 1899 8 24 8
+UnitTestCaseAction 1479309127413 TestsFrame.java FAIL
+UnitTestSessionAction 1479309127413 TestsFrame FAIL
+EditAction 1479309144226 TestsFrame.java 1908 8 24 8
+UnitTestCaseAction 1479309145838 TestsFrame.java FAIL
+UnitTestSessionAction 1479309145838 TestsFrame FAIL
+EditAction 1479309206156 TestsFrame.java 1907 8 24 8
+UnitTestCaseAction 1479309207656 TestsFrame.java FAIL
+UnitTestSessionAction 1479309207657 TestsFrame FAIL
+EditAction 1479309313557 TestsFrame.java 1912 8 22 7
+UnitTestCaseAction 1479309315252 TestsFrame.java FAIL
+UnitTestSessionAction 1479309315252 TestsFrame FAIL
+RefactoringAction 1479309321745 TestsFrame.java REMOVE testStrike1() METHOD
+EditAction 1479309601877 Frame.java 1260 6 19 0
+EditAction 1479309943112 Frame.java 1308 6 18 0
+UnitTestCaseAction 1479309946323 TestsFrame.java OK
+UnitTestSessionAction 1479309946326 TestsFrame OK
+EditAction 1479310242987 BowlingGame.java 585 5 2 0
+CompilationAction 1479310243219 BowlingGame.java
+CompilationAction 1479310431404 BowlingGame.java
+EditAction 1479310463041 BowlingGame.java 666 5 5 0
+RefactoringAction 1479310501351 TestBowlingScoreKeeper.java RENAME test()=>void testAddFrame() METHOD
+RefactoringAction 1479310530407 TestBowlingScoreKeeper.java ADD void setUp() METHOD
+RefactoringAction 1479310535181 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479310546446 TestBowlingScoreKeeper.java ADD Frame newFrame FIELD
+RefactoringAction 1479310550438 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479310585970 TestBowlingScoreKeeper.java ADD BowlingGame newGame FIELD
+RefactoringAction 1479310587725 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+RefactoringAction 1479310611682 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
+EditAction 1479310629815 TestBowlingScoreKeeper.java 475 2 2 0
+RefactoringAction 1479310744408 BowlingGame.java ADD void se FIELD
+RefactoringAction 1479310745921 BowlingGame.java REMOVE se FIELD
+RefactoringAction 1479310746943 BowlingGame.java ADD void se FIELD
+RefactoringAction 1479310748958 BowlingGame.java RENAME se=>void size FIELD
+RefactoringAction 1479310752476 BowlingGame.java RENAME size=>void sizeFrames FIELD
+RefactoringAction 1479310761023 BowlingGame.java RENAME sizeFrames=>int sizeFrames() METHOD
+EditAction 1479310828433 BowlingGame.java 726 6 6 0
+EditAction 1479310828576 TestBowlingScoreKeeper.java 548 2 2 0
+CompilationAction 1479310828715 TestBowlingScoreKeeper.java
+EditAction 1479310894224 TestBowlingScoreKeeper.java 605 2 5 1
+UnitTestCaseAction 1479310897505 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479310897512 TestBowlingScoreKeeper OK
+RefactoringAction 1479310926944 TestBowlingScoreKeeper.java ADD void test FIELD
+RefactoringAction 1479310939953 TestBowlingScoreKeeper.java RENAME test=>void testMaxFrames FIELD
+RefactoringAction 1479310940961 TestBowlingScoreKeeper.java RENAME testMaxFrames=>void testMaxFrames() METHOD
+RefactoringAction 1479311053552 TestBowlingScoreKeeper.java RENAME testMaxFrames()=>void testMFrames() METHOD
+RefactoringAction 1479311054569 TestBowlingScoreKeeper.java RENAME testMFrames()=>void testFrames() METHOD
+RefactoringAction 1479311058086 TestBowlingScoreKeeper.java RENAME testFrames()=>void testAddTenFrames() METHOD
+EditAction 1479311100882 TestBowlingScoreKeeper.java 1057 3 17 2
+UnitTestCaseAction 1479311102108 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479311102108 TestBowlingScoreKeeper OK
+RefactoringAction 1479311117742 TestBowlingScoreKeeper.java RENAME testAddTenFrames()=>void testAddMaxFrames() METHOD
+RefactoringAction 1479311134753 TestBowlingScoreKeeper.java ADD void testAddMaxFrames()/2 METHOD
+RefactoringAction 1479311140258 TestBowlingScoreKeeper.java RENAME testAddMaxFrames()/2=>void testAddOverMaxFrames() METHOD
+EditAction 1479311155399 TestBowlingScoreKeeper.java 1543 4 30 3
+UnitTestCaseAction 1479311157107 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479311157108 TestBowlingScoreKeeper FAIL
+EditAction 1479311181238 TestBowlingScoreKeeper.java 1578 4 30 3
+UnitTestCaseAction 1479311182581 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479311182581 TestBowlingScoreKeeper OK
+EditAction 1479311337018 TestBowlingScoreKeeper.java 1770 4 30 3
+EditAction 1479311337117 TestsFrame.java 1669 7 21 7
+RefactoringAction 1479311365755 AllTests.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479311365766 AllTests.java ADD AllTests.java CLASS
+FileOpenedAction 1479311365928 AllTests.java 270 0 0 0
+UnitTestCaseAction 1479311370794 AllTests.java OK
+UnitTestSessionAction 1479311370803 AllTests OK
+EditAction 1479312079418 BowlingGame.java 774 6 7 0
+EditAction 1479312116802 BowlingGame.java 777 6 7 0
+EditAction 1479313004859 BowlingGame.java 816 6 9 0
+RefactoringAction 1479313080383 TestBowlingScoreKeeper.java ADD void testScore() METHOD
+EditAction 1479313175240 TestBowlingScoreKeeper.java 1970 5 34 4
+UnitTestCaseAction 1479313177159 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313177159 TestBowlingScoreKeeper FAIL
+EditAction 1479313222234 BowlingGame.java 816 6 9 0
+UnitTestCaseAction 1479313224846 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313224846 TestBowlingScoreKeeper FAIL
+EditAction 1479313242026 BowlingGame.java 815 6 9 0
+UnitTestCaseAction 1479313244361 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479313244362 TestBowlingScoreKeeper OK
+EditAction 1479313286452 TestBowlingScoreKeeper.java 1985 5 34 4
+UnitTestCaseAction 1479313330909 AllTests.java OK
+UnitTestSessionAction 1479313330910 AllTests OK

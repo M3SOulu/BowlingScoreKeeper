@@ -9,17 +9,30 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
-	public void addFrame(Frame frame){
-		//to be implemented
+	public void addFrame(Frame frame)throws BowlingException{
+		int size = this.frames.size();
+		
+		if(size == 10){
+			throw new BowlingException();
+		}
+		
+		this.frames.add(frame);
+	}
+	
+	public int sizeFrames(){
+		return this.frames.size();
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		int gameScore = 0;
+		int size = frames.size();
+		for(int i = 0; i < size; i++){
+			gameScore += frames.get(i).score();
+		}
+		return gameScore;
 	}
 	
 	public boolean isNextFrameBonus(){
