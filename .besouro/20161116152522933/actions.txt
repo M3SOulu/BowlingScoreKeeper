@@ -281,3 +281,11 @@ RefactoringAction 1479315158401 BowlingGame.java ADD List<> getList FIELD
 RefactoringAction 1479315174985 BowlingGame.java RENAME getList=>List<Frame> getList() METHOD
 CompilationAction 1479315260679 TestBowlingGame.java
 EditAction 1479315260690 BowlingGame.java 1215 6 7 0
+UnitTestCaseAction 1479315261220 TestBowlingGame.java OK
+UnitTestSessionAction 1479315261220 TestBowlingGame OK
+UnitTestCaseAction 1479315266036 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479315266037 TestBowlingScoreKeeper OK
+RefactoringAction 1479315314354 TestBowlingGame.java ADD void test FIELD
+RefactoringAction 1479315316875 TestBowlingGame.java RENAME test=>void testScore FIELD
+RefactoringAction 1479315317886 TestBowlingGame.java RENAME testScore=>void testScore() METHOD
+EditAction 1479315392331 TestBowlingGame.java 1059 3 23 0

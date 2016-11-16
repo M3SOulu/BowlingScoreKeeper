@@ -30,11 +30,28 @@ public class TestBowlingGame {
 		f9 = new Frame(10,0); 
 		f10 = new Frame(2,8); 
 	}	
+	
 	@Test
 	public void testAddFrame() {
 		bg.addFrame(f1);
-		assert(bg.getList().size()==1);
-		
+		assert(bg.getList().size()==1);		
 	}
+	@Test
+	public void testScore(){
+		bg.addFrame(f1);
+		bg.addFrame(f2);
+		bg.addFrame(f3);
+		bg.addFrame(f4);
+		bg.addFrame(f5);
+		bg.addFrame(f6);
+		bg.addFrame(f7);
+		bg.addFrame(f8);
+		bg.addFrame(f9);
+		bg.addFrame(f10);
+		assert(bg.score()==127);		
+
+
+	}
+	
 
 }
