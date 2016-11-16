@@ -5,6 +5,7 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	int points = 0;
+	private boolean lastFrame = false;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.setFirstThrow(firstThrow);
@@ -33,7 +34,8 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		
+		if(lastFrame == true)
+			return true;
 		return false;
 	}
 

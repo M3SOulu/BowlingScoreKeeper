@@ -36,3 +36,9 @@ EditAction 1479308964277 Frame.java 1089 8 13 0
 EditAction 1479309022189 Frame.java 1243 10 15 0
 CompilationAction 1479309022445 BowlingGame.java
 EditAction 1479309029855 BowlingGame.java 876 5 5 0
+RefactoringAction 1479309156347 Frame.java ADD int secondThrow/2 FIELD
+RefactoringAction 1479309160363 Frame.java RENAME secondThrow/2=>int thirdThrow FIELD
+RefactoringAction 1479309212508 Frame.java REMOVE thirdThrow FIELD
+RefactoringAction 1479309214018 Frame.java ADD boolean last FIELD
+RefactoringAction 1479309216042 Frame.java RENAME last=>boolean lastFrame FIELD
+EditAction 1479309253662 Frame.java 1316 10 16 0
