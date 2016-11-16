@@ -10,7 +10,7 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	/**
-	 * add a frame if the match isnt alreadty finished
+	 * add a frame if the match isnt already finished
 	 * @param frame
 	 * @throws BowlingException
 	 */
@@ -22,8 +22,9 @@ public class BowlingGame {
 		frames.add( frame );
 	}
 	
-	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+	
+	public void setBonus( int firstThrow, int secondThrow ) {
+		bonus = new Frame( firstThrow, secondThrow );
 	}
 	
 	public int score(){
@@ -45,6 +46,10 @@ public class BowlingGame {
 		return score;
 	}
 	
+	/**
+	 * 
+	 * @return true if the next frame is a bonus
+	 */
 	public boolean isNextFrameBonus(){
 		Frame lastFrame = frames.get( frames.size() - 1 );
 		
