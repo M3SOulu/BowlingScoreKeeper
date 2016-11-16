@@ -66,3 +66,6 @@ RefactoringAction 1479308464708 TestsFrame.java ADD void testStrike()/2 METHOD
 RefactoringAction 1479308469727 TestsFrame.java RENAME testStrike()/2=>void testIsStrike() METHOD
 RefactoringAction 1479308471748 TestsFrame.java RENAME testIsStrike()=>void testIsNotStrike() METHOD
 EditAction 1479308486259 TestsFrame.java 1045 4 12 4
+UnitTestCaseAction 1479308487807 TestsFrame.java FAIL
+UnitTestSessionAction 1479308487808 TestsFrame FAIL
+EditAction 1479308503835 TestsFrame.java 1054 4 12 4

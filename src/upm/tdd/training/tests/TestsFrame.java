@@ -30,7 +30,7 @@ public class TestsFrame {
 		//Act
 		boolean ris = newFrame.isStrike();
 		//Assert
-		assertTrue(ris);
+		assertEquals(false, ris);
 		
 	}
 	
