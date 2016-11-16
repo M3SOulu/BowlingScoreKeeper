@@ -101,3 +101,6 @@ RefactoringAction 1479311370259 TestBowlingScoreKeeper.java RENAME import junit.
 UnitTestCaseAction 1479311380688 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479311380690 TestBowlingScoreKeeper FAIL
 EditAction 1479311401284 TestBowlingScoreKeeper.java 579 2 5 1
+UnitTestCaseAction 1479311410522 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479311410525 TestBowlingScoreKeeper FAIL
+EditAction 1479311427317 TestBowlingScoreKeeper.java 578 2 5 1
