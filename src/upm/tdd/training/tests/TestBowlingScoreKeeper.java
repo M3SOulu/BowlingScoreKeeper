@@ -31,7 +31,10 @@ public class TestBowlingScoreKeeper {
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
 		b.addFrame( new Frame( 1, 2 )  );
-		b.addFrame( new Frame( 1, 2 )  );
+		
+		Frame f = new Frame( 1, 2 );
+		b.addFrame( f  );
+		assertEquals( true, f.isLastFrame() );
 	}
 
 }

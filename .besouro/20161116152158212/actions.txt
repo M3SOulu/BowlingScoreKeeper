@@ -286,3 +286,4 @@ RefactoringAction 1479314710651 TestBowlingScoreKeeper.java RENAME testCorrect()
 RefactoringAction 1479314714665 TestBowlingScoreKeeper.java RENAME testCorrectMatc()=>void testCorrectAddFrame() METHOD
 RefactoringAction 1479314731085 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingException IMPORT
 EditAction 1479314745295 TestBowlingScoreKeeper.java 817 2 12 0
+EditAction 1479314797604 TestBowlingScoreKeeper.java 876 2 14 1
