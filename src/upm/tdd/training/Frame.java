@@ -65,5 +65,13 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 
+	public int getThirdThrow() {
+		return thirdThrow;
+	}
+
+	public void setThirdThrow(int thirdThrow) {
+		this.thirdThrow = thirdThrow;
+	}
+
 
 }
