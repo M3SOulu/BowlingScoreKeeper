@@ -142,3 +142,6 @@ RefactoringAction 1479312987894 BowlingGame.java ADD boolean isNextFrameBonus() 
 EditAction 1479312989108 BowlingGame.java 1527 5 12 0
 EditAction 1479312998791 TestBowlingScoreKeeper.java 774 3 6 1
 EditAction 1479313002783 TestBowlingScoreKeeper.java 773 3 6 1
+UnitTestCaseAction 1479313004150 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313004150 TestBowlingScoreKeeper FAIL
+EditAction 1479313370779 Frame.java 978 7 10 0
