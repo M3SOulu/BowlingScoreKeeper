@@ -328,3 +328,14 @@ RefactoringAction 1479314906930 TestBowlingScoreKeeper.java RENAME testAllOneASc
 RefactoringAction 1479314907934 TestBowlingScoreKeeper.java RENAME testAllOneAndScore()=>void testAllOneAndOneScore() METHOD
 EditAction 1479314921611 TestBowlingScoreKeeper.java 1307 6 14 3
 EditAction 1479314936906 TestBowlingScoreKeeper.java 1308 6 14 3
+UnitTestCaseAction 1479314938870 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314938871 TestBowlingScoreKeeper OK
+RefactoringAction 1479314948481 TestBowlingScoreKeeper.java ADD void testMoreThanElevenThrows()/2 METHOD
+RefactoringAction 1479314958000 TestBowlingScoreKeeper.java RENAME testMoreThanElevenThrows()/2=>void testNotThrows() METHOD
+RefactoringAction 1479314959026 TestBowlingScoreKeeper.java RENAME testNotThrows()=>void testNotEThrows() METHOD
+RefactoringAction 1479314961031 TestBowlingScoreKeeper.java RENAME testNotEThrows()=>void testNotEnaughtThrows() METHOD
+RefactoringAction 1479314963035 TestBowlingScoreKeeper.java RENAME testNotEnaughtThrows()=>void testNoThrows() METHOD
+RefactoringAction 1479314965539 TestBowlingScoreKeeper.java RENAME testNoThrows()=>void testThrows() METHOD
+RefactoringAction 1479314968546 TestBowlingScoreKeeper.java RENAME testThrows()=>void test() METHOD
+RefactoringAction 1479314973052 TestBowlingScoreKeeper.java RENAME test()=>void testGameNotFinished() METHOD
+EditAction 1479314979530 TestBowlingScoreKeeper.java 1487 7 16 3

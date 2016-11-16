@@ -38,6 +38,12 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	@Test (expected = BowlingException.class)
+	public void testGameNotFinished() throws BowlingException{
+		Frame f = new Frame(5,5);
+		for(int i=0; i<5; i++) game.addFrame(f);
+	}
+	
+	@Test (expected = BowlingException.class)
 	public void testMoreThanElevenThrows() throws BowlingException{
 		Frame f = new Frame(5,5);
 		for(int i=0; i<12; i++) game.addFrame(f);
