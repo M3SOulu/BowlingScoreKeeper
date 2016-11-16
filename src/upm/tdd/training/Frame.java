@@ -9,34 +9,55 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
-	
+//
 	//the score of a single frame
 	public int score(){
-		//to be implemented
+		int frameScore;
+		frameScore = firstThrow + secondThrow;
 		return 0;
 	}
 
 	//returns whether the frame is a strike or not
-	public boolean isStrike(){
-		//to be implemented
+	public boolean isStrike(){   //10 pins in one throws
+		int strike, nextOneThrows = 0, nextSecondThrow = 0;
+		boolean isStrike;
+		firstThrow = 10;
+		if (isStrike = true){
+			strike = firstThrow + nextOneThrows + nextSecondThrow;
+		}
 		return false;
 	}
 	
 	//return whether a frame is a spare or not
-	public boolean isSpare(){
-		//to be implemented
+	public boolean isSpare(){   //10 pins in two throws
+		int spare, nextOneThrows = 0;
+		boolean isSpare;
+		if (isSpare = true){
+			spare =  firstThrow + secondThrow + nextOneThrows;
+		}
 		return false;
 	}
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
+		boolean lastFrame, bonusSpare, bonusStrike;
+		int scoreFinal;
+		if(lastFrame = true){
+			score();
+			if( bonusSpare = true) {
+				isSpare();
+			}
+			if ( bonusStrike = true){
+				isStrike();
+			}
+		}
 		return false;
 	}
 
 	//bonus throws
 	public int bonus(){
-		//to be implemented
+		int strikeBonus = firstThrow + secondThrow;
+		int spareBonus =  firstThrow;
 		return 0;
 	}
 
