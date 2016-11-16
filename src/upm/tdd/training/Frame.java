@@ -88,15 +88,6 @@ public class Frame {
 	 * @return if is the last frame
 	 */
 	public boolean isLastFrame(){
-//		if( id == (MAX_NUMBER_OF_FRAMES + 1) ){
-//			return true;
-//		}
-//		else if( id == MAX_NUMBER_OF_FRAMES && !isSpare() && !isStrike() ){
-//			return true;
-//		}
-//		else{
-//			return false;
-//		}
 		if( id == MAX_NUMBER_OF_FRAMES ){
 			return true;
 		}
