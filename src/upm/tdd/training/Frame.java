@@ -8,6 +8,8 @@ public class Frame {
 	private static int count = 0;
 	private int id;
 	
+	private static final int MAX_NUMBER_OF_PINS = 10;
+	
 	/**
 	 * create a new Bowling Frame
 	 * @param firstThrow
@@ -64,7 +66,7 @@ public class Frame {
 	 */
 	public boolean isLastFrame(){
 		if( id == 10 ){
-			return tre;
+			return true;
 		}
 		else{
 			return false;

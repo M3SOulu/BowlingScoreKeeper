@@ -100,3 +100,10 @@ RefactoringAction 1479308388333 Frame.java REMOVE the/2 FIELD
 EditAction 1479308408114 Frame.java 1293 6 9 0
 CompilationAction 1479308408385 Frame.java
 EditAction 1479308437562 Frame.java 1334 6 10 0
+CompilationAction 1479308437803 Frame.java
+CompilationAction 1479308440270 Frame.java
+RefactoringAction 1479308457880 Frame.java ADD int MAX_NUM FIELD
+RefactoringAction 1479308459405 Frame.java RENAME MAX_NUM=>int MAX_NUMBER FIELD
+RefactoringAction 1479308461920 Frame.java RENAME MAX_NUMBER=>int MAX_NUMBER_OF_é FIELD
+RefactoringAction 1479308465935 Frame.java RENAME MAX_NUMBER_OF_é=>int MAX_NUMBER_OF_PINS FIELD
+EditAction 1479308467889 Frame.java 1388 6 10 0
