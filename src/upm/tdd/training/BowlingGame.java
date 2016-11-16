@@ -4,29 +4,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BowlingGame {
-
+	
 	public static final int MAX_SIZE_FRAMES = 10;
-
+	
 	// a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus = null;
 
-	// TODO elimina
 	public List<Frame> getFrames() {
 		return frames;
 	}
 
-	// TODO elimina
 	public Frame getBonus() {
 		return bonus;
 	}
 
-	public BowlingGame() {
-	}
+	public BowlingGame() {}
 
 	public void addFrame(Frame frame) throws BowlingException {
-		if (isNextFrameBonus()
-				&& (frames.get(MAX_SIZE_FRAMES - 1).isStrike() || frames.get(MAX_SIZE_FRAMES - 1).isSpare())) {
+		if (isNextFrameBonus() && (frames.get(MAX_SIZE_FRAMES-1).isStrike() || frames.get(MAX_SIZE_FRAMES-1).isSpare())) {
 			bonus = new Frame(frame, this);
 		} else
 			frames.add(new Frame(frame, this));
@@ -39,20 +35,20 @@ public class BowlingGame {
 
 	// score game
 	public int score() throws BowlingException {
-		if (frames.size() < MAX_SIZE_FRAMES)
+		if(frames.size() < MAX_SIZE_FRAMES)
 			throw new BowlingException();
 		else {
-			if (bonus == null)
+			if(bonus == null)
 				throw new BowlingException();
 		}
-
+		
 		int result = 0;
 		for (Frame frameTemp : frames) {
 			result += frameTemp.score();
 			System.out.println(result);
 		}
-
-		return result + ((bonus != null) ? bonus.score() : 0);
+			
+		return result + ((bonus != null)?bonus.score():0);
 	}
 
 	public boolean isNextFrameBonus() throws BowlingException {
@@ -62,27 +58,20 @@ public class BowlingGame {
 			else
 				return true;
 		}
-
+		
 		return false;
 	}
 
+
 	public Frame getNextFrame(Frame frame) {
-		int indexFrames = frames.indexOf(frame) + 1;
+		int indexFrames = frames.indexOf(frame)+1;
 		Frame resultFrame = null;
-		if (indexFrames < MAX_SIZE_FRAMES)
+		if(indexFrames < MAX_SIZE_FRAMES)
 			resultFrame = frames.get(indexFrames);
 		else {
-			if (indexFrames == MAX_SIZE_FRAMES)
+			if(indexFrames == MAX_SIZE_FRAMES)
 				resultFrame = bonus;
 		}
 		return resultFrame;
-	}
-
-	public static int calcolateBonus(Frame frame, Frame nextFrame) {
-		if (frame.isSpare() && nextFrame != null)
-			return nextFrame.getFirstThrow();
-		if (frame.isStrike() && nextFrame != null)
-			return (nextFrame.getFirstThrow() + nextFrame.getSecondThrow());
-		return 0;
 	}
 }

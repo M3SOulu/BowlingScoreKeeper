@@ -2,6 +2,7 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import upm.tdd.training.BowlingException;
@@ -23,10 +24,9 @@ public class TestFrame {
 	}
 	
 	@Test
-	public void testBonus() throws BowlingException {
-		Frame frame = new Frame(10,0);
-		Frame nextFrame = new Frame(6,1);
-		assertEquals(7, BowlingGame.calcolateBonus(frame, nextFrame));
+	public void testIsScore() throws BowlingException {
+		Frame frame = new Frame(5,5);
+		assertEquals(10, frame.isSpare());
 	}
 
 }

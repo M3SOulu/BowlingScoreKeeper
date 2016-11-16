@@ -192,3 +192,25 @@ CompilationAction 1479315366642 TestFrame.java
 UnitTestCaseAction 1479315367088 TestFrame.java OK
 UnitTestSessionAction 1479315367089 TestFrame OK
 EditAction 1479315469157 TestFrame.java 734 3 7 3
+UnitTestCaseAction 1479315469757 TestFrame.java FAIL
+UnitTestSessionAction 1479315469758 TestFrame FAIL
+RefactoringAction 1479315537262 TestFrame.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479315543195 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1479315543196 Frame.java REMOVE getFirstThrow() METHOD
+CompilationAction 1479315558280 BowlingGame.java
+CompilationAction 1479315558282 BowlingGame.java
+CompilationAction 1479315558282 Frame.java
+RefactoringAction 1479315567051 BowlingGame.java RENAME calcolateBonus(Frame, Frame)=>p Frame FIELD
+RefactoringAction 1479315569574 BowlingGame.java REMOVE Frame FIELD
+CompilationAction 1479315576103 BowlingGame.java
+CompilationAction 1479315576104 BowlingGame.java
+CompilationAction 1479315576271 BowlingGame.java
+CompilationAction 1479315576271 BowlingGame.java
+CompilationAction 1479315576271 TestFrame.java
+RefactoringAction 1479315589687 BowlingGame.java REMOVE getBonus(Frame) METHOD
+CompilationAction 1479315594056 Frame.java
+CompilationAction 1479315594057 TestFrame.java
+RefactoringAction 1479315603798 Frame.java ADD void getBonus(Frame) METHOD
+RefactoringAction 1479315607825 Frame.java REMOVE getBonus(Frame) METHOD
+CompilationAction 1479315627751 Frame.java
+EditAction 1479315631068 TestFrame.java 696 3 6 3
