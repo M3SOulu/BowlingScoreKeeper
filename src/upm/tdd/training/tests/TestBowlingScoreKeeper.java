@@ -15,7 +15,7 @@ public class TestBowlingScoreKeeper {
 
 	@Test
 	public void testAllStrikesScore() {
-		
+		Frame strikeFrame = new Frame(10,0);
 	}
 
 }
