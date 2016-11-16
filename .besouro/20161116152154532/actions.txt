@@ -63,3 +63,4 @@ RefactoringAction 1479314604924 TestBowlingScoreKeeper.java ADD import upm.tdd.t
 RefactoringAction 1479314732170 Frame.java ADD int getFirstThrow()/2 METHOD
 RefactoringAction 1479314737176 Frame.java RENAME getFirstThrow()/2=>int getSecondThrow() METHOD
 EditAction 1479314829693 Frame.java 1312 8 14 0
+EditAction 1479314829796 BowlingGame.java 2156 6 11 0
