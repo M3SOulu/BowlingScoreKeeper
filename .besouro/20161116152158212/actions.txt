@@ -454,3 +454,8 @@ EditAction 1479316087765 TestFrame.java 2271 12 23 18
 RefactoringAction 1479316122984 TestBowlingScoreKeeper.java ADD void TesBonusStrikeScore()/2 METHOD
 RefactoringAction 1479316126505 TestBowlingScoreKeeper.java RENAME TesBonusStrikeScore()/2=>void TesBonusScore() METHOD
 EditAction 1479316247394 TestBowlingScoreKeeper.java 2277 5 46 4
+UnitTestCaseAction 1479316250378 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316250378 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479316266958 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479316266958 TestBowlingScoreKeeper FAIL
+EditAction 1479316278603 TestBowlingScoreKeeper.java 2277 5 46 4
