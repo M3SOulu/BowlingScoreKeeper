@@ -27,7 +27,7 @@ public class BowlingGame {
 	public void setBonus(int firstThrow, int secondThrow) {
 		this.bonus = new Frame(firstThrow,secondThrow);
 	}
-	//
+	//h
 	public int score(){
 		for(int i = 2; i < frames.size(); i++){
 			index = i;
