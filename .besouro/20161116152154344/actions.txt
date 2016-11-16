@@ -69,3 +69,4 @@ RefactoringAction 1479310473376 BowlingException.java ADD BowlingException(Strin
 EditAction 1479310569375 BowlingGame.java 868 5 8 0
 CompilationAction 1479310569541 BowlingGame.java
 EditAction 1479310569553 Frame.java 927 6 9 0
+EditAction 1479310569719 BowlingException.java 197 1 0 0
