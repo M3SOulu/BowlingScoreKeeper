@@ -47,5 +47,13 @@ public class TestFrame {
 		Assert.assertEquals(19, fr_strike.score()+fr_bonus.score());
 		
 	}
+	
+	@Test
+	public void test_of_spare() {
+		Assert.assertEquals(7, fr_spare.getFirstThrow());
+		Assert.assertEquals(3, fr_spare.getSecondThrow());
+		Assert.assertEquals(13, fr_spare.score()+fr_bonus.getFirstThrow());
+		
+	}
 
 }
