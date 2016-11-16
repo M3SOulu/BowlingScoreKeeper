@@ -156,3 +156,6 @@ EditAction 1479313644778 TestFrame.java 483 2 5 0
 RefactoringAction 1479313674011 TestFrame.java RENAME test()=>void test_of_frames() METHOD
 RefactoringAction 1479313686582 TestFrame.java ADD import org.junit.Assert IMPORT
 EditAction 1479313706258 TestFrame.java 567 2 6 1
+UnitTestCaseAction 1479313708835 TestFrame.java OK
+UnitTestSessionAction 1479313708842 TestFrame OK
+EditAction 1479313722834 TestFrame.java 616 2 7 2

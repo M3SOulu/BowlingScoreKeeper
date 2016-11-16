@@ -27,6 +27,7 @@ public class TestFrame {
 	@Test
 	public void test_of_frames() {
 		Assert.assertEquals(5, fr1.getFirstThrow());
+		Assert.assertEquals(4, fr1.getSecondThrow());
 		
 	}
 
