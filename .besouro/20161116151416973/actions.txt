@@ -34,3 +34,4 @@ RefactoringAction 1479307804044 Frame.java RENAME setThirdThrwo=>void setThirdTh
 RefactoringAction 1479307805070 Frame.java RENAME setThirdThrow=>void setThirdThrow() METHOD
 RefactoringAction 1479307812094 Frame.java RENAME setThirdThrow()=>void setThirdThrow(int) METHOD
 EditAction 1479308382293 Frame.java 1395 10 18 0
+EditAction 1479308561107 Frame.java 1503 10 17 0

@@ -74,6 +74,12 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
+		int result = 0;
+		BowlingGame bowlingGame = new BowlingGame();
+		
+		if(this.isSpare()) {
+			result = 
+		}
 		
 		return 0;
 	}
