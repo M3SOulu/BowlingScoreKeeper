@@ -275,3 +275,4 @@ RefactoringAction 1479315358165 TestBowlingScoreKeeper.java ADD BowlingGame game
 RefactoringAction 1479315363675 TestBowlingScoreKeeper.java RENAME frameWithSomeSpare/2=>Frame FIELD
 RefactoringAction 1479315367204 TestBowlingScoreKeeper.java RENAME gameWithSomeSpare/2=>BowlingGame gameWithSomeStrike FIELD
 EditAction 1479315395313 TestBowlingScoreKeeper.java 2104 6 14 3
+EditAction 1479315435314 TestBowlingScoreKeeper.java 2112 6 14 3

@@ -58,22 +58,22 @@ public class TestBowlingScoreKeeper {
 
 	@Before
 	public void initializeTestWithSomeStrike() throws BowlingException {
-		gameWithSomeSpare = new BowlingGame();
-		for (int i = 0; i < frameWithSomeSpare.length; i++) {
-			frameWithSomeSpare[i] = new Frame(1, 0);
+		gameWithSomeStrike = new BowlingGame();
+		for (int i = 0; i < frameWithSomeStrike.length; i++) {
+			frameWithSomeStrike[i] = new Frame(1, 0);
 		}
 
 		// set some random strike
-		frameWithSomeSpare[2] = new Frame(10, 0);
+		frameWithSomeStrike[2] = new Frame(10, 0);
 
-		for (int i = 0; i < frameWithSomeSpare.length; i++) {
-			gameWithSomeSpare.addFrame(frameWithSomeSpare[i]);
+		for (int i = 0; i < frameWithSomeStrike.length; i++) {
+			gameWithSomeStrike.addFrame(frameWithSomeStrike[i]);
 		}
 	}
 
 	@Test
 	public void testTotalScoreWithSomeStrike() throws BowlingException {
-		assertEquals(96, gameWithSomeSpare.score());
+		assertEquals(96, gameWithSomeStrike.score());
 	}
 
 }
