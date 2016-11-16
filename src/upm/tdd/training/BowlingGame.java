@@ -38,11 +38,10 @@ public class BowlingGame {
 			}else{
 				this.score += frames.get(i-2).score();
 			}
-			
-			if(frames.get(10).isStrike()){
-				score += bonus.score();
-			}
-		}		
+		}	
+		if(frames.get(10).isStrike()){
+			score += bonus.score();
+		}
 		return score;
 	}
 	
