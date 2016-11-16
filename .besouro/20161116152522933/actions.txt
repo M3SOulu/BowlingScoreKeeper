@@ -95,3 +95,11 @@ RefactoringAction 1479310705184 TestFrame.java ADD void testInitFrameExceptionMo
 RefactoringAction 1479310713218 TestFrame.java RENAME testInitFrameExceptionMoreThanTen1()/3=>void testInitFrameExceptionMoreThanTen2() METHOD
 RefactoringAction 1479310715728 TestFrame.java RENAME testInitFrameExceptionMoreThanTen1()/2=>void testInitFrameExceptionMoreThanTen3() METHOD
 EditAction 1479310730410 TestFrame.java 1203 7 6 0
+UnitTestCaseAction 1479310730998 TestFrame.java OK
+UnitTestSessionAction 1479310730999 TestFrame OK
+RefactoringAction 1479311004025 TestFrame.java ADD void testInitFrameExceptionMoreThanTen3()/2 METHOD
+RefactoringAction 1479311012191 TestFrame.java RENAME testInitFrameExceptionMoreThanTen3()/2=>void testInitFrameException() METHOD
+RefactoringAction 1479311019707 TestFrame.java RENAME testInitFrameException()=>void testInitFrameExceptionScor() METHOD
+RefactoringAction 1479311024733 TestFrame.java RENAME testInitFrameExceptionScor()=>void testInitFrameExceptionScoreMoreThan() METHOD
+RefactoringAction 1479311027758 TestFrame.java RENAME testInitFrameExceptionScoreMoreThan()=>void testInitFrameExceptionScoreMoreThanTen() METHOD
+EditAction 1479311033032 TestFrame.java 1367 8 7 0
