@@ -3,7 +3,7 @@ package upm.tdd.training;
 public class BowlingException extends Exception {
 
 	public BowlingException(String string) {
-		
+		System.out.println(string);
 	}
 
 	/**
