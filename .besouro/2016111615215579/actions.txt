@@ -26,3 +26,6 @@ RefactoringAction 1479308184723 Frame.java RENAME getFirstThrow()/2=>int getSeco
 EditAction 1479308274603 Frame.java 1417 10 16 0
 EditAction 1479308388572 Frame.java 1417 10 16 0
 EditAction 1479308388665 BowlingGame.java 602 5 4 0
+CompilationAction 1479308388930 BowlingGame.java
+RefactoringAction 1479308529583 Frame.java RENAME setScore(Frame, int)=>void setScore(int) METHOD
+EditAction 1479308549320 Frame.java 1436 10 16 0

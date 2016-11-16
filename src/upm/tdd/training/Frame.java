@@ -18,22 +18,23 @@ public class Frame {
 		return frame;
 	}
 	
-	public void setScore(Frame precFrame, int score){
-		if (precFrame.isStrike()){
-			score = firstThrow+secondThrow+precFrame.getFirstThrow()+precFrame.getSecondThrow();
-		}else if(precFrame.isSpare()){
-			score = firstThrow+secondThrow+precFrame.getFirstThrow();
-		}
-		else{
-			score = (firstThrow+secondThrow);
-		}
+	public void setScore(int score){
+//		if (precFrame.isStrike()){
+//			score = firstThrow+secondThrow+precFrame.getFirstThrow()+precFrame.getSecondThrow();
+//		}else if(precFrame.isSpare()){
+//			score = firstThrow+secondThrow+precFrame.getFirstThrow();
+//		}
+//		else{
+//			score = (firstThrow+secondThrow);
+//		}
+		this.score = score;
 	}
 	
-	private int getFirstThrow() {
+	public int getFirstThrow() {
 		return firstThrow;
 	}
 	
-	private int getSecondThrow() {
+	public int getSecondThrow() {
 		return secondThrow;
 	}
 
