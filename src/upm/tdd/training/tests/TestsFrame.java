@@ -83,6 +83,17 @@ public class TestsFrame {
 		//Assert
 		assertEquals(13, score);
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void testStrike1() throws BowlingException {
+		//Assign
+		Frame newFrame = new Frame(11, 1);
+		//Act
+		boolean ris = newFrame.isStrike();
+		//Assert
+		assertTrue(ris);
+		
+	}
 
 
 }
