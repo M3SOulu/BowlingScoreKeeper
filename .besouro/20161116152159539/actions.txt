@@ -119,3 +119,21 @@ RefactoringAction 1479313316095 BowlingGame.java RENAME addFrame(Frame)=>void ad
 RefactoringAction 1479313345696 BowlingGame.java RENAME addFrame(java.awt.Frame)=>void addFrame() METHOD
 RefactoringAction 1479313348202 BowlingGame.java RENAME addFrame()=>void addFrame(Frame) METHOD
 EditAction 1479313350496 BowlingGame.java 1013 7 8 0
+RefactoringAction 1479313717470 TestBowlingScoreKeeper.java REMOVE import java.awt.Frame IMPORT
+RefactoringAction 1479313728725 TestBowlingScoreKeeper.java ADD import upm.tdd.training.Frame IMPORT
+CompilationAction 1479313747397 TestBowlingScoreKeeper.java
+CompilationAction 1479313747436 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479313749203 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313749204 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479313767554 TestBowlingScoreKeeper.java REMOVE testScoreNormal() METHOD
+RefactoringAction 1479313767559 TestBowlingScoreKeeper.java REMOVE testScoreSpare() METHOD
+RefactoringAction 1479313771109 TestBowlingScoreKeeper.java ADD void testScoreNormal() METHOD
+RefactoringAction 1479313771110 TestBowlingScoreKeeper.java ADD void testScoreSpare() METHOD
+CompilationAction 1479313775617 TestBowlingScoreKeeper.java
+UnitTestCaseAction 1479313778520 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313778521 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479313798137 TestBowlingScoreKeeper.java REMOVE testScoreNormal() METHOD
+RefactoringAction 1479313798138 TestBowlingScoreKeeper.java REMOVE testScoreSpare() METHOD
+RefactoringAction 1479313799145 TestBowlingScoreKeeper.java ADD void testScoreNormal() METHOD
+RefactoringAction 1479313799146 TestBowlingScoreKeeper.java ADD void testScoreSpare() METHOD
+EditAction 1479313884551 TestBowlingScoreKeeper.java 2553 3 53 2

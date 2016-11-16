@@ -2,12 +2,12 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
-import java.awt.Frame;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import upm.tdd.training.BowlingGame;
+import upm.tdd.training.Frame;
 
 public class TestBowlingScoreKeeper {
 	
@@ -15,16 +15,16 @@ public class TestBowlingScoreKeeper {
 	
 	@Before
 	public void setUp(){
-		Frame f1 = new Frame();
-		Frame f2 = new Frame();
-		Frame f3 = new Frame();
-		Frame f4 = new Frame();
-		Frame f5 = new Frame();
-		Frame f6 = new Frame();
-		Frame f7 = new Frame();
-		Frame f8 = new Frame();
-		Frame f9 = new Frame();
-		Frame f10 = new Frame();
+		Frame f1 = new Frame(2,2);
+		Frame f2 = new Frame(1,2);
+		Frame f3 = new Frame(1,2);
+		Frame f4 = new Frame(4,3);
+		Frame f5 = new Frame(0,5);
+		Frame f6 = new Frame(6,0);
+		Frame f7 = new Frame(1,1);
+		Frame f8 = new Frame(0,0);
+		Frame f9 = new Frame(0,0);
+		Frame f10 = new Frame(1,2);
 		game.addFrame(f1);
 	}
 	
