@@ -35,7 +35,7 @@ public class BowlingGame {
 		}
 		
 		if (isNextFrameBonus()){
-			setBonus(frames.get(BONUS_FRAME).getFirstThrow(), frames.get(BONUS_FRAME).getSecondThrow());
+			setBonus(frames.get(BONUS_FRAME-1).getFirstThrow(), frames.get(BONUS_FRAME-1).getSecondThrow());
 			result += bonus.score();
 		}
 		
