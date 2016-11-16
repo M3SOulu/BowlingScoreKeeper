@@ -28,7 +28,7 @@ public class BowlingGame {
 	public boolean isNextFrameBonus() throws BowlingException{
 		if(frameIndex<10) throw new BowlingException();
 		else{
-			Frame tenthFrame = frames.get(10); 
+			Frame tenthFrame = frames.get(9); 
 			return tenthFrame.isSpare() || tenthFrame.isStrike();
 		}
 	}
