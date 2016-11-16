@@ -70,3 +70,7 @@ RefactoringAction 1479307980098 TestFrame.java RENAME createInvalidFrame1()/3=>v
 RefactoringAction 1479307987627 TestFrame.java RENAME createInvalidFrame1()/2=>void createInvalidFrame3() METHOD
 RefactoringAction 1479307997157 TestFrame.java ADD void createInvalidFrame3()/2 METHOD
 EditAction 1479308007085 TestFrame.java 1211 8 8 4
+CompilationAction 1479308007331 TestFrame.java
+RefactoringAction 1479308011196 TestFrame.java RENAME createInvalidFrame3()/2=>void createInvalidFrame() METHOD
+CompilationAction 1479308016201 TestFrame.java
+EditAction 1479308020669 TestFrame.java 1216 7 7 4
