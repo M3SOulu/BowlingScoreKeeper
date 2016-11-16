@@ -2,14 +2,48 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import java.awt.Frame;
+
+import org.junit.Before;
 import org.junit.Test;
+
+import upm.tdd.training.BowlingException;
+import upm.tdd.training.BowlingGame;
 
 public class TestBowlingScoreKeeper {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
+	BowlingGame bowlingGame;
+	
+	@Before
+	public void setUp() throws Exception{
+		bowlingGame=new BowlingGame();
 	}
+	
+	
+	
+	
+	@Test(expected=BowlingException.class)
+	public void invalidThrowBowlingException() throws BowlingException {
+		bowlingGame.setBonus(8, 3);
+	}
+	
+	@Test
+	public void BowlingException() throws upm.tdd.training.BowlingException{
+		//Arrange
+		Frame frame= new Frame(10, 0);
+		//Act
+		bowlingGame.addFrame(frame);;
+		//Assert
+		assertEquals(300,bowlingGame.score());
+	}
+	
+	
 
+	@Test
+	public void dBowlingException(){
+		//Arrange
+		//Act
+		//Assert
+	}
 	
 }
