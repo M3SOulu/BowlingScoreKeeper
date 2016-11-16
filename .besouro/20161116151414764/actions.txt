@@ -101,3 +101,17 @@ RefactoringAction 1479315072367 TestBowlingScoreKeeper.java ADD void invalidThro
 RefactoringAction 1479315084412 TestBowlingScoreKeeper.java RENAME invalidThrowBowlingException()/2=>void invalidNumBowlingException() METHOD
 RefactoringAction 1479315086949 TestBowlingScoreKeeper.java RENAME invalidNumBowlingException()=>void invalidNumFrameBowlingException() METHOD
 EditAction 1479315109811 TestBowlingScoreKeeper.java 1690 6 18 3
+UnitTestCaseAction 1479315110390 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315110391 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479315132028 TestBowlingScoreKeeper.java ADD void dBowlingException()/2 METHOD
+RefactoringAction 1479315134546 TestBowlingScoreKeeper.java RENAME dBowlingException()/2=>void BowlingException() METHOD
+RefactoringAction 1479315179109 TestBowlingScoreKeeper.java RENAME dBowlingException()=>void validBowlingException() METHOD
+RefactoringAction 1479315182131 TestBowlingScoreKeeper.java RENAME validBowlingException()=>void validStriBowlingException() METHOD
+RefactoringAction 1479315183136 TestBowlingScoreKeeper.java RENAME validStriBowlingException()=>void validStrikeBowlingException() METHOD
+RefactoringAction 1479315189661 TestBowlingScoreKeeper.java RENAME validStrikeBowlingException()=>void validStrike FIELD
+RefactoringAction 1479315191668 TestBowlingScoreKeeper.java RENAME BowlingException()/2=>void SpareBowlingException() METHOD
+RefactoringAction 1479315210699 TestBowlingScoreKeeper.java RENAME SpareBowlingException()=>void SpareConsegutiveBowlingException() METHOD
+RefactoringAction 1479315236230 TestBowlingScoreKeeper.java RENAME BowlingException()=>void validStrikeBowlingException() METHOD
+RefactoringAction 1479315241273 TestBowlingScoreKeeper.java ADD void validStrikeSpareConsegutiveBowlingException()/2 METHOD
+RefactoringAction 1479315245284 TestBowlingScoreKeeper.java RENAME validStrikeSpareConsegutiveBowlingException()/2=>void validSpareConsegutiveBowlingException() METHOD
+EditAction 1479315294006 TestBowlingScoreKeeper.java 2515 8 32 5
