@@ -34,12 +34,15 @@ public class TestBowlingScoreKeeper {
 	
 	@Test
 	public void ifStrikeTheFrameContainsOnly10Point() throws BowlingException{
-		//Arrange
-		Frame frame11;
-		//Act
-		frame11 = new Frame(10, 10);
+
+		Frame frame11 = new Frame(10, 10);
 		//Assert
 		assertEquals(10,frame11.score());
+	}
+	
+	@Test
+	public void sizeOfBowlingFrameIsMaxPossibile(){
+		
 	}
 	
 	

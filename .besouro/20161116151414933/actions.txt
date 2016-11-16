@@ -411,3 +411,13 @@ EditAction 1479315975118 BowlingGame.java 1334 5 9 0
 UnitTestCaseAction 1479315984086 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479315984087 TestBowlingScoreKeeper FAIL
 EditAction 1479315995645 TestBowlingScoreKeeper.java 876 3 6 2
+UnitTestCaseAction 1479315997273 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315997274 TestBowlingScoreKeeper FAIL
+RefactoringAction 1479316034337 TestBowlingScoreKeeper.java ADD void th FIELD
+RefactoringAction 1479316038355 TestBowlingScoreKeeper.java RENAME th=>void sizeOfPartita FIELD
+RefactoringAction 1479316043869 TestBowlingScoreKeeper.java RENAME sizeOfPartita=>void sizeOfPartitaIs FIELD
+RefactoringAction 1479316047380 TestBowlingScoreKeeper.java RENAME sizeOfPartitaIs=>void sizeOfPartitaIs10 FIELD
+RefactoringAction 1479316055393 TestBowlingScoreKeeper.java RENAME sizeOfPartitaIs10=>void sizeOfBowlingFrameIs10 FIELD
+RefactoringAction 1479316056904 TestBowlingScoreKeeper.java RENAME sizeOfBowlingFrameIs10=>void sizeOfBowlingFrameIs FIELD
+RefactoringAction 1479316061419 TestBowlingScoreKeeper.java RENAME sizeOfBowlingFrameIs=>void sizeOfBowlingFrameIsMaxPossibile() METHOD
+EditAction 1479316074191 TestBowlingScoreKeeper.java 910 4 5 2
