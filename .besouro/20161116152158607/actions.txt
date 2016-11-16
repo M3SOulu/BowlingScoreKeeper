@@ -275,3 +275,7 @@ UnitTestCaseAction 1479316821038 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479316821039 TestBowlingScoreKeeper FAIL
 RefactoringAction 1479316842929 Frame.java REMOVE bonusForStrike() METHOD
 EditAction 1479316892231 Frame.java 947 8 11 0
+RefactoringAction 1479316996424 TestBowlingScoreKeeper.java REMOVE test() METHOD
+RefactoringAction 1479316998688 TestBowlingScoreKeeper.java ADD void tutti_10_score_equals_300() METHOD
+RefactoringAction 1479316998689 TestBowlingScoreKeeper.java ADD void test() METHOD
+EditAction 1479317000199 TestBowlingScoreKeeper.java 1472 4 27 2
