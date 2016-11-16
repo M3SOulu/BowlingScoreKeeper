@@ -21,9 +21,10 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void test() {
 		//Act
-		int score = game.score();
 		frame = new Frame(4,3);
+		int score = game.score();
 		
+		//Assert
 		assertTrue("score is 7", score == 7);
 	}
 
