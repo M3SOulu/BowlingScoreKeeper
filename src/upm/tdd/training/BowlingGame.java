@@ -10,16 +10,39 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+		frames.add(frame);
 	}
 	
-	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+	//utilizzata nei test 
+	public List<Frame> getList(){
+		List<Frame> lista = new ArrayList<Frame>(frames);
+		return lista;
+	}
+	
+	public void setBonus(int firstThrow, int secondThrow) throws BowlingException {
+		//bonus = new Frame(firstThrow, secondThrow);
+
 	}
 	
 	public int score(){
-		//to be implemented
-		return 0;
+		int total=0;
+		for(int i=0;i<frames.size();i++){
+			if(frames.get(i).isSpare()){
+				total=total+frames.get(i).score()+frames.get(i+1).getFirstThrow();
+			}else{
+				if(frames.get(i).isStrike()){
+					if(frames.get(i+1).isStrike()){
+						total=total+frames.get(i).score()+frames.get(i+1).getFirstThrow()+frames.get(i+2).getFirstThrow();
+					}else{
+						total=total+frames.get(i).score()+frames.get(i+1).getFirstThrow()+frames.get(i+1).getSecondThrow();
+					}
+				}else{ 
+					total=total+frames.get(i).score();
+				}
+			}
+				
+		}
+		return total;
 	}
 	
 	public boolean isNextFrameBonus(){
