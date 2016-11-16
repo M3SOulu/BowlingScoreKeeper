@@ -2,14 +2,16 @@ package upm.tdd.training;
 
 public class Frame {
 	
-
+	private static int frameCounterGlobal=0;
 	private int firstThrow;
 	private int secondThrow;
+	private int frameNumber;
 	
 
 	public Frame(int firstThrow, int secondThrow) {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		frameNumber=frameCounterGlobal++;
 		
 	}
 

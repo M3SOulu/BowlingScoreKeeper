@@ -180,3 +180,8 @@ RefactoringAction 1479310415699 BowlingGame.java REMOVE MAX_PINS FIELD
 CompilationAction 1479310416756 BowlingGame.java
 CompilationAction 1479310416917 BowlingGame.java
 EditAction 1479310442470 Frame.java 810 6 9 0
+CompilationAction 1479310442765 BowlingGame.java
+RefactoringAction 1479310457867 Frame.java ADD int frameCounter FIELD
+RefactoringAction 1479310464377 Frame.java RENAME frameCounter=>int frameCounterGlobal FIELD
+RefactoringAction 1479310469932 Frame.java ADD int frameNumber FIELD
+EditAction 1479310491404 Frame.java 913 6 10 0
