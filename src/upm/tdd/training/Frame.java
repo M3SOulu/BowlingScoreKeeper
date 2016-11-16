@@ -15,6 +15,10 @@ public class Frame {
 		return this.thirdThrow;
 	}
 	
+	public void setThirdThrow(int thirdThrow) {
+		this.thirdThrow = thirdThrow;
+	}
+	
 	public int getFirstThrow() {
 		return this.firstThrow;
 	}
@@ -25,8 +29,17 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		//to be implemented
-		return 0;
+		int score = 0;
+		
+		if(this.isSpare()) {
+			score = (this.firstThrow + this.secondThrow + this.bonus());
+		} else if(this.isStrike()) {
+			score = (this.firstThrow + this.bonus());
+		} else {
+			score = (this.firstThrow + this.secondThrow);
+		}
+		
+		return score;
 	}
 
 	//returns whether the frame is a strike or not
@@ -55,7 +68,6 @@ public class Frame {
 	public boolean isLastFrame(){
 		boolean result = false;
 		
-		if()
 		
 		return result;
 	}
