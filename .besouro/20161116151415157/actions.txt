@@ -287,3 +287,6 @@ EditAction 1479315721136 TestBowlingScoreKeeper.java 2142 6 14 3
 RefactoringAction 1479315776718 TestBowlingScoreKeeper.java ADD void testExceptionBownling() METHOD
 RefactoringAction 1479315784256 TestBowlingScoreKeeper.java RENAME testExceptionBownling()=>void testExceptionBowling() METHOD
 EditAction 1479315868118 TestBowlingScoreKeeper.java 2356 7 16 3
+UnitTestCaseAction 1479315871851 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479315871852 TestBowlingScoreKeeper FAIL
+EditAction 1479315940853 Frame.java 1412 11 11 0
