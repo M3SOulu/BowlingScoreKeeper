@@ -10,7 +10,7 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+		frames.add(new Frame(0, 0));
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
