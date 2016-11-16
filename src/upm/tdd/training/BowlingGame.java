@@ -32,8 +32,8 @@ public class BowlingGame {
 			if (frames.get(i).isSpare()) {
 				score += frames.get(i - 1).score() + frames.get(i).score();
 			} else if (frames.get(i).isStrike()) {
-				score += 10;
-				bonusForStrike = frames.get(i + 1).score();
+				score += frames.get(i).score()+ frames.get(i+1).score();
+				
 			} else {
 				score += frames.get(i).score();
 			}
