@@ -4,7 +4,7 @@ import java.util.List;
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
-	private List<Frame> frames = new ArrayList<Frame>();
+	private List<Frame> frames = new ArrayList<Frame>(10);
 	private Frame bonus;
 	
 	public BowlingGame(){
@@ -12,9 +12,7 @@ public class BowlingGame {
 	}
 	
 	public void addFrame(Frame frame){
-		if(frames.size()==10){
-			
-		}
+		if(frames.size()==10)throw new CannotCreateAnotherFrame();
 		frames.add(frame);
 	}
 	

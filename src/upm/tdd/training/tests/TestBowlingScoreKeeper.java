@@ -16,7 +16,7 @@ public class TestBowlingScoreKeeper {
 	
 	@Before
 	public void setUp(){
-		partita.addFrame(frame1);
+		partita.addFrame(frame);
 	}
 	
 	@Test
