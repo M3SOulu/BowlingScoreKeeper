@@ -2,9 +2,6 @@ package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.junit.Test;
 
 import upm.tdd.training.BowlingException;
@@ -28,7 +25,7 @@ public class TestBowlingScoreKeeper {
 		test.addFrame(new Frame(10, 0));
 		test.addFrame(new Frame(2, 8));
 		
-		assertEquals(133, 133);
+		assertEquals(133, test.score());
 	}
 
 }

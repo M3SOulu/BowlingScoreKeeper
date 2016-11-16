@@ -65,3 +65,9 @@ RefactoringAction 1479314737176 Frame.java RENAME getFirstThrow()/2=>int getSeco
 EditAction 1479314829693 Frame.java 1312 8 14 0
 EditAction 1479314829796 BowlingGame.java 2156 6 11 0
 EditAction 1479314829882 TestBowlingScoreKeeper.java 770 1 12 1
+RefactoringAction 1479314849169 TestBowlingScoreKeeper.java REMOVE import java.util.List IMPORT
+RefactoringAction 1479314849170 TestBowlingScoreKeeper.java REMOVE import java.util.ArrayList IMPORT
+RefactoringAction 1479314862929 BowlingGame.java REMOVE totalScore FIELD
+UnitTestCaseAction 1479314874249 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314874256 TestBowlingScoreKeeper OK
+EditAction 1479314899067 TestBowlingScoreKeeper.java 727 1 12 1
