@@ -121,7 +121,7 @@ public class TestBowlingScoreKeeper {
 		b.addFrame( new Frame( 10, 0 )  );
 		b.setBonus(6, 4);
 		
-		assertEquals(133, b.score());
+		assertEquals(137, b.score());
 	}
 	
 	
