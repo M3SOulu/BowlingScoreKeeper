@@ -20,3 +20,4 @@ RefactoringAction 1479312526426 BowlingGame.java ADD boolean isLastFrame FIELD
 RefactoringAction 1479312527435 BowlingGame.java RENAME isLastFrame=>boolean isLastFrame() METHOD
 RefactoringAction 1479312561068 BowlingGame.java RENAME isLastFrame()=>boolean isLastFrame(Frame) METHOD
 EditAction 1479312917436 Frame.java 988 7 11 0
+EditAction 1479312919262 TestBowlingScoreKeeper.java 199 1 1 0
