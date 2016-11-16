@@ -205,3 +205,22 @@ CompilationAction 1479314274679 TestBowlingScoreKeeper.java
 UnitTestCaseAction 1479314278884 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479314278885 TestBowlingScoreKeeper FAIL
 EditAction 1479314381454 TestBowlingScoreKeeper.java 1514 5 23 3
+UnitTestCaseAction 1479314403622 TestBowlingScoreKeeper.java OK
+UnitTestSessionAction 1479314403622 TestBowlingScoreKeeper OK
+UnitTestCaseAction 1479314409657 TestFrame.java OK
+UnitTestSessionAction 1479314409658 TestFrame OK
+RefactoringAction 1479314616294 TestBowlingException.java ADD void test() METHOD
+RefactoringAction 1479314616299 TestBowlingException.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479314616314 TestBowlingException.java ADD TestBowlingException.java CLASS
+FileOpenedAction 1479314616496 TestBowlingException.java 209 1 1 0
+RefactoringAction 1479314629068 TestBowlingException.java ADD Frame fr1 FIELD
+RefactoringAction 1479314635082 TestBowlingException.java ADD void test()/2 METHOD
+RefactoringAction 1479314640743 TestBowlingException.java RENAME test()/2=>void set() METHOD
+RefactoringAction 1479314646113 TestBowlingException.java RENAME set()=>void setUp() METHOD
+RefactoringAction 1479314652443 TestBowlingException.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479314656110 TestBowlingException.java ADD import upm.tdd.training.Frame IMPORT
+RefactoringAction 1479314693840 TestBowlingException.java ADD import upm.tdd.training.BowlingException IMPORT
+RefactoringAction 1479314700845 TestBowlingException.java RENAME test()=>void test_() METHOD
+RefactoringAction 1479314702349 TestBowlingException.java RENAME test_()=>void test_of_() METHOD
+RefactoringAction 1479314708352 TestBowlingException.java RENAME test_of_()=>void test_of_exception() METHOD
+EditAction 1479314729539 TestBowlingException.java 449 2 2 0
