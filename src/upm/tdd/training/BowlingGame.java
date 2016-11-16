@@ -15,22 +15,13 @@ public class BowlingGame {
 	 * @throws BowlingException
 	 */
 	public void addFrame( Frame frame ) throws BowlingException{
-		if( frames.get( frames.size() - 1 ).isLastFrame() ){
+		if( frames.size() != 0 && frames.get( frames.size() - 1 ).isLastFrame() ){
 			throw new BowlingException();
 		}
 		
 		frames.add( frame );
 	}
 	
-	public static void main( String[] args ){
-		BowlingGame b = new BowlingGame();
-		try {
-			b.addFrame( new Frame ( 1, 0 ) );
-		} catch (BowlingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
 	
 	/**
 	 * set the bonus frame if it is allowed

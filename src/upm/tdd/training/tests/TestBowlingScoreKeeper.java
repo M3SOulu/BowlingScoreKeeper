@@ -36,5 +36,20 @@ public class TestBowlingScoreKeeper {
 		b.addFrame( f  );
 		assertEquals( true, f.isLastFrame() );
 	}
+	
+	@Test(expected = BowlingException.class)
+	public void testNotCorrectAddFrame() throws BowlingException {
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+		b.addFrame( new Frame( 1, 2 )  );
+	}
 
 }
