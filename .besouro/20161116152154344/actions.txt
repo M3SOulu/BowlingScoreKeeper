@@ -86,3 +86,6 @@ CompilationAction 1479311734491 BowlingGame.java
 CompilationAction 1479311873904 BowlingGame.java
 EditAction 1479311933856 BowlingGame.java 1445 5 12 0
 EditAction 1479311933960 Frame.java 978 7 10 0
+RefactoringAction 1479311971014 TestBowlingScoreKeeper.java ADD BowlingGame testGame FIELD
+RefactoringAction 1479311976533 TestBowlingScoreKeeper.java RENAME import org.junit.Assert.*=>import org.junit.Assert.fail IMPORT
+EditAction 1479311977862 TestBowlingScoreKeeper.java 285 1 1 0
