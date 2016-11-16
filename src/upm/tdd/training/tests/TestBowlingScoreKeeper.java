@@ -60,7 +60,6 @@ public class TestBowlingScoreKeeper {
 		for (int i = 2; i < 10; i++) {
 			bowlingGame.addFrame(frame3);
 		}
-		bowlingGame.setBonus(10, 0);
 		// Assert
 		assertEquals(300, bowlingGame.score());
 	}
