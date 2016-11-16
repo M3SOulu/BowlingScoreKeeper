@@ -451,3 +451,6 @@ EditAction 1479316076470 AllTests.java 294 0 0 0
 UnitTestCaseAction 1479316078535 AllTests.java OK
 UnitTestSessionAction 1479316078535 AllTests OK
 EditAction 1479316087765 TestFrame.java 2271 12 23 18
+RefactoringAction 1479316122984 TestBowlingScoreKeeper.java ADD void TesBonusStrikeScore()/2 METHOD
+RefactoringAction 1479316126505 TestBowlingScoreKeeper.java RENAME TesBonusStrikeScore()/2=>void TesBonusScore() METHOD
+EditAction 1479316247394 TestBowlingScoreKeeper.java 2277 5 46 4
