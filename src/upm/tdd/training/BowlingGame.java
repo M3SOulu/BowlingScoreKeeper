@@ -18,7 +18,9 @@ public class BowlingGame {
 				if(frame.bonus() == 0){
 					throw new BowlingException();
 				}
-				else setBonus(frame);
+				else{
+					setBonus(frame);
+				}
 			}
 			else throw new BowlingException();
 		}
