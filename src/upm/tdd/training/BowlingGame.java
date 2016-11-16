@@ -9,7 +9,7 @@ public class BowlingGame {
 	private static int frameNumber = 0;
 	
 	public BowlingGame(){
-		
+		frameNumber = 0;
 	}
 	
 	public void addFrame(Frame frame) throws BowlingException{
