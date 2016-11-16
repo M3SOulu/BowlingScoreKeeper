@@ -51,6 +51,5 @@ public class Frame {
 	public int bonus(){
 		return firstThrow + secondThrow;
 	}
-
-
+	
 }

@@ -16,8 +16,19 @@ public class TestBowlingScoreKeeper {
 		testGame = new BowlingGame();
 		ArrayList<Frame> frames = new ArrayList<Frame>();
 		for (int i = 0; i < 10; ++i){
-			frames.add(i, new Frame (1, 1));
+			frames.add(i, new Frame (10, 0));
 		}
+		for (Frame frame : frames)
+			testGame.addFrame(frame);
+	}
+	
+	public static void initFramesWithBonus() throws BowlingException{
+		testGame = new BowlingGame();
+		ArrayList<Frame> frames = new ArrayList<Frame>();
+		for (int i = 0; i < 10; ++i){
+			frames.add(i, new Frame (10, 0));
+		}
+		frames.add(11, new Frame (10, 10));
 		for (Frame frame : frames)
 			testGame.addFrame(frame);
 	}
@@ -25,9 +36,9 @@ public class TestBowlingScoreKeeper {
 	//temporary
 	@Test
 	public void testScore() throws BowlingException{
-		initFramesNoBonus();
+		initFramesWithBonus();
 		int score = testGame.score();
-		assertEquals (score, 20);
+		assertEquals (score, 300);
 	}
 
 }
