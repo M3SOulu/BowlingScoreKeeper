@@ -29,8 +29,9 @@ public class BowlingGame {
 			previous.setBonusPoints(frame.getFirstThrow());
 		} else if (frames.size() > 0 && previous.isStrike() && !frame.isStrike()) {
 			previous.setBonusPoints(frame.getFirstThrow() + frame.getSecondThrow());
+		} else if (frames.size() > 0 && previous.isSpare()) {
+			previous.setBonusPoints(frame.getFirstThrow());
 		}
-		
 		frames.add(frame);
 		
 	}

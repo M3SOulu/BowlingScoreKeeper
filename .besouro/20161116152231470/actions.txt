@@ -156,3 +156,4 @@ RefactoringAction 1479315652494 TestBowlingScoreKeeper.java ADD void testScoreAf
 RefactoringAction 1479315658016 TestBowlingScoreKeeper.java RENAME testScoreAfterAStrike()/2=>void testScoreAfterAS() METHOD
 RefactoringAction 1479315660524 TestBowlingScoreKeeper.java RENAME testScoreAfterAS()=>void testScoreAfterASpare() METHOD
 EditAction 1479315674553 TestBowlingScoreKeeper.java 947 3 16 3
+EditAction 1479315674663 BowlingGame.java 1499 5 13 0
