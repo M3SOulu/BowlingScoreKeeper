@@ -3,3 +3,7 @@ EditAction 1479306111905 Frame.java 737 6 7 0
 EditAction 1479306575051 BowlingGame.java 545 5 3 0
 EditAction 1479306776294 Frame.java 783 6 7 0
 EditAction 1479306898919 Frame.java 873 6 7 0
+RefactoringAction 1479306969807 Frame.java ADD int frame FIELD
+RefactoringAction 1479306970817 Frame.java RENAME frame=>int frameNum FIELD
+RefactoringAction 1479306971853 Frame.java RENAME frameNum=>int frameNumber FIELD
+EditAction 1479306999398 Frame.java 922 6 8 0

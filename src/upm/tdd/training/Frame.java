@@ -4,10 +4,12 @@ package upm.tdd.training;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int frameNumber = 0;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		frameNumber++;		
 	}
 	
 	//the score of a single frame
