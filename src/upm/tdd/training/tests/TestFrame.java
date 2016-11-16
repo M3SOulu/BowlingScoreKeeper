@@ -66,13 +66,13 @@ public class TestFrame {
 		bg.addFrame(f2);
 		Frame f3 = new Frame(6,4);
 		bg.addFrame(f3);
-//		Frame f4 = new Frame(5,5);
-//		bg.addFrame(f4);
-//		Frame f5 = new Frame(10,0);
-//		bg.addFrame(f5);
-//		Frame f6 = new Frame(0,1);
-//		bg.addFrame(f6);
-		assert(bg.score()==24);
+		Frame f4 = new Frame(5,5);
+		bg.addFrame(f4);
+		Frame f5 = new Frame(10,0);
+		bg.addFrame(f5);
+		Frame f6 = new Frame(0,1);
+		bg.addFrame(f6);
+		assert(bg.score()==61);
 		
 	}
 	
