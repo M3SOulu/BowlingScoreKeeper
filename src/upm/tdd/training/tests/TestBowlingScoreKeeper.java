@@ -12,7 +12,9 @@ public class TestBowlingScoreKeeper {
 
 	@Before
 	
+	
 	@After
+	
 	
 	@Test
 	public void test() {
@@ -20,11 +22,11 @@ public class TestBowlingScoreKeeper {
 	}
 	
 	public void testScore(){
-		//arrange
+		//ARRANGE all necessary preconditions and inputs.
 		upm.tdd.training.Frame myFrame = new upm.tdd.training.Frame(1, 4);
-		//act
+		//ACT on the object or method under test.
 		myFrame.score();	
-		//assert
+		//ASSERT that the expected results have occurred
 		assertEquals(5, myFrame.score());
 	}
 

@@ -46,7 +46,7 @@ public class Frame {
 	//bonus throws
 	public int bonus(){
 		int strikeBonus;
-		if( isStrike() = true){
+		if( strikeBonus.isStrike() = ){
 			strikeBonus = firstThrow + secondThrow;
 		}
 		int spareBonus =  firstThrow;

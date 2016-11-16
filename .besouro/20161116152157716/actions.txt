@@ -23,3 +23,11 @@ CompilationAction 1479312721122 Frame.java
 RefactoringAction 1479312849937 TestBowlingScoreKeeper.java ADD import org.junit.Before IMPORT
 RefactoringAction 1479312860984 TestBowlingScoreKeeper.java ADD import org.junit.After IMPORT
 EditAction 1479312886607 TestBowlingScoreKeeper.java 478 2 4 1
+CompilationAction 1479312886695 Frame.java
+CompilationAction 1479312886870 Frame.java
+CompilationAction 1479312886870 Frame.java
+RefactoringAction 1479312994899 TestBowlingScoreKeeper.java ADD Test di FIELD
+RefactoringAction 1479312994900 TestBowlingScoreKeeper.java ADD void unità(JUnit) METHOD
+RefactoringAction 1479312997920 TestBowlingScoreKeeper.java REMOVE di FIELD
+RefactoringAction 1479312997921 TestBowlingScoreKeeper.java REMOVE unità(JUnit) METHOD
+EditAction 1479313075854 TestBowlingScoreKeeper.java 598 2 4 1
