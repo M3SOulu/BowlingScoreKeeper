@@ -360,3 +360,4 @@ RefactoringAction 1479315231000 TestBowlingGameException.java ADD import org.jun
 RefactoringAction 1479315231001 TestBowlingGameException.java ADD import upm.tdd.training.BowlingGame IMPORT
 CompilationAction 1479315231141 TestBowlingGameException.java
 EditAction 1479315248674 TestBowlingScoreKeeper.java 876 3 6 2
+EditAction 1479315272467 BowlingGame.java 1138 5 7 0
