@@ -44,3 +44,10 @@ RefactoringAction 1479308145941 Score.java REMOVE Score.java CLASS
 EditAction 1479308161458 TestBowlingScoreKeeper.java 169 1 0 0
 RefactoringAction 1479308180198 TestBowlingScoreKeeper.java ADD BowlingGame partita FIELD
 EditAction 1479308232021 TestBowlingScoreKeeper.java 210 1 0 0
+CompilationAction 1479308232296 TestBowlingScoreKeeper.java
+CompilationAction 1479308232297 TestBowlingScoreKeeper.java
+RefactoringAction 1479308235743 TestBowlingScoreKeeper.java ADD import upm.tdd.training.BowlingGame IMPORT
+CompilationAction 1479308242056 TestBowlingScoreKeeper.java
+CompilationAction 1479308242057 TestBowlingScoreKeeper.java
+RefactoringAction 1479308276456 TestBowlingScoreKeeper.java ADD void setUp() METHOD
+EditAction 1479308288503 TestBowlingScoreKeeper.java 335 2 2 0
