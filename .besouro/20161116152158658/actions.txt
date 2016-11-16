@@ -35,3 +35,4 @@ RefactoringAction 1479308647511 BowlingGame.java ADD pr uivate FIELD
 RefactoringAction 1479308650532 BowlingGame.java REMOVE uivate FIELD
 EditAction 1479308847218 BowlingGame.java 802 5 4 0
 EditAction 1479308860836 BowlingGame.java 844 5 4 0
+EditAction 1479308939532 BowlingGame.java 900 5 4 0
