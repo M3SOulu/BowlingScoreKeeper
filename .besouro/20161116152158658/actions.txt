@@ -23,3 +23,4 @@ RefactoringAction 1479307905349 BowlingGame.java ADD int thr FIELD
 RefactoringAction 1479307906366 BowlingGame.java REMOVE thr FIELD
 RefactoringAction 1479307914903 BowlingGame.java ADD int Throws FIELD
 EditAction 1479307916764 BowlingGame.java 556 5 2 0
+EditAction 1479308075044 BowlingGame.java 571 5 3 0
