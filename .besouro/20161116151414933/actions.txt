@@ -347,3 +347,4 @@ RefactoringAction 1479314724328 AllBowlingTest.java ADD import org.junit.Assert.
 RefactoringAction 1479314724341 AllBowlingTest.java ADD AllBowlingTest.java CLASS
 FileOpenedAction 1479314724472 AllBowlingTest.java 203 1 1 0
 EditAction 1479315088732 BowlingGame.java 1141 5 7 0
+EditAction 1479315159109 TestBowlingScoreKeeper.java 1095 4 9 2
