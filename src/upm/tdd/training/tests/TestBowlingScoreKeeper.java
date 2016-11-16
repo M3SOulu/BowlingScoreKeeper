@@ -19,7 +19,7 @@ public class TestBowlingScoreKeeper {
 	@Test
 	public void testAllStrikesScore() throws BowlingException {
 		Frame strikeFrame = new Frame(10,0);
-		for(int i=0; i<12; i++) game.addFrame(strikeFrame);
+		for(int i=0; i<11; i++) game.addFrame(strikeFrame);
 		Assert.assertEquals(300, game.score());
 	}
 	
