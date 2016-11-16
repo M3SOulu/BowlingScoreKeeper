@@ -39,9 +39,7 @@ public class BowlingGame {
 			case 2: totScore += f.score();
 			}
 			totScore += f.score();
-			if(f.isSpare()) bonusThrowsNum = 1;
-			else if(f.isStrike()) bonusThrowsNum = 2;
-			else bonusThrowsNum = 0;
+			bonusThrowsNum = f.bonus();
 		}
 		
 		if(totScore>0 && bonus == null) throw new BowlingException();
