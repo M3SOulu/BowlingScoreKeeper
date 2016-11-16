@@ -39,7 +39,7 @@ public class TestBowlingScoreKeeper {
 	
 	@Test
 	public void testScoreNormal() {
-		assertEquals(33 = game.score());
+		assertEquals(33, game.score());
 	}
 	
 	@Test
