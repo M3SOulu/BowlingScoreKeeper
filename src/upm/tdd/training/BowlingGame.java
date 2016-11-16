@@ -11,8 +11,9 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame){
 		if(isNextFrameBonus()){
-			setBonus(
+			setBonus(frame.getFirstThrow(),frame.getSecondThrow());
 		}
+		
 		this.frames.add(frame);
 	}
 	
