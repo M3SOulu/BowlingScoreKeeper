@@ -386,3 +386,4 @@ RefactoringAction 1479315621766 TestBowlingScoreKeeper.java RENAME getScore=>voi
 RefactoringAction 1479315622784 TestBowlingScoreKeeper.java RENAME TesetScore=>void TesScore FIELD
 RefactoringAction 1479315625794 TestBowlingScoreKeeper.java RENAME TesScore=>void TesScore() METHOD
 EditAction 1479315627782 TestBowlingScoreKeeper.java 442 2 2 0
+EditAction 1479315644111 TestBowlingScoreKeeper.java 799 2 12 0
