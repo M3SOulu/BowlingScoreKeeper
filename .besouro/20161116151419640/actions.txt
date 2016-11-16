@@ -13,3 +13,7 @@ RefactoringAction 1479307131747 Frame.java ADD int getFrameNumber() METHOD
 RefactoringAction 1479307131748 Frame.java ADD void setFrameNumber(int) METHOD
 EditAction 1479307182743 Frame.java 1192 8 10 0
 EditAction 1479307495409 Frame.java 1193 8 10 0
+RefactoringAction 1479307602111 BowlingGame.java ADD int index FIELD
+RefactoringAction 1479307604617 BowlingGame.java REMOVE index FIELD
+RefactoringAction 1479307607623 BowlingGame.java ADD int frameIndex FIELD
+EditAction 1479307612762 BowlingGame.java 572 5 3 0

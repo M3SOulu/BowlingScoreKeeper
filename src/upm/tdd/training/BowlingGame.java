@@ -7,6 +7,8 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
+	private int frameIndex;
+	
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
