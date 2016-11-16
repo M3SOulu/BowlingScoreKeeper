@@ -28,6 +28,7 @@ public class TestFrame {
 	public void test_of_frames() {
 		Assert.assertEquals(5, fr1.getFirstThrow());
 		Assert.assertEquals(4, fr1.getSecondThrow());
+		Assert.assertEquals(9, fr1.score());
 		
 	}
 
