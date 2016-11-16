@@ -48,9 +48,9 @@ public class BowlingGame {
 		}
 		if (isNextFrameBonus()) {
 			if (frames.get(9).isStrike())
-				res += bonus.score();
-			else
 				res += bonus.bonus();
+			else
+				res += bonus.getFirstThrow();
 		}
 		if (res > 300)
 			throw new BowlingException();
