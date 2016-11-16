@@ -77,7 +77,7 @@ public class TestBowlingScoreKeeper {
 		Frame frame3 = new Frame(6,4);
 		Frame frame4 = new Frame(5,5);
 		Frame frame5 = new Frame(10,0);
-		Frame frame6 = new Frame(1,0);
+		Frame frame6 = new Frame(0,1);
 		Frame frame7 = new Frame(7,3);
 		Frame frame8 = new Frame(6,4);
 		Frame frame9 = new Frame(10,0);
