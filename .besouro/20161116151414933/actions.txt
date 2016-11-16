@@ -230,3 +230,4 @@ RefactoringAction 1479311188365 Frame.java ADD int frame FIELD
 RefactoringAction 1479311190883 Frame.java RENAME frame=>int frameForBonus FIELD
 RefactoringAction 1479311210405 Frame.java REMOVE frameForBonus FIELD
 EditAction 1479311213935 Frame.java 915 6 10 0
+EditAction 1479311364289 Frame.java 955 6 11 0
