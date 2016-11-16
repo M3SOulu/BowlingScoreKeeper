@@ -37,7 +37,7 @@ public class TestBowlingScoreKeeper {
 		game.addFrame(frame1);
 		
 		//Assert
-		assertTrue("score is 17", frame1.score()+frame.score() == 17);
+		assertTrue("score is 17", frame1.score() == 17);
 	}
 
 }

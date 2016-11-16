@@ -139,3 +139,6 @@ RefactoringAction 1479313908656 TestBowlingScoreKeeper.java RENAME import org.ju
 UnitTestCaseAction 1479313917414 TestBowlingScoreKeeper.java FAIL
 UnitTestSessionAction 1479313917415 TestBowlingScoreKeeper FAIL
 EditAction 1479314231915 BowlingGame.java 2117 9 19 0
+UnitTestCaseAction 1479314238165 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479314238166 TestBowlingScoreKeeper FAIL
+EditAction 1479314336812 BowlingGame.java 2133 9 18 0
