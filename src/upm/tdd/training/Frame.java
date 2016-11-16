@@ -23,8 +23,7 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		return (firstThrow + secondThrow) == 10;
 	}
 
 	//return whether this is the last frame of the match
@@ -35,8 +34,9 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		//to be implemented
-		return 0;
+		if(isStrike()) return 2;
+		else if(isSpare()) return 1;
+		else return 0;
 	}
 
 
