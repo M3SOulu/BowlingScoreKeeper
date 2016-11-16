@@ -35,3 +35,26 @@ RefactoringAction 1479307805070 Frame.java RENAME setThirdThrow=>void setThirdTh
 RefactoringAction 1479307812094 Frame.java RENAME setThirdThrow()=>void setThirdThrow(int) METHOD
 EditAction 1479308382293 Frame.java 1395 10 18 0
 EditAction 1479308561107 Frame.java 1503 10 17 0
+CompilationAction 1479308561425 Frame.java
+RefactoringAction 1479309371385 BowlingGame.java ADD boolean is FIELD
+RefactoringAction 1479309378915 BowlingGame.java RENAME is=>boolean isPrevious FIELD
+RefactoringAction 1479309379950 BowlingGame.java RENAME isPrevious=>boolean isPrevious() METHOD
+RefactoringAction 1479309438531 BowlingGame.java REMOVE isPrevious() METHOD
+RefactoringAction 1479310140964 BowlingGame.java ADD Frame get FIELD
+RefactoringAction 1479310142979 BowlingGame.java RENAME get=>Frame getPre FIELD
+RefactoringAction 1479310146491 BowlingGame.java RENAME getPre=>Frame getPreviousFrame FIELD
+RefactoringAction 1479310149006 BowlingGame.java RENAME getPreviousFrame=>Frame getPreviousFrame() METHOD
+RefactoringAction 1479310368329 Frame.java ADD Frame get FIELD
+RefactoringAction 1479310371842 Frame.java RENAME get=>Frame getPrevious FIELD
+RefactoringAction 1479310373355 Frame.java RENAME getPrevious=>Frame getPreviousFrame FIELD
+RefactoringAction 1479310374367 Frame.java RENAME getPreviousFrame=>Frame getPreviousFrame() METHOD
+RefactoringAction 1479310387891 Frame.java ADD boolean equals FIELD
+RefactoringAction 1479310388912 Frame.java RENAME equals=>boolean equals() METHOD
+RefactoringAction 1479310404992 Frame.java RENAME equals()=>boolean equals(Frame) METHOD
+RefactoringAction 1479310452581 BowlingGame.java ADD ArrayList<Frame> get FIELD
+RefactoringAction 1479310460127 BowlingGame.java RENAME get=>ArrayList<Frame> getFra FIELD
+RefactoringAction 1479310461636 BowlingGame.java RENAME getFra=>ArrayList<Frame> get FIELD
+RefactoringAction 1479310464653 BowlingGame.java RENAME get=>ArrayList<Frame> getFrame FIELD
+RefactoringAction 1479310466168 BowlingGame.java RENAME getFrame=>ArrayList<Frame> getFrameList FIELD
+RefactoringAction 1479310467178 BowlingGame.java RENAME getFrameList=>ArrayList<Frame> getFrameList() METHOD
+EditAction 1479310490171 BowlingGame.java 994 7 3 0
