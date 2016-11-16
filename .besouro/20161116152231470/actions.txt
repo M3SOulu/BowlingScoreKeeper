@@ -43,3 +43,30 @@ RefactoringAction 1479310893484 Frame.java RENAME getFirstTh=>int getFirstThrow 
 RefactoringAction 1479310894497 Frame.java RENAME getFirstThrow=>int getFirstThrow() METHOD
 EditAction 1479311039412 BowlingGame.java 1171 6 12 0
 EditAction 1479311039516 Frame.java 1114 9 14 0
+RefactoringAction 1479311047776 BowlingGame.java RENAME boh()=>void S() METHOD
+RefactoringAction 1479311051785 BowlingGame.java RENAME S()=>void setBonus() METHOD
+RefactoringAction 1479311066304 BowlingGame.java RENAME setBonus()=>void setBonusFor() METHOD
+RefactoringAction 1479311069835 BowlingGame.java RENAME setBonusFor()=>void setBonusForPreviousFrame() METHOD
+RefactoringAction 1479311743208 BowlingGame.java REMOVE setBonusForPreviousFrame() METHOD
+RefactoringAction 1479311872178 Frame.java ADD boolean secondTh FIELD
+RefactoringAction 1479311873201 Frame.java RENAME secondTh=>boolean secondThro FIELD
+RefactoringAction 1479311877217 Frame.java REMOVE secondThro FIELD
+RefactoringAction 1479312161177 BowlingGame.java ADD void setBonus() METHOD
+RefactoringAction 1479312164708 BowlingGame.java RENAME setBonus()=>void setBonus(Frame) METHOD
+RefactoringAction 1479312178236 BowlingGame.java RENAME setBonus(Frame)=>void setBonus(Frame, Frame) METHOD
+RefactoringAction 1479312326365 Frame.java ADD void setBonus() METHOD
+RefactoringAction 1479312342901 Frame.java REMOVE setBonus() METHOD
+RefactoringAction 1479312531969 Frame.java ADD int getFirstThrow()/2 METHOD
+RefactoringAction 1479312536482 Frame.java RENAME getFirstThrow()/2=>int getSecondstThrow() METHOD
+RefactoringAction 1479312537499 Frame.java RENAME getSecondstThrow()=>int getSecondThrow() METHOD
+RefactoringAction 1479312647599 BowlingGame.java ADD int u FIELD
+RefactoringAction 1479312649614 BowlingGame.java RENAME u=>int ultimotiro FIELD
+RefactoringAction 1479312654636 BowlingGame.java ADD int penultimotiro FIELD
+RefactoringAction 1479312657164 BowlingGame.java RENAME penultimotiro=>int penultimoTiro FIELD
+RefactoringAction 1479312659190 BowlingGame.java RENAME ultimotiro=>int ultimoTiro FIELD
+RefactoringAction 1479312799073 Frame.java ADD int tiroSuccessivo FIELD
+RefactoringAction 1479312799075 Frame.java ADD int tiro FIELD
+RefactoringAction 1479312805583 Frame.java RENAME tiro=>int tiroSuccessivoAlSuccesivo FIELD
+RefactoringAction 1479312810814 BowlingGame.java REMOVE ultimoTiro FIELD
+RefactoringAction 1479312810815 BowlingGame.java REMOVE penultimoTiro FIELD
+EditAction 1479312920427 BowlingGame.java 1134 6 11 0
