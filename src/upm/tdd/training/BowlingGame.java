@@ -15,6 +15,7 @@ public class BowlingGame {
 		
 		if (frames.size() > 0) {
 			previous = frames.get(frames.size()-1);
+			frame.setBonusPoints(49);
 		} 
 		
 		if (frames.size() > 1) {
