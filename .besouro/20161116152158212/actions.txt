@@ -49,3 +49,9 @@ UnitTestSessionAction 1479307643260 TestFrame OK
 EditAction 1479307761203 Frame.java 1069 6 8 0
 CompilationAction 1479307761465 TestFrame.java
 EditAction 1479307775088 Frame.java 1184 6 8 0
+RefactoringAction 1479307785840 TestFrame.java ADD import upm.tdd.training.BowlingException IMPORT
+CompilationAction 1479307797138 TestFrame.java
+RefactoringAction 1479307818597 BowlingException.java ADD BowlingException() METHOD
+RefactoringAction 1479307871694 BowlingException.java ADD BowlingException()/2 METHOD
+RefactoringAction 1479307875210 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
+EditAction 1479307880304 BowlingException.java 283 2 2 0
