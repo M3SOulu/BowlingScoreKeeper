@@ -10,7 +10,7 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame) throws BowlingException{
-		if(frames.size() <= 10) {
+		if(frames.size() < 10) {
 			frames.add(frame);
 		} else {
 			throw new BowlingException();
@@ -18,11 +18,14 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-	
+		if(firstThrow + secondThrow == 10) {
+
+		}
 	}
 	
 	public int score(){
-		//to be implemented
+		int accumulatore = 0;
+		
 		return 0;
 	}
 	
@@ -30,7 +33,6 @@ public class BowlingGame {
 		boolean result = false;
 		int index = 0;
 
-		
 		
 		return false;
 	}

@@ -92,3 +92,4 @@ RefactoringAction 1479314193147 Frame.java ADD void setThirdThrow() METHOD
 RefactoringAction 1479314230723 Frame.java REMOVE setThirdThrow() METHOD
 RefactoringAction 1479314236739 Frame.java REMOVE thirdThrow FIELD
 EditAction 1479314236895 Frame.java 1240 8 14 0
+EditAction 1479314292139 TestBowlingScoreKeeper.java 169 1 0 0
