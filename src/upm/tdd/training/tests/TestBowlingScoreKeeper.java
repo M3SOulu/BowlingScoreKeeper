@@ -75,7 +75,7 @@ public class TestBowlingScoreKeeper {
 	public void TesBonusScore() throws BowlingException
 	{
 		b.addFrame( new Frame( 1, 4 )  );
-		b.addFrame( new Frame( 44, 5 )  );
+		b.addFrame( new Frame( 4, 5 )  );
 		b.addFrame( new Frame( 6, 4 )  );
 		b.addFrame( new Frame( 5, 5 )  );
 		b.addFrame( new Frame( 10, 0 )  );
