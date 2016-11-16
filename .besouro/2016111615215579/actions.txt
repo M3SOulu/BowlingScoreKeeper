@@ -116,3 +116,16 @@ RefactoringAction 1479313183488 BowlingGame.java ADD void setBonus(int, int) MET
 RefactoringAction 1479313183488 BowlingGame.java ADD int score() METHOD
 RefactoringAction 1479313183488 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
 EditAction 1479313186764 BowlingGame.java 1975 9 19 0
+UnitTestCaseAction 1479313187328 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313187328 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479313283595 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313283596 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479313288236 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313288237 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479313356556 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313356557 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479313416933 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313416934 TestBowlingScoreKeeper FAIL
+UnitTestCaseAction 1479313502291 TestBowlingScoreKeeper.java FAIL
+UnitTestSessionAction 1479313502292 TestBowlingScoreKeeper FAIL
+EditAction 1479313593223 BowlingGame.java 1974 9 19 0

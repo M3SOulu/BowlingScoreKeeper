@@ -33,12 +33,12 @@ public class TestBowlingScoreKeeper {
 		//Act
 		frame = new Frame(10,0);
 		game.addFrame(frame);
-		frame = new Frame(4,3);
-		game.addFrame(frame);
-		int score = game.score();
+		Frame frame1 = new Frame(4,3);
+		game.addFrame(frame1);
+		int scoreFirstFrame = frame1.score();
 		
 		//Assert
-		assertTrue("score is 17", score == 17);
+		assertTrue("score is 17", scoreFirstFrame == 17);
 	}
 
 }
