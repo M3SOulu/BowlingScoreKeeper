@@ -5,30 +5,17 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
-	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
 	
 	public int getFirstThrow() {
-		return this.firstThrow;
-	}
-	
-	public int getSecondThrow() {
-		return this.secondThrow;
+		return firstThrow;
 	}
 	
 	//the score of a single frame
 	public int score() {
-		/*
-		if(this.isSpare()) {
-			score = (this.firstThrow + this.secondThrow + this.bonus());
-		} else if(this.isStrike()) {
-			score = (this.firstThrow + this.bonus());
-		} else {
-			score = (this.firstThrow + this.secondThrow);
-		}*/
 		
 		return firstThrow + secondThrow;
 	}
@@ -64,6 +51,7 @@ public class Frame {
 
 	//bonus throws
 	public int bonus() {
+		
 		
 		return 0;
 	}
