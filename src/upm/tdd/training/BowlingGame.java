@@ -9,11 +9,12 @@ public class BowlingGame {
 	private Frame bonus;
 
 	public BowlingGame() {
+
 	}
 
 	// add a new frame in frames
 	public void addFrame(Frame frame) throws BowlingException {
-		if (frames.size() < 10) {
+		if (frames.size() <= 10) {
 			frames.add(frame);
 		} else {
 			throw new BowlingException();
@@ -22,27 +23,19 @@ public class BowlingGame {
 
 	// set the attribute "bonus"
 	public void setBonus(int firstThrow, int secondThrow) {
-		if (this.isNextFrameBonus()) {
-			if (frames.get(frames.size() - 1).isSpare()) {
-				this.bonus = new Frame(firstThrow, 0);
-			} else {
-				this.bonus = new Frame(firstThrow, secondThrow);
-			}
-		} else {
-			bonus = null;
-		}
+		this.bonus = new Frame(firstThrow, secondThrow);
 	}
 
 	// sign the total score of the match until last frame
-	public int score() {
+	public int score() throws BowlingException {
 		int result = 0;
 
-		if (frames.get(0).isSpare()) {
-			result = frames.get(0).score() + frames.get(1).getFirstThrow() + frames.get(1).score();
-		} else {
-
-			for (Frame frame : frames) {
-
+		for (Frame frame : frames) {
+			if (frame.isSpare() && frames.indexOf(frame) == 9) {
+				result += frame.score() + bonus.getFirstThrow();
+			} else if (frame.isSpare()) {
+				result += frame.score() + frames.get(frames.indexOf(frame) + 1).getFirstThrow();
+			} else {
 				result += frame.score();
 			}
 		}
@@ -60,5 +53,4 @@ public class BowlingGame {
 
 		return result;
 	}
-
 }
