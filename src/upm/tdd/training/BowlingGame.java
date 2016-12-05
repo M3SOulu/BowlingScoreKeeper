@@ -7,23 +7,34 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
+	
 	public BowlingGame(){}
 	
-	public void addFrame(Frame frame){
-		//to be implemented
+	public void addFrame(Frame frame) throws BowlingException{
+		this.frames.add(frame);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		
 	}
-	
+	//h
 	public int score(){
-		//to be implemented
-		return 0;
+		boolean isStrike = false;
+		boolean isSpare = false;
+		int score = frames.get(0).score();
+		for(int i = 1; i < frames.size();i++){
+			if(frames.get(i-1).isStrike()){
+				score += (frames.get(i).score());
+			}
+			if(frames.get(i-1).isSpare()){
+				score += frames.get(i).bonus();
+			}
+			score += frames.get(i).score();
+		}
+		return score;
 	}
 	
 	public boolean isNextFrameBonus(){
-		//to be implemented
-		return false;
+	return true;
 	}
 }
