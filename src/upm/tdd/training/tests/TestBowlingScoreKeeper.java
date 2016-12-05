@@ -190,4 +190,63 @@ public class TestBowlingScoreKeeper {
 
 		assertEquals(bowlingGame.score(), 102);
 	}
+
+	@Test
+	public void thereIsAStrike() throws BowlingException {
+		Frame frame = new Frame(10, 0);
+		Frame frame2 = new Frame(5, 4);
+		Frame frame3 = new Frame(5, 4);
+		Frame frame4 = new Frame(5, 4);
+		Frame frame5 = new Frame(5, 4);
+		Frame frame6 = new Frame(5, 4);
+		Frame frame7 = new Frame(5, 4);
+		Frame frame8 = new Frame(5, 4);
+		Frame frame9 = new Frame(5, 4);
+		Frame frame10 = new Frame(5, 4);
+
+		BowlingGame bowlingGame = new BowlingGame();
+
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame2);
+		bowlingGame.addFrame(frame3);
+		bowlingGame.addFrame(frame4);
+		bowlingGame.addFrame(frame5);
+		bowlingGame.addFrame(frame6);
+		bowlingGame.addFrame(frame7);
+		bowlingGame.addFrame(frame8);
+		bowlingGame.addFrame(frame9);
+		bowlingGame.addFrame(frame10);
+
+		assertEquals(bowlingGame.score(), 100);
+	}
+
+	@Test
+	public void lastFrameIsAStrike() throws BowlingException {
+		Frame frame = new Frame(5, 4);
+		Frame frame2 = new Frame(5, 4);
+		Frame frame3 = new Frame(5, 4);
+		Frame frame4 = new Frame(5, 4);
+		Frame frame5 = new Frame(5, 4);
+		Frame frame6 = new Frame(5, 4);
+		Frame frame7 = new Frame(5, 4);
+		Frame frame8 = new Frame(5, 4);
+		Frame frame9 = new Frame(5, 4);
+		Frame frame10 = new Frame(10, 0);
+
+		BowlingGame bowlingGame = new BowlingGame();
+
+		bowlingGame.addFrame(frame);
+		bowlingGame.addFrame(frame2);
+		bowlingGame.addFrame(frame3);
+		bowlingGame.addFrame(frame4);
+		bowlingGame.addFrame(frame5);
+		bowlingGame.addFrame(frame6);
+		bowlingGame.addFrame(frame7);
+		bowlingGame.addFrame(frame8);
+		bowlingGame.addFrame(frame9);
+		bowlingGame.addFrame(frame10);
+		bowlingGame.setBonus(5, 4);
+
+		assertEquals(bowlingGame.score(), 96);
+	}
 }

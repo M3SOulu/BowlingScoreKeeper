@@ -25,7 +25,7 @@ public class Frame {
 	public boolean isStrike() {
 		boolean result = false;
 
-		if (firstThrow == 10) {
+		if (firstThrow == 10 || secondThrow == 10) {
 			result = true;
 		}
 
