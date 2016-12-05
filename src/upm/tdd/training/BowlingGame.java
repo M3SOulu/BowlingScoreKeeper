@@ -1,29 +1,60 @@
 package upm.tdd.training;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class BowlingGame {
-	//a bowling game is made of (at least) 10 frames
+	// a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
-	
-	public BowlingGame(){}
-	
-	public void addFrame(Frame frame){
-		//to be implemented
+
+	public BowlingGame() {
+
 	}
-	
+
+	// add a new frame in frames
+	public void addFrame(Frame frame) throws BowlingException {
+		if (frames.size() <= 10) {
+			frames.add(frame);
+		} else {
+			throw new BowlingException();
+		}
+	}
+
+	// set the attribute "bonus"
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		this.bonus = new Frame(firstThrow, secondThrow);
 	}
-	
-	public int score(){
-		//to be implemented
-		return 0;
+
+	// sign the total score of the match until last frame
+	public int score() throws BowlingException {
+		int result = 0;
+
+		for (Frame frame : frames) {
+			if (frame.isStrike() && frames.indexOf(frame) == 9) {
+				result += frame.score() + bonus.getFirstThrow();
+			} else if (frame.isStrike()) {
+				result += frame.score() + frames.get(frames.indexOf(frame) + 1).score();
+			} else if (frame.isSpare() && frames.indexOf(frame) == 9) {
+				result += frame.score() + bonus.getFirstThrow();
+			} else if (frame.isSpare()) {
+				result += frame.score() + frames.get(frames.indexOf(frame) + 1).getFirstThrow();
+			} else {
+				result += frame.score();
+			}
+		}
+
+		return result;
 	}
-	
-	public boolean isNextFrameBonus(){
-		//to be implemented
-		return false;
+
+	// check if the next frame is a bonus frame
+	public boolean isNextFrameBonus() {
+		boolean result = false;
+
+		if (frames.get(frames.size() - 1).isStrike() || frames.get(frames.size() - 1).isSpare()) {
+			result = true;
+		}
+
+		return result;
 	}
 }

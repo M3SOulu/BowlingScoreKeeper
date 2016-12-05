@@ -1,0 +1,95 @@
+FileOpenedAction 1479305657588 Frame.java 748 6 7 0
+FileOpenedAction 1479306771381 TestBowlingScoreKeeper.java 197 1 1 0
+RefactoringAction 1479307184937 Frame.java ADD int bonus FIELD
+RefactoringAction 1479307186946 Frame.java REMOVE bonus FIELD
+EditAction 1479307345102 Frame.java 802 6 9 0
+EditAction 1479307348078 BowlingGame.java 646 5 2 0
+CompilationAction 1479307348360 BowlingGame.java
+EditAction 1479307525515 Frame.java 863 6 11 0
+EditAction 1479307536843 Frame.java 860 6 11 0
+RefactoringAction 1479307581846 Frame.java ADD int get FIELD
+RefactoringAction 1479307584380 Frame.java RENAME get=>int getFirst FIELD
+RefactoringAction 1479307586389 Frame.java RENAME getFirst=>int getFirstThrow FIELD
+RefactoringAction 1479307587942 Frame.java RENAME getFirstThrow=>int getFirstThrow() METHOD
+RefactoringAction 1479307615573 Frame.java ADD int get FIELD
+RefactoringAction 1479307617104 Frame.java RENAME get=>int getSecond FIELD
+RefactoringAction 1479307618621 Frame.java RENAME getSecond=>int getSecondThrow FIELD
+RefactoringAction 1479307620140 Frame.java RENAME getSecondThrow=>int getSecondThrow() METHOD
+EditAction 1479307628971 Frame.java 984 8 13 0
+RefactoringAction 1479307739426 Frame.java ADD int third FIELD
+RefactoringAction 1479307741439 Frame.java RENAME third=>int thirdThrow FIELD
+RefactoringAction 1479307752040 Frame.java ADD int getTh FIELD
+RefactoringAction 1479307753053 Frame.java RENAME getTh=>int getThird FIELD
+RefactoringAction 1479307758067 Frame.java RENAME getThird=>int getThirdT FIELD
+RefactoringAction 1479307759620 Frame.java RENAME getThirdT=>int getThirdTh FIELD
+RefactoringAction 1479307761138 Frame.java RENAME getThirdTh=>int getThirdThrow FIELD
+RefactoringAction 1479307762149 Frame.java RENAME getThirdThrow=>int getThirdThrow() METHOD
+EditAction 1479307775772 Frame.java 1088 9 13 0
+CompilationAction 1479307775923 Frame.java
+RefactoringAction 1479307796974 Frame.java ADD void set FIELD
+RefactoringAction 1479307799489 Frame.java RENAME set=>void setTh FIELD
+RefactoringAction 1479307800514 Frame.java RENAME setTh=>void setThird FIELD
+RefactoringAction 1479307802521 Frame.java RENAME setThird=>void setThirdThrwo FIELD
+RefactoringAction 1479307804044 Frame.java RENAME setThirdThrwo=>void setThirdThrow FIELD
+RefactoringAction 1479307805070 Frame.java RENAME setThirdThrow=>void setThirdThrow() METHOD
+RefactoringAction 1479307812094 Frame.java RENAME setThirdThrow()=>void setThirdThrow(int) METHOD
+EditAction 1479308382293 Frame.java 1395 10 18 0
+EditAction 1479308561107 Frame.java 1503 10 17 0
+CompilationAction 1479308561425 Frame.java
+RefactoringAction 1479309371385 BowlingGame.java ADD boolean is FIELD
+RefactoringAction 1479309378915 BowlingGame.java RENAME is=>boolean isPrevious FIELD
+RefactoringAction 1479309379950 BowlingGame.java RENAME isPrevious=>boolean isPrevious() METHOD
+RefactoringAction 1479309438531 BowlingGame.java REMOVE isPrevious() METHOD
+RefactoringAction 1479310140964 BowlingGame.java ADD Frame get FIELD
+RefactoringAction 1479310142979 BowlingGame.java RENAME get=>Frame getPre FIELD
+RefactoringAction 1479310146491 BowlingGame.java RENAME getPre=>Frame getPreviousFrame FIELD
+RefactoringAction 1479310149006 BowlingGame.java RENAME getPreviousFrame=>Frame getPreviousFrame() METHOD
+RefactoringAction 1479310368329 Frame.java ADD Frame get FIELD
+RefactoringAction 1479310371842 Frame.java RENAME get=>Frame getPrevious FIELD
+RefactoringAction 1479310373355 Frame.java RENAME getPrevious=>Frame getPreviousFrame FIELD
+RefactoringAction 1479310374367 Frame.java RENAME getPreviousFrame=>Frame getPreviousFrame() METHOD
+RefactoringAction 1479310387891 Frame.java ADD boolean equals FIELD
+RefactoringAction 1479310388912 Frame.java RENAME equals=>boolean equals() METHOD
+RefactoringAction 1479310404992 Frame.java RENAME equals()=>boolean equals(Frame) METHOD
+RefactoringAction 1479310452581 BowlingGame.java ADD ArrayList<Frame> get FIELD
+RefactoringAction 1479310460127 BowlingGame.java RENAME get=>ArrayList<Frame> getFra FIELD
+RefactoringAction 1479310461636 BowlingGame.java RENAME getFra=>ArrayList<Frame> get FIELD
+RefactoringAction 1479310464653 BowlingGame.java RENAME get=>ArrayList<Frame> getFrame FIELD
+RefactoringAction 1479310466168 BowlingGame.java RENAME getFrame=>ArrayList<Frame> getFrameList FIELD
+RefactoringAction 1479310467178 BowlingGame.java RENAME getFrameList=>ArrayList<Frame> getFrameList() METHOD
+EditAction 1479310490171 BowlingGame.java 994 7 3 0
+CompilationAction 1479310490347 BowlingGame.java
+CompilationAction 1479310490348 BowlingGame.java
+CompilationAction 1479310490348 BowlingGame.java
+CompilationAction 1479310490349 BowlingGame.java
+CompilationAction 1479310490352 BowlingGame.java
+CompilationAction 1479310490352 Frame.java
+RefactoringAction 1479310545233 Frame.java REMOVE equals(Frame) METHOD
+RefactoringAction 1479310568292 Frame.java REMOVE getPreviousFrame() METHOD
+RefactoringAction 1479311392924 Frame.java REMOVE thirdThrow FIELD
+RefactoringAction 1479311397940 Frame.java REMOVE getThirdThrow() METHOD
+RefactoringAction 1479311397941 Frame.java REMOVE setThirdThrow(int) METHOD
+RefactoringAction 1479311877345 BowlingGame.java REMOVE getPreviousFrame() METHOD
+RefactoringAction 1479312246892 BowlingGame.java REMOVE getFrameList() METHOD
+RefactoringAction 1479312878782 Frame.java REMOVE isSpare() METHOD
+RefactoringAction 1479312878782 Frame.java REMOVE isLastFrame() METHOD
+RefactoringAction 1479312878782 Frame.java REMOVE isStrike() METHOD
+RefactoringAction 1479312878783 Frame.java REMOVE bonus() METHOD
+RefactoringAction 1479312881833 Frame.java ADD boolean isStrike() METHOD
+RefactoringAction 1479312881834 Frame.java ADD boolean isSpare() METHOD
+RefactoringAction 1479312881834 Frame.java ADD boolean isLastFrame() METHOD
+RefactoringAction 1479312881834 Frame.java ADD int bonus() METHOD
+CompilationAction 1479312943870 BowlingGame.java
+CompilationAction 1479312943871 BowlingGame.java
+CompilationAction 1479312943872 BowlingGame.java
+CompilationAction 1479312943872 BowlingGame.java
+CompilationAction 1479312943872 BowlingGame.java
+EditAction 1479313562017 BowlingGame.java 653 5 5 0
+RefactoringAction 1479314175062 Frame.java ADD int thr FIELD
+RefactoringAction 1479314176575 Frame.java RENAME thr=>int third FIELD
+RefactoringAction 1479314178596 Frame.java RENAME third=>int thirdThrow FIELD
+RefactoringAction 1479314193147 Frame.java ADD void setThirdThrow() METHOD
+RefactoringAction 1479314230723 Frame.java REMOVE setThirdThrow() METHOD
+RefactoringAction 1479314236739 Frame.java REMOVE thirdThrow FIELD
+EditAction 1479314236895 Frame.java 1240 8 14 0
+EditAction 1479314292139 TestBowlingScoreKeeper.java 169 1 0 0
