@@ -1,7 +1,5 @@
 package upm.tdd.training;
 
-import java.util.List;
-
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
