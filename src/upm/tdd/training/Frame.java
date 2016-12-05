@@ -11,14 +11,6 @@ public class Frame {
 	}
 	
 	
-	public int getFirstThrow(){
-		return this.firstThrow;
-	}
-	
-	public int getSecondThrow(){
-		return this.secondThrow;
-	}
-	
 	//the score of a single frame
 	public int score(){
 		return firstThrow + secondThrow;
@@ -26,30 +18,22 @@ public class Frame {
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		return (firstThrow == 10);
+		return (this.firstThrow == 10);
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		return this.score()==10;
+		return(this.firstThrow != 10 && this.score() == 10);
 	}
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
 		return false;
 	}
 
 	//bonus throws
 	public int bonus(){
-		int bonus = 0;
-		
-		if(this.isStrike() || this.isSpare()){
-			bonus = 10;
-		}else{
-			bonus =  firstThrow;
-		}
-		return bonus;
+		return this.firstThrow;
 	}
 
 }
